@@ -28,6 +28,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
   const [notes, setNotes] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const calculation = useMemo(() => {
     const l = parseFloat(length);
@@ -63,31 +64,44 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
     if (!calculation) return;
 
     setLoading(true);
-    // TODO: Connect to Formspree or server-side handler that sends to modular@premrest.com.au
-    // The form data below should be sent as the email body
-    const orderData = {
-      name,
-      email,
-      phone,
-      range: range.name,
-      colour: `${selectedColor.name} (${selectedColor.code})`,
-      roomLength: length,
-      roomWidth: width,
-      wastagePercent: wastage,
-      rawArea: calculation.rawArea.toFixed(1),
-      totalAreaWithWastage: calculation.totalArea.toFixed(1),
-      boxes: calculation.boxes,
-      actualArea: calculation.actualArea,
-      tiles: calculation.tiles,
-      productCost: calculation.productCost.toFixed(2),
-      shipping: PRICING.shippingFlat.toFixed(2),
-      totalCost: calculation.totalCost.toFixed(2),
-      notes,
-    };
-    console.log("Order submitted:", orderData);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setLoading(false);
-    setSubmitted(true);
+    setError("");
+
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("phone", phone);
+    formData.append("range", range.name);
+    formData.append("colour", `${selectedColor.name} (${selectedColor.code})`);
+    formData.append("room_length_m", length);
+    formData.append("room_width_m", width);
+    formData.append("wastage_percent", String(wastage));
+    formData.append("room_area_m2", calculation.rawArea.toFixed(1));
+    formData.append("total_area_with_wastage_m2", calculation.totalArea.toFixed(1));
+    formData.append("boxes", String(calculation.boxes));
+    formData.append("actual_area_m2", String(calculation.actualArea));
+    formData.append("tiles", String(calculation.tiles));
+    formData.append("product_cost", `$${calculation.productCost.toFixed(2)}`);
+    formData.append("shipping", `$${PRICING.shippingFlat.toFixed(2)}`);
+    formData.append("total_cost_inc_gst", `$${calculation.totalCost.toFixed(2)}`);
+    formData.append("delivery_notes", notes);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xwpkpjaz", {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong. Please email us directly at modular@premrest.com.au");
+      }
+    } catch {
+      setError("Something went wrong. Please email us directly at modular@premrest.com.au");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -385,6 +399,10 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
               />
             </div>
           </div>
+
+          {error && (
+            <p className="text-red-600 text-body-sm text-center">{error}</p>
+          )}
 
           <Button
             type="submit"

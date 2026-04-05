@@ -16,14 +16,30 @@ export function EnquiryForm({
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  const [error, setError] = useState("");
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    // TODO: Connect to Formspree or server-side handler that forwards to modular@premrest.com.au
-    // Example: await fetch('https://formspree.io/f/YOUR_FORM_ID', { method: 'POST', body: new FormData(e.currentTarget) })
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setLoading(false);
-    setSubmitted(true);
+    setError("");
+
+    try {
+      const res = await fetch("https://formspree.io/f/xwpkpjaz", {
+        method: "POST",
+        body: new FormData(e.currentTarget),
+        headers: { Accept: "application/json" },
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong. Please email us directly at modular@premrest.com.au");
+      }
+    } catch {
+      setError("Something went wrong. Please email us directly at modular@premrest.com.au");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -146,6 +162,10 @@ export function EnquiryForm({
           placeholder="Tell us about your project..."
         />
       </div>
+
+      {error && (
+        <p className="text-red-600 text-body-sm text-center">{error}</p>
+      )}
 
       <Button type="submit" size="lg" className="w-full" disabled={loading}>
         {loading ? "Sending..." : "Send Enquiry"}
