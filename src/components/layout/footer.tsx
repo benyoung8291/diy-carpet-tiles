@@ -128,7 +128,7 @@ export function Footer() {
       <div className="border-t border-brand-800">
         <div className="container-main py-6">
           <p className="text-body-sm text-brand-400 leading-relaxed max-w-2xl">
-            Looking for cork flooring? Our sister brand{" "}
+            Looking for cork flooring? Check out{" "}
             <a
               href="https://comcorkflooring.com.au"
               target="_blank"
@@ -137,7 +137,7 @@ export function Footer() {
             >
               Comcork Flooring
             </a>{" "}
-            offers premium cork flooring solutions for homes and commercial spaces across Australia.
+            , another premium flooring solution from Premrest, offering cork flooring for homes and commercial spaces across Australia.
           </p>
         </div>
       </div>
