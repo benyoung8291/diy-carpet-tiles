@@ -24,9 +24,12 @@ export function EnquiryForm({
     setError("");
 
     try {
-      const res = await fetch("https://formspree.io/f/xwpkpjaz", {
+      const formData = new FormData(e.currentTarget);
+      formData.append("_subject", "New Enquiry - Modular Carpet Website");
+
+      const res = await fetch("https://formsubmit.co/ajax/modular@premrest.com.au", {
         method: "POST",
-        body: new FormData(e.currentTarget),
+        body: formData,
         headers: { Accept: "application/json" },
       });
 

@@ -85,8 +85,10 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
     formData.append("total_cost_inc_gst", `$${calculation.totalCost.toFixed(2)}`);
     formData.append("delivery_notes", notes);
 
+    formData.append("_subject", `New Order - ${range.name} ${selectedColor.name} - $${calculation.totalCost.toFixed(2)}`);
+
     try {
-      const res = await fetch("https://formspree.io/f/xwpkpjaz", {
+      const res = await fetch("https://formsubmit.co/ajax/modular@premrest.com.au", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
