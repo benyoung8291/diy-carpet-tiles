@@ -52,7 +52,6 @@ export const ranges: ProductRange[] = [
     galleryImages: [
       "/images/ranges/haven/gallery/room-1.jpg",
       "/images/ranges/haven/gallery/room-2.jpg",
-      "/images/ranges/haven/gallery/room-3.jpg",
     ],
     colorways: [
       { name: "Hearth", code: "IN01", slug: "hearth", hex: "#8B6E4E" },
@@ -78,7 +77,6 @@ export const ranges: ProductRange[] = [
     galleryImages: [
       "/images/ranges/horizon/gallery/room-1.jpg",
       "/images/ranges/horizon/gallery/room-2.jpg",
-      "/images/ranges/horizon/gallery/room-3.jpg",
     ],
     colorways: [
       { name: "Bowden", code: "UB01", slug: "bowden", hex: "#7A7570" },

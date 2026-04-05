@@ -193,7 +193,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
           title={`${range.name} in Real Homes`}
           description="See how this range transforms real Australian living spaces."
         />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {range.galleryImages.map((image, index) => (
             <motion.div
               key={image}
@@ -201,9 +201,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`relative rounded-lg overflow-hidden bg-brand-200 ${
-                index === 0 ? "md:col-span-2 md:row-span-2 aspect-[4/3]" : "aspect-[3/2]"
-              }`}
+              className="relative rounded-lg overflow-hidden bg-brand-200 aspect-[4/3]"
             >
               <div
                 className="absolute inset-0 bg-cover bg-center hover:scale-105 transition-transform duration-700"
