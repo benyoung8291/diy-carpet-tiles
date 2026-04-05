@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, Truck } from "lucide-react";
 
 const footerLinks = {
   ranges: [
@@ -82,26 +82,26 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:1300773677"
+                  href="tel:1300207915"
                   className="flex items-center gap-2 text-body-sm text-brand-400 hover:text-white transition-colors"
                 >
                   <Phone className="w-4 h-4 flex-shrink-0" />
-                  1300 PREMREST (1300 773 677)
+                  1300 207 915
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@premrest.com.au"
+                  href="mailto:modular@premrest.com.au"
                   className="flex items-center gap-2 text-body-sm text-brand-400 hover:text-white transition-colors"
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
-                  info@premrest.com.au
+                  modular@premrest.com.au
                 </a>
               </li>
               <li>
                 <span className="flex items-start gap-2 text-body-sm text-brand-400">
-                  <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                  Melbourne, Australia
+                  <Truck className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                  Delivering Australia-wide
                 </span>
               </li>
             </ul>

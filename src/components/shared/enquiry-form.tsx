@@ -19,7 +19,7 @@ export function EnquiryForm({
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    // TODO: Replace with Formspree or actual form handler
+    // TODO: Connect to Formspree or server-side handler that forwards to modular@premrest.com.au
     // Example: await fetch('https://formspree.io/f/YOUR_FORM_ID', { method: 'POST', body: new FormData(e.currentTarget) })
     await new Promise((resolve) => setTimeout(resolve, 1000));
     setLoading(false);

@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Truck, Recycle, Award } from "lucide-react";
+import { Shield, Truck, Recycle, DollarSign } from "lucide-react";
 import { Section } from "@/components/ui/section";
 
 const signals = [
   {
+    icon: DollarSign,
+    title: "$58.50/m² inc GST",
+    description: "Premium carpet tiles, direct pricing",
+  },
+  {
     icon: Shield,
     title: "15-Year Warranty",
     description: "Commercial-grade wear warranty",
-  },
-  {
-    icon: Award,
-    title: "Solution-Dyed Nylon",
-    description: "Fade-resistant, premium fibre",
   },
   {
     icon: Recycle,
@@ -22,8 +22,8 @@ const signals = [
   },
   {
     icon: Truck,
-    title: "Australia-Wide",
-    description: "Delivery to your door",
+    title: "$55 Flat Rate Shipping",
+    description: "Delivered Australia-wide",
   },
 ];
 

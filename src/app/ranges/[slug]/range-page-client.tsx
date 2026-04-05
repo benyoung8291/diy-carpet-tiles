@@ -16,9 +16,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { ColorSwatch } from "@/components/ui/color-swatch";
 import { Section, SectionHeader } from "@/components/ui/section";
-import { TileCalculator } from "@/components/shared/tile-calculator";
-import { EnquiryForm } from "@/components/shared/enquiry-form";
-import { SHARED_SPECS, ranges, type ProductRange, type ColorWay } from "@/lib/data";
+import { OrderForm } from "@/components/shared/order-form";
+import { SHARED_SPECS, PRICING, ranges, type ProductRange, type ColorWay } from "@/lib/data";
 
 interface RangePageClientProps {
   range: ProductRange;
@@ -128,7 +127,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
             </div>
 
             {/* Selected colour info */}
-            <div className="bg-brand-100 rounded-md p-5 mb-8">
+            <div className="bg-brand-100 rounded-md p-5 mb-6">
               <div className="flex items-center gap-4">
                 <div
                   className="w-16 h-16 rounded-md border border-brand-200"
@@ -145,16 +144,30 @@ export function RangePageClient({ range }: RangePageClientProps) {
               </div>
             </div>
 
+            {/* Pricing */}
+            <div className="bg-accent-light rounded-md p-5 mb-6 border border-accent/20">
+              <p className="text-heading-md font-serif text-brand-800">
+                ${PRICING.pricePerSqm.toFixed(2)}{" "}
+                <span className="text-body-sm font-sans text-brand-500 font-normal">
+                  per m² inc GST
+                </span>
+              </p>
+              <p className="text-body-sm text-brand-500 mt-1">
+                Sold in boxes of {PRICING.boxArea} m² — ${PRICING.shippingFlat}{" "}
+                flat rate shipping Australia-wide
+              </p>
+            </div>
+
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild>
-                <Link href="/contact">
-                  Request a Sample
+                <a href="#order">
+                  Order Now
                   <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                </a>
               </Button>
               <Button variant="secondary" asChild>
-                <Link href="/contact">Get a Quote</Link>
+                <Link href="/contact">Request a Sample</Link>
               </Button>
             </div>
           </div>
@@ -251,23 +264,16 @@ export function RangePageClient({ range }: RangePageClientProps) {
         </div>
       </Section>
 
-      {/* Tile Calculator */}
-      <Section background="white">
-        <div className="max-w-lg mx-auto">
-          <TileCalculator />
-        </div>
-      </Section>
-
-      {/* Enquiry Form */}
-      <Section background="linen">
+      {/* Order Form */}
+      <Section background="linen" id="order">
         <div className="max-w-2xl mx-auto">
           <SectionHeader
-            overline="Get Started"
-            title={`Interested in ${range.name}?`}
-            description="Request samples, get a quote, or ask us anything about this range."
+            overline="Place Your Order"
+            title={`Order ${range.name} Carpet Tiles`}
+            description="Enter your room dimensions to calculate how much you need. We'll confirm your order within 1 business day."
           />
-          <div className="bg-white rounded-lg p-8 border border-brand-200">
-            <EnquiryForm preselectedRange={range.slug} />
+          <div className="bg-white rounded-lg p-6 md:p-8 border border-brand-200">
+            <OrderForm range={range} selectedColor={selectedColor} />
           </div>
         </div>
       </Section>

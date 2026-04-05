@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, ExternalLink } from "lucide-react";
+import { Phone, Mail, Truck, Clock, ExternalLink } from "lucide-react";
 import { Section } from "@/components/ui/section";
 import { EnquiryForm } from "@/components/shared/enquiry-form";
 
@@ -9,19 +9,19 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone",
-    value: "1300 PREMREST (1300 773 677)",
-    href: "tel:1300773677",
+    value: "1300 207 915",
+    href: "tel:1300207915",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@premrest.com.au",
-    href: "mailto:info@premrest.com.au",
+    value: "modular@premrest.com.au",
+    href: "mailto:modular@premrest.com.au",
   },
   {
-    icon: MapPin,
-    label: "Location",
-    value: "Melbourne, Australia",
+    icon: Truck,
+    label: "Delivery",
+    value: "Australia-wide — flat rate $55 inc GST",
     href: undefined,
   },
   {

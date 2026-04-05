@@ -17,6 +17,15 @@ export interface ProductRange {
   colorways: ColorWay[];
 }
 
+export const PRICING = {
+  pricePerSqm: 58.5, // $58.50 inc GST per m²
+  boxArea: 5, // 5 m² per box (10 tiles per box)
+  tilesPerBox: 10,
+  tileArea: 0.5, // 500mm × 1000mm = 0.5 m²
+  shippingFlat: 55, // $55 inc GST flat rate shipping
+  defaultWastage: 10, // 10% recommended
+};
+
 export const SHARED_SPECS = {
   tileDimensions: "500 × 1000 mm",
   thickness: "11 mm (±10%)",

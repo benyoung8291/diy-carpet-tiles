@@ -29,17 +29,20 @@ export function CtaBanner() {
             Ready to Transform Your Space?
           </p>
           <h2 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
-            Your Dream Floor Is Just a Conversation Away
+            From $58.50/m² — Order Today
           </h2>
-          <p className="text-body-lg text-brand-300 mb-10">
-            Request a free quote, order samples, or book a consultation with our
-            flooring specialists. We&apos;re here to help you find the perfect carpet
-            tiles for your home.
+          <p className="text-body-lg text-brand-300 mb-4">
+            Premium modular carpet tiles delivered to your door. $55 flat rate
+            shipping Australia-wide.
+          </p>
+          <p className="text-body-md text-brand-400 mb-10">
+            Choose your range, enter your room size, and order online. We&apos;ll
+            confirm and process your order within 1 business day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link href="/contact">
-                Get a Free Quote
+              <Link href="/ranges/haven">
+                Browse &amp; Order
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
