@@ -16,14 +16,20 @@ const navigation = [
   },
   { label: "Why Tiles?", href: "/why-tiles" },
   { label: "How to Install", href: "/how-to-install" },
-  { label: "Rental Properties", href: "/rental-flooring" },
-  { label: "Investment Properties", href: "/investment-property-flooring" },
+  {
+    label: "Solutions",
+    children: [
+      { label: "Rental Properties", href: "/rental-flooring" },
+      { label: "Investment Properties", href: "/investment-property-flooring" },
+      { label: "Hotels", href: "/hotel-carpet" },
+    ],
+  },
   { label: "Contact", href: "/contact" },
 ];
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-brand-200">
@@ -47,19 +53,19 @@ export function Header() {
               <div
                 key={item.label}
                 className="relative"
-                onMouseEnter={() => setDropdownOpen(true)}
-                onMouseLeave={() => setDropdownOpen(false)}
+                onMouseEnter={() => setOpenDropdown(item.label)}
+                onMouseLeave={() => setOpenDropdown(null)}
               >
                 <button
                   className="flex items-center gap-1 text-[15px] font-medium text-brand-600 hover:text-brand-800 transition-colors"
-                  aria-expanded={dropdownOpen}
+                  aria-expanded={openDropdown === item.label}
                   aria-haspopup="true"
                 >
                   {item.label}
                   <ChevronDown className="w-4 h-4" />
                 </button>
                 <AnimatePresence>
-                  {dropdownOpen && (
+                  {openDropdown === item.label && (
                     <motion.div
                       initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -76,14 +82,16 @@ export function Header() {
                           {child.label}
                         </Link>
                       ))}
-                      <div className="border-t border-brand-200 mt-1 pt-1">
-                        <Link
-                          href="/ranges/haven"
-                          className="block px-4 py-2.5 text-[13px] text-accent font-medium hover:bg-accent-light transition-colors"
-                        >
-                          View All Ranges →
-                        </Link>
-                      </div>
+                      {item.label === "Our Ranges" && (
+                        <div className="border-t border-brand-200 mt-1 pt-1">
+                          <Link
+                            href="/ranges/haven"
+                            className="block px-4 py-2.5 text-[13px] text-accent font-medium hover:bg-accent-light transition-colors"
+                          >
+                            View All Ranges →
+                          </Link>
+                        </div>
+                      )}
                     </motion.div>
                   )}
                 </AnimatePresence>

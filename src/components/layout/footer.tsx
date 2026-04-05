@@ -11,6 +11,7 @@ const footerLinks = {
     { label: "How to Install", href: "/how-to-install" },
     { label: "Rental Properties", href: "/rental-flooring" },
     { label: "Investment Properties", href: "/investment-property-flooring" },
+    { label: "Hotels", href: "/hotel-carpet" },
     { label: "Contact Us", href: "/contact" },
   ],
 };

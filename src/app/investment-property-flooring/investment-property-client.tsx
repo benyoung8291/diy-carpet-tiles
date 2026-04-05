@@ -6,12 +6,12 @@ import {
   ArrowRight,
   TrendingUp,
   DollarSign,
-  RefreshCw,
   Shield,
   BarChart3,
   Clock,
-  Wrench,
   Building2,
+  Paintbrush,
+  Droplets,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
@@ -19,76 +19,71 @@ import { PRICING } from "@/lib/data";
 
 const investorBenefits = [
   {
-    icon: TrendingUp,
-    title: "Maximise Rental Yield",
+    icon: Shield,
+    title: "Outlasts Traditional Carpet — By Years",
     description:
-      "Carpet is the single biggest flooring expense in investment properties. Modular tiles slash both initial installation costs (DIY = no installer) and ongoing turnover costs (replace tiles, not rooms). More rent in your pocket, less going to tradespeople.",
+      "These tiles carry a 15-year commercial-grade wear warranty. They're rated for office lobbies and retail floors — environments with far more foot traffic than any rental home. Your carpet won't need replacing between tenancies.",
+  },
+  {
+    icon: Paintbrush,
+    title: "Solution-Dyed Nylon Resists Everything",
+    description:
+      "Solution-dyed nylon locks colour into the fibre at a molecular level. It won't fade in sun-drenched rooms, resists stains far better than polyester, and maintains its appearance through years of tenant wear.",
   },
   {
     icon: DollarSign,
-    title: "Reduce Turnover Costs by 90%+",
+    title: "Lower Lifetime Flooring Costs",
     description:
-      "Traditional carpet turnover: $2,500–$5,000 per room. Modular Carpet tile turnover: swap a few tiles for under $200. Over 5 tenancy cycles, the savings on a 3-bedroom property can exceed $15,000.",
+      "Traditional carpet in rentals typically needs full replacement every 5–7 years. Modular Carpet tiles last 15+ years in residential settings. One installation that outlasts multiple tenancy cycles means fewer capital expenses across your portfolio.",
   },
   {
     icon: Clock,
-    title: "Minimise Vacancy Periods",
+    title: "Faster Turnovers Between Tenants",
     description:
-      "Every day a property sits vacant waiting for a carpet installer is lost rent. With Modular Carpet, you can repair flooring between tenants in hours — not weeks. Faster turnovers mean higher annual yield.",
+      "If a tenant does leave a stubborn stain or burn mark, individual tiles can be swapped out in minutes — no need to re-carpet the room and no waiting weeks for an installer. Your property is rent-ready sooner.",
   },
   {
-    icon: RefreshCw,
-    title: "Replace Sections, Not Entire Rooms",
+    icon: Droplets,
+    title: "Breathable Backing — No Mould Surprises",
     description:
-      "Tenant damage is rarely wall-to-wall. Usually it's a few stains, a burn mark, or heavy wear in a doorway. Lift out the affected tiles, press in fresh ones, and the room is rent-ready. Keep a box of spares for each property.",
+      "Many investment properties sit on concrete slabs. Traditional carpet traps moisture underneath, causing mould and odour issues that are expensive to remediate. Our breathable recycled PET felt backing eliminates this risk entirely.",
   },
   {
     icon: Building2,
-    title: "Scale Across Your Portfolio",
+    title: "Professional Installation by Premrest",
     description:
-      "Whether you own one property or twenty, the economics compound. Standardise on one or two colourways across your portfolio and you can swap spare tiles between properties. Bulk ordering reduces your per-metre cost even further.",
-  },
-  {
-    icon: Shield,
-    title: "15-Year Commercial-Grade Warranty",
-    description:
-      "These tiles are rated for commercial foot traffic — offices, retail, hospitality. In a residential rental, they'll comfortably last through multiple tenancy cycles without showing their age.",
+      "Premrest handles the full installation for investment properties — measured, supplied, and professionally fitted. One point of contact, one invoice, and a product we stand behind with a 15-year warranty.",
   },
 ];
 
-const roiScenario = {
-  rooms: 3,
-  roomSize: 15,
-  tenancyCycles: 5,
-  traditionalPerRoom: 3500,
-  modularInitial: 15 * 3 * PRICING.pricePerSqm,
-  modularTurnover: 200,
-};
-
 const faqs = [
   {
-    q: "What's the ROI on carpet tiles for an investment property?",
-    a: `For a typical 3-bedroom investment property, traditional carpet costs $3,000–$5,000 per turnover (materials + installer + vacancy). With Modular Carpet, the initial DIY install costs around $${Math.round(roiScenario.modularInitial)} for all three bedrooms, and each turnover costs ~$200 in replacement tiles. Over 5 tenancy cycles, you save $12,000–$20,000 compared to traditional carpet.`,
+    q: "How long do carpet tiles last in a rental property?",
+    a: "Our carpet tiles carry a 15-year commercial-grade wear warranty — they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
   },
   {
-    q: "Can I install carpet tiles myself in an investment property?",
-    a: "Absolutely. That's the whole point. Modular Carpet tiles press onto pressure-sensitive adhesive — no power stretchers, no tack strips, no professional installer. If you can paint a wall, you can carpet a room. Most investors do the initial install on a weekend and handle turnovers themselves in under an hour.",
+    q: "Does Premrest handle installation for investment properties?",
+    a: "Yes. For investment properties, Premrest provides a full professional installation service — we measure, supply, and install. You get a single point of contact and a product backed by a 15-year manufacturer warranty. Contact us for a tailored quote.",
   },
   {
-    q: "Are carpet tiles durable enough for rental properties?",
-    a: "More than enough. Our tiles carry a 15-year commercial-grade wear warranty — they're rated for offices and retail, which see far more traffic than a residential rental. The solution-dyed nylon fibre resists stains and fading, and the individual tiles can be replaced if damaged.",
+    q: "What happens if a tenant stains or damages the carpet?",
+    a: "This is where modular carpet tiles excel. If a tenant leaves a stubborn stain, burn mark, or localised damage, individual tiles can be swapped out in minutes without re-carpeting the room. Keep a small supply of spare tiles and any isolated damage is a quick fix between tenancies.",
   },
   {
     q: "What colourways work best for investment properties?",
-    a: "For investment properties, we recommend neutral, versatile colourways that appeal to a broad range of tenants. From our Haven range, Smoke (IN02) and Kettle (IN05) are popular choices. From Horizon, Bowden (UB01) and Newstead (UB04) are excellent all-rounders.",
+    a: "For investment properties, we recommend neutral, versatile colourways that appeal to a broad range of tenants and hide everyday wear. From our Haven range, Smoke (IN02) and Kettle (IN05) are popular choices. From Horizon, Bowden (UB01) and Newstead (UB04) are excellent all-rounders. Premrest can advise on the best option for your property.",
   },
   {
     q: "Can I claim carpet tiles as a tax deduction on my investment property?",
-    a: "Carpet is generally depreciable as a plant and equipment item in Australian investment properties. We recommend consulting your accountant or quantity surveyor for specific advice on depreciation schedules and deductions applicable to your situation.",
+    a: "Carpet is generally depreciable as a plant and equipment item in Australian investment properties. The longer lifespan of modular carpet tiles compared to traditional broadloom also means a more favourable depreciation profile. We recommend consulting your accountant or quantity surveyor for specific advice.",
   },
   {
-    q: "Do property managers accept carpet tiles in rental properties?",
-    a: "Yes. Modern carpet tiles are visually indistinguishable from broadloom carpet — property managers and tenants often can't tell the difference. The key advantage for property managers is faster, cheaper turnover between tenants.",
+    q: "Are carpet tiles suitable for all rooms in an investment property?",
+    a: "Modular Carpet tiles are ideal for bedrooms, living rooms, hallways, and home offices — anywhere you'd normally install broadloom carpet. They look identical to traditional carpet once installed. We recommend hard flooring for wet areas like bathrooms and laundries.",
+  },
+  {
+    q: "Do property managers and tenants notice it's tiles?",
+    a: "No. Modern carpet tiles installed in an ashlar (brick-bond) pattern are visually indistinguishable from broadloom carpet. Property managers and tenants consistently cannot tell the difference. The join lines disappear completely once installed.",
   },
 ];
 
@@ -111,23 +106,24 @@ export function InvestmentPropertyClient() {
             className="max-w-3xl"
           >
             <p className="overline text-accent mb-4">Investment Property Flooring</p>
-            <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Smart Investors Use Carpet Tiles — Here&apos;s Why
+            <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-6 text-balance">
+              Carpet That Outlasts Your Tenants
             </h1>
-            <p className="text-body-lg text-brand-300 max-w-2xl">
-              Stop losing thousands every tenancy turnover on carpet replacement.
-              Modular Carpet tiles let you install flooring yourself, replace damaged
-              sections in minutes, and maximise rental yield across your portfolio.
+            <p className="text-body-md md:text-body-lg text-brand-300 max-w-2xl">
+              Investment properties need flooring that handles years of tenant wear
+              without constant replacement. Modular Carpet tiles are commercial-grade,
+              stain-resistant, and backed by a 15-year warranty. Professionally installed
+              by Premrest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <Button size="lg" asChild>
-                <Link href="/ranges/haven">
-                  Shop Carpet Tiles
+                <Link href="/contact">
+                  Get an Investor Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
               <Button variant="outline_white" size="lg" asChild>
-                <Link href="/contact">Get an Investor Quote</Link>
+                <Link href="/ranges/haven">Browse Ranges</Link>
               </Button>
             </div>
           </motion.div>
@@ -139,26 +135,25 @@ export function InvestmentPropertyClient() {
         <div className="max-w-3xl mx-auto">
           <SectionHeader
             overline="The Investment Property Carpet Problem"
-            title="Traditional Carpet Is Destroying Your Rental Yield"
+            title="Traditional Carpet Doesn't Survive Rental Life"
           />
           <div className="bg-brand-100 rounded-lg p-8 md:p-10">
             <div className="space-y-6 text-body-lg text-brand-600 leading-relaxed">
               <p>
-                Every property investor knows the cycle. Tenants move out. The carpet
-                is stained or worn. The property manager says it needs replacing before
-                the next tenant. You get a quote: <strong>$3,000–$5,000 for materials
-                and installation</strong>. The installer can&apos;t come for two weeks.
-                That&apos;s two weeks of vacancy on top of the carpet bill.
+                Standard broadloom carpet in a rental property typically lasts 5–7 years
+                before it looks tired, matted, and stained. Each replacement cycle means
+                engaging a flooring retailer, scheduling an installer, and paying
+                <strong> $3,000–$5,000+ per room</strong> for materials and labour — plus
+                lost rent while the property sits empty waiting for the work.
               </p>
               <p>
-                Multiply that across three bedrooms and a living room, and you&apos;re
-                looking at <strong>$10,000–$15,000+ per major turnover</strong>. Repeat
-                every few years, across multiple properties, and the numbers become
-                staggering.
+                The underlying problem? Residential broadloom was never designed for
+                the wear that rental properties endure. Tenants are harder on carpet
+                than owner-occupiers, and standard carpet shows it.
               </p>
               <p className="font-semibold text-brand-800">
-                What if you could reduce that cost by 90% — and do it yourself in a
-                single afternoon?
+                What if your carpet was tough enough to last through multiple tenancy
+                cycles — and any isolated damage could be repaired in minutes?
               </p>
             </div>
           </div>
@@ -168,9 +163,9 @@ export function InvestmentPropertyClient() {
       {/* Benefits */}
       <Section background="linen">
         <SectionHeader
-          overline="The Smart Investor's Flooring"
-          title="Why Carpet Tiles Are the Best Flooring for Investment Properties"
-          description="Every benefit is designed to protect your bottom line — lower costs, faster turnovers, and a product that outlasts traditional carpet."
+          overline="Built for Rental Properties"
+          title="Why Carpet Tiles Are the Smartest Flooring for Investment Properties"
+          description="Commercial-grade durability, stain-resistant nylon, breathable backing, and a 15-year warranty. Installed by Premrest."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {investorBenefits.map((benefit, index) => (
@@ -196,65 +191,75 @@ export function InvestmentPropertyClient() {
         </div>
       </Section>
 
-      {/* ROI Calculator / Comparison */}
+      {/* Durability Comparison */}
       <Section background="white">
         <SectionHeader
-          overline="The Numbers Don't Lie"
-          title="5-Year Cost Comparison: 3-Bedroom Investment Property"
+          overline="Durability Comparison"
+          title="Traditional Carpet vs. Modular Carpet Tiles in Rentals"
         />
         <div className="max-w-3xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-brand-100 rounded-lg p-8">
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
-                Traditional Carpet
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-6">
+                Traditional Broadloom
               </h3>
-              <p className="text-body-sm text-brand-400 mb-6">5 turnovers × 3 rooms</p>
               <ul className="space-y-4 text-body-sm text-brand-500">
                 <li className="flex justify-between border-b border-brand-200 pb-2">
-                  <span>Initial install (professional)</span>
-                  <span className="font-semibold text-brand-800">$6,000–$9,000</span>
+                  <span>Typical lifespan in rental</span>
+                  <span className="font-semibold text-brand-800">5–7 years</span>
                 </li>
                 <li className="flex justify-between border-b border-brand-200 pb-2">
-                  <span>4 full re-carpets</span>
-                  <span className="font-semibold text-brand-800">$12,000–$20,000</span>
+                  <span>Stain resistance</span>
+                  <span className="font-semibold text-brand-800">Moderate</span>
                 </li>
                 <li className="flex justify-between border-b border-brand-200 pb-2">
-                  <span>Vacancy (10 weeks total)</span>
-                  <span className="font-semibold text-brand-800">$3,000–$5,000</span>
+                  <span>Fade resistance</span>
+                  <span className="font-semibold text-brand-800">Low–Moderate</span>
+                </li>
+                <li className="flex justify-between border-b border-brand-200 pb-2">
+                  <span>Localised damage repair</span>
+                  <span className="font-semibold text-brand-800">Full re-carpet</span>
+                </li>
+                <li className="flex justify-between border-b border-brand-200 pb-2">
+                  <span>Moisture/mould risk on slabs</span>
+                  <span className="font-semibold text-brand-800">High</span>
                 </li>
                 <li className="flex justify-between pt-2">
-                  <span className="font-semibold text-brand-800">5-year total</span>
-                  <span className="font-bold text-brand-800 text-body-md">$21,000–$34,000</span>
+                  <span>Wear warranty</span>
+                  <span className="font-semibold text-brand-800">5–10 years</span>
                 </li>
               </ul>
             </div>
             <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-6">
                 Modular Carpet Tiles
               </h3>
-              <p className="text-body-sm text-brand-400 mb-6">5 turnovers × 3 rooms</p>
               <ul className="space-y-4 text-body-sm text-brand-700">
                 <li className="flex justify-between border-b border-accent/10 pb-2">
-                  <span>Initial DIY install (3 rooms)</span>
-                  <span className="font-semibold text-brand-800">~$2,633</span>
+                  <span>Typical lifespan in rental</span>
+                  <span className="font-semibold text-accent">15+ years</span>
                 </li>
                 <li className="flex justify-between border-b border-accent/10 pb-2">
-                  <span>4 tile-swap turnovers</span>
-                  <span className="font-semibold text-brand-800">~$800</span>
+                  <span>Stain resistance</span>
+                  <span className="font-semibold text-accent">Excellent (solution-dyed)</span>
                 </li>
                 <li className="flex justify-between border-b border-accent/10 pb-2">
-                  <span>Vacancy (same-day repairs)</span>
-                  <span className="font-semibold text-accent">$0</span>
+                  <span>Fade resistance</span>
+                  <span className="font-semibold text-accent">Excellent (molecular dye)</span>
+                </li>
+                <li className="flex justify-between border-b border-accent/10 pb-2">
+                  <span>Localised damage repair</span>
+                  <span className="font-semibold text-accent">Swap individual tiles</span>
+                </li>
+                <li className="flex justify-between border-b border-accent/10 pb-2">
+                  <span>Moisture/mould risk on slabs</span>
+                  <span className="font-semibold text-accent">None (breathable backing)</span>
                 </li>
                 <li className="flex justify-between pt-2">
-                  <span className="font-semibold text-brand-800">5-year total</span>
-                  <span className="font-bold text-accent text-body-md">~$3,433</span>
+                  <span>Wear warranty</span>
+                  <span className="font-semibold text-accent">15 years commercial</span>
                 </li>
               </ul>
-              <div className="mt-6 bg-white rounded-md p-4 text-center">
-                <p className="text-body-sm text-brand-500">Estimated 5-year saving</p>
-                <p className="font-serif text-heading-lg text-accent">$17,000–$30,000+</p>
-              </div>
             </div>
           </div>
         </div>
@@ -265,7 +270,7 @@ export function InvestmentPropertyClient() {
         <div className="max-w-3xl mx-auto">
           <SectionHeader
             overline="Portfolio Strategy"
-            title="How to Standardise Carpet Tiles Across Your Portfolio"
+            title="How Smart Investors Manage Carpet Across Their Portfolio"
           />
           <div className="space-y-6">
             {[
@@ -273,19 +278,19 @@ export function InvestmentPropertyClient() {
                 icon: BarChart3,
                 title: "Standardise on 1–2 Colourways",
                 description:
-                  "Choose neutral colourways like Haven Smoke or Horizon Bowden across all your properties. This means spare tiles from one property can be used in another — maximum flexibility, minimum waste.",
+                  "Choose neutral colourways like Haven Smoke or Horizon Bowden across all your properties. Spare tiles from one property can be used in another — maximum flexibility, minimum waste. Premrest can advise on the best options for your portfolio.",
               },
               {
-                icon: Wrench,
-                title: "Keep a Spare Box Per Property",
+                icon: TrendingUp,
+                title: "One Installation, Multiple Tenancy Cycles",
                 description:
-                  "Order one extra box (5m²) per property. Store it in the garage or laundry. When tenants move out, you can repair damaged areas immediately without waiting for a delivery.",
+                  "With a 15-year commercial warranty and solution-dyed nylon, your carpet tile investment pays for itself by lasting through 5–8 tenancies without needing full replacement. That's a fraction of the lifecycle cost of broadloom.",
               },
               {
                 icon: Clock,
-                title: "Same-Day Turnover Repairs",
+                title: "Keep Spare Tiles for Quick Repairs",
                 description:
-                  "Between tenancies, walk the property with your spare tiles. Lift damaged tiles, press in fresh ones. The property is rent-ready immediately — no installer, no waiting, no vacancy.",
+                  "Order a spare box per property. If a tenant leaves isolated damage — a burn, a bleach mark, an uncleanable stain — swap the affected tiles between tenancies. The property is rent-ready immediately.",
               },
             ].map((item, index) => (
               <motion.div
@@ -371,21 +376,22 @@ export function InvestmentPropertyClient() {
           >
             <p className="overline text-accent mb-4">Protect Your Investment</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              The Smartest Flooring Decision for Your Portfolio
+              Flooring That Works as Hard as Your Property
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              From ${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. DIY install. Replace
-              tiles, not rooms. The numbers speak for themselves.
+              From ${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. Professionally installed
+              by Premrest. 15-year commercial warranty. The smartest flooring decision
+              for your portfolio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="/ranges/haven">
-                  Shop Carpet Tiles
+                <Link href="/contact">
+                  Get an Investor Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
               <Button variant="outline_white" size="lg" asChild>
-                <Link href="/contact">Get an Investor Quote</Link>
+                <Link href="/ranges/haven">Browse Ranges</Link>
               </Button>
             </div>
           </motion.div>

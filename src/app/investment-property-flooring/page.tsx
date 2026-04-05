@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { InvestmentPropertyClient } from "./investment-property-client";
 
 export const metadata: Metadata = {
-  title: "Carpet Tiles for Investment Properties | Smart Investor Flooring",
+  title: "Carpet Tiles for Investment Properties | Outlasts Traditional Carpet",
   description:
-    "The best flooring for investment properties. DIY carpet tiles that maximise rental yield and minimise turnover costs. Replace damaged tiles instead of re-carpeting rooms. Install yourself — no tradesperson needed. From $58.50/m².",
+    "The best carpet for investment properties. Commercial-grade carpet tiles with a 15-year warranty that outlasts tenants. Solution-dyed nylon, stain resistant, breathable backing. Professionally installed by Premrest. From $58.50/m².",
 };
 
 export default function InvestmentPropertyFlooringPage() {
