@@ -95,7 +95,12 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
       if (res.ok) {
         setSubmitted(true);
       } else {
-        setError("Something went wrong. Please email us directly at modular@premrest.com.au");
+        const data = await res.json().catch(() => null);
+        console.error("Form error:", res.status, data);
+        setError(
+          data?.errors?.[0]?.message ||
+          "Something went wrong. Please email us directly at modular@premrest.com.au"
+        );
       }
     } catch {
       setError("Something went wrong. Please email us directly at modular@premrest.com.au");
