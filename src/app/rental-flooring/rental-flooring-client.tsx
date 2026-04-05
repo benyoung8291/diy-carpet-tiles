@@ -22,7 +22,7 @@ const landlordBenefits = [
     icon: DollarSign,
     title: "Slash Turnover Costs",
     description:
-      "Traditional carpet replacement between tenants costs $2,000–$5,000+ per room including retailer markup, materials, and installer labour. With Modular Carpet, swap damaged tiles for a few dollars each — and do it yourself in minutes.",
+      "Traditional carpet replacement between tenants costs $2,000–$5,000+ per room including retailer markup, materials, and installer labour. With Modular Carpet, swap damaged tiles for a few dollars each - and do it yourself in minutes.",
   },
   {
     icon: RefreshCw,
@@ -44,7 +44,7 @@ const landlordBenefits = [
   },
   {
     icon: Wrench,
-    title: "DIY Installation — No Tradesperson",
+    title: "DIY Installation - No Tradesperson",
     description:
       "Install the initial carpet yourself and save thousands on installation labour. No flooring retailer appointment, no installer quotes, no waiting. Order online, install on the weekend.",
   },
@@ -52,26 +52,26 @@ const landlordBenefits = [
     icon: Droplets,
     title: "Safe Over Concrete Slabs",
     description:
-      "Many rental properties sit on concrete slabs with moisture issues. Traditional carpet traps moisture and creates mould — a landlord's nightmare. Our breathable PET felt backing eliminates this problem entirely.",
+      "Many rental properties sit on concrete slabs with moisture issues. Traditional carpet traps moisture and creates mould - a landlord's nightmare. Our breathable PET felt backing eliminates this problem entirely.",
   },
 ];
 
 const tenantBenefits = [
   "Install over existing hard floors without damaging them",
-  "Take your carpet with you when you move — tiles lift cleanly",
+  "Take your carpet with you when you move - tiles lift cleanly",
   "No need to ask your landlord to organise a carpet installer",
   "Affordable way to make a rental feel like home",
-  "Replace individual tiles if accidents happen — keep your bond",
+  "Replace individual tiles if accidents happen - keep your bond",
 ];
 
 const faqs = [
   {
     q: "Can tenants install carpet tiles in a rental property?",
-    a: "Yes. Modular Carpet tiles are installed with pressure-sensitive adhesive, which allows tiles to be lifted and removed cleanly. Tenants can install carpet tiles over existing hard floors and take them when they move out — without damaging the property.",
+    a: "Yes. Modular Carpet tiles are installed with pressure-sensitive adhesive, which allows tiles to be lifted and removed cleanly. Tenants can install carpet tiles over existing hard floors and take them when they move out - without damaging the property.",
   },
   {
     q: "How much do carpet tiles cost compared to traditional carpet for a rental?",
-    a: `Modular Carpet tiles cost $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST — and you install them yourself, saving $40–$60/m² in professional installation costs. For a typical 20m² room, that's $800–$1,200 saved on installation alone.`,
+    a: `Modular Carpet tiles cost $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST - and you install them yourself, saving $40–$60/m² in professional installation costs. For a typical 20m² room, that's $800–$1,200 saved on installation alone.`,
   },
   {
     q: "Can I replace individual tiles between tenancies?",
@@ -83,11 +83,11 @@ const faqs = [
   },
   {
     q: "What if the rental property has a concrete slab with moisture?",
-    a: "Our tiles use breathable recycled PET felt backing — specifically designed for Australian conditions. Unlike traditional carpet with rubber backing that traps moisture, our felt backing allows the slab to breathe naturally, preventing mould and odour.",
+    a: "Our tiles use breathable recycled PET felt backing - specifically designed for Australian conditions. Unlike traditional carpet with rubber backing that traps moisture, our felt backing allows the slab to breathe naturally, preventing mould and odour.",
   },
   {
     q: "How long does it take to install carpet tiles in a rental property?",
-    a: "A typical bedroom (12–15m²) takes about 2 hours. A full 3-bedroom house can be done in a single day. No special tools needed — just a utility knife and straight edge.",
+    a: "A typical bedroom (12–15m²) takes about 2 hours. A full 3-bedroom house can be done in a single day. No special tools needed - just a utility knife and straight edge.",
   },
 ];
 
@@ -111,12 +111,12 @@ export function RentalFlooringClient() {
           >
             <p className="overline text-accent mb-4">Rental Property Flooring</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              The Smartest Flooring for Rental Properties — DIY Carpet Tiles
+              The Smartest Flooring for Rental Properties - DIY Carpet Tiles
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Stop re-carpeting entire rooms between tenants. Stop paying installers
               thousands every turnover. Modular Carpet tiles let landlords and tenants
-              replace individual tiles in minutes — and anyone handy can install them.
+              replace individual tiles in minutes - and anyone handy can install them.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <Button size="lg" asChild>
@@ -150,7 +150,7 @@ export function RentalFlooringClient() {
                 the installer can&apos;t come for two weeks.
               </p>
               <p>
-                That&apos;s two weeks of lost rent, plus thousands in flooring costs —
+                That&apos;s two weeks of lost rent, plus thousands in flooring costs -
                 for damage that might only affect a few square metres of carpet. And
                 the cycle repeats with every tenancy.
               </p>
@@ -168,7 +168,7 @@ export function RentalFlooringClient() {
         <SectionHeader
           overline="For Landlords & Property Managers"
           title="Why Smart Landlords Are Switching to Carpet Tiles"
-          description="Modular Carpet tiles solve every flooring problem rental property owners face — from turnover costs to moisture issues to installation hassles."
+          description="Modular Carpet tiles solve every flooring problem rental property owners face - from turnover costs to moisture issues to installation hassles."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {landlordBenefits.map((benefit, index) => (
@@ -294,7 +294,7 @@ export function RentalFlooringClient() {
       <Section background="white">
         <SectionHeader
           overline="Frequently Asked Questions"
-          title="Carpet Tiles for Rental Properties — FAQ"
+          title="Carpet Tiles for Rental Properties - FAQ"
         />
         <div className="max-w-3xl mx-auto space-y-6">
           {faqs.map((faq) => (

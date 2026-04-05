@@ -125,7 +125,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
             </p>
             <p className="text-body-sm text-brand-500 mt-0.5">
               Sold in boxes of {PRICING.boxArea} m² ({PRICING.tilesPerBox}{" "}
-              tiles) — ${(PRICING.boxArea * PRICING.pricePerSqm).toFixed(2)} per
+              tiles) - ${(PRICING.boxArea * PRICING.pricePerSqm).toFixed(2)} per
               box
             </p>
           </div>
@@ -147,7 +147,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
         />
         <div>
           <p className="text-body-sm font-semibold text-brand-800">
-            {range.name} — {selectedColor.name}
+            {range.name} - {selectedColor.name}
           </p>
           <p className="text-body-sm text-brand-400">{selectedColor.code}</p>
         </div>
@@ -396,7 +396,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
               "Submitting Order..."
             ) : (
               <>
-                Submit Order — ${calculation.totalCost.toFixed(2)} inc GST
+                Submit Order - ${calculation.totalCost.toFixed(2)} inc GST
                 <Send className="w-4 h-4 ml-2" />
               </>
             )}

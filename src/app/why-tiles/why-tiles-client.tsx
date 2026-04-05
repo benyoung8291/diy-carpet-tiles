@@ -31,7 +31,7 @@ const iconMap: Record<string, React.ElementType> = {
 const deepBenefits = [
   {
     icon: "Eye",
-    title: "Truly Seamless — Indistinguishable from Broadloom",
+    title: "Truly Seamless - Indistinguishable from Broadloom",
     description:
       "Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that looks and feels identical to traditional rolled broadloom carpet. The join lines disappear completely once installed.",
     points: [
@@ -43,14 +43,14 @@ const deepBenefits = [
   },
   {
     icon: "Wrench",
-    title: "DIY Installation — No Tradesperson Needed",
+    title: "DIY Installation - No Tradesperson Needed",
     description:
       "Traditional carpet requires a flooring retailer, an installer quote, and weeks of waiting. Modular Carpet tiles arrive at your door and press onto adhesive. No power stretchers, no tack strips, no installer. If you're handy enough to paint a wall, you can carpet a room in an afternoon.",
     points: [
-      "No special tools — just a utility knife and straight edge",
-      "No flooring retailer or installer — order direct, install yourself",
+      "No special tools - just a utility knife and straight edge",
+      "No flooring retailer or installer - order direct, install yourself",
       "Pressure-sensitive adhesive allows repositioning for minutes",
-      "Walk on it immediately — no drying time, no waiting",
+      "Walk on it immediately - no drying time, no waiting",
     ],
   },
   {
@@ -61,17 +61,17 @@ const deepBenefits = [
     points: [
       "Individual tiles lift out in seconds",
       "Fresh tile presses into the same adhesive",
-      "No colour-matching issues — order the same batch",
+      "No colour-matching issues - order the same batch",
       "Perfect for homes with kids and pets",
     ],
   },
   {
     icon: "Sun",
-    title: "Solution-Dyed Nylon — The Premium Fibre",
+    title: "Solution-Dyed Nylon - The Premium Fibre",
     description:
       "Solution-dyed nylon is the gold standard for carpet fibre. Unlike stock-dyed alternatives, the colour is locked into the fibre at a molecular level during manufacturing. This means extraordinary fade resistance, stain resistance, and colour consistency that lasts the full warranty period.",
     points: [
-      "Colour locked in at molecular level — won't fade",
+      "Colour locked in at molecular level - won't fade",
       "Superior stain resistance compared to polyester",
       "Exceptional durability and crush recovery",
       "Maintains appearance in high-traffic areas",
@@ -79,7 +79,7 @@ const deepBenefits = [
   },
   {
     icon: "Droplets",
-    title: "Breathable Backing — Safe Over Moisture",
+    title: "Breathable Backing - Safe Over Moisture",
     description:
       "Many Australian homes sit on concrete slabs with residual moisture. Traditional carpet with rubber backing traps that moisture, creating mould and odour problems. Our recycled PET felt backing is completely breathable, allowing your subfloor to breathe naturally while still providing comfort and insulation.",
     points: [
@@ -93,33 +93,33 @@ const deepBenefits = [
     icon: "Volume2",
     title: "Acoustic Performance That You'll Feel",
     description:
-      "The bonded felt underlay in every tile delivers impressive sound absorption with a 0.25 NRC (Noise Reduction Coefficient) rating. This means quieter rooms, reduced echo, and a warmer, more comfortable living environment — especially in open-plan homes and multi-storey dwellings.",
+      "The bonded felt underlay in every tile delivers impressive sound absorption with a 0.25 NRC (Noise Reduction Coefficient) rating. This means quieter rooms, reduced echo, and a warmer, more comfortable living environment - especially in open-plan homes and multi-storey dwellings.",
     points: [
       "0.25 NRC acoustic rating",
       "Reduces footfall noise between floors",
       "Minimises echo in large, open-plan spaces",
-      "Bonded underlay — no separate underlay needed",
+      "Bonded underlay - no separate underlay needed",
     ],
   },
   {
     icon: "Shield",
     title: "15-Year Commercial-Grade Warranty",
     description:
-      "These tiles are rated for commercial environments — offices, retail, hospitality — and backed by a 15-year wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.",
+      "These tiles are rated for commercial environments - offices, retail, hospitality - and backed by a 15-year wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.",
     points: [
       "15-year commercial-grade wear warranty",
       "Rated for heavy foot traffic",
       "Exceeds residential durability requirements",
-      "Backed by Premrest — trusted Australian distributor",
+      "Backed by Premrest - trusted Australian distributor",
     ],
   },
   {
     icon: "Leaf",
     title: "The Sustainable Choice",
     description:
-      "Modular carpet is inherently more sustainable than broadloom. When a section is damaged, you replace one tile — not the entire floor. The recycled PET felt backing gives new life to post-consumer plastic. Less waste, lower footprint, smarter living.",
+      "Modular carpet is inherently more sustainable than broadloom. When a section is damaged, you replace one tile - not the entire floor. The recycled PET felt backing gives new life to post-consumer plastic. Less waste, lower footprint, smarter living.",
     points: [
-      "Replace tiles, not entire rooms — less landfill waste",
+      "Replace tiles, not entire rooms - less landfill waste",
       "Recycled PET felt backing from post-consumer plastic",
       "Longer lifespan reduces replacement frequency",
       "Modular design means zero off-cut waste during installation",
@@ -186,11 +186,11 @@ export function WhyTilesClient() {
               </h3>
               <ul className="space-y-3 text-body-sm text-brand-700">
                 {[
-                  "Order online — no retailer needed",
-                  "DIY install in an afternoon — no tradesperson",
+                  "Order online - no retailer needed",
+                  "DIY install in an afternoon - no tradesperson",
                   "Save thousands on installation labour",
                   "Replace individual tiles in 60 seconds",
-                  "Breathable felt — safe over concrete slabs",
+                  "Breathable felt - safe over concrete slabs",
                   "Replace tiles, not the whole floor",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
@@ -259,7 +259,7 @@ export function WhyTilesClient() {
           >
             <p className="overline text-accent mb-4">Skip the Carpet Store</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              Order Premium Carpet Tiles Direct — Install Them Yourself
+              Order Premium Carpet Tiles Direct - Install Them Yourself
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
               No flooring retailer. No installer. No waiting. Choose your range,

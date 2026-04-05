@@ -20,9 +20,9 @@ import { PRICING } from "@/lib/data";
 const investorBenefits = [
   {
     icon: Shield,
-    title: "Outlasts Traditional Carpet — By Years",
+    title: "Outlasts Traditional Carpet - By Years",
     description:
-      "These tiles carry a 15-year commercial-grade wear warranty. They're rated for office lobbies and retail floors — environments with far more foot traffic than any rental home. Your carpet won't need replacing between tenancies.",
+      "These tiles carry a 15-year commercial-grade wear warranty. They're rated for office lobbies and retail floors - environments with far more foot traffic than any rental home. Your carpet won't need replacing between tenancies.",
   },
   {
     icon: Paintbrush,
@@ -40,11 +40,11 @@ const investorBenefits = [
     icon: Clock,
     title: "Faster Turnovers Between Tenants",
     description:
-      "If a tenant does leave a stubborn stain or burn mark, individual tiles can be swapped out in minutes — no need to re-carpet the room and no waiting weeks for an installer. Your property is rent-ready sooner.",
+      "If a tenant does leave a stubborn stain or burn mark, individual tiles can be swapped out in minutes - no need to re-carpet the room and no waiting weeks for an installer. Your property is rent-ready sooner.",
   },
   {
     icon: Droplets,
-    title: "Breathable Backing — No Mould Surprises",
+    title: "Breathable Backing - No Mould Surprises",
     description:
       "Many investment properties sit on concrete slabs. Traditional carpet traps moisture underneath, causing mould and odour issues that are expensive to remediate. Our breathable recycled PET felt backing eliminates this risk entirely.",
   },
@@ -52,18 +52,18 @@ const investorBenefits = [
     icon: Building2,
     title: "Professional Installation by Premrest",
     description:
-      "Premrest handles the full installation for investment properties — measured, supplied, and professionally fitted. One point of contact, one invoice, and a product we stand behind with a 15-year warranty.",
+      "Premrest handles the full installation for investment properties - measured, supplied, and professionally fitted. One point of contact, one invoice, and a product we stand behind with a 15-year warranty.",
   },
 ];
 
 const faqs = [
   {
     q: "How long do carpet tiles last in a rental property?",
-    a: "Our carpet tiles carry a 15-year commercial-grade wear warranty — they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
+    a: "Our carpet tiles carry a 15-year commercial-grade wear warranty - they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
   },
   {
     q: "Does Premrest handle installation for investment properties?",
-    a: "Yes. For investment properties, Premrest provides a full professional installation service — we measure, supply, and install. You get a single point of contact and a product backed by a 15-year manufacturer warranty. Contact us for a tailored quote.",
+    a: "Yes. For investment properties, Premrest provides a full professional installation service - we measure, supply, and install. You get a single point of contact and a product backed by a 15-year manufacturer warranty. Contact us for a tailored quote.",
   },
   {
     q: "What happens if a tenant stains or damages the carpet?",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Are carpet tiles suitable for all rooms in an investment property?",
-    a: "Modular Carpet tiles are ideal for bedrooms, living rooms, hallways, and home offices — anywhere you'd normally install broadloom carpet. They look identical to traditional carpet once installed. We recommend hard flooring for wet areas like bathrooms and laundries.",
+    a: "Modular Carpet tiles are ideal for bedrooms, living rooms, hallways, and home offices - anywhere you'd normally install broadloom carpet. They look identical to traditional carpet once installed. We recommend hard flooring for wet areas like bathrooms and laundries.",
   },
   {
     q: "Do property managers and tenants notice it's tiles?",
@@ -143,7 +143,7 @@ export function InvestmentPropertyClient() {
                 Standard broadloom carpet in a rental property typically lasts 5–7 years
                 before it looks tired, matted, and stained. Each replacement cycle means
                 engaging a flooring retailer, scheduling an installer, and paying
-                <strong> $3,000–$5,000+ per room</strong> for materials and labour — plus
+                <strong> $3,000–$5,000+ per room</strong> for materials and labour - plus
                 lost rent while the property sits empty waiting for the work.
               </p>
               <p>
@@ -153,7 +153,7 @@ export function InvestmentPropertyClient() {
               </p>
               <p className="font-semibold text-brand-800">
                 What if your carpet was tough enough to last through multiple tenancy
-                cycles — and any isolated damage could be repaired in minutes?
+                cycles - and any isolated damage could be repaired in minutes?
               </p>
             </div>
           </div>
@@ -278,7 +278,7 @@ export function InvestmentPropertyClient() {
                 icon: BarChart3,
                 title: "Standardise on 1–2 Colourways",
                 description:
-                  "Choose neutral colourways like Haven Smoke or Horizon Bowden across all your properties. Spare tiles from one property can be used in another — maximum flexibility, minimum waste. Premrest can advise on the best options for your portfolio.",
+                  "Choose neutral colourways like Haven Smoke or Horizon Bowden across all your properties. Spare tiles from one property can be used in another - maximum flexibility, minimum waste. Premrest can advise on the best options for your portfolio.",
               },
               {
                 icon: TrendingUp,
@@ -290,7 +290,7 @@ export function InvestmentPropertyClient() {
                 icon: Clock,
                 title: "Keep Spare Tiles for Quick Repairs",
                 description:
-                  "Order a spare box per property. If a tenant leaves isolated damage — a burn, a bleach mark, an uncleanable stain — swap the affected tiles between tenancies. The property is rent-ready immediately.",
+                  "Order a spare box per property. If a tenant leaves isolated damage - a burn, a bleach mark, an uncleanable stain - swap the affected tiles between tenancies. The property is rent-ready immediately.",
               },
             ].map((item, index) => (
               <motion.div
@@ -322,7 +322,7 @@ export function InvestmentPropertyClient() {
       <Section background="white">
         <SectionHeader
           overline="Frequently Asked Questions"
-          title="Carpet Tiles for Investment Properties — FAQ"
+          title="Carpet Tiles for Investment Properties - FAQ"
         />
         <div className="max-w-3xl mx-auto space-y-6">
           {faqs.map((faq) => (

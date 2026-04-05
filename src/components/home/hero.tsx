@@ -29,7 +29,7 @@ export function Hero() {
             Skip the Carpet Store. Skip the Installer.
           </p>
           <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-4 md:mb-6 text-balance leading-[1.1]">
-            DIY Carpet Tiles You Install Yourself — No Tradesperson Needed
+            DIY Carpet Tiles You Install Yourself - No Tradesperson Needed
           </h1>
           <p className="text-body-md md:text-body-lg text-white/85 mb-8 md:mb-10 max-w-xl leading-relaxed">
             Tired of expensive flooring retailers and waiting weeks for carpet

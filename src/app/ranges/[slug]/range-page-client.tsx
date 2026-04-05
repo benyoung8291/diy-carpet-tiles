@@ -155,7 +155,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
                 </span>
               </p>
               <p className="text-body-sm text-brand-500 mt-1">
-                Sold in boxes of {PRICING.boxArea} m² — ${PRICING.shippingFlat}{" "}
+                Sold in boxes of {PRICING.boxArea} m² - ${PRICING.shippingFlat}{" "}
                 flat rate shipping Australia-wide
               </p>
             </div>

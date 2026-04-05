@@ -29,7 +29,7 @@ export function CtaBanner() {
             Ditch the Carpet Store. Do It Yourself.
           </p>
           <h2 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
-            From $58.50/m² — Delivered to Your Door
+            From $58.50/m² - Delivered to Your Door
           </h2>
           <p className="text-body-lg text-brand-300 mb-4">
             No flooring retailer. No installer quotes. No waiting weeks for a tradesperson.

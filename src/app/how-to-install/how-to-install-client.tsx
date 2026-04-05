@@ -42,17 +42,17 @@ const steps = [
     icon: Paintbrush,
     title: "Apply Pressure-Sensitive Adhesive",
     description:
-      "Pressure-sensitive adhesive (PSA) is the secret to easy, repositionable installation. Unlike wet-set adhesive, PSA stays tacky permanently — so tiles can be lifted and repositioned even years later.",
+      "Pressure-sensitive adhesive (PSA) is the secret to easy, repositionable installation. Unlike wet-set adhesive, PSA stays tacky permanently - so tiles can be lifted and repositioned even years later.",
     details: [
       "Pour adhesive and spread evenly with a short-nap roller or notched trowel",
       "Work in manageable sections (about 3–4 metres at a time)",
-      "Allow adhesive to 'tack up' — it should feel sticky but dry to the touch (30–60 minutes depending on conditions)",
-      "The adhesive remains tacky indefinitely once dry — don't rush this step",
+      "Allow adhesive to 'tack up' - it should feel sticky but dry to the touch (30–60 minutes depending on conditions)",
+      "The adhesive remains tacky indefinitely once dry - don't rush this step",
       "Coverage: approximately 5–7 m² per litre",
     ],
     tips: [
       "On hot days the adhesive tacks up faster; on cold or humid days it takes longer",
-      "Don't apply adhesive over dusty or oily surfaces — it won't grip",
+      "Don't apply adhesive over dusty or oily surfaces - it won't grip",
     ],
     image: "/images/installation/step-2-adhesive.jpg",
   },
@@ -65,10 +65,10 @@ const steps = [
     details: [
       "Find the centre of the room by snapping chalk lines between opposite walls",
       "Start laying tiles from the centre outward",
-      "Use an ashlar (brick-bond) layout — offset each row by half a tile length (500 mm)",
-      "Check the arrows on the back of each tile — all arrows should point the same direction",
+      "Use an ashlar (brick-bond) layout - offset each row by half a tile length (500 mm)",
+      "Check the arrows on the back of each tile - all arrows should point the same direction",
       "Press each tile firmly into the adhesive with your hands or a carpet roller",
-      "Butt tiles tightly together — the seamless look depends on tight joins",
+      "Butt tiles tightly together - the seamless look depends on tight joins",
     ],
     tips: [
       "Dry-lay a row first (without adhesive) to plan your cuts at the edges",
@@ -81,16 +81,16 @@ const steps = [
     icon: Scissors,
     title: "Trim, Finish & Enjoy",
     description:
-      "The felt backing cuts cleanly with a standard utility knife. Trim edge tiles to fit, tidy up the perimeter, and you're done. Walk on your new floor immediately — no drying time required.",
+      "The felt backing cuts cleanly with a standard utility knife. Trim edge tiles to fit, tidy up the perimeter, and you're done. Walk on your new floor immediately - no drying time required.",
     details: [
       "Measure edge tiles by flipping the tile upside-down against the wall",
       "Score the backing with a sharp utility knife using a straight edge",
       "Snap the tile along the score line for a clean cut",
       "Press edge tiles firmly into adhesive",
-      "Replace furniture carefully — use felt pads on heavy items",
+      "Replace furniture carefully - use felt pads on heavy items",
     ],
     tips: [
-      "Change utility knife blades frequently — a sharp blade makes cleaner cuts",
+      "Change utility knife blades frequently - a sharp blade makes cleaner cuts",
       "Order 10% extra tiles for edge cuts and future replacements",
     ],
     image: "/images/installation/step-4-trim.jpg",
@@ -121,7 +121,7 @@ export function HowToInstallClient() {
           >
             <p className="overline text-accent mb-4">DIY Carpet Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Skip the Installer — Lay Premium Carpet Tiles Yourself
+              Skip the Installer - Lay Premium Carpet Tiles Yourself
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Traditional carpet needs a professional with power stretchers and

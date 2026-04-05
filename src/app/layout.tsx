@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Modular Carpet by Premrest",
   },
   description:
-    "Premium DIY carpet tiles you install yourself — no flooring retailer, no carpet installer, no tradesperson. Looks like broadloom, replaces like tiles. From $58.50/m² inc GST. 15-year warranty. Free delivery Australia-wide.",
+    "Premium DIY carpet tiles you install yourself - no flooring retailer, no carpet installer, no tradesperson. Looks like broadloom, replaces like tiles. From $58.50/m² inc GST. 15-year warranty. Free delivery Australia-wide.",
   keywords: [
     "carpet tiles",
     "DIY carpet",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AU",
     siteName: "Modular Carpet by Premrest",
-    title: "DIY Carpet Tiles — No Installer Needed | Modular Carpet Australia",
+    title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
     description:
       "Premium carpet tiles you install yourself. Skip the carpet store and the installer. From $58.50/m². 15-year warranty. Delivered Australia-wide.",
   },

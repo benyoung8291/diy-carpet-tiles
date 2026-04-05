@@ -23,7 +23,7 @@ const hotelBenefits = [
     icon: RefreshCw,
     title: "Replace Tiles, Not Entire Rooms",
     description:
-      "A guest spills red wine, burns the carpet with an iron, or drags furniture across the floor. With broadloom, you're looking at a full room re-carpet and days of downtime. With Modular Carpet, your maintenance team lifts the damaged tiles and presses in fresh ones — often while the room is being serviced for the next guest.",
+      "A guest spills red wine, burns the carpet with an iron, or drags furniture across the floor. With broadloom, you're looking at a full room re-carpet and days of downtime. With Modular Carpet, your maintenance team lifts the damaged tiles and presses in fresh ones - often while the room is being serviced for the next guest.",
   },
   {
     icon: Clock,
@@ -35,13 +35,13 @@ const hotelBenefits = [
     icon: Shield,
     title: "15-Year Commercial-Grade Warranty",
     description:
-      "These tiles are purpose-built for high-traffic commercial environments. The 15-year wear warranty covers hotel corridors, guest rooms, conference areas, and lobbies. Built for the reality of hospitality — heavy luggage, high heels, room service trolleys, and thousands of guests.",
+      "These tiles are purpose-built for high-traffic commercial environments. The 15-year wear warranty covers hotel corridors, guest rooms, conference areas, and lobbies. Built for the reality of hospitality - heavy luggage, high heels, room service trolleys, and thousands of guests.",
   },
   {
     icon: Sun,
-    title: "Solution-Dyed Nylon — Superior Stain Resistance",
+    title: "Solution-Dyed Nylon - Superior Stain Resistance",
     description:
-      "Solution-dyed nylon locks colour into the fibre at a molecular level. It resists stains, fading, and bleach spotting far better than stock-dyed alternatives. When spills happen — and in hotels, they happen daily — the nylon fibre fights back.",
+      "Solution-dyed nylon locks colour into the fibre at a molecular level. It resists stains, fading, and bleach spotting far better than stock-dyed alternatives. When spills happen - and in hotels, they happen daily - the nylon fibre fights back.",
   },
   {
     icon: Volume2,
@@ -53,23 +53,23 @@ const hotelBenefits = [
     icon: DollarSign,
     title: "Phased Rollouts & Volume Pricing",
     description:
-      "Refurbish your hotel floor by floor, wing by wing — without shutting down entire sections. Premrest offers volume-based pricing for full hotel rollouts and can schedule phased installations around your occupancy calendar.",
+      "Refurbish your hotel floor by floor, wing by wing - without shutting down entire sections. Premrest offers volume-based pricing for full hotel rollouts and can schedule phased installations around your occupancy calendar.",
   },
 ];
 
 const broadloomProblems = [
-  "Stain or tear forces room closure — lost revenue per night",
+  "Stain or tear forces room closure - lost revenue per night",
   "Carpet repair requires full room re-carpet",
   "Installer availability delays = extended room downtime",
   "Furniture must be completely removed and returned",
   "Colour matching between batches is unreliable",
-  "Rubber backing traps moisture — mould risk in wet climates",
+  "Rubber backing traps moisture - mould risk in wet climates",
 ];
 
 const modularSolutions = [
-  "Swap damaged tiles in minutes — room stays in service",
+  "Swap damaged tiles in minutes - room stays in service",
   "Replace only the affected area, not the entire floor",
-  "Your maintenance team handles it — no external installer",
+  "Your maintenance team handles it - no external installer",
   "Tiles slide under furniture or replace around it",
   "Consistent colour from the same production batch",
   "Breathable PET backing prevents moisture and mould",
@@ -78,7 +78,7 @@ const modularSolutions = [
 const faqs = [
   {
     q: "How quickly can damaged hotel carpet tiles be replaced?",
-    a: "Individual tiles can be lifted and replaced in under 5 minutes. Your housekeeping or maintenance team can handle tile swaps as part of normal room servicing — no external carpet installer needed. The room doesn't need to be taken out of service.",
+    a: "Individual tiles can be lifted and replaced in under 5 minutes. Your housekeeping or maintenance team can handle tile swaps as part of normal room servicing - no external carpet installer needed. The room doesn't need to be taken out of service.",
   },
   {
     q: "Are carpet tiles suitable for hotel corridors and high-traffic areas?",
@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "Can we do a phased rollout across the hotel?",
-    a: "Yes — this is one of the key advantages for hotels. You can refurbish floor by floor, wing by wing, or room type by room type. Premrest works with your operations team to schedule installations around occupancy peaks, minimising disruption to guests and revenue.",
+    a: "Yes - this is one of the key advantages for hotels. You can refurbish floor by floor, wing by wing, or room type by room type. Premrest works with your operations team to schedule installations around occupancy peaks, minimising disruption to guests and revenue.",
   },
   {
     q: "How do carpet tiles look compared to traditional broadloom?",
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: "How does the breathable backing help in hotels?",
-    a: "Hotels in tropical and coastal regions often face moisture challenges. Traditional carpet with rubber backing traps moisture against the subfloor, causing mould and odour. Our recycled PET felt backing is fully breathable, allowing the subfloor to dry naturally — eliminating a common and expensive maintenance issue.",
+    a: "Hotels in tropical and coastal regions often face moisture challenges. Traditional carpet with rubber backing traps moisture against the subfloor, causing mould and odour. Our recycled PET felt backing is fully breathable, allowing the subfloor to dry naturally - eliminating a common and expensive maintenance issue.",
   },
 ];
 
@@ -131,7 +131,7 @@ export function HotelCarpetClient() {
             <p className="text-body-md md:text-body-lg text-brand-300 max-w-2xl">
               Modular Carpet tiles combine the luxurious, plush feel of broadloom
               with the convenience of modular replacement. Replace damaged tiles
-              in minutes — not days. Keep rooms earning, not closed for repairs.
+              in minutes - not days. Keep rooms earning, not closed for repairs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <Button size="lg" asChild>
@@ -160,7 +160,7 @@ export function HotelCarpetClient() {
               <p>
                 In hospitality, carpet damage is inevitable. Guests spill drinks,
                 drag suitcases, drop irons, and wear high-traffic paths into corridors.
-                With traditional broadloom, every repair becomes a project — rooms
+                With traditional broadloom, every repair becomes a project - rooms
                 close, installers are booked weeks out, furniture is relocated, and
                 revenue evaporates.
               </p>
@@ -171,7 +171,7 @@ export function HotelCarpetClient() {
                 they should take minutes.
               </p>
               <p className="font-semibold text-brand-800">
-                What if your maintenance team could fix carpet damage themselves —
+                What if your maintenance team could fix carpet damage themselves -
                 in minutes, while servicing the room for the next guest?
               </p>
             </div>
@@ -222,7 +222,7 @@ export function HotelCarpetClient() {
         <SectionHeader
           overline="Built for Hospitality"
           title="Why Hotels Are Switching to Modular Carpet"
-          description="Every benefit addresses a real operational pain point — from guest room maintenance to corridor refurbishment to acoustic comfort."
+          description="Every benefit addresses a real operational pain point - from guest room maintenance to corridor refurbishment to acoustic comfort."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {hotelBenefits.map((benefit, index) => (
@@ -269,14 +269,14 @@ export function HotelCarpetClient() {
                 step: "2",
                 title: "Professional Installation",
                 description:
-                  "Our team installs room by room or floor by floor — scheduled around your occupancy calendar to minimise disruption. Phased rollouts let you refurbish progressively without shutting down entire sections of the hotel.",
+                  "Our team installs room by room or floor by floor - scheduled around your occupancy calendar to minimise disruption. Phased rollouts let you refurbish progressively without shutting down entire sections of the hotel.",
               },
               {
                 icon: BedDouble,
                 step: "3",
                 title: "Spare Tile Allocation",
                 description:
-                  "We provide a calculated allocation of spare tiles stored on-site. Your housekeeping and maintenance team is trained to swap tiles — turning what was a multi-day repair job into a 5-minute task during normal room servicing.",
+                  "We provide a calculated allocation of spare tiles stored on-site. Your housekeeping and maintenance team is trained to swap tiles - turning what was a multi-day repair job into a 5-minute task during normal room servicing.",
               },
               {
                 icon: RefreshCw,
@@ -315,7 +315,7 @@ export function HotelCarpetClient() {
       <Section background="white">
         <SectionHeader
           overline="Frequently Asked Questions"
-          title="Hotel Carpet Tiles — FAQ"
+          title="Hotel Carpet Tiles - FAQ"
         />
         <div className="max-w-3xl mx-auto space-y-6">
           {faqs.map((faq) => (

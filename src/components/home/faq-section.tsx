@@ -6,7 +6,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 const faqs = [
   {
     q: "What are carpet tiles and how are they different from regular carpet?",
-    a: "Carpet tiles (also called modular carpet) are individual carpet squares that interlock to create a seamless floor. Unlike traditional broadloom carpet that comes in heavy rolls and requires professional installation with power stretchers and tack strips, carpet tiles simply press onto adhesive. You install them yourself — no carpet installer needed.",
+    a: "Carpet tiles (also called modular carpet) are individual carpet squares that interlock to create a seamless floor. Unlike traditional broadloom carpet that comes in heavy rolls and requires professional installation with power stretchers and tack strips, carpet tiles simply press onto adhesive. You install them yourself - no carpet installer needed.",
   },
   {
     q: "Can I really install carpet tiles myself with no experience?",
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "How much do DIY carpet tiles cost compared to traditional carpet?",
-    a: "Modular Carpet tiles are $58.50/m² inc GST — comparable to mid-range broadloom carpet. But because you install them yourself, you save $40–$60/m² in professional installation costs. For a 20m² room, that's $800–$1,200 saved. Plus $55 flat rate shipping Australia-wide.",
+    a: "Modular Carpet tiles are $58.50/m² inc GST - comparable to mid-range broadloom carpet. But because you install them yourself, you save $40–$60/m² in professional installation costs. For a 20m² room, that's $800–$1,200 saved. Plus $55 flat rate shipping Australia-wide.",
   },
   {
     q: "Can I replace individual carpet tiles if one gets stained or damaged?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Are carpet tiles suitable for homes with pets and children?",
-    a: "Absolutely — they're ideal. Solution-dyed nylon fibre resists stains and fading, and the 15-year commercial-grade warranty covers heavy residential use. When accidents happen (and they will with kids and pets), you replace individual tiles instead of the entire room.",
+    a: "Absolutely - they're ideal. Solution-dyed nylon fibre resists stains and fading, and the 15-year commercial-grade warranty covers heavy residential use. When accidents happen (and they will with kids and pets), you replace individual tiles instead of the entire room.",
   },
   {
     q: "Can carpet tiles be installed over concrete slabs?",

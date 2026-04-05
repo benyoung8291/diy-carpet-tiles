@@ -21,7 +21,7 @@ const contactDetails = [
   {
     icon: Truck,
     label: "Delivery",
-    value: "Australia-wide — flat rate $55 inc GST",
+    value: "Australia-wide - flat rate $55 inc GST",
     href: undefined,
   },
   {
@@ -50,7 +50,7 @@ export function ContactClient() {
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Whether you&apos;re ready for a quote, want to order free samples, or
-              just have questions — we&apos;re here to help. Our friendly team
+              just have questions - we&apos;re here to help. Our friendly team
               typically responds within 24 hours.
             </p>
           </motion.div>
@@ -126,7 +126,7 @@ export function ContactClient() {
                   A Premrest Brand
                 </p>
                 <p className="text-body-sm text-brand-500 mb-4">
-                  Modular Carpet is proudly distributed by Premrest — one of
+                  Modular Carpet is proudly distributed by Premrest - one of
                   Australia&apos;s trusted commercial and residential flooring
                   specialists.
                 </p>
@@ -149,14 +149,14 @@ export function ContactClient() {
                 <ul className="space-y-2 text-body-sm text-brand-600">
                   <li>
                     <span className="font-medium text-teal">Free Samples</span>{" "}
-                    — Mention your preferred range and colours in the form above
+                    - Mention your preferred range and colours in the form above
                   </li>
                   <li>
-                    <span className="font-medium text-teal">Quotes</span> — Include
+                    <span className="font-medium text-teal">Quotes</span> - Include
                     your approximate room size for faster pricing
                   </li>
                   <li>
-                    <span className="font-medium text-teal">Technical</span> — Ask
+                    <span className="font-medium text-teal">Technical</span> - Ask
                     about subfloor suitability, moisture, or acoustic performance
                   </li>
                 </ul>

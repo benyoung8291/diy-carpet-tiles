@@ -17,7 +17,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   return {
     title: `${range.name} DIY Carpet Tiles | ${range.colorways.length} Colours | No Installer Needed`,
-    description: `${range.name} carpet tiles — ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. DIY installation, no tradesperson needed. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. 15-year warranty. Order online, delivered Australia-wide.`,
+    description: `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. DIY installation, no tradesperson needed. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. 15-year warranty. Order online, delivered Australia-wide.`,
     alternates: {
       canonical: `https://modularcarpet.com.au/ranges/${range.slug}`,
     },

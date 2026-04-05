@@ -8,12 +8,12 @@ const signals = [
   {
     icon: DollarSign,
     title: "$58.50/m² inc GST",
-    description: "No retailer markup — direct to you",
+    description: "No retailer markup - direct to you",
   },
   {
     icon: Shield,
     title: "No Installer Needed",
-    description: "DIY in an afternoon — save thousands",
+    description: "DIY in an afternoon - save thousands",
   },
   {
     icon: Recycle,
