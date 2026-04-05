@@ -18,7 +18,7 @@ export interface ProductRange {
 }
 
 export const PRICING = {
-  pricePerSqm: 58.5, // $58.50 inc GST per m²
+  pricePerSqm: 66.55, // $66.55 inc GST per m²
   boxArea: 5, // 5 m² per box (10 tiles per box)
   tilesPerBox: 10,
   tileArea: 0.5, // 500mm × 1000mm = 0.5 m²
