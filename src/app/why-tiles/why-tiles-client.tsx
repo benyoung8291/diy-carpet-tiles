@@ -247,6 +247,29 @@ export function WhyTilesClient() {
         );
       })}
 
+      {/* Related Pages */}
+      <Section background="white">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            Continue Exploring
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/how-to-install" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">How to Install</h3>
+              <p className="text-body-sm text-brand-500">Step-by-step DIY guide. No tools, no experience needed.</p>
+            </Link>
+            <Link href="/rental-flooring" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rental Properties</h3>
+              <p className="text-body-sm text-brand-500">Why landlords and tenants are switching to carpet tiles.</p>
+            </Link>
+            <Link href="/investment-property-flooring" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Investment Properties</h3>
+              <p className="text-body-sm text-brand-500">Commercial-grade carpet that outlasts your tenants.</p>
+            </Link>
+          </div>
+        </div>
+      </Section>
+
       {/* CTA */}
       <section className="bg-brand-900 py-20 md:py-28">
         <div className="container-main text-center">

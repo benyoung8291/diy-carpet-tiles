@@ -363,6 +363,29 @@ export function InvestmentPropertyClient() {
         />
       </Section>
 
+      {/* Related Pages */}
+      <Section background="linen">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            Related Solutions
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/rental-flooring" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rental Properties</h3>
+              <p className="text-body-sm text-brand-500">DIY carpet tiles for landlords and tenants.</p>
+            </Link>
+            <Link href="/hotel-carpet" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Hotels</h3>
+              <p className="text-body-sm text-brand-500">Minimise room closures with modular carpet tiles.</p>
+            </Link>
+            <Link href="/why-tiles" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Carpet Tiles?</h3>
+              <p className="text-body-sm text-brand-500">Every advantage over traditional broadloom carpet.</p>
+            </Link>
+          </div>
+        </div>
+      </Section>
+
       {/* CTA */}
       <section className="bg-brand-900 py-20 md:py-28">
         <div className="container-main text-center">

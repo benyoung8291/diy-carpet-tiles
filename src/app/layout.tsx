@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     "broadloom alternative",
     "Premrest",
   ],
+  metadataBase: new URL("https://modularcarpet.com.au"),
   openGraph: {
     type: "website",
     locale: "en_AU",
@@ -43,6 +44,22 @@ export const metadata: Metadata = {
     title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
     description:
       "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
+    url: "https://modularcarpet.com.au",
+    images: [
+      {
+        url: "/images/lifestyle/hero-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Modular Carpet tiles installed in an Australian living room",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
+    description:
+      "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
+    images: ["/images/lifestyle/hero-home.jpg"],
   },
   alternates: {
     canonical: "https://modularcarpet.com.au",
@@ -50,6 +67,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -101,6 +125,63 @@ export default function RootLayout({
               publisher: {
                 "@type": "Organization",
                 name: "Premier Restorations Group Pty Ltd",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "@id": "https://modularcarpet.com.au/#business",
+              name: "Modular Carpet by Premrest",
+              image: "https://modularcarpet.com.au/images/lifestyle/hero-home.jpg",
+              telephone: "1300207915",
+              email: "modular@premrest.com.au",
+              url: "https://modularcarpet.com.au",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "1/99 Heyington Ave",
+                addressLocality: "Thomastown",
+                addressRegion: "VIC",
+                postalCode: "3074",
+                addressCountry: "AU",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: -37.6833,
+                longitude: 145.0167,
+              },
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                opens: "08:30",
+                closes: "17:00",
+              },
+              priceRange: "$$",
+              areaServed: {
+                "@type": "Country",
+                name: "Australia",
+              },
+              description:
+                "Premium DIY carpet tiles for Australian homes, rental properties, investment properties, and hotels. No installer needed. 15-year commercial warranty.",
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Carpet Tile Ranges",
+                itemListElement: [
+                  {
+                    "@type": "OfferCatalog",
+                    name: "Haven Range",
+                    url: "https://modularcarpet.com.au/ranges/haven",
+                  },
+                  {
+                    "@type": "OfferCatalog",
+                    name: "Horizon Range",
+                    url: "https://modularcarpet.com.au/ranges/horizon",
+                  },
+                ],
               },
             }),
           }}

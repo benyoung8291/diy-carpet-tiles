@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ranges, getRangeBySlug, PRICING } from "@/lib/data";
 import { RangePageClient } from "./range-page-client";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 interface Props {
   params: { slug: string };
@@ -75,6 +76,11 @@ export default function RangePage({ params }: Props) {
 
   return (
     <>
+      <BreadcrumbJsonLd items={[
+        { name: "Home", url: "https://modularcarpet.com.au" },
+        { name: "Ranges", url: "https://modularcarpet.com.au/ranges/haven" },
+        { name: `${range.name} Carpet Tiles`, url: `https://modularcarpet.com.au/ranges/${range.slug}` },
+      ]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}

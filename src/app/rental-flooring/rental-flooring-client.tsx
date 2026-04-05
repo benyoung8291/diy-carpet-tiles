@@ -66,7 +66,7 @@ const tenantBenefits = [
 const faqs = [
   {
     q: "Can tenants install carpet tiles in a rental property?",
-    a: "Yes. Modular Carpet tiles are installed with pressure-sensitive adhesive, which allows tiles to be lifted and removed cleanly. Tenants can install carpet tiles over existing hard floors and take them when they move out - without damaging the property.",
+    a: "Yes. Modular Carpet tiles are installed with pressure-sensitive adhesive, which allows tiles to be lifted and repositioned during installation, and removed cleanly when you move out. Tenants can install carpet tiles directly over existing hard floors like timber, vinyl, or tiles without causing any damage to the property. When the lease ends, simply lift the tiles and take them with you to your next home. Many tenants find this is the most affordable way to add comfort and warmth to a rental without risking their bond.",
   },
   {
     q: "How much do carpet tiles cost compared to traditional carpet for a rental?",
@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "How long does it take to install carpet tiles in a rental property?",
-    a: "A typical bedroom (12–15m²) takes about 2 hours. A full 3-bedroom house can be done in a single day. No special tools needed - just a utility knife and straight edge.",
+    a: "A typical bedroom (12 to 15m²) takes about 2 hours from start to finish, including subfloor preparation and adhesive tack time. A full 3-bedroom house with living areas can be completed in a single day. The only tools you need are a utility knife with spare blades, a straight edge, a tape measure, and a chalk line. No power tools, no carpet stretcher, no professional experience required. You can walk on the carpet immediately after installation.",
   },
 ];
 
@@ -333,6 +333,29 @@ export function RentalFlooringClient() {
             }),
           }}
         />
+      </Section>
+
+      {/* Related Pages */}
+      <Section background="linen">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            Related Solutions
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/investment-property-flooring" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Investment Properties</h3>
+              <p className="text-body-sm text-brand-500">Commercial-grade carpet that outlasts multiple tenancy cycles.</p>
+            </Link>
+            <Link href="/how-to-install" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">How to Install</h3>
+              <p className="text-body-sm text-brand-500">Step-by-step DIY installation guide for anyone handy.</p>
+            </Link>
+            <Link href="/why-tiles" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Carpet Tiles?</h3>
+              <p className="text-body-sm text-brand-500">Every advantage over traditional broadloom carpet.</p>
+            </Link>
+          </div>
+        </div>
       </Section>
 
       {/* CTA */}
