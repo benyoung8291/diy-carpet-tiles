@@ -4,7 +4,6 @@ import { Phone, Mail, Truck } from "lucide-react";
 const footerLinks = {
   ranges: [
     { label: "Haven", href: "/ranges/haven" },
-    { label: "Aura", href: "/ranges/aura" },
     { label: "Horizon", href: "/ranges/horizon" },
   ],
   resources: [

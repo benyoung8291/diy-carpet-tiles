@@ -139,8 +139,11 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
       {/* Selected colour confirmation */}
       <div className="flex items-center gap-3 bg-brand-100 rounded-md p-4">
         <div
-          className="w-10 h-10 rounded-md border border-brand-200 flex-shrink-0"
-          style={{ backgroundColor: selectedColor.hex }}
+          className="w-10 h-10 rounded-md border border-brand-200 flex-shrink-0 bg-cover bg-center overflow-hidden"
+          style={{
+            backgroundColor: selectedColor.hex,
+            backgroundImage: `url('/images/ranges/${range.slug}/swatches/${selectedColor.slug}.jpg')`,
+          }}
         />
         <div>
           <p className="text-body-sm font-semibold text-brand-800">

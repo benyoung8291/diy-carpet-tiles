@@ -20,15 +20,15 @@ export function RangesPreview() {
     <Section background="white">
       <SectionHeader
         overline="Our Collections"
-        title="Three Ranges. Endless Possibilities."
-        description="Each range brings its own personality — from fireside warmth to biophilic calm to urban energy. Find the perfect match for your home."
+        title="Two Ranges. Endless Possibilities."
+        description="Each range brings its own personality — from fireside warmth to vibrant suburban energy. Find the perfect match for your home."
       />
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
         transition={{ staggerChildren: 0.15 }}
-        className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto"
       >
         {ranges.map((range) => (
           <motion.div key={range.slug} variants={cardVariants}>
@@ -38,7 +38,6 @@ export function RangesPreview() {
             >
               {/* Image */}
               <div className="relative aspect-[3/2] bg-brand-200 overflow-hidden">
-                {/* TODO: Replace with actual range hero image */}
                 <div
                   className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
                   style={{

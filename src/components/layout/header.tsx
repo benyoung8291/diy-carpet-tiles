@@ -11,7 +11,6 @@ const navigation = [
     label: "Our Ranges",
     children: [
       { label: "Haven", href: "/ranges/haven" },
-      { label: "Aura", href: "/ranges/aura" },
       { label: "Horizon", href: "/ranges/horizon" },
     ],
   },

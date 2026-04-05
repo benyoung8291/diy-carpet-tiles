@@ -36,7 +36,6 @@ const config: Config = {
           light: "#FBF4E4",
         },
         haven: "#C4874A",
-        aura: "#7A9E7E",
         horizon: "#4A6FA5",
       },
       fontFamily: {

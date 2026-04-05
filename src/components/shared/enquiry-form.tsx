@@ -107,7 +107,6 @@ export function EnquiryForm({
           >
             <option value="">Select a range (optional)</option>
             <option value="haven">Haven</option>
-            <option value="aura">Aura</option>
             <option value="horizon">Horizon</option>
             <option value="undecided">Not sure yet</option>
           </select>

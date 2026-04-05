@@ -48,7 +48,6 @@ export function RangePageClient({ range }: RangePageClientProps) {
       {/* Hero Section */}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden">
         <div className="absolute inset-0 bg-brand-200">
-          {/* TODO: Replace with actual range hero lifestyle image */}
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
@@ -86,7 +85,6 @@ export function RangePageClient({ range }: RangePageClientProps) {
             transition={{ duration: 0.6 }}
             className="relative aspect-[4/3] rounded-lg overflow-hidden bg-brand-200"
           >
-            {/* TODO: Replace with actual swatch/room image for selected colour */}
             <div
               className="absolute inset-0 transition-all duration-500"
               style={{
@@ -122,6 +120,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
                   color={color}
                   selected={selectedColor.code === color.code}
                   onClick={setSelectedColor}
+                  rangeSlug={range.slug}
                 />
               ))}
             </div>
@@ -130,8 +129,11 @@ export function RangePageClient({ range }: RangePageClientProps) {
             <div className="bg-brand-100 rounded-md p-5 mb-6">
               <div className="flex items-center gap-4">
                 <div
-                  className="w-16 h-16 rounded-md border border-brand-200"
-                  style={{ backgroundColor: selectedColor.hex }}
+                  className="w-16 h-16 rounded-md border border-brand-200 overflow-hidden bg-cover bg-center"
+                  style={{
+                    backgroundColor: selectedColor.hex,
+                    backgroundImage: `url('/images/ranges/${range.slug}/swatches/${selectedColor.slug}.jpg')`,
+                  }}
                 />
                 <div>
                   <p className="font-semibold text-brand-800 text-body-lg">
@@ -203,7 +205,6 @@ export function RangePageClient({ range }: RangePageClientProps) {
                 index === 0 ? "md:col-span-2 md:row-span-2 aspect-[4/3]" : "aspect-[3/2]"
               }`}
             >
-              {/* TODO: Replace with actual gallery images */}
               <div
                 className="absolute inset-0 bg-cover bg-center hover:scale-105 transition-transform duration-700"
                 style={{ backgroundImage: `url('${image}')` }}

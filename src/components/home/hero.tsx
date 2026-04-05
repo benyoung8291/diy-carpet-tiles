@@ -8,9 +8,7 @@ import { ArrowRight } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
-      {/* Background Image - replace with actual lifestyle photo */}
       <div className="absolute inset-0 bg-brand-200">
-        {/* TODO: Replace with actual hero image of seamless carpet in beautiful Australian home */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{

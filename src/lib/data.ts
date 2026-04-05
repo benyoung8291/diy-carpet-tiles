@@ -66,38 +66,6 @@ export const ranges: ProductRange[] = [
     ],
   },
   {
-    slug: "aura",
-    name: "Aura",
-    tagline: "Biophilic Calm, Vibrant Expression",
-    description:
-      "Aura offers fourteen curated hues spanning tranquil neutrals to vibrant statement colours. Each shade is designed to bring a sense of balance and natural harmony to your space — rooms that resonate with balanced beauty.",
-    inspiration:
-      "Biophilic calm meets vibrant expression. Spaces that resonate with balanced beauty.",
-    accentColor: "#7A9E7E",
-    heroImage: "/images/ranges/aura/hero.jpg",
-    galleryImages: [
-      "/images/ranges/aura/gallery/room-1.jpg",
-      "/images/ranges/aura/gallery/room-2.jpg",
-      "/images/ranges/aura/gallery/room-3.jpg",
-    ],
-    colorways: [
-      { name: "Earth Whisper", code: "HA01", slug: "earth-whisper", hex: "#A89080" },
-      { name: "Sandstone Rock", code: "HA02", slug: "sandstone-rock", hex: "#C4AD90" },
-      { name: "Stone Shimmer", code: "HA03", slug: "stone-shimmer", hex: "#B8AFA5" },
-      { name: "Riverstone Grey", code: "HA04", slug: "riverstone-grey", hex: "#8A8580" },
-      { name: "Day Dreaming", code: "HA05", slug: "day-dreaming", hex: "#C8B8A8" },
-      { name: "Ravine Mist", code: "HA06", slug: "ravine-mist", hex: "#9A9590" },
-      { name: "Dusk Ember", code: "HA07", slug: "dusk-ember", hex: "#A07060" },
-      { name: "Pasture Dew", code: "HA08", slug: "pasture-dew", hex: "#8BA888" },
-      { name: "Coldstream", code: "HA09", slug: "coldstream", hex: "#7090A0" },
-      { name: "Moss Hush", code: "HA10", slug: "moss-hush", hex: "#6A8A6A" },
-      { name: "Ocean Drift", code: "HA11", slug: "ocean-drift", hex: "#5A7A8A" },
-      { name: "Terracotta Glow", code: "HA12", slug: "terracotta-glow", hex: "#C0784A" },
-      { name: "Dawn Sky", code: "HA13", slug: "dawn-sky", hex: "#90A8C0" },
-      { name: "Forest Veil", code: "HA14", slug: "forest-veil", hex: "#4A6A50" },
-    ],
-  },
-  {
     slug: "horizon",
     name: "Horizon",
     tagline: "Australian Energy, Vibrant Living",
@@ -231,6 +199,6 @@ export const TESTIMONIALS = [
       "Our concrete slab had moisture issues and every carpet installer said no. Modular Carpet's breathable backing was the only solution that worked. Three years in, still perfect.",
     name: "Linda & Peter D.",
     location: "Brisbane, QLD",
-    range: "Aura — Moss Hush",
+    range: "Haven — Hearth",
   },
 ];
