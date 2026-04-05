@@ -25,9 +25,7 @@ export function EnquiryForm({
 
     try {
       const formData = new FormData(e.currentTarget);
-      formData.append("_subject", "New Enquiry - Modular Carpet Website");
-
-      const res = await fetch("https://formsubmit.co/ajax/modular@premrest.com.au", {
+      const res = await fetch("https://formspree.io/f/xdappbep", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
