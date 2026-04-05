@@ -9,8 +9,8 @@ export function Testimonials() {
   return (
     <Section background="linen">
       <SectionHeader
-        overline="What Homeowners Say"
-        title="Trusted in Homes Across Australia"
+        overline="Real DIY Carpet Stories"
+        title="Homeowners and Landlords Who Skipped the Installer"
       />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {TESTIMONIALS.map((testimonial, index) => (

@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { HowToInstallClient } from "./how-to-install-client";
 
 export const metadata: Metadata = {
-  title: "How to Install Carpet Tiles",
+  title: "How to Install DIY Carpet Tiles | Step-by-Step Guide",
   description:
-    "Step-by-step DIY guide to installing Modular Carpet tiles. No special tools or professional help needed. Install beautiful carpet in an afternoon.",
+    "Install premium carpet tiles yourself — no flooring installer needed. Step-by-step DIY guide for anyone handy. No special tools, no tradesperson. Carpet your room in a single afternoon.",
 };
 
 export default function HowToInstallPage() {

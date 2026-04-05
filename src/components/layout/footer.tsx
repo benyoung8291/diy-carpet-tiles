@@ -9,6 +9,8 @@ const footerLinks = {
   resources: [
     { label: "Why Carpet Tiles?", href: "/why-tiles" },
     { label: "How to Install", href: "/how-to-install" },
+    { label: "Rental Properties", href: "/rental-flooring" },
+    { label: "Investment Properties", href: "/investment-property-flooring" },
     { label: "Contact Us", href: "/contact" },
   ],
 };
@@ -122,7 +124,7 @@ export function Footer() {
       <div className="border-t border-brand-800">
         <div className="container-main py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-body-sm text-brand-500">
-            © {new Date().getFullYear()} Premrest Pty Ltd. All rights reserved.
+            © {new Date().getFullYear()} Premier Restorations Group Pty Ltd trading as Premrest. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a

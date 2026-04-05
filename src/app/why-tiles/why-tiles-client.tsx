@@ -43,14 +43,14 @@ const deepBenefits = [
   },
   {
     icon: "Wrench",
-    title: "DIY Installation — Anyone Can Do It",
+    title: "DIY Installation — No Tradesperson Needed",
     description:
-      "Forget expensive carpet installers, power stretchers, and tack strips. Our tiles simply press onto pressure-sensitive adhesive. If you can lay tiles on a table, you can install a beautiful new carpet. Most rooms take a single afternoon.",
+      "Traditional carpet requires a flooring retailer, an installer quote, and weeks of waiting. Modular Carpet tiles arrive at your door and press onto adhesive. No power stretchers, no tack strips, no installer. If you're handy enough to paint a wall, you can carpet a room in an afternoon.",
     points: [
       "No special tools — just a utility knife and straight edge",
-      "Pressure-sensitive adhesive allows repositioning",
-      "No stretching, no knee-kicking, no professional needed",
-      "Walk on it immediately after installation",
+      "No flooring retailer or installer — order direct, install yourself",
+      "Pressure-sensitive adhesive allows repositioning for minutes",
+      "Walk on it immediately — no drying time, no waiting",
     ],
   },
   {
@@ -139,14 +139,14 @@ export function WhyTilesClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="overline text-accent mb-4">Why Choose Modular Carpet</p>
+            <p className="overline text-accent mb-4">The Problem with Traditional Carpet</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              The Smarter Way to Carpet Your Home
+              Why Are You Still Paying Flooring Retailers and Carpet Installers?
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              Traditional broadloom carpet hasn&apos;t changed in decades. Modular
-              Carpet tiles change everything — same beautiful look, with
-              game-changing practical benefits for modern Australian homes.
+              Traditional carpet means a trip to the flooring store, expensive quotes,
+              weeks waiting for an installer, and re-carpeting the entire room when
+              something goes wrong. Modular Carpet tiles eliminate every one of those problems.
             </p>
           </motion.div>
         </div>
@@ -155,21 +155,22 @@ export function WhyTilesClient() {
       {/* Comparison quick hits */}
       <Section background="white">
         <SectionHeader
-          overline="Modular vs. Broadloom"
-          title="Everything Broadloom Does. Plus Everything It Can't."
+          overline="Carpet Tiles vs. Traditional Carpet"
+          title="Everything Traditional Carpet Does. Minus Everything You Hate About It."
         />
         <div className="max-w-3xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-brand-100 rounded-lg p-8">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-                Traditional Broadloom
+                Traditional Carpet
               </h3>
               <ul className="space-y-3 text-body-sm text-brand-500">
                 {[
-                  "Requires professional installation",
-                  "Stain = re-carpet the room",
+                  "Visit a flooring retailer and get quotes",
+                  "Wait weeks for a carpet installer",
+                  "Pay $40–$60/m² just for installation labour",
+                  "One stain = re-carpet the entire room",
                   "Traps moisture under rubber backing",
-                  "Heavy rolls, complex logistics",
                   "Entire room goes to landfill when worn",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
@@ -185,10 +186,11 @@ export function WhyTilesClient() {
               </h3>
               <ul className="space-y-3 text-body-sm text-brand-700">
                 {[
-                  "DIY install in an afternoon",
-                  "Replace individual tiles in minutes",
-                  "Breathable felt — safe over moisture",
-                  "Lightweight tiles, easy to handle",
+                  "Order online — no retailer needed",
+                  "DIY install in an afternoon — no tradesperson",
+                  "Save thousands on installation labour",
+                  "Replace individual tiles in 60 seconds",
+                  "Breathable felt — safe over concrete slabs",
                   "Replace tiles, not the whole floor",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
@@ -255,13 +257,13 @@ export function WhyTilesClient() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <p className="overline text-accent mb-4">Ready to Get Started?</p>
+            <p className="overline text-accent mb-4">Skip the Carpet Store</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              See and Feel the Difference for Yourself
+              Order Premium Carpet Tiles Direct — Install Them Yourself
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              Order free samples, explore our three beautiful ranges, or talk to
-              our friendly team about your project.
+              No flooring retailer. No installer. No waiting. Choose your range,
+              order online, and install beautiful carpet in your home this weekend.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

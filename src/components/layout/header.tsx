@@ -16,6 +16,8 @@ const navigation = [
   },
   { label: "Why Tiles?", href: "/why-tiles" },
   { label: "How to Install", href: "/how-to-install" },
+  { label: "Rental Properties", href: "/rental-flooring" },
+  { label: "Investment Properties", href: "/investment-property-flooring" },
   { label: "Contact", href: "/contact" },
 ];
 

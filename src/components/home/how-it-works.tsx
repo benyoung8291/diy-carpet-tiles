@@ -8,9 +8,9 @@ export function HowItWorks() {
   return (
     <Section background="white">
       <SectionHeader
-        overline="Easy Installation"
-        title="Install It Yourself. Seriously."
-        description="No stretching, no tack strips, no installer needed. Just press, lay, and walk. Here's how."
+        overline="No Installer Needed"
+        title="Four Steps. One Afternoon. Zero Tradspeople."
+        description="Traditional carpet requires a professional with power stretchers and tack strips. Modular Carpet tiles? Just press, lay, and walk. Anyone handy can do it."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {INSTALLATION_STEPS.map((step, index) => {

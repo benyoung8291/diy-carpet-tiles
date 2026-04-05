@@ -45,9 +45,9 @@ export function BenefitsGrid() {
   return (
     <Section background="linen">
       <SectionHeader
-        overline="Why Modular Carpet"
-        title="Every Benefit of Broadloom. None of the Limitations."
-        description="Modular Carpet tiles combine the seamless look you love with the practical freedom you've always wanted."
+        overline="The Problem with Traditional Carpet"
+        title="Why Pay a Retailer and an Installer When You Don't Have To?"
+        description="Traditional carpet means expensive flooring stores, weeks waiting for installers, and replacing entire rooms when something goes wrong. Modular Carpet tiles change everything."
       />
       <motion.div
         variants={containerVariants}

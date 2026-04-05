@@ -26,25 +26,25 @@ export function Hero() {
           className="max-w-2xl"
         >
           <p className="text-label uppercase tracking-[0.15em] text-accent-light mb-6 font-semibold">
-            Premium Modular Carpet Tiles by Premrest
+            Skip the Carpet Store. Skip the Installer.
           </p>
           <h1 className="font-serif text-display-xl text-white mb-6 text-balance leading-[1.1]">
-            Seamless Carpet Tiles for Australian Homes
+            DIY Carpet Tiles You Install Yourself — No Tradesperson Needed
           </h1>
           <p className="text-body-lg text-white/85 mb-10 max-w-xl leading-relaxed">
-            The look and feel of broadloom carpet — with the freedom to replace
-            any tile, any time. DIY installation. 15-year warranty. Breathtakingly
-            beautiful.
+            Tired of expensive flooring retailers and waiting weeks for carpet
+            installers? Modular Carpet tiles arrive at your door and go down in
+            an afternoon. Looks like broadloom, installs like tiles, lasts 15&nbsp;years.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
-              <Link href="/contact">
-                Get a Free Quote
+              <Link href="/ranges/haven">
+                Shop Carpet Tiles Now
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/ranges/haven">Explore Our Ranges</Link>
+              <Link href="/how-to-install">See How Easy It Is</Link>
             </Button>
           </div>
         </motion.div>

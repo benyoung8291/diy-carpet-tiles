@@ -98,51 +98,51 @@ export function getRangeBySlug(slug: string): ProductRange | undefined {
 export const BENEFITS = [
   {
     icon: "Eye",
-    title: "Truly Seamless",
+    title: "Looks Like Broadloom",
     description:
-      "Looks and feels exactly like traditional broadloom carpet. Your guests won't know it's tiles — until you tell them.",
+      "Forget everything you know about carpet tiles. These aren't office squares — they're precision-engineered to look and feel identical to traditional broadloom carpet.",
   },
   {
     icon: "Wrench",
-    title: "DIY Luxury",
+    title: "Install It Yourself",
     description:
-      "Anyone can install it. Simply press tiles onto pressure-sensitive adhesive. No stretching, no power tools, no installer needed.",
+      "No carpet installer, no retailer markup, no waiting weeks for a tradesperson. Press tiles onto adhesive and walk on them immediately. Anyone handy can do it in an afternoon.",
   },
   {
     icon: "RefreshCw",
-    title: "Replace, Don't Redo",
+    title: "Replace, Don't Re-Carpet",
     description:
-      "Spill red wine? Pet accident? Simply lift the damaged tile and replace it in minutes. No more re-carpeting entire rooms.",
+      "With traditional carpet, one stain means re-carpeting the entire room. With Modular Carpet, lift the damaged tile and swap in a fresh one in 60 seconds.",
   },
   {
     icon: "Sun",
     title: "Fade-Resistant Nylon",
     description:
-      "Solution-dyed nylon fibre locks colour in at a molecular level. Your carpet stays vibrant year after year, even in sun-drenched rooms.",
+      "Solution-dyed nylon locks colour in at a molecular level. Perfect for sun-drenched Australian living rooms — no fading, no colour loss, year after year.",
   },
   {
     icon: "Droplets",
-    title: "Breathable Backing",
+    title: "Safe Over Concrete Slabs",
     description:
-      "Recycled PET felt backing lets your subfloor breathe. Safe to install over moisture-affected concrete — no trapped moisture, no mould.",
+      "Traditional carpet traps moisture and breeds mould. Our breathable recycled PET felt backing lets your concrete slab breathe — solving the #1 carpet problem in Australian homes.",
   },
   {
     icon: "Volume2",
-    title: "Acoustic Comfort",
+    title: "Built-In Acoustic Underlay",
     description:
-      "Bonded felt underlay delivers excellent sound absorption (0.25 NRC). Quieter rooms, warmer underfoot, better living.",
+      "No separate underlay to buy or install. The bonded felt backing delivers 0.25 NRC sound absorption — quieter rooms, warmer underfoot, less echo.",
   },
   {
     icon: "Shield",
     title: "15-Year Warranty",
     description:
-      "Commercial-grade durability with a 15-year wear warranty. Built for real life — kids, pets, entertaining, everyday living.",
+      "These tiles are rated for commercial offices and retail. In your home, they'll outlast any broadloom. 15-year wear warranty — built for kids, pets, and real life.",
   },
   {
     icon: "Leaf",
-    title: "Sustainable Choice",
+    title: "Less Waste, Smarter Design",
     description:
-      "Recycled PET felt backing and modular design means less waste. Replace tiles, not rooms. Better for your home, better for the planet.",
+      "Damaged carpet usually means the whole room goes to landfill. With modular tiles, you replace one tile — not the floor. Recycled PET backing. Less waste. Smarter living.",
   },
 ];
 
@@ -180,21 +180,21 @@ export const INSTALLATION_STEPS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "We have a golden retriever and two kids under five. Being able to replace individual tiles when accidents happen is an absolute game changer. The carpet looks stunning too.",
-    name: "Sarah M.",
-    location: "Melbourne, VIC",
-    range: "Haven — Hearth",
-  },
-  {
-    quote:
-      "I installed the entire living room myself in a single afternoon. No tradesperson, no stress. It looks like professional broadloom and feels incredibly luxurious underfoot.",
+      "We got three quotes from carpet retailers — $4,000+ installed. With Modular Carpet I did the living room myself for under $1,500. Looks identical to broadloom and I had a beer in hand by 4pm.",
     name: "James K.",
     location: "Sydney, NSW",
     range: "Horizon — Brunswick",
   },
   {
     quote:
-      "Our concrete slab had moisture issues and every carpet installer said no. Modular Carpet's breathable backing was the only solution that worked. Three years in, still perfect.",
+      "We have a golden retriever and two kids under five. Last month I replaced a stained tile in 30 seconds. With traditional carpet we'd be looking at re-carpeting the whole room. Game changer.",
+    name: "Sarah M.",
+    location: "Melbourne, VIC",
+    range: "Haven — Hearth",
+  },
+  {
+    quote:
+      "As a landlord with six rentals, this is the only flooring that makes sense. Tenants damage one area? I swap tiles between tenancies instead of replacing the whole room. Pays for itself.",
     name: "Linda & Peter D.",
     location: "Brisbane, QLD",
     range: "Haven — Hearth",

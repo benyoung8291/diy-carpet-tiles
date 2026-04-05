@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { WhyTilesClient } from "./why-tiles-client";
 
 export const metadata: Metadata = {
-  title: "Why Carpet Tiles?",
+  title: "Why Carpet Tiles? | DIY Carpet You Install Yourself",
   description:
-    "Discover why modular carpet tiles are the smarter choice for Australian homes. Seamless look, DIY installation, replaceable tiles, breathable backing, and a 15-year warranty.",
+    "Sick of expensive carpet retailers and installer quotes? Modular carpet tiles look like broadloom but you install them yourself in an afternoon. No tradesperson needed. 15-year warranty. From $58.50/m².",
 };
 
 export default function WhyTilesPage() {

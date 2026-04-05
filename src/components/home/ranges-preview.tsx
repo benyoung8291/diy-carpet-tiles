@@ -19,9 +19,9 @@ export function RangesPreview() {
   return (
     <Section background="white">
       <SectionHeader
-        overline="Our Collections"
-        title="Two Ranges. Endless Possibilities."
-        description="Each range brings its own personality — from fireside warmth to vibrant suburban energy. Find the perfect match for your home."
+        overline="Choose Your Style"
+        title="Two Premium Ranges. No Retailer Required."
+        description="Browse, choose your colour, and order online — delivered direct to your door. No showroom appointments, no sales pressure, no installer quotes."
       />
       <motion.div
         initial="hidden"

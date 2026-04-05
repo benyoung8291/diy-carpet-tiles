@@ -119,13 +119,14 @@ export function HowToInstallClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="overline text-accent mb-4">DIY Installation Guide</p>
+            <p className="overline text-accent mb-4">DIY Carpet Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Install Beautiful Carpet in an Afternoon
+              Skip the Installer — Lay Premium Carpet Tiles Yourself
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              No stretching. No tack strips. No installer. Just press, lay, and
-              walk. Our step-by-step guide makes it easy for anyone.
+              Traditional carpet needs a professional with power stretchers and
+              tack strips. Modular Carpet tiles need you, a utility knife, and
+              a free afternoon. Here&apos;s exactly how to do it.
             </p>
           </motion.div>
         </div>

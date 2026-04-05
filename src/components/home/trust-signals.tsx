@@ -8,22 +8,22 @@ const signals = [
   {
     icon: DollarSign,
     title: "$58.50/m² inc GST",
-    description: "Premium carpet tiles, direct pricing",
+    description: "No retailer markup — direct to you",
   },
   {
     icon: Shield,
-    title: "15-Year Warranty",
-    description: "Commercial-grade wear warranty",
+    title: "No Installer Needed",
+    description: "DIY in an afternoon — save thousands",
   },
   {
     icon: Recycle,
-    title: "Recycled PET Backing",
-    description: "Sustainable, breathable felt",
+    title: "Replace Tiles, Not Rooms",
+    description: "Spill? Swap a tile in 60 seconds",
   },
   {
     icon: Truck,
     title: "$55 Flat Rate Shipping",
-    description: "Delivered Australia-wide",
+    description: "Delivered to your door, Australia-wide",
   },
 ];
 

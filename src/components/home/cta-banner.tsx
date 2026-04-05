@@ -26,18 +26,18 @@ export function CtaBanner() {
           className="text-center max-w-2xl mx-auto"
         >
           <p className="text-label uppercase tracking-[0.15em] text-accent mb-4 font-semibold">
-            Ready to Transform Your Space?
+            Ditch the Carpet Store. Do It Yourself.
           </p>
           <h2 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
-            From $58.50/m² — Order Today
+            From $58.50/m² — Delivered to Your Door
           </h2>
           <p className="text-body-lg text-brand-300 mb-4">
-            Premium modular carpet tiles delivered to your door. $55 flat rate
-            shipping Australia-wide.
+            No flooring retailer. No installer quotes. No waiting weeks for a tradesperson.
+            Order online and install premium carpet tiles yourself this weekend.
           </p>
           <p className="text-body-md text-brand-400 mb-10">
-            Choose your range, enter your room size, and order online. We&apos;ll
-            confirm and process your order within 1 business day.
+            Choose your colour, enter your room size, and order. $55 flat rate
+            shipping Australia-wide. We confirm within 1 business day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>

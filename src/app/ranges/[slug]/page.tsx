@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ranges, getRangeBySlug } from "@/lib/data";
+import { ranges, getRangeBySlug, PRICING } from "@/lib/data";
 import { RangePageClient } from "./range-page-client";
 
 interface Props {
@@ -16,8 +16,11 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!range) return {};
 
   return {
-    title: `${range.name} Carpet Tiles`,
-    description: `${range.description} ${range.colorways.length} colourways available. 500 × 1000 mm modular carpet tiles with 15-year warranty.`,
+    title: `${range.name} DIY Carpet Tiles | ${range.colorways.length} Colours | No Installer Needed`,
+    description: `${range.name} carpet tiles — ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. DIY installation, no tradesperson needed. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. 15-year warranty. Order online, delivered Australia-wide.`,
+    alternates: {
+      canonical: `https://modularcarpet.com.au/ranges/${range.slug}`,
+    },
   };
 }
 
@@ -25,5 +28,58 @@ export default function RangePage({ params }: Props) {
   const range = getRangeBySlug(params.slug);
   if (!range) notFound();
 
-  return <RangePageClient range={range} />;
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${range.name} Carpet Tiles`,
+    description: range.description,
+    brand: {
+      "@type": "Brand",
+      name: "Modular Carpet",
+    },
+    offers: {
+      "@type": "Offer",
+      price: PRICING.pricePerSqm.toFixed(2),
+      priceCurrency: "AUD",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: PRICING.pricePerSqm.toFixed(2),
+        priceCurrency: "AUD",
+        referenceQuantity: {
+          "@type": "QuantitativeValue",
+          value: 1,
+          unitCode: "MTK",
+        },
+      },
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Premier Restorations Group Pty Ltd",
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: PRICING.shippingFlat.toString(),
+          currency: "AUD",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "AU",
+        },
+      },
+    },
+    image: `https://modularcarpet.com.au${range.heroImage}`,
+    url: `https://modularcarpet.com.au/ranges/${range.slug}`,
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      <RangePageClient range={range} />
+    </>
+  );
 }

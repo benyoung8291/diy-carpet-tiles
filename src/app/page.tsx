@@ -4,6 +4,7 @@ import { RangesPreview } from "@/components/home/ranges-preview";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { Testimonials } from "@/components/home/testimonials";
 import { TrustSignals } from "@/components/home/trust-signals";
+import { FaqSection } from "@/components/home/faq-section";
 import { CtaBanner } from "@/components/home/cta-banner";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <RangesPreview />
       <HowItWorks />
       <Testimonials />
+      <FaqSection />
       <CtaBanner />
     </>
   );
