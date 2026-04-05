@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "How much do DIY carpet tiles cost compared to traditional carpet?",
-    a: "Modular Carpet tiles are $58.50/m² inc GST - comparable to mid-range broadloom carpet. But because you install them yourself, you save $40–$60/m² in professional installation costs. For a 20m² room, that's $800–$1,200 saved. Plus $55 flat rate shipping Australia-wide.",
+    a: "Modular Carpet tiles are competitively priced with mid-range broadloom carpet, but because you install them yourself, you save the cost of professional installation entirely. For a typical room, that can mean saving hundreds or even thousands of dollars. See our product pages for current pricing.",
   },
   {
     q: "Can I replace individual carpet tiles if one gets stained or damaged?",

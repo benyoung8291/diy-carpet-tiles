@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Truck, Recycle, DollarSign } from "lucide-react";
+import { Shield, Wrench, Recycle, Clock } from "lucide-react";
 import { Section } from "@/components/ui/section";
 
 const signals = [
   {
-    icon: DollarSign,
-    title: "$58.50/m² inc GST",
-    description: "No retailer markup - direct to you",
+    icon: Wrench,
+    title: "No Installer Needed",
+    description: "DIY in an afternoon, no tradesperson",
   },
   {
-    icon: Shield,
-    title: "No Installer Needed",
-    description: "DIY in an afternoon - save thousands",
+    icon: Clock,
+    title: "Install in One Afternoon",
+    description: "Press, lay, walk - it's that simple",
   },
   {
     icon: Recycle,
@@ -21,9 +21,9 @@ const signals = [
     description: "Spill? Swap a tile in 60 seconds",
   },
   {
-    icon: Truck,
-    title: "$55 Flat Rate Shipping",
-    description: "Delivered to your door, Australia-wide",
+    icon: Shield,
+    title: "15-Year Warranty",
+    description: "Commercial-grade, built for real life",
   },
 ];
 

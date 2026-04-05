@@ -21,7 +21,7 @@ const contactDetails = [
   {
     icon: Truck,
     label: "Delivery",
-    value: "Australia-wide - flat rate $55 inc GST",
+    value: "Flat rate shipping, Australia-wide",
     href: undefined,
   },
   {

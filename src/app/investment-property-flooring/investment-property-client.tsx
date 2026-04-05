@@ -15,7 +15,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
-import { PRICING } from "@/lib/data";
 
 const investorBenefits = [
   {
@@ -379,9 +378,8 @@ export function InvestmentPropertyClient() {
               Flooring That Works as Hard as Your Property
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              From ${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. Professionally installed
-              by Premrest. 15-year commercial warranty. The smartest flooring decision
-              for your portfolio.
+              Professionally installed by Premrest. 15-year commercial warranty.
+              The smartest flooring decision for your portfolio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

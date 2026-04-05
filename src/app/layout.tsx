@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Modular Carpet by Premrest",
   },
   description:
-    "Premium DIY carpet tiles you install yourself - no flooring retailer, no carpet installer, no tradesperson. Looks like broadloom, replaces like tiles. From $58.50/m² inc GST. 15-year warranty. Free delivery Australia-wide.",
+    "Premium DIY carpet tiles you install yourself - no flooring retailer, no carpet installer, no tradesperson. Looks like broadloom, replaces like tiles. 15-year commercial warranty. Delivered Australia-wide.",
   keywords: [
     "carpet tiles",
     "DIY carpet",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Modular Carpet by Premrest",
     title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
     description:
-      "Premium carpet tiles you install yourself. Skip the carpet store and the installer. From $58.50/m². 15-year warranty. Delivered Australia-wide.",
+      "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
   },
   alternates: {
     canonical: "https://modularcarpet.com.au",
@@ -97,7 +97,7 @@ export default function RootLayout({
               name: "Modular Carpet",
               url: "https://modularcarpet.com.au",
               description:
-                "Premium DIY carpet tiles for Australian homes. No installer needed. From $58.50/m².",
+                "Premium DIY carpet tiles for Australian homes. No installer needed. 15-year commercial warranty.",
               publisher: {
                 "@type": "Organization",
                 name: "Premier Restorations Group Pty Ltd",

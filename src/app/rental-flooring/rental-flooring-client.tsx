@@ -15,7 +15,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
-import { PRICING } from "@/lib/data";
 
 const landlordBenefits = [
   {
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     q: "How much do carpet tiles cost compared to traditional carpet for a rental?",
-    a: `Modular Carpet tiles cost $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST - and you install them yourself, saving $40–$60/m² in professional installation costs. For a typical 20m² room, that's $800–$1,200 saved on installation alone.`,
+    a: "Modular Carpet tiles are competitively priced with mid-range broadloom carpet, but because you install them yourself, you eliminate the cost of professional installation entirely. For a typical room, that can mean saving hundreds or even thousands of dollars. Visit our product pages for current pricing.",
   },
   {
     q: "Can I replace individual tiles between tenancies?",
@@ -351,9 +350,8 @@ export function RentalFlooringClient() {
               Stop Re-Carpeting Rentals. Start Replacing Tiles.
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              From ${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. Order online, install
-              yourself, and replace individual tiles for years to come. The smartest
-              flooring decision a landlord can make.
+              Order online, install yourself, and replace individual tiles for
+              years to come. The smartest flooring decision a landlord can make.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
