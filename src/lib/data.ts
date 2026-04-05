@@ -31,19 +31,19 @@ export const SHARED_SPECS = {
 
 export const ranges: ProductRange[] = [
   {
-    slug: "inglenook",
-    name: "Inglenook",
+    slug: "haven",
+    name: "Haven",
     tagline: "Fireside Retreat, Modern Sophistication",
     description:
-      "With its rich, high-low textured loop pattern, Inglenook brings the warmth and comfort of a fireside retreat into your home. Eight carefully curated colourways range from deep charcoals to soft ambers, creating a sanctuary of style and serenity in every room.",
+      "With its rich, high-low textured loop pattern, Haven brings the warmth and comfort of a fireside retreat into your home. Eight carefully curated colourways range from deep charcoals to soft ambers, creating a sanctuary of style and serenity in every room.",
     inspiration:
-      "Fireside retreat — timeless tradition meets modern sophistication. A sanctuary of style and serenity.",
+      "Fireside retreat — timeless tradition meets modern sophistication. Your home's sanctuary of style and serenity.",
     accentColor: "#C4874A",
-    heroImage: "/images/ranges/inglenook/hero.jpg",
+    heroImage: "/images/ranges/haven/hero.jpg",
     galleryImages: [
-      "/images/ranges/inglenook/gallery/room-1.jpg",
-      "/images/ranges/inglenook/gallery/room-2.jpg",
-      "/images/ranges/inglenook/gallery/room-3.jpg",
+      "/images/ranges/haven/gallery/room-1.jpg",
+      "/images/ranges/haven/gallery/room-2.jpg",
+      "/images/ranges/haven/gallery/room-3.jpg",
     ],
     colorways: [
       { name: "Hearth", code: "IN01", slug: "hearth", hex: "#8B6E4E" },
@@ -57,19 +57,19 @@ export const ranges: ProductRange[] = [
     ],
   },
   {
-    slug: "harmonia",
-    name: "Harmonia",
-    tagline: "Harmonious Living, Biophilic Calm",
+    slug: "aura",
+    name: "Aura",
+    tagline: "Biophilic Calm, Vibrant Expression",
     description:
-      "Harmonia offers fourteen curated hues spanning tranquil neutrals to vibrant statement colours. Each shade is designed to bring a sense of balance and natural harmony to your space, making it effortless to create rooms that feel both grounded and alive.",
+      "Aura offers fourteen curated hues spanning tranquil neutrals to vibrant statement colours. Each shade is designed to bring a sense of balance and natural harmony to your space — rooms that resonate with balanced beauty.",
     inspiration:
-      "Biophilic calm, harmonious living — nature-inspired tones that bring balance and tranquillity to your home.",
+      "Biophilic calm meets vibrant expression. Spaces that resonate with balanced beauty.",
     accentColor: "#7A9E7E",
-    heroImage: "/images/ranges/harmonia/hero.jpg",
+    heroImage: "/images/ranges/aura/hero.jpg",
     galleryImages: [
-      "/images/ranges/harmonia/gallery/room-1.jpg",
-      "/images/ranges/harmonia/gallery/room-2.jpg",
-      "/images/ranges/harmonia/gallery/room-3.jpg",
+      "/images/ranges/aura/gallery/room-1.jpg",
+      "/images/ranges/aura/gallery/room-2.jpg",
+      "/images/ranges/aura/gallery/room-3.jpg",
     ],
     colorways: [
       { name: "Earth Whisper", code: "HA01", slug: "earth-whisper", hex: "#A89080" },
@@ -89,19 +89,19 @@ export const ranges: ProductRange[] = [
     ],
   },
   {
-    slug: "urbicus",
-    name: "Urbicus",
-    tagline: "Australian Suburbs, Vibrant Living",
+    slug: "horizon",
+    name: "Horizon",
+    tagline: "Australian Energy, Vibrant Living",
     description:
-      "Named after vibrant Australian suburbs, Urbicus celebrates the energy, architecture, and character of neighbourhood living. With its plush broadloom feel and eight biophilic-inspired designs, this range transforms any room into a statement of modern Australian style.",
+      "Named after vibrant Australian suburbs, Horizon celebrates the energy, architecture, and character of neighbourhood living. With its plush broadloom feel and eight biophilic-inspired designs, this range transforms any room into a statement of modern Australian style.",
     inspiration:
-      "Celebrates suburban architecture, patterns, and energy of Australian homes — vibrant, grounded, unmistakably local.",
+      "Celebrates the energy and character of Australian homes and suburbs.",
     accentColor: "#4A6FA5",
-    heroImage: "/images/ranges/urbicus/hero.jpg",
+    heroImage: "/images/ranges/horizon/hero.jpg",
     galleryImages: [
-      "/images/ranges/urbicus/gallery/room-1.jpg",
-      "/images/ranges/urbicus/gallery/room-2.jpg",
-      "/images/ranges/urbicus/gallery/room-3.jpg",
+      "/images/ranges/horizon/gallery/room-1.jpg",
+      "/images/ranges/horizon/gallery/room-2.jpg",
+      "/images/ranges/horizon/gallery/room-3.jpg",
     ],
     colorways: [
       { name: "Bowden", code: "UB01", slug: "bowden", hex: "#7A7570" },
@@ -208,20 +208,20 @@ export const TESTIMONIALS = [
       "We have a golden retriever and two kids under five. Being able to replace individual tiles when accidents happen is an absolute game changer. The carpet looks stunning too.",
     name: "Sarah M.",
     location: "Melbourne, VIC",
-    range: "Inglenook — Hearth",
+    range: "Haven — Hearth",
   },
   {
     quote:
       "I installed the entire living room myself in a single afternoon. No tradesperson, no stress. It looks like professional broadloom and feels incredibly luxurious underfoot.",
     name: "James K.",
     location: "Sydney, NSW",
-    range: "Urbicus — Brunswick",
+    range: "Horizon — Brunswick",
   },
   {
     quote:
       "Our concrete slab had moisture issues and every carpet installer said no. Modular Carpet's breathable backing was the only solution that worked. Three years in, still perfect.",
     name: "Linda & Peter D.",
     location: "Brisbane, QLD",
-    range: "Harmonia — Moss Hush",
+    range: "Aura — Moss Hush",
   },
 ];

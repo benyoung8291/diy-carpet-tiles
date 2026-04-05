@@ -63,9 +63,9 @@
 ### Range-Specific Accent Colors
 | Range | Color | Hex | Mood |
 |---|---|---|---|
-| Inglenook | Hearth Amber | `#C4874A` | Fireside warmth |
-| Harmonia | Sage Green | `#7A9E7E` | Biophilic calm |
-| Urbicus | Urban Blue | `#4A6FA5` | Suburban energy |
+| Haven | Hearth Amber | `#C4874A` | Fireside warmth |
+| Aura | Sage Green | `#7A9E7E` | Biophilic calm |
+| Horizon | Urban Blue | `#4A6FA5` | Suburban energy |
 
 ---
 
@@ -388,7 +388,7 @@ transition: { duration: 0.3 }
 ```
 /public/images/
 ├── ranges/
-│   ├── inglenook/
+│   ├── haven/
 │   │   ├── hero.jpg
 │   │   ├── gallery/
 │   │   │   ├── room-1.jpg
@@ -398,11 +398,11 @@ transition: { duration: 0.3 }
 │   │       ├── hearth.jpg
 │   │       ├── smoke.jpg
 │   │       └── ...
-│   ├── harmonia/
+│   ├── aura/
 │   │   ├── hero.jpg
 │   │   ├── gallery/
 │   │   └── swatches/
-│   └── urbicus/
+│   └── horizon/
 │       ├── hero.jpg
 │       ├── gallery/
 │       └── swatches/
@@ -513,9 +513,9 @@ colors: {
     DEFAULT: '#D4A03C',
     light: '#FBF4E4',
   },
-  inglenook: '#C4874A',
-  harmonia: '#7A9E7E',
-  urbicus: '#4A6FA5',
+  haven: '#C4874A',
+  aura: '#7A9E7E',
+  horizon: '#4A6FA5',
 }
 
 fontFamily: {

@@ -315,7 +315,7 @@ export function HowToInstallClient() {
                 </Link>
               </Button>
               <Button variant="outline_white" size="lg" asChild>
-                <Link href="/ranges/inglenook">Explore Ranges</Link>
+                <Link href="/ranges/haven">Explore Ranges</Link>
               </Button>
             </div>
           </motion.div>

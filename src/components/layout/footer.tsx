@@ -3,9 +3,9 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const footerLinks = {
   ranges: [
-    { label: "Inglenook", href: "/ranges/inglenook" },
-    { label: "Harmonia", href: "/ranges/harmonia" },
-    { label: "Urbicus", href: "/ranges/urbicus" },
+    { label: "Haven", href: "/ranges/haven" },
+    { label: "Aura", href: "/ranges/aura" },
+    { label: "Horizon", href: "/ranges/horizon" },
   ],
   resources: [
     { label: "Why Carpet Tiles?", href: "/why-tiles" },

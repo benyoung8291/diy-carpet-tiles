@@ -106,9 +106,9 @@ export function EnquiryForm({
             className="w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors"
           >
             <option value="">Select a range (optional)</option>
-            <option value="inglenook">Inglenook</option>
-            <option value="harmonia">Harmonia</option>
-            <option value="urbicus">Urbicus</option>
+            <option value="haven">Haven</option>
+            <option value="aura">Aura</option>
+            <option value="horizon">Horizon</option>
             <option value="undecided">Not sure yet</option>
           </select>
         </div>

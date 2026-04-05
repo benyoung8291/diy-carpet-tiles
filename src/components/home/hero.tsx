@@ -46,7 +46,7 @@ export function Hero() {
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/ranges/inglenook">Explore Our Ranges</Link>
+              <Link href="/ranges/haven">Explore Our Ranges</Link>
             </Button>
           </div>
         </motion.div>

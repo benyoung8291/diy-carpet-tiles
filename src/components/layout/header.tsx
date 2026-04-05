@@ -10,9 +10,9 @@ const navigation = [
   {
     label: "Our Ranges",
     children: [
-      { label: "Inglenook", href: "/ranges/inglenook" },
-      { label: "Harmonia", href: "/ranges/harmonia" },
-      { label: "Urbicus", href: "/ranges/urbicus" },
+      { label: "Haven", href: "/ranges/haven" },
+      { label: "Aura", href: "/ranges/aura" },
+      { label: "Horizon", href: "/ranges/horizon" },
     ],
   },
   { label: "Why Tiles?", href: "/why-tiles" },
@@ -77,7 +77,7 @@ export function Header() {
                       ))}
                       <div className="border-t border-brand-200 mt-1 pt-1">
                         <Link
-                          href="/ranges/inglenook"
+                          href="/ranges/haven"
                           className="block px-4 py-2.5 text-[13px] text-accent font-medium hover:bg-accent-light transition-colors"
                         >
                           View All Ranges →

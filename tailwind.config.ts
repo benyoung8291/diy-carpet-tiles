@@ -35,9 +35,9 @@ const config: Config = {
           DEFAULT: "#D4A03C",
           light: "#FBF4E4",
         },
-        inglenook: "#C4874A",
-        harmonia: "#7A9E7E",
-        urbicus: "#4A6FA5",
+        haven: "#C4874A",
+        aura: "#7A9E7E",
+        horizon: "#4A6FA5",
       },
       fontFamily: {
         serif: ["Georgia", "'Times New Roman'", "serif"],
