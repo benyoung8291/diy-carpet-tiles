@@ -29,12 +29,15 @@ export function Footer() {
                 Modular Carpet
               </span>
               <span className="block text-[11px] tracking-[0.15em] uppercase text-brand-400 font-medium mt-0.5">
-                Premium Carpet Tiles by Premrest
+                by Premrest
               </span>
             </Link>
             <p className="text-body-sm text-brand-400 mt-4 leading-relaxed max-w-xs">
               Seamless modular carpet tiles for Australian homes.
               The look of broadloom, the freedom of tiles.
+            </p>
+            <p className="text-[11px] text-brand-500 mt-3 italic">
+              Premrest: Australia&apos;s go-to for commercial floor care
             </p>
           </div>
 
@@ -118,6 +121,24 @@ export function Footer() {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Comcork */}
+      <div className="border-t border-brand-800">
+        <div className="container-main py-6">
+          <p className="text-body-sm text-brand-400 leading-relaxed max-w-2xl">
+            Looking for cork flooring? Our sister brand{" "}
+            <a
+              href="https://comcorkflooring.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:text-accent-hover transition-colors font-medium"
+            >
+              Comcork Flooring
+            </a>{" "}
+            offers premium cork flooring solutions for homes and commercial spaces across Australia.
+          </p>
         </div>
       </div>
 
