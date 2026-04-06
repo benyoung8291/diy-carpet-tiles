@@ -38,8 +38,7 @@ export function PurchasePolicyClient() {
           <h2>1. Seller Identification</h2>
           <p>
             All products sold through modularcarpet.com.au are sold by{" "}
-            <strong>Premier Restorations Group Pty Ltd</strong> (ABN to be
-            confirmed), trading as <strong>Premrest</strong>, located at 1/99
+            <strong>Premier Restorations Group Pty Ltd</strong> (ABN 27 634 747 952), trading as <strong>Premrest</strong>, located at 1/99
             Heyington Avenue, Thomastown VIC 3074, Australia. Phone: 1300 207
             915. Email: modular@premrest.com.au.
           </p>
