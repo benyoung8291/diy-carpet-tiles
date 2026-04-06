@@ -80,8 +80,10 @@ export default function RangePage({ params }: Props) {
       hasMerchantReturnPolicy: {
         "@type": "MerchantReturnPolicy",
         applicableCountry: "AU",
-        returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
-        merchantReturnDays: 0,
+        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+        merchantReturnDays: 30,
+        returnFees: "https://schema.org/RestockingFees",
+        returnMethod: "https://schema.org/ReturnByMail",
       },
       shippingDetails: {
         "@type": "OfferShippingDetails",
