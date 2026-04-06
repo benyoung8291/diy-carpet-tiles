@@ -114,6 +114,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [notes, setNotes] = useState("");
+  const [termsAccepted, setTermsAccepted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -175,7 +176,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!orderTotal.hasValidItems) return;
+    if (!orderTotal.hasValidItems || !termsAccepted) return;
 
     setLoading(true);
     setError("");
@@ -185,6 +186,8 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
     formData.append("email", email);
     formData.append("phone", phone);
     formData.append("delivery_notes", notes);
+    formData.append("terms_accepted", "Yes");
+    formData.append("terms_accepted_at", new Date().toISOString());
 
     items.forEach((item, idx) => {
       const r = getRange(item.rangeSlug);
@@ -642,6 +645,33 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
             </div>
           </div>
 
+          {/* Terms acceptance */}
+          <div className="bg-brand-50 border border-brand-200 rounded-lg p-4">
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                required
+                checked={termsAccepted}
+                onChange={(e) => setTermsAccepted(e.target.checked)}
+                className="mt-1 w-4 h-4 rounded border-brand-300 text-accent focus:ring-accent flex-shrink-0"
+              />
+              <span className="text-body-sm text-brand-600 leading-relaxed">
+                I have read and agree to the{" "}
+                <a
+                  href="/purchase-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent hover:text-accent-hover font-medium underline"
+                >
+                  Purchase Policy and Terms of Sale
+                </a>
+                , including the returns policy, 20% restocking fee for
+                change-of-mind returns, and the requirement to contact Premrest
+                directly before initiating any payment dispute. *
+              </span>
+            </label>
+          </div>
+
           {error && (
             <p className="text-red-600 text-body-sm text-center">{error}</p>
           )}
@@ -650,7 +680,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
             type="submit"
             size="lg"
             className="w-full"
-            disabled={loading}
+            disabled={loading || !termsAccepted}
           >
             {loading ? (
               "Submitting Order..."

@@ -149,6 +149,12 @@ export function Footer() {
             © {new Date().getFullYear()} Premier Restorations Group Pty Ltd trading as Premrest. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
+            <Link
+              href="/purchase-policy"
+              className="text-body-sm text-brand-500 hover:text-white transition-colors"
+            >
+              Purchase Policy
+            </Link>
             <a
               href="https://premrest.com.au"
               target="_blank"

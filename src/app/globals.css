@@ -61,6 +61,30 @@
       rgba(26, 23, 20, 0.75) 100%
     );
   }
+
+  .prose-policy h2 {
+    @apply font-serif text-heading-md text-brand-800 mt-10 mb-4;
+  }
+
+  .prose-policy h3 {
+    @apply font-serif text-heading-sm text-brand-800 mt-8 mb-3;
+  }
+
+  .prose-policy p {
+    @apply text-body-md text-brand-600 mb-4 leading-relaxed;
+  }
+
+  .prose-policy ul {
+    @apply list-disc pl-6 mb-4 space-y-2;
+  }
+
+  .prose-policy li {
+    @apply text-body-md text-brand-600 leading-relaxed;
+  }
+
+  .prose-policy strong {
+    @apply text-brand-800;
+  }
 }
 
 @layer utilities {
