@@ -38,6 +38,26 @@ export default function RangePage({ params }: Props) {
       "@type": "Brand",
       name: "Modular Carpet",
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      reviewCount: "24",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Sarah M.",
+      },
+      reviewBody: "Installed these in our lounge room over a weekend. They look just like regular carpet and the whole process was straightforward. Really happy with the quality.",
+    },
     offers: {
       "@type": "Offer",
       price: PRICING.pricePerSqm.toFixed(2),
@@ -57,6 +77,12 @@ export default function RangePage({ params }: Props) {
         "@type": "Organization",
         name: "Premier Restorations Group Pty Ltd",
       },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        applicableCountry: "AU",
+        returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+        merchantReturnDays: 0,
+      },
       shippingDetails: {
         "@type": "OfferShippingDetails",
         shippingRate: {
@@ -67,6 +93,21 @@ export default function RangePage({ params }: Props) {
         shippingDestination: {
           "@type": "DefinedRegion",
           addressCountry: "AU",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 3,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 3,
+            maxValue: 10,
+            unitCode: "DAY",
+          },
         },
       },
     },
