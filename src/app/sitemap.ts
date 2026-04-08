@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://modularcarpet.com.au";
+const BASE_URL = "https://www.modularcarpet.com.au";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

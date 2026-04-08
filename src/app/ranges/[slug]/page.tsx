@@ -20,7 +20,7 @@ export function generateMetadata({ params }: Props): Metadata {
     title: `${range.name} DIY Carpet Tiles | ${range.colorways.length} Colours | No Installer Needed`,
     description: `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. DIY installation, no tradesperson needed. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. 15-year warranty. Order online, delivered Australia-wide.`,
     alternates: {
-      canonical: `https://modularcarpet.com.au/ranges/${range.slug}`,
+      canonical: `https://www.modularcarpet.com.au/ranges/${range.slug}`,
     },
   };
 }
@@ -113,16 +113,16 @@ export default function RangePage({ params }: Props) {
         },
       },
     },
-    image: `https://modularcarpet.com.au${range.heroImage}`,
-    url: `https://modularcarpet.com.au/ranges/${range.slug}`,
+    image: `https://www.modularcarpet.com.au${range.heroImage}`,
+    url: `https://www.modularcarpet.com.au/ranges/${range.slug}`,
   };
 
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: "Home", url: "https://modularcarpet.com.au" },
-        { name: "Ranges", url: "https://modularcarpet.com.au/ranges/haven" },
-        { name: `${range.name} Carpet Tiles`, url: `https://modularcarpet.com.au/ranges/${range.slug}` },
+        { name: "Home", url: "https://www.modularcarpet.com.au" },
+        { name: "Ranges", url: "https://www.modularcarpet.com.au/ranges/haven" },
+        { name: `${range.name} Carpet Tiles`, url: `https://www.modularcarpet.com.au/ranges/${range.slug}` },
       ]} />
       <script
         type="application/ld+json"
