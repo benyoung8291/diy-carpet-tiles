@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "broadloom alternative",
     "Premrest",
   ],
-  metadataBase: new URL("https://modularcarpet.com.au"),
+  metadataBase: new URL("https://www.modularcarpet.com.au"),
   openGraph: {
     type: "website",
     locale: "en_AU",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
     description:
       "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
-    url: "https://modularcarpet.com.au",
+    url: "https://www.modularcarpet.com.au",
     images: [
       {
         url: "/images/lifestyle/hero-home.jpg",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     images: ["/images/lifestyle/hero-home.jpg"],
   },
   alternates: {
-    canonical: "https://modularcarpet.com.au",
+    canonical: "https://www.modularcarpet.com.au",
   },
   robots: {
     index: true,
@@ -93,7 +93,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Modular Carpet by Premrest",
               legalName: "Premier Restorations Group Pty Ltd",
-              url: "https://modularcarpet.com.au",
+              url: "https://www.modularcarpet.com.au",
               telephone: "1300207915",
               email: "modular@premrest.com.au",
               areaServed: {
@@ -119,7 +119,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Modular Carpet",
-              url: "https://modularcarpet.com.au",
+              url: "https://www.modularcarpet.com.au",
               description:
                 "Premium DIY carpet tiles for Australian homes. No installer needed. 15-year commercial warranty.",
               publisher: {
@@ -135,12 +135,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://modularcarpet.com.au/#business",
+              "@id": "https://www.modularcarpet.com.au/#business",
               name: "Modular Carpet by Premrest",
-              image: "https://modularcarpet.com.au/images/lifestyle/hero-home.jpg",
+              image: "https://www.modularcarpet.com.au/images/lifestyle/hero-home.jpg",
               telephone: "1300207915",
               email: "modular@premrest.com.au",
-              url: "https://modularcarpet.com.au",
+              url: "https://www.modularcarpet.com.au",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "1/99 Heyington Ave",
@@ -174,12 +174,12 @@ export default function RootLayout({
                   {
                     "@type": "OfferCatalog",
                     name: "Haven Range",
-                    url: "https://modularcarpet.com.au/ranges/haven",
+                    url: "https://www.modularcarpet.com.au/ranges/haven",
                   },
                   {
                     "@type": "OfferCatalog",
                     name: "Horizon Range",
-                    url: "https://modularcarpet.com.au/ranges/horizon",
+                    url: "https://www.modularcarpet.com.au/ranges/horizon",
                   },
                 ],
               },
