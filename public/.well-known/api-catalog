@@ -1,0 +1,70 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.modularcarpet.com.au/",
+      "service-desc": [
+        {
+          "href": "https://www.modularcarpet.com.au/sitemap.xml",
+          "type": "application/xml",
+          "title": "Site map"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.modularcarpet.com.au/how-to-install",
+          "type": "text/html",
+          "title": "How to install Modular Carpet tiles"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/purchase-policy",
+          "type": "text/html",
+          "title": "Purchase policy"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://www.modularcarpet.com.au/",
+          "type": "text/markdown",
+          "title": "Markdown representation of the homepage"
+        }
+      ],
+      "item": [
+        {
+          "href": "https://www.modularcarpet.com.au/ranges/haven",
+          "type": "text/html",
+          "title": "Haven range"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/ranges/horizon",
+          "type": "text/html",
+          "title": "Horizon range"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/why-tiles",
+          "type": "text/html",
+          "title": "Why carpet tiles"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/rental-flooring",
+          "type": "text/html",
+          "title": "Rental flooring"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/investment-property-flooring",
+          "type": "text/html",
+          "title": "Investment property flooring"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/hotel-carpet",
+          "type": "text/html",
+          "title": "Hotel carpet"
+        },
+        {
+          "href": "https://www.modularcarpet.com.au/contact",
+          "type": "text/html",
+          "title": "Contact"
+        }
+      ]
+    }
+  ]
+}
