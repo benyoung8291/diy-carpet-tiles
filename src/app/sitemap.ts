@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/carpet-tiles-over-ceramic-tiles`,
+      url: `${BASE_URL}/replace-hotel-carpet-without-downtime`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
