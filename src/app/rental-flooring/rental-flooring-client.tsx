@@ -335,6 +335,30 @@ export function RentalFlooringClient() {
         />
       </Section>
 
+      {/* Articles & Guides */}
+      <Section background="white">
+        <div className="max-w-3xl mx-auto">
+          <p className="overline text-center mb-3">Articles &amp; Guides</p>
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            For Landlords Specifying for the Long Term
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/hotel-grade-carpet-for-home" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Hotel Carpet Lasts Longer</h3>
+              <p className="text-body-sm text-brand-500">The four spec lines that separate hospitality-grade flooring from residential.</p>
+            </Link>
+            <Link href="/replace-hotel-carpet-without-downtime" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Vacancy</h3>
+              <p className="text-body-sm text-brand-500">Spot-replacement between tenancies and the 10-year cost case.</p>
+            </Link>
+            <Link href="/refurbish-motel-without-closing-rooms" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rolling Refurbishment</h3>
+              <p className="text-body-sm text-brand-500">Phasing carpet renewal across a portfolio without lump-sum capital.</p>
+            </Link>
+          </div>
+        </div>
+      </Section>
+
       {/* Related Pages */}
       <Section background="linen">
         <div className="max-w-3xl mx-auto">
