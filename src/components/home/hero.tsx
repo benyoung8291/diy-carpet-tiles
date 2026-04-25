@@ -26,25 +26,27 @@ export function Hero() {
           className="max-w-2xl"
         >
           <p className="text-label uppercase tracking-[0.15em] text-accent-light mb-4 md:mb-6 font-semibold">
-            Skip the Carpet Store. Skip the Installer.
+            Modular Carpet by Premrest
           </p>
           <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-4 md:mb-6 text-balance leading-[1.1]">
-            DIY Carpet Tiles You Install Yourself - No Tradesperson Needed
+            Commercial-Grade Modular Carpet for Hotels, Considered Homes, and Investment Properties
           </h1>
           <p className="text-body-md md:text-body-lg text-white/85 mb-8 md:mb-10 max-w-xl leading-relaxed">
-            Tired of expensive flooring retailers and waiting weeks for carpet
-            installers? Modular Carpet tiles arrive at your door and go down in
-            an afternoon. Looks like broadloom, installs like tiles, lasts 15&nbsp;years.
+            Solution-dyed nylon, 15-year wear warranty, laid in an ashlar
+            pattern that&rsquo;s indistinguishable from broadloom. Order direct
+            for in-house install, or take the full supply-and-install service
+            in Melbourne, Sydney, or Brisbane. Replace one tile when life
+            happens &mdash; never the whole room.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
               <Link href="/ranges/haven">
-                Shop Carpet Tiles Now
+                Browse Ranges
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/how-to-install">See How Easy It Is</Link>
+              <Link href="/contact">Request a Quote</Link>
             </Button>
           </div>
         </motion.div>

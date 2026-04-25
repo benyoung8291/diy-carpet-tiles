@@ -1,30 +1,56 @@
-export const HOMEPAGE_MARKDOWN = `# DIY Carpet Tiles You Install Yourself - No Tradesperson Needed
+export const HOMEPAGE_MARKDOWN = `# Commercial-Grade Modular Carpet for Hotels, Considered Homes, and Investment Properties
 
-**Skip the Carpet Store. Skip the Installer.**
+**Modular Carpet by Premrest.**
 
-Tired of expensive flooring retailers and waiting weeks for carpet installers?
-Modular Carpet tiles arrive at your door and go down in an afternoon. Looks
-like broadloom, installs like tiles, lasts 15 years.
+Solution-dyed nylon, 15-year wear warranty, laid in an ashlar pattern that's
+indistinguishable from broadloom. Order direct for in-house install, or take
+the full supply-and-install service in Melbourne, Sydney, or Brisbane.
+Replace one tile when life happens - never the whole room.
 
-- [Shop carpet tiles now](https://www.modularcarpet.com.au/ranges/haven)
-- [See how easy installation is](https://www.modularcarpet.com.au/how-to-install)
-- [Contact us](https://www.modularcarpet.com.au/contact)
+- [Browse ranges](https://www.modularcarpet.com.au/ranges/haven)
+- [Request a quote](https://www.modularcarpet.com.au/contact)
+- [Installation service](https://www.modularcarpet.com.au/installation)
 
-## Why Pay a Retailer and an Installer When You Don't Have To?
+## Find the Approach That Fits Your Project
 
-Traditional carpet means expensive flooring stores, weeks waiting for
-installers, and replacing entire rooms when something goes wrong. Modular
-Carpet tiles change everything.
+The same modular carpet works the same way across hotels, motels, considered
+homes, and investment properties. The difference is which lens you read it
+through.
+
+### [Hotel, motel, or serviced apartment](https://www.modularcarpet.com.au/hotel-carpet)
+Spec a floor that handles commercial traffic and lets housekeeping
+spot-replace damaged tiles between guests. Phased installs across
+low-occupancy windows, no property closure required.
+
+### [A home built to a higher standard](https://www.modularcarpet.com.au/why-tiles)
+The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels
+specify - in your master bedroom, hallway, family room, or home office.
+Install yourself or have us install for you.
+
+### [Long-hold rental or portfolio](https://www.modularcarpet.com.au/investment-property-flooring)
+Replace damaged tiles between tenancies in under an hour - never re-carpet a
+whole room again. One floor that survives multiple tenancy cycles without
+burning capital.
+
+### [Doing the work yourself](https://www.modularcarpet.com.au/how-to-install)
+Trade-savvy homeowner, owner-operator, or hands-on landlord? Order direct,
+follow the install guide, and lay it yourself.
+
+## What Makes the Product Different
+
+The same commercial-grade specification used in hotels, serviced apartments,
+and considered residential interiors across Australia. Built to be repaired,
+not replaced - whichever path you take to install it.
 
 ### Looks Like Broadloom
 Forget everything you know about carpet tiles. These aren't office squares -
 they're precision-engineered to look and feel identical to traditional
 broadloom carpet.
 
-### Install It Yourself
-No carpet installer, no retailer markup, no waiting weeks for a tradesperson.
-Press tiles onto adhesive and walk on them immediately. Anyone handy can do it
-in an afternoon.
+### Install Yourself, or Have Premrest Install
+Two paths to a finished floor. Order direct from the warehouse for in-house
+or owner-installer projects, or take the supply-and-install service in
+Melbourne, Sydney, and Brisbane. Same product, same warranty.
 
 ### Replace, Don't Re-Carpet
 With traditional carpet, one stain means re-carpeting the entire room. With
@@ -45,14 +71,32 @@ No separate underlay to buy or install. The bonded felt backing delivers 0.25
 NRC sound absorption - quieter rooms, warmer underfoot, less echo.
 
 ### 15-Year Warranty
-These tiles are rated for commercial offices and retail. In your home,
-they'll outlast any broadloom. 15-year wear warranty - built for kids, pets,
-and real life.
+These tiles are rated for commercial offices, hospitality, and retail. In
+your home or rental, they outlast any broadloom. 15-year wear warranty -
+built for kids, pets, guests, tenants, and real life.
 
 ### Less Waste, Smarter Design
 Damaged carpet usually means the whole room goes to landfill. With modular
 tiles, you replace one tile - not the floor. Recycled PET backing. Less
 waste. Smarter living.
+
+## Two Paths to a Finished Floor
+
+Modular Carpet by Premrest is available either as a supply-only product or
+as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The
+same product, the same 15-year warranty - the difference is who lays it.
+
+### Path 1: Supply only
+- Direct from the warehouse to your property
+- Install with your existing trade, maintenance team, or as an owner-installer project
+- Pressure-sensitive adhesive ~180 m² coverage per tub at around $150 each
+- Written installation guide and pile-direction documentation supplied
+
+### Path 2: Supply and install (Melbourne, Sydney, Brisbane)
+- Premrest manages measurement, supply, and installation
+- Indicative installation rate ~$20-25/m² of laid carpet
+- Site preparation, levelling, transitions, and old-carpet removal quoted alongside
+- One contract, one invoice, one project lead
 
 ## Our Ranges
 
@@ -64,16 +108,19 @@ pattern, eight colourways from deep charcoals to soft ambers.
 *Australian Energy, Vibrant Living.* Plush broadloom feel, eight
 biophilic-inspired designs named after vibrant Australian suburbs.
 
-## How It Works
+## How It Goes Down
 
-1. **Prepare your subfloor** - Ensure it is clean, dry, and level. Install
+Whether you install yourself or have Premrest install for you, the process
+is the same.
+
+1. **Prepare the subfloor** - Ensure it is clean, dry, and level. Install
    over most existing hard floors, including moisture-affected concrete.
 2. **Apply pressure-sensitive adhesive** - Roll the PSA evenly across the
    subfloor and let it tack up for 30 to 60 minutes.
-3. **Lay your tiles** - Starting from the centre of the room, press tiles
+3. **Lay the tiles** - Starting from the centre of the room, press tiles
    into the adhesive in an ashlar (brick-bond) pattern.
 4. **Trim and finish** - Trim edge tiles with a sharp utility knife. Walk
-   on your new floor immediately.
+   on the new floor immediately.
 
 ## Specifications
 
@@ -85,21 +132,26 @@ biophilic-inspired designs named after vibrant Australian suburbs.
 - Warranty: 15-year commercial-grade wear warranty
 - Layout: Ashlar (brick-bond) recommended
 - Installation: Pressure-sensitive adhesive (PSA)
-- Suitability: Residential and light commercial
+- Suitability: Residential, hospitality, and light commercial
 
 ## Pricing
 
-- $66.55 inc GST per square metre
+- $66.55 inc GST per square metre (supply)
 - 10 tiles per box (5 square metres)
 - $55 inc GST flat rate shipping Australia wide
 - 10% wastage recommended
+- Installation (Melbourne, Sydney, Brisbane): indicative ~$20-25/m² of laid
+  carpet, with site-specific costs (preparation, levelling, transitions,
+  removal of existing flooring) itemised separately in the quote
 
-## What Customers Say
+## What Owners and Operators Say
 
-> "We got three quotes from carpet retailers - $4,000+ installed. With
-> Modular Carpet I did the living room myself for under $1,500. Looks
-> identical to broadloom and I had a beer in hand by 4pm."
-> -- James K., Sydney, NSW (Horizon - Brunswick)
+> "We refurbished all twenty-four guest rooms over a quarter without ever
+> closing the property. Premrest's team matched our low-occupancy windows
+> and the rooms came back to inventory the next day. Looks identical to
+> broadloom and the spare-tile inventory means a wine spill is a five-minute
+> fix, not a re-carpet."
+> -- Alex T., Regional VIC - Motel Operator (Haven - Hearth)
 
 > "We have a golden retriever and two kids under five. Last month I replaced
 > a stained tile in 30 seconds. With traditional carpet we'd be looking at
@@ -113,53 +165,60 @@ biophilic-inspired designs named after vibrant Australian suburbs.
 
 ## Frequently Asked Questions
 
-### What are carpet tiles and how are they different from regular carpet?
-Carpet tiles (also called modular carpet) are individual carpet squares that
-interlock to create a seamless floor. Unlike traditional broadloom carpet
-that comes in heavy rolls and requires professional installation with power
-stretchers and tack strips, carpet tiles simply press onto adhesive. You
-install them yourself - no carpet installer needed.
+### What is modular carpet, and how is it different from broadloom?
+Modular carpet is precision-cut tile (typically 500 x 1000 mm) installed with
+pressure-sensitive adhesive in an ashlar (brick-bond) layout. Unlike rolled
+broadloom, individual tiles can be lifted and replaced if damaged, and the
+floor can be repaired without a full re-carpet. Once installed it looks and
+feels like premium broadloom.
 
-### Can I really install carpet tiles myself with no experience?
-Yes. If you're handy enough to paint a wall, you can install carpet tiles.
-All you need is a utility knife and a straight edge. The tiles press onto
-pressure-sensitive adhesive and can be repositioned for several minutes.
-Most people carpet a full room in 2-3 hours. No power tools, no stretching,
-no tradesperson.
+### Who is this product for?
+Three audiences typically: hospitality operators (hotels, motels, serviced
+apartments) who need a floor that handles commercial traffic and can be
+repaired without closing rooms; landlords and asset managers who want a
+floor that survives multiple tenancy cycles without re-carpeting between
+every tenant; and homeowners building or renovating to a higher standard
+who want flooring that ages gracefully under real life.
 
-### Do carpet tiles look like real carpet or do you see the grid lines?
-Our Modular Carpet tiles are precision-engineered to be indistinguishable
-from traditional broadloom carpet. Installed in an ashlar (brick-bond)
-pattern, the join lines disappear completely. Guests genuinely cannot tell
-it's tiles until you tell them.
+### Do I install it myself, or do you install for me?
+Both options are available. The supply-only path delivers product direct
+from the warehouse for an in-house install. The supply-and-install service
+operates in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m²
+installation rate, with site-specific costs (preparation, levelling,
+transitions, removal of existing flooring) itemised separately in the quote.
 
-### How much do DIY carpet tiles cost compared to traditional carpet?
-Modular Carpet tiles are competitively priced with mid-range broadloom
-carpet, but because you install them yourself, you save the cost of
-professional installation entirely. For a typical room, that can mean saving
-hundreds or even thousands of dollars.
+### Do the tiles look like real carpet, or do you see grid lines?
+Modern modular tiles are precision-engineered to be visually
+indistinguishable from premium broadloom once installed. The ashlar layout
+has no continuous grid line for the eye to track, and consistent pile
+direction across every tile means the floor reflects light as a single
+surface. Guests genuinely cannot tell it's tiles.
 
-### Can I replace individual carpet tiles if one gets stained or damaged?
-Yes - this is the biggest advantage over traditional carpet. If you spill
-wine, burn a tile, or have a pet accident, simply lift the damaged tile and
-press in a fresh one. It takes about 60 seconds.
+### What happens when a tile gets damaged or stained?
+Lift the damaged tile and press in a fresh one from your spare-tile
+inventory. The repair takes about 60 seconds, leaves the surrounding tiles
+undisturbed, and is invisible to the next guest, tenant, or visitor because
+the tiles are batch-matched.
 
-### Are carpet tiles suitable for homes with pets and children?
-They're ideal. Solution-dyed nylon fibre resists stains and fading, and the
-15-year commercial-grade warranty covers heavy residential use. When
-accidents happen, you replace individual tiles instead of the entire room.
+### Is the carpet rated for hotel and commercial use?
+Yes. The Haven and Horizon ranges are commercial-grade, solution-dyed nylon
+backed by a 15-year manufacturer wear warranty. The same product specified
+for hotel guest rooms and corridors is the product that ships into
+Australian homes, rentals, and motels.
 
-### Can carpet tiles be installed over concrete slabs?
-Yes. Our breathable recycled PET felt backing is specifically designed for
-Australian conditions, including moisture-affected concrete slabs. Unlike
-traditional carpet with rubber backing that traps moisture, our felt backing
-lets the slab breathe naturally.
+### Can it be installed over concrete slabs, including moisture-affected slabs?
+Yes. The breathable recycled PET felt backing is engineered for Australian
+slab conditions. Unlike rubber-backed broadloom (which traps moisture and
+breeds mould over time), the felt backing lets the slab breathe naturally.
+It also works over plywood, timber, vinyl, and most existing hard floors.
 
-### Are carpet tiles good for rental and investment properties?
-Carpet tiles are the smartest flooring choice for rental and investment
-properties. Landlords can replace damaged tiles between tenancies in minutes
-instead of re-carpeting entire rooms. This reduces turnover costs by 90%+
-and eliminates vacancy periods spent waiting for carpet installers.
+### How do I order, request samples, or get a quote?
+Free physical samples ship Australia-wide through the contact page. Direct
+supply orders are placed via the order form on each range page (with an
+optional installation-quote checkbox). For larger projects - hotels, motels,
+multi-property landlords, considered home renovations - the contact form
+lets you flag whether you want supply only, supply and install, or are
+still deciding.
 
 ## Company
 
@@ -170,6 +229,8 @@ and eliminates vacancy periods spent waiting for carpet installers.
 - Email: modular@premrest.com.au
 - Website: https://www.modularcarpet.com.au
 - Hours: Monday to Friday, 08:30 - 17:00 AEST
+- Installation coverage: Melbourne, Sydney, Brisbane (other locations on a
+  project basis)
 
 ## Useful Links
 

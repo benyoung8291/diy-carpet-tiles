@@ -5,36 +5,36 @@ import { Section, SectionHeader } from "@/components/ui/section";
 
 const faqs = [
   {
-    q: "What are carpet tiles and how are they different from regular carpet?",
-    a: "Carpet tiles (also called modular carpet) are individual carpet squares that interlock to create a seamless floor. Unlike traditional broadloom carpet that comes in heavy rolls and requires professional installation with power stretchers and tack strips, carpet tiles simply press onto adhesive. You install them yourself - no carpet installer needed.",
+    q: "What is modular carpet, and how is it different from broadloom?",
+    a: "Modular carpet is precision-cut tile (typically 500 × 1000 mm) installed with pressure-sensitive adhesive in an ashlar (brick-bond) layout. Unlike rolled broadloom, individual tiles can be lifted and replaced if they're damaged, and the floor can be repaired without a full re-carpet. Once installed it looks and feels like premium broadloom - guests genuinely cannot tell it's tiles.",
   },
   {
-    q: "Can I really install carpet tiles myself with no experience?",
-    a: "Yes. If you're handy enough to paint a wall, you can install carpet tiles. All you need is a utility knife and a straight edge. The tiles press onto pressure-sensitive adhesive and can be repositioned for several minutes. Most people carpet a full room in 2–3 hours. No power tools, no stretching, no tradesperson.",
+    q: "Who is this product for?",
+    a: "Three audiences typically: hospitality operators (hotels, motels, serviced apartments) who need a floor that handles commercial traffic and can be repaired without closing rooms; landlords and asset managers who want a floor that survives multiple tenancy cycles without re-carpeting between every tenant; and homeowners building or renovating to a higher standard who want flooring that ages gracefully under real life with kids, pets, and afternoon sun.",
   },
   {
-    q: "Do carpet tiles look like real carpet or do you see the grid lines?",
-    a: "Our Modular Carpet tiles are precision-engineered to be indistinguishable from traditional broadloom carpet. Installed in an ashlar (brick-bond) pattern, the join lines disappear completely. Guests genuinely cannot tell it's tiles until you tell them.",
+    q: "Do I install it myself, or do you install for me?",
+    a: "Both options are available. The supply-only path delivers product direct from the warehouse for an in-house install (with your own trade or as an owner-installer project). The supply-and-install service operates in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote.",
   },
   {
-    q: "How much do DIY carpet tiles cost compared to traditional carpet?",
-    a: "Modular Carpet tiles are competitively priced with mid-range broadloom carpet, but because you install them yourself, you save the cost of professional installation entirely. For a typical room, that can mean saving hundreds or even thousands of dollars. See our product pages for current pricing.",
+    q: "Do the tiles look like real carpet, or do you see grid lines?",
+    a: "Modern modular tiles are precision-engineered to be visually indistinguishable from premium broadloom once installed. The ashlar (brick-bond) layout has no continuous grid line for the eye to track, and consistent pile direction across every tile means the floor reflects light as a single surface. The Haven and Horizon ranges are specified for hospitality and considered residential interiors - not 1990s offices.",
   },
   {
-    q: "Can I replace individual carpet tiles if one gets stained or damaged?",
-    a: "This is the biggest advantage over traditional carpet. If you spill wine, burn a tile, or have a pet accident, simply lift the damaged tile and press in a fresh one. It takes about 60 seconds. No re-carpeting the room, no installer, no matching issues.",
+    q: "What happens when a tile gets damaged or stained?",
+    a: "Lift the damaged tile and press in a fresh one from your spare-tile inventory. The repair takes about 60 seconds, leaves the surrounding tiles undisturbed, and is invisible to the next guest, tenant, or visitor because the tiles are batch-matched. There's no equivalent in broadloom - which is why hotels, motels, and savvy landlords specify modular.",
   },
   {
-    q: "Are carpet tiles suitable for homes with pets and children?",
-    a: "Absolutely - they're ideal. Solution-dyed nylon fibre resists stains and fading, and the 15-year commercial-grade warranty covers heavy residential use. When accidents happen (and they will with kids and pets), you replace individual tiles instead of the entire room.",
+    q: "Is the carpet rated for hotel and commercial use?",
+    a: "Yes. The Haven and Horizon ranges are commercial-grade, solution-dyed nylon backed by a 15-year manufacturer wear warranty. The same product specified for hotel guest rooms and corridors is the product that ships into Australian homes, rentals, and motels - the warranty doesn't change between use cases.",
   },
   {
-    q: "Can carpet tiles be installed over concrete slabs?",
-    a: "Yes. Our breathable recycled PET felt backing is specifically designed for Australian conditions, including moisture-affected concrete slabs. Unlike traditional carpet with rubber backing that traps moisture and causes mould, our felt backing lets the slab breathe naturally.",
+    q: "Can it be installed over concrete slabs, including moisture-affected slabs?",
+    a: "Yes. The breathable recycled PET felt backing is engineered for Australian slab conditions. Unlike rubber-backed broadloom (which traps moisture and breeds mould over time), the felt backing lets the slab breathe naturally. It also works over plywood, timber, vinyl, and most existing hard floors.",
   },
   {
-    q: "Are carpet tiles good for rental properties and investment properties?",
-    a: "Carpet tiles are the smartest flooring choice for rental and investment properties. Landlords can replace damaged tiles between tenancies in minutes instead of re-carpeting entire rooms. This reduces turnover costs by 90%+ and eliminates vacancy periods spent waiting for carpet installers.",
+    q: "How do I order, request samples, or get a quote?",
+    a: "Free physical samples ship Australia-wide through the contact page. Direct supply orders are placed via the order form on each range page (with an optional installation-quote checkbox if you'd like both quoted together). For larger projects - hotels, motels, multi-property landlords, considered home renovations - the contact form lets you flag whether you want supply only, supply and install, or are still deciding.",
   },
 ];
 
@@ -43,7 +43,7 @@ export function FaqSection() {
     <Section background="linen">
       <SectionHeader
         overline="Common Questions"
-        title="Everything You Need to Know About DIY Carpet Tiles"
+        title="Everything You Need to Know About Modular Carpet"
       />
       <div className="max-w-3xl mx-auto space-y-4">
         {faqs.map((faq) => (

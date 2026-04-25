@@ -6,14 +6,18 @@ import { Testimonials } from "@/components/home/testimonials";
 import { TrustSignals } from "@/components/home/trust-signals";
 import { FaqSection } from "@/components/home/faq-section";
 import { CtaBanner } from "@/components/home/cta-banner";
+import { PersonaRouter } from "@/components/home/persona-router";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <TrustSignals />
+      <PersonaRouter />
       <BenefitsGrid />
       <RangesPreview />
+      <SupplyOrInstall background="linen" />
       <HowItWorks />
       <Testimonials />
       <FaqSection />

@@ -104,9 +104,9 @@ export const BENEFITS = [
   },
   {
     icon: "Wrench",
-    title: "Install It Yourself",
+    title: "Install Yourself, or Have Premrest Install",
     description:
-      "No carpet installer, no retailer markup, no waiting weeks for a tradesperson. Press tiles onto adhesive and walk on them immediately. Anyone handy can do it in an afternoon.",
+      "Two paths to a finished floor. Order direct from the warehouse for in-house or owner-installer projects, or take the supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same warranty.",
   },
   {
     icon: "RefreshCw",
@@ -180,10 +180,10 @@ export const INSTALLATION_STEPS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "We got three quotes from carpet retailers - $4,000+ installed. With Modular Carpet I did the living room myself for under $1,500. Looks identical to broadloom and I had a beer in hand by 4pm.",
-    name: "James K.",
-    location: "Sydney, NSW",
-    range: "Horizon - Brunswick",
+      "We refurbished all twenty-four guest rooms over a quarter without ever closing the property. Premrest's team matched our low-occupancy windows and the rooms came back to inventory the next day. Looks identical to broadloom and the spare-tile inventory means a wine spill is a five-minute fix, not a re-carpet.",
+    name: "Alex T.",
+    location: "Regional VIC - Motel Operator",
+    range: "Haven - Hearth",
   },
   {
     quote:
