@@ -260,9 +260,9 @@ export function RefurbishMotelClient() {
           title="A 20-Room Regional Motel: The Numbers in Practice"
           description="A 20-room regional motel running 65% average occupancy at $145 ADR, with 25 m² of carpeted floor per guest room. Carpet was last replaced 9 years ago and is visibly worn in seven of the rooms. Numbers are illustrative but typical."
         />
-        <div className="max-w-4xl mx-auto space-y-8">
+        <div className="max-w-6xl mx-auto space-y-8">
           {/* Property metrics */}
-          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200">
+          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200 max-w-4xl mx-auto">
             <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
               Property metrics
             </h3>
@@ -274,20 +274,20 @@ export function RefurbishMotelClient() {
             </ul>
           </div>
 
-          {/* Side-by-side refurb cost */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-              <p className="overline mb-3">The owner-operator path</p>
+          {/* Three paths compared */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-accent-light rounded-lg p-7 border-2 border-accent/20">
+              <p className="overline mb-3">Owner-operator path</p>
               <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-                Modular tiles, rolling refurb
+                Modular tiles, install yourself
               </h3>
               <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
                 {[
-                  "500 m² × $66.55/m² inc GST = $33,275 in tiles",
-                  "Pressure-sensitive adhesive across 500 m² ≈ $1,200",
-                  "5% over-order for spares and offcuts ≈ $1,665",
-                  "Owner-operator labour: 20 rooms × 6 hrs over 12 weeks",
-                  "Foregone revenue: 20 rooms × 1 low-occupancy night × $94 ≈ $1,880",
+                  "Tiles: 500 m² × $66.55 = $33,275",
+                  "Adhesive (3 × 180 m² tubs at ~$150) ≈ $450",
+                  "5% spares and offcuts ≈ $1,665",
+                  "Owner-operator labour spread over 12 weeks",
+                  "Foregone revenue (20 × 1 low-occ. night × $94) ≈ $1,880",
                   "Contractor management cost: $0",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
@@ -298,18 +298,44 @@ export function RefurbishMotelClient() {
               </ul>
               <div className="border-t border-accent/20 pt-4">
                 <p className="text-body-md text-brand-800">
-                  <strong>Total cost incl. revenue impact: ~$38,000</strong>
+                  <strong>Total: ~$37,300</strong>
                 </p>
               </div>
             </div>
-            <div className="bg-brand-50 rounded-lg p-8 border border-brand-200">
-              <p className="overline mb-3">The contractor path</p>
+            <div className="bg-accent-light rounded-lg p-7 border-2 border-accent/20">
+              <p className="overline mb-3">Premrest installs</p>
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
+                Modular tiles, supply &amp; install
+              </h3>
+              <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
+                {[
+                  "Tiles: 500 m² × $66.55 = $33,275",
+                  "Installation @ ~$22.50/m² × 500 m² ≈ $11,250",
+                  "5% spares and offcuts ≈ $1,665",
+                  "Site prep, levelling, transitions: included in quote",
+                  "Phased install possible across low-occupancy windows",
+                  "Available in Melbourne, Sydney, Brisbane",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <div className="border-t border-accent/20 pt-4">
+                <p className="text-body-md text-brand-800">
+                  <strong>Total: from ~$48,000</strong>
+                </p>
+              </div>
+            </div>
+            <div className="bg-brand-50 rounded-lg p-7 border border-brand-200">
+              <p className="overline mb-3">Traditional contractor</p>
               <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
                 Mid-range broadloom, whole property
               </h3>
               <ul className="space-y-2 text-body-sm text-brand-500 mb-5">
                 {[
-                  "Broadloom supplied &amp; installed across 500 m² ≈ $45,000",
+                  "Broadloom supplied &amp; installed ≈ $45,000",
                   "Furniture relocation and prep across 20 rooms",
                   "Property partially closed for 2-4 weeks",
                   "Foregone revenue ≈ $9,000-$26,000",
@@ -324,22 +350,77 @@ export function RefurbishMotelClient() {
               </ul>
               <div className="border-t border-brand-200 pt-4">
                 <p className="text-body-md text-brand-800">
-                  <strong>Total cost incl. revenue impact: $54,000-$71,000</strong>
+                  <strong>Total: $54,000-$71,000</strong>
                 </p>
               </div>
             </div>
           </div>
         </div>
         <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
-          The rolling-refurbishment approach finishes ahead on three measures
-          simultaneously: total cash outlay, operating-cashflow shape, and
-          revenue protection during the work. For an owner-operator, all three
-          matter.
+          Either modular path - install yourself or have Premrest install - is
+          materially cheaper and less disruptive than the traditional broadloom
+          contractor route. The decision between the two modular paths comes
+          down to how hands-on you want to be, not how the numbers work out.
+        </p>
+      </Section>
+
+      {/* Supply only or supply + install */}
+      <Section background="linen">
+        <SectionHeader
+          overline="Two Paths to a Finished Floor"
+          title="Supply Only, or Supply and Install - Your Choice"
+          description="The rolling-refurbishment plan in this article assumes you do the work yourself. If you'd rather hand it off, Premrest offers a supply-and-install service in Melbourne, Sydney, and Brisbane that can follow the same phased schedule across your low-occupancy windows."
+        />
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-lg p-8 border border-brand-200">
+            <p className="overline mb-3">Path 1</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              Supply only - install yourself or with your handyman
+            </h3>
+            <ul className="space-y-2 text-body-sm text-brand-500">
+              {[
+                "Direct from the warehouse to your motel",
+                "Install during your low-occupancy windows, room by room",
+                "Adhesive coverage ~180 m² per tub at around $150 each",
+                "Suits owner-operators who'd rather control the schedule",
+                "Written installation guide and pile-direction documentation supplied",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
+            <p className="overline mb-3">Path 2</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              Supply and install - Melbourne, Sydney, Brisbane
+            </h3>
+            <ul className="space-y-2 text-body-sm text-brand-700">
+              {[
+                "Premrest manages measurement, supply, and installation",
+                "Indicative installation rate ~$20-25/m² of laid carpet",
+                "Site prep, levelling, transitions, and old-carpet removal quoted alongside",
+                "Phased install possible to match your low-occupancy windows",
+                "One contract, one invoice, one project lead",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
+          The choice between paths doesn&apos;t change the product or the
+          warranty. It just changes who lays it.
         </p>
       </Section>
 
       {/* FAQ */}
-      <Section background="linen">
+      <Section background="white">
         <SectionHeader
           overline="Frequently Asked Questions"
           title="What Owner-Operators Ask Before Starting Refurbishment"
@@ -348,7 +429,7 @@ export function RefurbishMotelClient() {
           {faqs.map((faq) => (
             <div
               key={faq.q}
-              className="bg-white rounded-lg p-6 border border-brand-200"
+              className="bg-brand-50 rounded-lg p-6 border border-brand-200"
             >
               <h3 className="font-serif text-heading-sm text-brand-800 mb-3">
                 {faq.q}
@@ -362,7 +443,7 @@ export function RefurbishMotelClient() {
       </Section>
 
       {/* Related Pages */}
-      <Section background="white">
+      <Section background="linen">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-heading-lg text-brand-800 mb-8 text-center">
             Continue Reading
@@ -370,7 +451,7 @@ export function RefurbishMotelClient() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link
               href="/replace-hotel-carpet-without-downtime"
-              className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
+              className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
             >
               <p className="overline mb-2">Operations</p>
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
@@ -383,7 +464,7 @@ export function RefurbishMotelClient() {
             </Link>
             <Link
               href="/hotel-grade-carpet-for-home"
-              className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
+              className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
             >
               <p className="overline mb-2">Specification</p>
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
@@ -396,7 +477,7 @@ export function RefurbishMotelClient() {
             </Link>
             <Link
               href="/hotel-carpet"
-              className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
+              className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
             >
               <p className="overline mb-2">Hospitality</p>
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
@@ -430,8 +511,9 @@ export function RefurbishMotelClient() {
             <p className="text-body-lg text-brand-300 mb-10">
               Free physical samples of the Haven and Horizon ranges, and a
               property-sized quote tailored to your room count and floor plan.
-              Direct from the Australian distributor - no flooring retailer,
-              no installer brokerage, no quote walking around your property.
+              Choose supply-only if you&apos;d rather install yourself, or
+              supply-and-install in Melbourne, Sydney, or Brisbane if you&apos;d
+              rather hand the project to a Premrest team.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

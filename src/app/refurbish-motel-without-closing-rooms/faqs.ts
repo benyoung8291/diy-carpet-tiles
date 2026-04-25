@@ -1,7 +1,11 @@
 export const faqs = [
   {
     q: "Can I really install this myself if I've never laid carpet before?",
-    a: "Yes. Modular tile installation is closer to laying vinyl planks than stretching broadloom. The skills sit alongside painting and standard handyman work. We send a written installation guide with every order, and most owner-operators have their first room down by lunchtime on day one.",
+    a: "Yes. Modular tile installation is closer to laying vinyl planks than stretching broadloom. The skills sit alongside painting and standard handyman work. We send a written installation guide with every order, and most owner-operators have their first room down by lunchtime on day one. If you'd rather not, Premrest also offers a supply-and-install service in Melbourne, Sydney, and Brisbane (see below).",
+  },
+  {
+    q: "What if I'd rather have Premrest install it for me?",
+    a: "We offer a full supply-and-install service in Melbourne, Sydney, and Brisbane. Indicative installation cost is around $20-25 per square metre of laid carpet, with site-specific costs (preparation, levelling, transitions, removal of existing carpet) included in the quote. The phased rolling-refurbishment schedule described in this article still applies - our installers can match your low-occupancy windows so the property doesn't need to close.",
   },
   {
     q: "What if a room is occupied longer than expected and I need to push the schedule?",

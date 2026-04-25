@@ -273,7 +273,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
             <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
               {[
                 "Initial fit-out: 30 rooms × 25 m² × $66.55/m² inc GST = $49,912",
-                "Pressure-sensitive adhesive across the property: ~$2,400",
+                "Pressure-sensitive adhesive (5 × 180 m² tubs at ~$150 each): ~$750",
                 "10-year spare-tile inventory and spot replacements: ~$3,500",
                 "Room revenue lost to repairs: $0 - repairs handled in-room, in-day",
                 "Commercial-grade solution-dyed nylon, 15-year wear warranty",
@@ -286,7 +286,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
             </ul>
             <div className="border-t border-accent/20 pt-4">
               <p className="text-body-md text-brand-800">
-                <strong>10-year carpet investment: ~$55,800</strong>
+                <strong>10-year carpet investment: ~$54,000</strong>
               </p>
             </div>
           </div>
@@ -297,6 +297,62 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
           solution-dyed nylon product backed by a 15-year warranty. The lower
           lifecycle cost is the consequence of buying the better product, not
           the cheaper one.
+        </p>
+      </Section>
+
+      {/* Supply only or supply + install */}
+      <Section background="white">
+        <SectionHeader
+          overline="Two Paths to a Finished Floor"
+          title="Supply Only, or Supply and Install - Your Choice"
+          description="Modular Carpet by Premrest is available either as a supply-only product, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Both paths converge on the same in-house spot-replacement procedure for ongoing maintenance once the floor is laid."
+        />
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200">
+            <p className="overline mb-3">Path 1</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              Supply only - install in-house or via your trade
+            </h3>
+            <ul className="space-y-2 text-body-sm text-brand-500">
+              {[
+                "Direct from the warehouse to your property",
+                "Install with your existing maintenance team or preferred contractor",
+                "Suits hotels, motels, and asset managers with established trade relationships",
+                "Adhesive coverage ~180 m² per tub, around $150 each",
+                "Installation guide and pile-direction documentation supplied",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
+            <p className="overline mb-3">Path 2</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              Supply and install - Melbourne, Sydney, Brisbane
+            </h3>
+            <ul className="space-y-2 text-body-sm text-brand-700">
+              {[
+                "Premrest manages measurement, supply, and installation",
+                "Indicative installation rate ~$20-25/m² of laid carpet",
+                "Site preparation, levelling, and transitions quoted alongside",
+                "One contract, one invoice, one project lead - no installer brokerage",
+                "Suits properties with strict open dates or remote head offices",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
+          The choice between paths doesn&apos;t change the product. It just
+          changes who lays it - and either way, ongoing tile-by-tile repairs
+          stay an in-house, no-contractor task.
         </p>
       </Section>
 
@@ -387,13 +443,13 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
               Specify the Floor That Repairs Itself
             </p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              Request Samples and a Property-Specific Lifecycle Quote
+              Request Samples and a Property-Specific Quote
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
               We&apos;ll send physical samples of the Haven and Horizon ranges
-              and prepare a 10-year cost projection sized to your property. No
-              retailer markup, no installer brokerage - direct from the
-              Australian distributor.
+              and prepare a quote tailored to your property - either supply-only
+              or full supply-and-install in Melbourne, Sydney, or Brisbane.
+              Whichever path suits your project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

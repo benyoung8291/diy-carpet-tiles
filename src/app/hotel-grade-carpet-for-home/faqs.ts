@@ -5,7 +5,7 @@ export const faqs = [
   },
   {
     q: "Is hotel-grade carpet noticeably more expensive than mid-range residential broadloom?",
-    a: "Less than most homeowners assume. Once retailer markup and installation labour are removed from the comparison - both of which are eliminated by buying direct and installing modular tiles yourself - the supplied cost of commercial-grade tile is comparable to mid-range broadloom delivered through a retail chain. The lifecycle cost is significantly lower because you replace individual tiles, not entire rooms.",
+    a: "Less than most homeowners assume. Buying direct from Premrest removes the retailer markup, and from there you have two options - install yourself with the supply-only product, or take the supply-and-install service in Melbourne, Sydney, or Brisbane (indicatively around $20-25/m² for installation, with site-specific costs included in the quote). Either way the supplied cost of commercial-grade tile is comparable to mid-range broadloom delivered through a retail chain, and the lifecycle cost is significantly lower because you replace individual tiles, not entire rooms.",
   },
   {
     q: "Will it look \"commercial\" - like office carpet from the 1990s?",
