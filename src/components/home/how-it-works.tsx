@@ -8,9 +8,9 @@ export function HowItWorks() {
   return (
     <Section background="white">
       <SectionHeader
-        overline="No Installer Needed"
-        title="Four Steps. One Afternoon. Zero Tradspeople."
-        description="Traditional carpet requires a professional with power stretchers and tack strips. Modular Carpet tiles? Just press, lay, and walk. Anyone handy can do it."
+        overline="How It Goes Down"
+        title="Four Steps From Subfloor to Finished Room"
+        description="Whether you install yourself or have Premrest install for you, the process is the same. Pressure-sensitive adhesive, ashlar layout, walk on it immediately - no drying time, no off-gassing, no power stretchers."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {INSTALLATION_STEPS.map((step, index) => {

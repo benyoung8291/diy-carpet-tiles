@@ -3,15 +3,18 @@ import { WhyTilesClient } from "./why-tiles-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Why Carpet Tiles? | DIY Carpet You Install Yourself",
+  title:
+    "Why Modular Carpet? | Eight Reasons It Outperforms Broadloom | Premrest",
   description:
-    "Sick of expensive carpet retailers and installer quotes? Modular carpet tiles look like broadloom but you install them yourself in an afternoon. No tradesperson needed. 15-year commercial warranty.",
+    "Eight reasons modular carpet outperforms traditional broadloom in homes, hotels, motels, and rentals. Solution-dyed nylon, 15-year wear warranty, replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/why-tiles" },
   openGraph: {
-    title: "Why Carpet Tiles? | DIY Carpet You Install Yourself",
-    description: "Sick of expensive carpet retailers and installer quotes? Modular carpet tiles look like broadloom but you install them yourself in an afternoon.",
+    title:
+      "Why Modular Carpet? | Eight Reasons It Outperforms Broadloom | Premrest",
+    description:
+      "Eight reasons modular carpet outperforms broadloom in homes, hospitality, and rentals. Replace tiles instead of whole rooms.",
     url: "https://www.modularcarpet.com.au/why-tiles",
-    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Why choose modular carpet tiles over traditional broadloom" }],
+    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Why choose modular carpet over traditional broadloom" }],
   },
 };
 

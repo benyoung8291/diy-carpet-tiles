@@ -1,0 +1,55 @@
+# Modular Carpet by Premrest
+
+> Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties across Australia. Solution-dyed nylon, 15-year wear warranty, ashlar-laid in any room you specify. Available as supply-only direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+
+The product is solution-dyed nylon carpet tile (500 x 1000 mm) with bonded recycled PET felt backing, installed in an ashlar (brick-bond) pattern using pressure-sensitive adhesive. The 15-year manufacturer wear warranty is rated for commercial corridor traffic. Individual tiles can be lifted and replaced, so a damaged section is repaired in minutes rather than re-carpeting the whole room. The same product specified for hotel guest rooms is the product that ships into Australian homes, rentals, and motels.
+
+Distributed in Australia by Premrest (Premier Restorations Group Pty Ltd, Thomastown VIC). Two purchase paths: supply-only ships nationwide direct from the warehouse, or supply-and-install operates as a service in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote.
+
+## Core pages
+
+- [Home](https://www.modularcarpet.com.au/): Multi-persona overview and routing into hotel, home, investment, and owner-installer paths
+- [Why Modular Carpet](https://www.modularcarpet.com.au/why-tiles): Eight reasons modular outperforms broadloom for any property type
+- [Installation Service](https://www.modularcarpet.com.au/installation): Full supply-and-install service in Melbourne, Sydney, and Brisbane - scope, pricing, process
+- [How to Install](https://www.modularcarpet.com.au/how-to-install): Step-by-step DIY install guide for owner-installers and trades
+- [Contact](https://www.modularcarpet.com.au/contact): Enquiry form with service-type field (supply only / supply + install / not sure)
+
+## Solutions by property type
+
+- [Hotel & Motel Carpet](https://www.modularcarpet.com.au/hotel-carpet): Commercial-grade carpet for hospitality fit-outs and refurbishments
+- [Investment Property Flooring](https://www.modularcarpet.com.au/investment-property-flooring): Long-hold lifecycle case for asset managers and portfolio landlords
+- [Rental Property Flooring](https://www.modularcarpet.com.au/rental-flooring): Tenancy-cycle durability for landlords and trade-savvy owners
+
+## Articles
+
+- [How to replace damaged hotel carpet without closing the room](https://www.modularcarpet.com.au/replace-hotel-carpet-without-downtime): The 60-second tile swap, brand-standard repairs, 10-year lifecycle math for a 30-room property
+- [Why hotel carpet lasts longer than home carpet](https://www.modularcarpet.com.au/hotel-grade-carpet-for-home): The four specifications that separate commercial-grade from residential, plus a copy-paste spec block
+- [How to refurbish carpet across an owner-operated motel without closing rooms](https://www.modularcarpet.com.au/refurbish-motel-without-closing-rooms): Rolling room-by-room refurb plan with worked 20-room example
+
+## Ranges
+
+- [Haven Range](https://www.modularcarpet.com.au/ranges/haven): Fireside Retreat, Modern Sophistication. Rich high-low textured loop. Eight colourways from deep charcoals to soft ambers
+- [Horizon Range](https://www.modularcarpet.com.au/ranges/horizon): Australian Energy, Vibrant Living. Plush broadloom feel. Eight biophilic-inspired designs
+
+## Operational
+
+- [Purchase Policy](https://www.modularcarpet.com.au/purchase-policy): Returns policy, restocking fee, and chargeback protection terms
+
+## Optional
+
+- [llms-full.txt](https://www.modularcarpet.com.au/llms-full.txt): Full markdown content of every page concatenated for AI consumption
+- [Sitemap (XML)](https://www.modularcarpet.com.au/sitemap.xml): Indexed URL list for search engines
+- [API Catalog](https://www.modularcarpet.com.au/.well-known/api-catalog): Linkset for agent discovery (RFC 9727)
+- [Markdown homepage](https://www.modularcarpet.com.au/): Returns text/markdown when requested with Accept: text/markdown
+
+## Company
+
+- Brand: Modular Carpet by Premrest
+- Legal entity: Premier Restorations Group Pty Ltd
+- ABN: 70 605 583 195
+- Address: 1/99 Heyington Ave, Thomastown, VIC 3074, Australia
+- Phone: 1300 207 915
+- Email: modular@premrest.com.au
+- Hours: Monday-Friday, 08:30-17:00 AEST
+- Installation coverage: Melbourne, Sydney, Brisbane (other locations on a project basis)
+- Pricing: $66.55 inc GST per square metre (supply); installation indicative ~$20-25/m² with site-specific extras itemised

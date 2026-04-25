@@ -26,28 +26,31 @@ export function CtaBanner() {
           className="text-center max-w-2xl mx-auto"
         >
           <p className="text-label uppercase tracking-[0.15em] text-accent mb-4 font-semibold">
-            Ditch the Carpet Store. Do It Yourself.
+            One Product. Two Paths. Every Property.
           </p>
           <h2 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
-            Beautiful Carpet. No Retailer. No Installer.
+            Specify Once. Get the Floor Right.
           </h2>
           <p className="text-body-lg text-brand-300 mb-4">
-            No flooring retailer. No installer quotes. No waiting weeks for a tradesperson.
-            Order online and install premium carpet tiles yourself this weekend.
+            Whether the property is a 25-room motel, a long-hold investment
+            portfolio, or a considered family home, the same commercial-grade
+            modular carpet works for all of them. Choose supply-only direct
+            from the warehouse, or supply-and-install in Melbourne, Sydney, or
+            Brisbane.
           </p>
           <p className="text-body-md text-brand-400 mb-10">
-            Choose your colour, enter your room size, and order.
-            Delivered Australia-wide. We confirm within 1 business day.
+            Free samples ship Australia-wide. Quotes return within one
+            business day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link href="/ranges/haven">
-                Browse &amp; Order
+              <Link href="/contact">
+                Request Samples &amp; Quote
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/contact">Request Free Samples</Link>
+              <Link href="/installation">Installation Service</Link>
             </Button>
           </div>
         </motion.div>

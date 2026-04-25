@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const investorBenefits = [
   {
@@ -361,6 +362,38 @@ export function InvestmentPropertyClient() {
             }),
           }}
         />
+      </Section>
+
+      <SupplyOrInstall
+        background="linen"
+        description="Premrest works with investment-property owners either as a supply-only partner for trade-savvy landlords managing their own renovations, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane for portfolios that prefer a single point of contact."
+        path1Suits="Suits self-managing landlords with an established maintenance trade or DIY-handy ownership"
+        path2Suits="Suits asset managers, multi-property owners, and trustees who need one contract per project"
+        closingNote="The lifecycle case for modular over broadloom holds either way - the only thing changing between the paths is who lays it."
+      />
+
+      {/* Articles & Guides */}
+      <Section background="white">
+        <div className="max-w-3xl mx-auto">
+          <p className="overline text-center mb-3">Articles &amp; Guides</p>
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            For Asset Managers and Long-Hold Landlords
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/hotel-grade-carpet-for-home" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Hotel Carpet Lasts Longer</h3>
+              <p className="text-body-sm text-brand-500">The four spec lines to write into any long-hold portfolio brief.</p>
+            </Link>
+            <Link href="/replace-hotel-carpet-without-downtime" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Vacancy</h3>
+              <p className="text-body-sm text-brand-500">Spot-replacement, lifecycle economics, and the 10-year cost case.</p>
+            </Link>
+            <Link href="/refurbish-motel-without-closing-rooms" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rolling Refurbishment Across a Property</h3>
+              <p className="text-body-sm text-brand-500">A room-by-room refurbishment plan that protects operating cashflow.</p>
+            </Link>
+          </div>
+        </div>
       </Section>
 
       {/* Related Pages */}

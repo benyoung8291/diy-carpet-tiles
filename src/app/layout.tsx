@@ -13,26 +13,28 @@ const geistSans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "DIY Carpet Tiles | No Installer Needed | Modular Carpet Australia",
+    default:
+      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
     template: "%s | Modular Carpet by Premrest",
   },
   description:
-    "Premium DIY carpet tiles you install yourself - no flooring retailer, no carpet installer, no tradesperson. Looks like broadloom, replaces like tiles. 15-year commercial warranty. Delivered Australia-wide.",
+    "Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties. 15-year warranty, solution-dyed nylon, replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
   keywords: [
     "carpet tiles",
-    "DIY carpet",
-    "DIY carpet tiles",
-    "home carpet",
-    "DIY flooring",
-    "rental flooring",
-    "carpet tiles Australia",
     "modular carpet",
-    "residential carpet tiles",
-    "carpet tiles for home",
-    "self-install carpet",
-    "carpet tiles rental property",
+    "hotel carpet",
+    "motel carpet",
+    "commercial carpet tiles",
+    "carpet tiles Australia",
+    "hospitality flooring",
+    "rental flooring",
     "investment property flooring",
-    "replacement carpet tiles",
+    "residential carpet tiles",
+    "solution-dyed nylon carpet",
+    "carpet tiles for home",
+    "carpet installation Melbourne",
+    "carpet installation Sydney",
+    "carpet installation Brisbane",
     "broadloom alternative",
     "Premrest",
   ],
@@ -41,9 +43,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AU",
     siteName: "Modular Carpet by Premrest",
-    title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
+    title:
+      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
     description:
-      "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
+      "Commercial-grade modular carpet for hotels, considered homes, and investment properties. Replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au",
     images: [
       {
@@ -56,9 +59,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DIY Carpet Tiles - No Installer Needed | Modular Carpet Australia",
+    title:
+      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
     description:
-      "Premium carpet tiles you install yourself. Skip the carpet store and the installer. 15-year warranty. Delivered Australia-wide.",
+      "Commercial-grade modular carpet for hotels, considered homes, and investment properties. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
     images: ["/images/lifestyle/hero-home.jpg"],
   },
   alternates: {

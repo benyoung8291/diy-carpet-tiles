@@ -45,9 +45,9 @@ export function BenefitsGrid() {
   return (
     <Section background="linen">
       <SectionHeader
-        overline="The Problem with Traditional Carpet"
-        title="Why Pay a Retailer and an Installer When You Don't Have To?"
-        description="Traditional carpet means expensive flooring stores, weeks waiting for installers, and replacing entire rooms when something goes wrong. Modular Carpet tiles change everything."
+        overline="What Makes the Product Different"
+        title="The Eight Things That Set Modular Carpet Apart"
+        description="The same commercial-grade specification used in hotels, serviced apartments, and considered residential interiors across Australia. Built to be repaired, not replaced - whichever path you take to install it."
       />
       <motion.div
         variants={containerVariants}

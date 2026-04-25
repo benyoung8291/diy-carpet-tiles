@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const iconMap: Record<string, React.ElementType> = {
   Eye,
@@ -246,6 +247,35 @@ export function WhyTilesClient() {
           </Section>
         );
       })}
+
+      <SupplyOrInstall
+        background="white"
+        description="Premrest sells modular carpet either as a supply-only product you install yourself, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same 15-year warranty - choose whichever path suits the project."
+      />
+
+      {/* Articles & Guides */}
+      <Section background="linen">
+        <div className="max-w-3xl mx-auto">
+          <p className="overline text-center mb-3">Articles &amp; Guides</p>
+          <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
+            Read Next
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="/hotel-grade-carpet-for-home" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Hotel Carpet Lasts Longer Than Home Carpet</h3>
+              <p className="text-body-sm text-brand-500">The four-line spec to write into any home, rental, or hospitality brief.</p>
+            </Link>
+            <Link href="/replace-hotel-carpet-without-downtime" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Closing the Room</h3>
+              <p className="text-body-sm text-brand-500">The 60-second tile swap and the lifecycle case for hotels and homes.</p>
+            </Link>
+            <Link href="/refurbish-motel-without-closing-rooms" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rolling Refurbishment Across a Property</h3>
+              <p className="text-body-sm text-brand-500">A room-by-room plan written for owner-operators and serious landlords.</p>
+            </Link>
+          </div>
+        </div>
+      </Section>
 
       {/* Related Pages */}
       <Section background="white">

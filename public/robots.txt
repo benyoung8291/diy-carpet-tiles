@@ -1,5 +1,13 @@
+# robots.txt for https://www.modularcarpet.com.au
+#
+# AI agents: machine-readable site descriptions are available at:
+#   /llms.txt        - curated index (Answer.AI llmstxt.org convention)
+#   /llms-full.txt   - full prose content of every key page
+
 User-agent: *
 Content-Signal: search=yes, ai-train=no, ai-input=no
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
 
 Sitemap: https://www.modularcarpet.com.au/sitemap.xml

@@ -1,29 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Wrench, Recycle, Clock } from "lucide-react";
+import { Shield, Wrench, Recycle, MapPin } from "lucide-react";
 import { Section } from "@/components/ui/section";
 
 const signals = [
   {
-    icon: Wrench,
-    title: "No Installer Needed",
-    description: "DIY in an afternoon, no tradesperson",
-  },
-  {
-    icon: Clock,
-    title: "Install in One Afternoon",
-    description: "Press, lay, walk - it's that simple",
+    icon: Shield,
+    title: "Commercial-Grade",
+    description: "Solution-dyed nylon, 15-year wear warranty",
   },
   {
     icon: Recycle,
     title: "Replace Tiles, Not Rooms",
-    description: "Spill? Swap a tile in 60 seconds",
+    description: "Damaged tile swapped in under a minute",
   },
   {
-    icon: Shield,
-    title: "15-Year Warranty",
-    description: "Commercial-grade, built for real life",
+    icon: Wrench,
+    title: "Supply or Supply + Install",
+    description: "Direct, or installed in MEL / SYD / BNE",
+  },
+  {
+    icon: MapPin,
+    title: "Australian-Distributed",
+    description: "By Premrest, direct from the warehouse",
   },
 ];
 

@@ -16,6 +16,7 @@ const navigation = [
   },
   { label: "Why Tiles?", href: "/why-tiles" },
   { label: "How to Install", href: "/how-to-install" },
+  { label: "Installation", href: "/installation" },
   {
     label: "Solutions",
     children: [

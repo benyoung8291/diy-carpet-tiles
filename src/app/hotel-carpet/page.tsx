@@ -3,15 +3,18 @@ import { HotelCarpetClient } from "./hotel-carpet-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Hotel Carpet Solution | Stop Disruptions & Costly Repairs",
+  title:
+    "Hotel & Motel Carpet | Modular Tiles for Hospitality | Premrest Australia",
   description:
-    "The modular carpet solution for hotels. Replace damaged tiles without closing rooms. Solution-dyed nylon resists stains, fading and heavy traffic. 15-year warranty. Phased rollouts and volume pricing available. Professionally installed by Premrest.",
+    "Commercial-grade modular carpet for hotels, motels, and serviced apartments. Replace damaged tiles without closing rooms, 15-year wear warranty, solution-dyed nylon. Supply-only or full supply-and-install in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/hotel-carpet" },
   openGraph: {
-    title: "Hotel Carpet Solution | Stop Disruptions & Costly Repairs",
-    description: "The modular carpet solution for hotels. Replace damaged tiles without closing rooms. Phased rollouts and volume pricing available.",
+    title:
+      "Hotel & Motel Carpet | Modular Tiles for Hospitality | Premrest Australia",
+    description:
+      "Commercial-grade modular carpet for hotels, motels, and serviced apartments. Spot-replace damaged tiles between guests. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au/hotel-carpet",
-    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Modular carpet solution for hotels" }],
+    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Modular carpet for hotel and motel guest rooms" }],
   },
 };
 
