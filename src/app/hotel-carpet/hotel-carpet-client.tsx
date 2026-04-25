@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const hotelBenefits = [
   {
@@ -356,6 +357,14 @@ export function HotelCarpetClient() {
           }}
         />
       </Section>
+
+      <SupplyOrInstall
+        background="linen"
+        description="Premrest works with hospitality operators either as a supply-only partner direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The same commercial-grade product, the same 15-year wear warranty - the difference is who lays it."
+        path1Suits="Suits hotels, motels, and asset managers with established trade relationships or in-house maintenance teams"
+        path2Suits="Suits properties with strict open dates, remote head offices, or no in-house trade capacity"
+        closingNote="Either way, ongoing tile-by-tile repairs after fit-out stay an in-house, no-contractor task."
+      />
 
       {/* Articles & Guides */}
       <Section background="white">

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 import { faqs } from "./faqs";
 
 export function RefurbishMotelClient() {
@@ -364,60 +365,13 @@ export function RefurbishMotelClient() {
         </p>
       </Section>
 
-      {/* Supply only or supply + install */}
-      <Section background="linen">
-        <SectionHeader
-          overline="Two Paths to a Finished Floor"
-          title="Supply Only, or Supply and Install - Your Choice"
-          description="The rolling-refurbishment plan in this article assumes you do the work yourself. If you'd rather hand it off, Premrest offers a supply-and-install service in Melbourne, Sydney, and Brisbane that can follow the same phased schedule across your low-occupancy windows."
-        />
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white rounded-lg p-8 border border-brand-200">
-            <p className="overline mb-3">Path 1</p>
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-              Supply only - install yourself or with your handyman
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-500">
-              {[
-                "Direct from the warehouse to your motel",
-                "Install during your low-occupancy windows, room by room",
-                "Adhesive coverage ~180 m² per tub at around $150 each",
-                "Suits owner-operators who'd rather control the schedule",
-                "Written installation guide and pile-direction documentation supplied",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-            <p className="overline mb-3">Path 2</p>
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-              Supply and install - Melbourne, Sydney, Brisbane
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-700">
-              {[
-                "Premrest manages measurement, supply, and installation",
-                "Indicative installation rate ~$20-25/m² of laid carpet",
-                "Site prep, levelling, transitions, and old-carpet removal quoted alongside",
-                "Phased install possible to match your low-occupancy windows",
-                "One contract, one invoice, one project lead",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
-          The choice between paths doesn&apos;t change the product or the
-          warranty. It just changes who lays it.
-        </p>
-      </Section>
+      <SupplyOrInstall
+        background="linen"
+        description="The rolling-refurbishment plan in this article assumes you do the work yourself. If you'd rather hand it off, Premrest offers a supply-and-install service in Melbourne, Sydney, and Brisbane that can follow the same phased schedule across your low-occupancy windows."
+        path1Suits="Suits owner-operators who'd rather control the schedule and the trade"
+        path2Suits="Suits operators who'd rather hand the project off and have a phased install matched to their low-occupancy windows"
+        closingNote="The choice between paths doesn't change the product or the warranty. It just changes who lays it."
+      />
 
       {/* FAQ */}
       <Section background="white">

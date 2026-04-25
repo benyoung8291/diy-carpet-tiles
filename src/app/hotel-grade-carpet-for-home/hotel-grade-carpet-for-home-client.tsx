@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 import { faqs } from "./faqs";
 
 export function HotelGradeCarpetForHomeClient() {
@@ -305,61 +306,13 @@ export function HotelGradeCarpetForHomeClient() {
         </p>
       </Section>
 
-      {/* Supply only or supply + install */}
-      <Section background="linen">
-        <SectionHeader
-          overline="Two Paths to a Finished Floor"
-          title="Supply Only, or Supply and Install - Your Choice"
-          description="Specifying the right product is half the decision. Choosing how it gets installed is the other half. Premrest works both ways, so the same hotel-grade product can be delivered to your door for an in-house install, or laid for you by a Premrest installation team."
-        />
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white rounded-lg p-8 border border-brand-200">
-            <p className="overline mb-3">Path 1</p>
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-              Supply only - install yourself or via your trade
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-500">
-              {[
-                "Direct from the warehouse to your home, rental, or property",
-                "Install with your usual trade or as an owner-installer project",
-                "Adhesive coverage ~180 m² per tub, around $150 each",
-                "Suits handy homeowners, owner-operated motels, and trades-savvy landlords",
-                "Written installation guide and pile-direction documentation supplied",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-            <p className="overline mb-3">Path 2</p>
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-              Supply and install - Melbourne, Sydney, Brisbane
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-700">
-              {[
-                "Premrest manages measurement, supply, and installation",
-                "Indicative installation rate ~$20-25/m² of laid carpet",
-                "Site preparation, levelling, and transitions quoted alongside",
-                "One contract, one invoice, one project lead",
-                "Suits considered home renovations, multi-property landlords, and hospitality fit-outs",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
-          The choice between paths doesn&apos;t change the specification - it
-          just changes who lays it. The same 15-year wear warranty and the same
-          solution-dyed nylon either way.
-        </p>
-      </Section>
+      <SupplyOrInstall
+        background="linen"
+        description="Specifying the right product is half the decision. Choosing how it gets installed is the other half. Premrest works both ways, so the same hotel-grade product can be delivered to your door for an in-house install, or laid for you by a Premrest installation team."
+        path1Suits="Suits handy homeowners, owner-operated motels, and trades-savvy landlords"
+        path2Suits="Suits considered home renovations, multi-property landlords, and hospitality fit-outs"
+        closingNote="The choice between paths doesn't change the specification - it just changes who lays it. The same 15-year wear warranty and the same solution-dyed nylon either way."
+      />
 
       {/* FAQ */}
       <Section background="white">

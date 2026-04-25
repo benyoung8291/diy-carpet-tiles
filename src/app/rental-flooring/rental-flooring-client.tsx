@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const landlordBenefits = [
   {
@@ -334,6 +335,14 @@ export function RentalFlooringClient() {
           }}
         />
       </Section>
+
+      <SupplyOrInstall
+        background="linen"
+        description="Premrest works with landlords either as a supply-only partner for self-managing owners, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Whichever path you choose, ongoing tile-by-tile repairs between tenancies stay an in-house, no-tradesperson task."
+        path1Suits="Suits trade-savvy or DIY-handy landlords who'd rather control the schedule"
+        path2Suits="Suits multi-property landlords, asset managers, and owners outside major capitals organising work remotely"
+        closingNote="Either path delivers the same commercial-grade tile and the same 15-year wear warranty."
+      />
 
       {/* Articles & Guides */}
       <Section background="white">

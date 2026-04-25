@@ -133,6 +133,25 @@ export function EnquiryForm({
             <option value="undecided">Not sure yet</option>
           </select>
         </div>
+        <div className={compact ? undefined : "md:col-span-2"}>
+          <label
+            htmlFor="service-type"
+            className="block text-sm font-medium text-brand-600 mb-1.5"
+          >
+            Service Type
+          </label>
+          <select
+            id="service-type"
+            name="service_type"
+            defaultValue=""
+            className="w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors"
+          >
+            <option value="">How would you like to work with us?</option>
+            <option value="supply_only">Supply only - I&apos;ll install it myself or arrange my own trade</option>
+            <option value="supply_and_install">Supply and install (Melbourne, Sydney, or Brisbane)</option>
+            <option value="not_sure">Not sure yet - happy to discuss both options</option>
+          </select>
+        </div>
       </div>
 
       {!compact && (

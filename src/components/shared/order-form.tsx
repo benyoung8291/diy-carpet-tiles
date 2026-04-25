@@ -114,6 +114,8 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [notes, setNotes] = useState("");
+  const [installInterested, setInstallInterested] = useState(false);
+  const [installCity, setInstallCity] = useState("");
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -186,6 +188,13 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
     formData.append("email", email);
     formData.append("phone", phone);
     formData.append("delivery_notes", notes);
+    formData.append(
+      "install_quote_requested",
+      installInterested ? "Yes" : "No"
+    );
+    if (installInterested) {
+      formData.append("install_city", installCity || "Not specified");
+    }
     formData.append("terms_accepted", "Yes");
     formData.append("terms_accepted_at", new Date().toISOString());
 
@@ -643,6 +652,49 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
                 placeholder="Delivery address, special instructions, questions..."
               />
             </div>
+          </div>
+
+          {/* Optional installation interest */}
+          <div className="bg-accent-light border-2 border-accent/20 rounded-lg p-5">
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={installInterested}
+                onChange={(e) => setInstallInterested(e.target.checked)}
+                className="mt-1 w-4 h-4 rounded border-brand-300 text-accent focus:ring-accent flex-shrink-0"
+              />
+              <span className="text-body-sm text-brand-700 leading-relaxed">
+                <strong className="text-brand-800">
+                  Also interested in installation?
+                </strong>{" "}
+                Premrest offers supply-and-install in Melbourne, Sydney, and
+                Brisbane (indicatively ~$20-25/m², site-specific costs included
+                in the quote). Tick the box to receive an installation quote
+                alongside this supply order.
+              </span>
+            </label>
+            {installInterested && (
+              <div className="mt-4 ml-7">
+                <label
+                  htmlFor="install-city"
+                  className="block text-sm font-medium text-brand-600 mb-1.5"
+                >
+                  Installation Location
+                </label>
+                <select
+                  id="install-city"
+                  value={installCity}
+                  onChange={(e) => setInstallCity(e.target.value)}
+                  className={inputClass}
+                >
+                  <option value="">Select your city</option>
+                  <option value="melbourne">Melbourne</option>
+                  <option value="sydney">Sydney</option>
+                  <option value="brisbane">Brisbane</option>
+                  <option value="other">Other - please describe in delivery notes</option>
+                </select>
+              </div>
+            )}
           </div>
 
           {/* Terms acceptance */}

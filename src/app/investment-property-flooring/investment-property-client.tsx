@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const investorBenefits = [
   {
@@ -362,6 +363,14 @@ export function InvestmentPropertyClient() {
           }}
         />
       </Section>
+
+      <SupplyOrInstall
+        background="linen"
+        description="Premrest works with investment-property owners either as a supply-only partner for trade-savvy landlords managing their own renovations, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane for portfolios that prefer a single point of contact."
+        path1Suits="Suits self-managing landlords with an established maintenance trade or DIY-handy ownership"
+        path2Suits="Suits asset managers, multi-property owners, and trustees who need one contract per project"
+        closingNote="The lifecycle case for modular over broadloom holds either way - the only thing changing between the paths is who lays it."
+      />
 
       {/* Articles & Guides */}
       <Section background="white">

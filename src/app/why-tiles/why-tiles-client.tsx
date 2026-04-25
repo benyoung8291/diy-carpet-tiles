@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/ui/section";
+import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 const iconMap: Record<string, React.ElementType> = {
   Eye,
@@ -246,6 +247,11 @@ export function WhyTilesClient() {
           </Section>
         );
       })}
+
+      <SupplyOrInstall
+        background="white"
+        description="Premrest sells modular carpet either as a supply-only product you install yourself, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same 15-year warranty - choose whichever path suits the project."
+      />
 
       {/* Articles & Guides */}
       <Section background="linen">
