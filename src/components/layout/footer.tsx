@@ -7,11 +7,12 @@ const footerLinks = {
     { label: "Horizon", href: "/ranges/horizon" },
   ],
   resources: [
-    { label: "Why Carpet Tiles?", href: "/why-tiles" },
+    { label: "Why Modular Carpet?", href: "/why-tiles" },
     { label: "How to Install", href: "/how-to-install" },
+    { label: "Installation Service", href: "/installation" },
     { label: "Rental Properties", href: "/rental-flooring" },
     { label: "Investment Properties", href: "/investment-property-flooring" },
-    { label: "Hotels", href: "/hotel-carpet" },
+    { label: "Hotels & Motels", href: "/hotel-carpet" },
     { label: "Contact Us", href: "/contact" },
   ],
 };
@@ -33,8 +34,9 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-body-sm text-brand-400 mt-4 leading-relaxed max-w-xs">
-              Seamless modular carpet tiles for Australian homes.
-              The look of broadloom, the freedom of tiles.
+              Commercial-grade modular carpet for hotels, motels, considered
+              homes, and investment properties. Supply-only or
+              supply-and-install in Melbourne, Sydney, and Brisbane.
             </p>
             <p className="text-[11px] text-brand-500 mt-3 italic">
               Premrest: Australia&apos;s go-to for commercial floor care

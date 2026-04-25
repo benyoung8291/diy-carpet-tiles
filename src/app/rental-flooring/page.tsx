@@ -3,15 +3,18 @@ import { RentalFlooringClient } from "./rental-flooring-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Carpet Tiles for Rental Properties | DIY Rental Flooring",
+  title:
+    "Carpet for Rental Properties | Modular Tiles for Landlords | Premrest",
   description:
-    "The best flooring for rental properties. DIY carpet tiles landlords and tenants can install themselves - no tradesperson needed. Replace damaged tiles between tenancies instead of re-carpeting entire rooms. 15-year warranty.",
+    "Modular carpet for rental properties: replace damaged tiles between tenancies in under an hour instead of re-carpeting whole rooms. 15-year commercial-grade warranty. Supply-only direct from Premrest, or supply-and-install in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/rental-flooring" },
   openGraph: {
-    title: "Carpet Tiles for Rental Properties | DIY Rental Flooring",
-    description: "The best flooring for rental properties. Replace damaged tiles between tenancies instead of re-carpeting entire rooms.",
+    title:
+      "Carpet for Rental Properties | Modular Tiles for Landlords | Premrest",
+    description:
+      "Modular carpet that survives multiple tenancy cycles. Replace damaged tiles between tenancies, no full re-carpet. Supply-only or supply-and-install.",
     url: "https://www.modularcarpet.com.au/rental-flooring",
-    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Carpet tiles for rental properties" }],
+    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Modular carpet tiles in an Australian rental property" }],
   },
 };
 
