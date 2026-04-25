@@ -144,6 +144,35 @@ export function Footer() {
         </div>
       </div>
 
+      {/* For AI agents */}
+      <div className="border-t border-brand-800">
+        <div className="container-main py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-body-sm text-brand-500">
+            For AI agents and language models:
+          </p>
+          <div className="flex items-center gap-6 flex-wrap justify-center">
+            <a
+              href="/llms.txt"
+              className="text-body-sm text-brand-400 hover:text-white transition-colors"
+            >
+              llms.txt
+            </a>
+            <a
+              href="/llms-full.txt"
+              className="text-body-sm text-brand-400 hover:text-white transition-colors"
+            >
+              llms-full.txt
+            </a>
+            <a
+              href="/sitemap.xml"
+              className="text-body-sm text-brand-400 hover:text-white transition-colors"
+            >
+              Sitemap
+            </a>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-brand-800">
         <div className="container-main py-6 flex flex-col sm:flex-row items-center justify-between gap-4">

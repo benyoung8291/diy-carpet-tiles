@@ -1,0 +1,844 @@
+# Modular Carpet by Premrest - Full Site Content
+
+> Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties across Australia. Solution-dyed nylon, 15-year wear warranty, ashlar-laid in any room you specify. Available as supply-only direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+
+This file is the full prose content of every key page on https://www.modularcarpet.com.au, concatenated for AI agent consumption. Pages are separated by horizontal rules and labelled with their canonical URL. For a curated index instead, see /llms.txt.
+
+## Table of Contents
+
+1. Home page
+2. Why Modular Carpet?
+3. Installation Service (Melbourne, Sydney, Brisbane)
+4. How to Install (DIY guide)
+5. Hotel and Motel Carpet
+6. Investment Property Flooring
+7. Rental Property Flooring
+8. Article: Replacing damaged hotel carpet without closing the room
+9. Article: Why hotel carpet lasts longer than home carpet
+10. Article: Refurbishing an owner-operated motel without closing rooms
+11. Haven Range
+12. Horizon Range
+13. Contact
+14. Purchase Policy
+
+---
+
+# Page: Home
+
+URL: https://www.modularcarpet.com.au/
+
+## Hero
+
+**Modular Carpet by Premrest.** Commercial-Grade Modular Carpet for Hotels, Considered Homes, and Investment Properties.
+
+Solution-dyed nylon, 15-year wear warranty, laid in an ashlar pattern that's indistinguishable from broadloom. Order direct for in-house install, or take the full supply-and-install service in Melbourne, Sydney, or Brisbane. Replace one tile when life happens - never the whole room.
+
+## Trust signals
+
+- Commercial-Grade: Solution-dyed nylon, 15-year wear warranty
+- Replace Tiles, Not Rooms: Damaged tile swapped in under a minute
+- Supply or Supply + Install: Direct, or installed in MEL / SYD / BNE
+- Australian-Distributed: By Premrest, direct from the warehouse
+
+## Find the Approach That Fits Your Project
+
+The same modular carpet works the same way across hotels, motels, considered homes, and investment properties. The difference is which lens you read it through.
+
+### Hotel, motel, or serviced apartment
+Spec a floor that handles commercial traffic and lets housekeeping spot-replace damaged tiles between guests. Phased installs across low-occupancy windows, no property closure required.
+
+### A home built to a higher standard
+The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels specify - in your master bedroom, hallway, family room, or home office. Install yourself or have us install for you.
+
+### Long-hold rental or portfolio
+Replace damaged tiles between tenancies in under an hour - never re-carpet a whole room again. One floor that survives multiple tenancy cycles without burning capital.
+
+### Doing the work yourself
+Trade-savvy homeowner, owner-operator, or hands-on landlord? Order direct, follow the install guide, and lay it yourself.
+
+## What Makes the Product Different
+
+The same commercial-grade specification used in hotels, serviced apartments, and considered residential interiors across Australia. Built to be repaired, not replaced - whichever path you take to install it.
+
+- Looks Like Broadloom: Forget everything you know about carpet tiles. These aren't office squares - they're precision-engineered to look and feel identical to traditional broadloom carpet.
+- Install Yourself, or Have Premrest Install: Two paths to a finished floor. Order direct from the warehouse for in-house or owner-installer projects, or take the supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same warranty.
+- Replace, Don't Re-Carpet: With traditional carpet, one stain means re-carpeting the entire room. With Modular Carpet, lift the damaged tile and swap in a fresh one in 60 seconds.
+- Fade-Resistant Nylon: Solution-dyed nylon locks colour in at a molecular level. Perfect for sun-drenched Australian living rooms - no fading, no colour loss, year after year.
+- Safe Over Concrete Slabs: Traditional carpet traps moisture and breeds mould. Our breathable recycled PET felt backing lets your concrete slab breathe - solving the #1 carpet problem in Australian homes.
+- Built-In Acoustic Underlay: No separate underlay to buy or install. The bonded felt backing delivers 0.25 NRC sound absorption - quieter rooms, warmer underfoot, less echo.
+- 15-Year Warranty: These tiles are rated for commercial offices, hospitality, and retail. In your home or rental, they outlast any broadloom. 15-year wear warranty - built for kids, pets, guests, tenants, and real life.
+- Less Waste, Smarter Design: Damaged carpet usually means the whole room goes to landfill. With modular tiles, you replace one tile - not the floor. Recycled PET backing. Less waste. Smarter living.
+
+## Two Paths to a Finished Floor
+
+Modular Carpet by Premrest is available either as a supply-only product or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The same product, the same 15-year warranty - the difference is who lays it.
+
+Path 1: Supply only
+- Direct from the warehouse to your property
+- Install with your existing trade, maintenance team, or as an owner-installer project
+- Pressure-sensitive adhesive ~180 m² coverage per tub at around $150 each
+- Written installation guide and pile-direction documentation supplied
+
+Path 2: Supply and install (Melbourne, Sydney, Brisbane)
+- Premrest manages measurement, supply, and installation
+- Indicative installation rate ~$20-25/m² of laid carpet
+- Site preparation, levelling, transitions, and old-carpet removal quoted alongside
+- One contract, one invoice, one project lead
+
+## How It Goes Down
+
+Whether you install yourself or have Premrest install for you, the process is the same.
+
+1. Prepare the subfloor - Ensure it is clean, dry, and level. Install over most existing hard floors, including moisture-affected concrete.
+2. Apply pressure-sensitive adhesive - Roll the PSA evenly across the subfloor and let it tack up for 30 to 60 minutes.
+3. Lay the tiles - Starting from the centre of the room, press tiles into the adhesive in an ashlar (brick-bond) pattern.
+4. Trim and finish - Trim edge tiles with a sharp utility knife. Walk on the new floor immediately.
+
+## Specifications
+
+- Tile dimensions: 500 x 1000 mm
+- Thickness: 11 mm (+/-10%)
+- Pile fibre: Solution-dyed nylon
+- Backing: Breathable recycled PET felt
+- Acoustic rating: 0.25 NRC
+- Warranty: 15-year commercial-grade wear warranty
+- Layout: Ashlar (brick-bond) recommended
+- Installation: Pressure-sensitive adhesive (PSA)
+- Suitability: Residential, hospitality, and light commercial
+
+## Pricing
+
+- $66.55 inc GST per square metre (supply)
+- 10 tiles per box (5 square metres)
+- $55 inc GST flat rate shipping Australia wide
+- 10% wastage recommended
+- Installation (Melbourne, Sydney, Brisbane): indicative ~$20-25/m² of laid carpet, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote
+
+## What Owners and Operators Say
+
+> We refurbished all twenty-four guest rooms over a quarter without ever closing the property. Premrest's team matched our low-occupancy windows and the rooms came back to inventory the next day. Looks identical to broadloom and the spare-tile inventory means a wine spill is a five-minute fix, not a re-carpet.
+> -- Alex T., Regional VIC - Motel Operator (Haven - Hearth)
+
+> We have a golden retriever and two kids under five. Last month I replaced a stained tile in 30 seconds. With traditional carpet we'd be looking at re-carpeting the whole room. Game changer.
+> -- Sarah M., Melbourne, VIC (Haven - Hearth)
+
+> As a landlord with six rentals, this is the only flooring that makes sense. Tenants damage one area? I swap tiles between tenancies instead of replacing the whole room. Pays for itself.
+> -- Linda & Peter D., Brisbane, QLD (Haven - Hearth)
+
+---
+
+# Page: Why Modular Carpet?
+
+URL: https://www.modularcarpet.com.au/why-tiles
+
+## The Problem with Traditional Carpet
+
+Traditional carpet means a trip to the flooring store, expensive quotes, weeks waiting for an installer, and re-carpeting the entire room when something goes wrong. Modular Carpet tiles eliminate every one of those problems - and the same product is available either supply-only direct from Premrest, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+
+## Carpet Tiles vs. Traditional Carpet
+
+Traditional carpet:
+- Visit a flooring retailer and get quotes
+- Wait weeks for a carpet installer
+- Pay $40-$60/m² just for installation labour
+- One stain = re-carpet the entire room
+- Traps moisture under rubber backing
+- Entire room goes to landfill when worn
+
+Modular Carpet tiles:
+- Order direct or take a supply-and-install quote
+- Self-install in an afternoon, or installed in MEL/SYD/BNE at indicative ~$20-25/m²
+- Save thousands on retailer markup; whichever path, the product cost is direct
+- Replace individual tiles in 60 seconds
+- Breathable felt - safe over concrete slabs
+- Replace tiles, not the whole floor
+
+## Eight Reasons Modular Carpet Outperforms Broadloom
+
+### 1. Truly Seamless - Indistinguishable from Broadloom
+Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that looks and feels identical to traditional rolled broadloom carpet. The join lines disappear completely once installed.
+- Precision-engineered edges for invisible joins
+- Ashlar (brick-bond) layout eliminates grid patterns
+- Identical texture and pile direction across every tile
+- Guests genuinely cannot tell it's tiles
+
+### 2. Two Install Paths
+Modular Carpet works two ways: order direct from Premrest for in-house or owner-installer projects, or take the full supply-and-install service in Melbourne, Sydney, and Brisbane. No flooring retailer markup either way - direct from the Australian distributor.
+- No flooring retailer in the supply chain
+- Pressure-sensitive adhesive allows repositioning during DIY install
+- Walk on it immediately - no drying time, no waiting
+- Indicative install rate ~$20-25/m² with site-specific costs itemised separately
+
+### 3. Replace Any Tile, Any Time
+This is the game-changer. Red wine on the carpet? Pet accident? A burn mark from a dropped candle? With broadloom, you'd need to re-carpet the entire room. With Modular Carpet, you simply lift the damaged tile and replace it with a fresh one in minutes. Keep a few spares and your carpet stays perfect forever.
+- Individual tiles lift out in seconds
+- Fresh tile presses into the same adhesive
+- No colour-matching issues - order the same batch
+- Perfect for homes with kids and pets, hotels with guests, or rentals with multiple tenancy cycles
+
+### 4. Solution-Dyed Nylon - The Premium Fibre
+Solution-dyed nylon is the gold standard for carpet fibre. Unlike stock-dyed alternatives, the colour is locked into the fibre at a molecular level during manufacturing. This means extraordinary fade resistance, stain resistance, and colour consistency that lasts the full warranty period.
+- Colour locked in at molecular level - won't fade
+- Superior stain resistance compared to polyester
+- Exceptional durability and crush recovery
+- Maintains appearance in high-traffic areas
+
+### 5. Breathable Backing - Safe Over Moisture
+Many Australian homes sit on concrete slabs with residual moisture. Traditional carpet with rubber backing traps that moisture, creating mould and odour problems. Our recycled PET felt backing is completely breathable, allowing your subfloor to breathe naturally while still providing comfort and insulation.
+- Install over moisture-affected concrete slabs
+- No trapped moisture = no mould, no odour
+- Recycled PET felt is lightweight and sustainable
+- Passed rigorous moisture vapour testing
+
+### 6. Acoustic Performance That You'll Feel
+The bonded felt underlay in every tile delivers impressive sound absorption with a 0.25 NRC (Noise Reduction Coefficient) rating. This means quieter rooms, reduced echo, and a warmer, more comfortable living environment - especially in open-plan homes, multi-storey dwellings, and hospitality properties.
+- 0.25 NRC acoustic rating
+- Reduces footfall noise between floors
+- Minimises echo in large, open-plan spaces
+- Bonded underlay - no separate underlay needed
+
+### 7. 15-Year Commercial-Grade Warranty
+These tiles are rated for commercial environments - offices, retail, hospitality - and backed by a 15-year wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.
+- 15-year commercial-grade wear warranty
+- Rated for heavy foot traffic
+- Exceeds residential durability requirements
+- Backed by Premrest - trusted Australian distributor
+
+### 8. The Sustainable Choice
+Modular carpet is inherently more sustainable than broadloom. When a section is damaged, you replace one tile - not the entire floor. The recycled PET felt backing gives new life to post-consumer plastic. Less waste, lower footprint, smarter living.
+- Replace tiles, not entire rooms - less landfill waste
+- Recycled PET felt backing from post-consumer plastic
+- Longer lifespan reduces replacement frequency
+- Modular design means zero off-cut waste during installation
+
+---
+
+# Page: Installation Service (Melbourne, Sydney, Brisbane)
+
+URL: https://www.modularcarpet.com.au/installation
+
+## Hero
+
+Premrest's installation team takes your project from site measurement through to a finished, walked, and signed-off floor. One contract, one invoice, one project lead - no managing a separate installer. Indicatively around $20-25 per square metre of laid carpet, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) included in the same quote.
+
+If you've decided modular carpet is the right product but you'd rather hand the install to a team that does this every day, this is the path for you. The same commercial-grade, solution-dyed nylon Premrest carries across the Haven and Horizon ranges, the same 15-year wear warranty - the difference is who lays it.
+
+## What's Included - Everything Between Your Brief and a Walked, Signed-Off Floor
+
+A Premrest installation isn't just labour. It's the full project envelope - measurement, prep, install, finishing, and handover - delivered by a team that does it every day.
+
+- Site measurement and shop drawings: A Premrest project lead measures every room, marks lines and transitions, and produces a shop drawing showing tile quantities, layout direction, and over-order allowance. The drawing comes to you for sign-off before any product is ordered.
+- Removal of existing flooring: Old broadloom, underlay, or vinyl is lifted, rolled, and disposed of. Existing ceramic, polished concrete, or timber substrates are inspected for suitability and noted in the quote.
+- Subfloor preparation and levelling: Cracks filled, lippage levelled, surface degreased, and primed where required. This is the single biggest determinant of how the finished floor looks - and where most lookalike contractors cut corners.
+- Tile installation in ashlar layout: Pressure-sensitive adhesive applied to manufacturer specification. Tiles laid in brick-bond pattern with consistent pile direction across every tile, edges trimmed against a straight-edge for a continuous appearance.
+- Transitions, edges, and finishing: Aluminium or hardwood transition strips at doorways, neat scribed cuts against walls and skirtings, the floor vacuumed and ready for furniture and occupation.
+- Walk-through and handover: Final inspection with you on site, any defect punch-list cleared on the spot, spare tiles labelled and stored where you direct for future repairs.
+
+Nothing on the punch-list goes home with the installer. The job is done when you say it's done.
+
+## Cities Served - Direct Installation Coverage in Three Capitals
+
+Premrest installation teams operate as direct service partners in three Australian capital cities.
+
+- Melbourne: Greater metro and inner-bayside coverage. Geelong and Mornington Peninsula quoted on a project basis.
+- Sydney: Greater metro and inner-ring coverage. Central Coast, Newcastle, and Wollongong quoted on a project basis.
+- Brisbane: Greater metro and bayside coverage. Gold Coast and Sunshine Coast quoted on a project basis.
+
+Outside these three coverage zones, the supply-only path is available nationwide and we're happy to quote regional or interstate projects on an individual basis.
+
+## Pricing Transparency - What the Indicative Rate Includes - And What Sits Alongside
+
+Every quote we issue itemises both the per-square-metre install rate and the site-specific extras. There are no bundled lump sums and no surprises after the work starts.
+
+Included in the ~$20-25/m² install rate:
+- Pressure-sensitive adhesive
+- Tile installation labour
+- Ashlar layout pattern and pile-direction setting
+- Edge trimming and scribed cuts to walls
+- Daily site clean-up
+- Final walk-through and handover
+
+Quoted alongside, itemised (site-specific extras):
+- Removal and disposal of existing flooring
+- Subfloor levelling or patching compound
+- Aluminium or hardwood transition strips
+- Furniture relocation (if required)
+- After-hours, weekend, or split-shift access
+- Out-of-metro travel and accommodation
+
+The rate is what installation labour costs. Everything that varies by site is quoted on its own line so you can see exactly where the number comes from.
+
+## Three Buyers, One Service
+
+- Hospitality fit-outs: Hotels, motels, and serviced apartments with strict open dates, brand-standard requirements, and zero tolerance for installation overruns. Phased installs across low-occupancy windows are routine.
+- Considered home renovations: Homeowners who specified solid-timber joinery, stone benchtops, and considered lighting - and who don't want flooring to be the part of the renovation that lets the rest down.
+- Multi-property landlords and asset managers: Portfolio-scale projects coordinated through a single point of contact. One brief, one quote, one project lead across multiple addresses or one large property.
+
+## Process - From Enquiry to Handover
+
+1. Enquiry and site brief: Tell us about the property, the rooms, the timing, and any constraints (open dates, low-occupancy windows, brand standards). Email or the contact form is fine - no in-store appointment required.
+2. Measurement: On-site measurement in metro Melbourne, Sydney, or Brisbane. For multi-property briefs or projects with existing architectural plans we work from supplied drawings to issue an indicative quote.
+3. Itemised quote: A written quote breaking out the supplied product cost, the installation rate, and any site-specific extras (existing-floor removal, levelling, transitions, after-hours access). No bundled lump sums - everything itemised.
+4. Confirmation and scheduling: Once approved, dates are locked in. Hospitality projects can be phased across low-occupancy windows so the property stays in inventory throughout. Most installs run 2-5 days for a single property.
+5. Installation: The Premrest team arrives with all materials, tools, and adhesive on site. The product is installed to manufacturer specification, with daily progress updates if you'd prefer not to be on site every day.
+6. Walk-through and handover: We walk the floor with you room-by-room, clear any defects on the spot, and hand over labelled spare tiles and the maintenance pack. The 15-year manufacturer warranty starts from handover.
+
+## Installation FAQ
+
+How quickly can you start?
+Lead time is typically 2-4 weeks from quote acceptance to first day on site. Hospitality projects with strict open dates can usually be accommodated with earlier notice.
+
+Can installation be phased across low-occupancy windows?
+Yes - this is one of the strengths of modular tile over broadloom. Our installers can return on the same days each week or month and lay one or more rooms per visit, matching your booking calendar. The property never needs to close as a whole.
+
+Do you handle stairs, edges, and transitions?
+Yes. Stair installations are quoted on a per-flight basis. Aluminium or hardwood transition strips at doorways are included in the site-specific extras line.
+
+What if my project is outside Melbourne, Sydney, or Brisbane?
+We quote out-of-area projects on a project basis. Travel and accommodation are itemised separately. For other states or remote sites, the supply-only path is always available.
+
+Is the installation labour warranted?
+Yes. Premrest provides a 12-month workmanship warranty on installation labour, separate from the 15-year manufacturer wear warranty on the tiles themselves.
+
+Can I buy tiles from you and arrange my own installer?
+Absolutely. The supply-only path is always available - the same product, the same warranty, no requirement to use Premrest installers.
+
+---
+
+# Page: How to Install (DIY guide)
+
+URL: https://www.modularcarpet.com.au/how-to-install
+
+This is the DIY install guide for owner-installers, trade-savvy homeowners, hands-on landlords, and motel owner-operators who want to lay the floor themselves. If you'd rather hand it off, see /installation for the Premrest supply-and-install service in Melbourne, Sydney, and Brisbane.
+
+## Estimated effort
+
+- Total time: ~4 hours for a single 25 m² room (including breaks)
+- Crew: One person, no second pair of hands required
+- Skill level: Comparable to laying vinyl planks or assembling flat-pack furniture
+
+## Tools required
+
+- Utility knife with spare blades
+- Straight edge or T-square
+- Chalk line
+- Tape measure
+- Carpet roller (optional, for pressing tiles into adhesive)
+- Short-nap paint roller or notched trowel (for adhesive application)
+- Knee pads (recommended)
+
+## Supplies
+
+- Modular Carpet tiles (plus 10% extra for cuts and spares)
+- Pressure-sensitive carpet tile adhesive (~180 m² coverage per tub at around $150 each)
+- Levelling compound (only if needed for uneven subfloor)
+
+## Step-by-step
+
+### Step 1: Prepare your subfloor
+Sweep or vacuum the entire subfloor. Fill any cracks, holes, or divots with levelling compound. Ensure the surface is dry. Remove any existing carpet, underlay, or loose flooring material. Concrete, plywood, existing vinyl, and existing tile are all suitable subfloors.
+
+### Step 2: Apply pressure-sensitive adhesive
+Pour adhesive and spread evenly with a short-nap roller or notched trowel. Work in manageable sections of about 3 to 4 metres at a time. Allow adhesive to tack up until it feels sticky but dry to the touch, typically 30 to 60 minutes depending on conditions.
+
+### Step 3: Lay your carpet tiles
+Find the centre of the room by snapping chalk lines between opposite walls. Start laying tiles from the centre outward in an ashlar (brick-bond) layout, offsetting each row by half a tile length. Check the arrows on the back of each tile and press each tile firmly into the adhesive.
+
+### Step 4: Trim, finish, and enjoy
+Measure edge tiles by flipping the tile upside-down against the wall. Score the backing with a sharp utility knife using a straight edge. Snap the tile along the score line for a clean cut. Press edge tiles firmly into adhesive. Walk on your new floor immediately - no drying time required.
+
+## Tips for a clean finish
+
+- Always check the directional arrow on the tile backing - all tiles should run in the same direction
+- The centre-out approach means cuts are at the perimeter, not the focal point of the room
+- Pressure-sensitive adhesive remains repositionable for several minutes after laying - if a tile is slightly off, lift and re-lay
+- Save offcuts as additional spares - they often fit at the next perimeter
+
+## Subfloor compatibility
+
+- Concrete slab (including moisture-affected slabs - the breathable PET backing handles this)
+- Existing ceramic, porcelain, or stone tile (provided it's level and bonded)
+- Plywood and structural timber
+- Existing vinyl floor (if firmly bonded)
+- Polished concrete
+
+Not recommended without prep: cushioned vinyl, particle board with delamination, or any subfloor with active moisture issues that haven't been addressed.
+
+---
+
+# Page: Hotel and Motel Carpet
+
+URL: https://www.modularcarpet.com.au/hotel-carpet
+
+## Hero
+
+Commercial-grade modular carpet for hotels, motels, and serviced apartments. The same product specified into hospitality across Australia: solution-dyed nylon, 15-year wear warranty, replace damaged tiles without closing rooms. Available supply-only direct from Premrest, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+
+## Why Hospitality Operators Specify Modular
+
+Operators who refuse to let one damaged room drag down their RevPAR. The product is rated for the corridor and lobby traffic of a commercial environment, yet routine repairs are handled by housekeeping, not a procurement-managed contractor.
+
+- Spot-replace damaged tiles in 60 seconds, in-room, by housekeeping
+- Phased fit-outs and refurbishments across low-occupancy windows
+- Brand-standard repairs that are invisible to the next guest
+- 15-year commercial-grade wear warranty rated for corridors and lobbies
+- Ashlar layout looks identical to broadloom from a guest's perspective
+- Bonded felt backing delivers 0.25 NRC for quieter guest rooms
+
+## Operational Advantages
+
+- Repairs handled in-room, in-day - room comes back to inventory the same day
+- No flooring contractor on site for routine damage events
+- Spare-tile inventory stored back-of-house, drawn from the original installation batch
+- Solution-dyed nylon means batch-to-batch colour consistency over the warranty period
+- Phased install schedules match low-occupancy windows
+- Both supply-only (use your existing trade) and supply-and-install (Premrest manages) paths
+
+## Two Paths for Hospitality Properties
+
+Path 1 - Supply only:
+- Direct from the warehouse to your property
+- Install with your existing maintenance team or preferred contractor
+- Suits hotels, motels, and asset managers with established trade relationships
+- Adhesive coverage ~180 m² per tub, around $150 each
+
+Path 2 - Supply and install (Melbourne, Sydney, Brisbane):
+- Premrest manages measurement, supply, and installation
+- Indicative installation rate ~$20-25/m² of laid carpet
+- Site preparation, levelling, and transitions quoted alongside
+- Suits properties with strict open dates or remote head offices
+
+Either way, ongoing tile-by-tile repairs after fit-out stay an in-house, no-contractor task.
+
+## Common Hospitality Questions
+
+What spare-tile inventory should we hold?
+Best practice for hotel and serviced-apartment operators is 5-10% of total floor area in spares per colour and per range, drawn from the original installation batch.
+
+Can the same range be re-ordered years later?
+Yes. Solution-dyed nylon ranges are produced to consistent specifications. We recommend ordering spares alongside your initial purchase to lock in absolute batch consistency.
+
+How does the warranty work for a commercial property?
+The 15-year wear warranty is rated for commercial environments including hotels, offices, retail, and serviced apartments. It covers fibre wear under normal commercial use; physical damage to individual tiles is what the spot-replacement model is for.
+
+Is the carpet acoustically suitable for hotel rooms?
+Yes. The bonded felt backing delivers an NRC of approximately 0.25, reducing footfall transmission between floors and in-room echo - which directly affects guest sleep quality and review scores.
+
+---
+
+# Page: Investment Property Flooring
+
+URL: https://www.modularcarpet.com.au/investment-property-flooring
+
+## Hero
+
+Commercial-grade modular carpet engineered for investment-property lifecycle costs. 15-year wear warranty, replace damaged tiles between tenancies in under an hour, no full re-carpet. Supply-only direct from Premrest, or full supply-and-install in Melbourne, Sydney, and Brisbane.
+
+## The Investor Case
+
+The landlord question isn't "what's the cheapest carpet I can buy this turnover?" It's "what's the lowest 10-year cost of carpet across the portfolio?" The two questions have different answers.
+
+Builder-grade carpet in a rental:
+- Replaced every 5-7 years per typical tenancy cycle
+- Full-room re-carpet on every replacement event ($2,000-$5,000+ per room)
+- 1-3 weeks of vacancy per replacement, attributable to flooring
+- Visible patches between tenants - flagged at the next inspection
+- Each replacement is a fresh capital expense, repeating
+
+Hotel-grade modular carpet in a rental:
+- 15-year commercial wear warranty across the range
+- Spot-replace damaged tiles between tenants in under an hour
+- No vacancy time attributable to flooring
+- Repairs invisible to the next tenant - original specification preserved
+- One capital event over a 10-15 year hold, not five
+
+## Why Asset Managers Specify Modular
+
+- Commercial-grade specification rated for hospitality, retail, and offices
+- Portfolio-scale projects coordinated through a single point of contact
+- Lifecycle cost roughly half of mid-range broadloom over a decade
+- Solution-dyed nylon doesn't fade, even on north-west aspects
+- Breathable felt backing solves Australian slab moisture issues
+- Repair model removes the recurring re-carpet capex line
+
+## Two Paths for Investment Properties
+
+Path 1 - Supply only:
+- Self-managing landlords with an established maintenance trade
+- DIY-handy ownership and trades-savvy investors
+- Direct from the warehouse, install through your existing trade
+
+Path 2 - Supply and install (Melbourne, Sydney, Brisbane):
+- Asset managers, multi-property owners, and trustees who need one contract per project
+- Indicative installation rate ~$20-25/m² with site-specific costs itemised
+- One brief, one quote, one project lead across multiple addresses
+
+The lifecycle case for modular over broadloom holds either way - the only thing changing between the paths is who lays it.
+
+---
+
+# Page: Rental Property Flooring
+
+URL: https://www.modularcarpet.com.au/rental-flooring
+
+## Hero
+
+Modular carpet for rental properties: replace damaged tiles between tenancies in under an hour instead of re-carpeting whole rooms. 15-year commercial-grade warranty. Supply-only direct from Premrest, or supply-and-install in Melbourne, Sydney, and Brisbane.
+
+## Why Landlords Specify Modular Carpet
+
+For landlords:
+- Slash turnover costs: traditional carpet replacement between tenants costs $2,000-$5,000+ per room. Swap damaged tiles for a few dollars each instead.
+- Replace tiles, not rooms: tenant burned the carpet with an iron? Red wine stain? Lift the damaged tile and press in a fresh one. Keep spares in the garage.
+- Faster turnover between tenants: no waiting weeks for a carpet installer. Replace damaged tiles yourself or via Premrest in under an hour.
+- 15-year commercial-grade warranty: rated for commercial offices and retail traffic. In a rental, handles years of tenants with ease.
+- Two install paths: install yourself, or take the supply-and-install service in Melbourne, Sydney, or Brisbane.
+- Safe over concrete slabs: many rentals sit on concrete slabs with moisture issues. The breathable PET felt backing eliminates the mould-trap problem.
+
+For tenants:
+- Install over existing hard floors without damaging them
+- Take your carpet with you when you move - tiles lift cleanly
+- Affordable way to make a rental feel like home
+- Replace individual tiles if accidents happen - keep your bond
+
+## Common Rental Property Questions
+
+Can tenants install carpet tiles in a rental property?
+Yes. Modular Carpet tiles are installed with pressure-sensitive adhesive, which allows tiles to be lifted and repositioned during installation, and removed cleanly when you move out. Tenants can install carpet tiles directly over existing hard floors like timber, vinyl, or tiles without causing any damage to the property.
+
+Can I replace individual tiles between tenancies?
+Absolutely. This is the biggest advantage for landlords. Instead of re-carpeting an entire room when tenants move out, simply lift and replace the damaged tiles. Keep a box of spares and your carpet stays perfect through multiple tenancy cycles.
+
+Are carpet tiles suitable for all rooms in a rental property?
+Yes for living rooms, bedrooms, hallways, home offices, and rumpus rooms. Not recommended for wet areas (bathrooms, laundries) where persistent moisture and humidity affect adhesive performance.
+
+Two paths for landlords:
+- Supply only: trade-savvy or DIY-handy landlords who'd rather control the schedule
+- Supply and install (Melbourne, Sydney, Brisbane): multi-property landlords, asset managers, and owners outside major capitals organising work remotely
+
+---
+
+# Article: How to Replace Damaged Hotel Carpet Without Closing the Room
+
+URL: https://www.modularcarpet.com.au/replace-hotel-carpet-without-downtime
+
+## Direct answer
+
+You replace it one tile at a time. Modular carpet tiles allow housekeeping to lift a single damaged tile and press in a fresh one in under 60 seconds - no installer, no adhesive cure time, no skip bin in the loading dock. The room is back online before the next check-in. The repair is invisible to the next guest.
+
+For a hotel, motel, or serviced-apartment operator, every night a room sits offline costs ADR. For a landlord, every day between tenants costs rent. For a homeowner who has invested in a beautiful home, a single stain shouldn't trigger a full re-carpet. The answer for all three is the same: a flooring system designed to be repaired, not replaced.
+
+## The Hidden P&L of a Single Broadloom Carpet Stain
+
+When a guest spills red wine on broadloom carpet in Room 217, the visible cost is the carpet repair invoice. The real cost is everything else.
+
+- Revenue lost while the room is offline: A broadloom patch rarely matches the surrounding carpet after a few months of foot traffic, so most operators end up re-carpeting the entire room. That's 5-14 nights offline waiting on flooring quotes, installer availability, and adhesive cure time. At an ADR of $220 with 80% occupancy, that's $880-$2,460 in lost revenue per room before the repair invoice arrives.
+- Operational drag on the team: Coordinating an outside flooring installer means quotes, scheduling, key access, supervision, and a contractor walking through the back-of-house. Every minute the engineering or housekeeping manager spends on this is a minute they aren't spending on turning over occupied rooms.
+- Slow erosion of brand standard: A patched carpet that doesn't quite match. A faintly visible repair line. A guest review that mentions the room felt tired. For a property that competes on review scores and ADR, the long-term cost of one visible repair compounds far beyond the line item on the maintenance ledger.
+
+The damage is rarely the expensive part. The downtime, the operational overhead, and the slow erosion of the room's standard are.
+
+## The Five-Minute Tile Swap, Done by In-House Staff
+
+1. Identify the affected tile or tiles. Most damage is contained to one or two tiles. Mark them with painter's tape.
+2. Lift the damaged tile. Slide a putty knife under one corner. Pressure-sensitive adhesive releases cleanly.
+3. Inspect the exposed substrate. A quick wipe is all that's needed. The adhesive remains tacky and re-bonds.
+4. Place a batch-matched spare from inventory. Check the directional arrow for pile alignment, position square, press firmly.
+5. Walk the seams and release the room. No drying time, no off-gassing, no adhesive odour. The room is immediately ready for turn-down service or check-in.
+
+The whole procedure fits inside the time it takes to deep-clean a bathroom. No installer call-out, no lead time, no contractor management.
+
+## Why the Replacement Is Invisible to the Next Guest
+
+- Solution-dyed nylon means batch-to-batch colour consistency. Colour locked into the fibre at a molecular level during manufacturing. A tile pulled from inventory next year matches the surrounding floor exactly.
+- Ashlar layout hides the join. No continuous grid line for the eye to track. A single replaced tile disappears into the broader surface.
+- Identical pile direction on every tile. Directional arrows on every tile back ensure replacement tiles reflect light the same way as their neighbours. No shadow line that gives a repair away.
+
+A property is only ever as good as its worst-looking room. Modular Carpet lets you keep every room at the standard you originally specified - for the full 15-year life of the floor.
+
+## 10-Year Lifecycle Economics for a 30-Room Property
+
+Mid-range broadloom:
+- Initial fit-out: 30 rooms × 25 m² × $80 supplied & installed = $60,000
+- Re-carpet of damaged rooms (8 rooms × 2 cycles over 10 years): $32,000
+- Room revenue lost to re-carpet downtime (8 × 2 × 7 nights × $176 RevPAR): $19,712
+- Disruption: 20+ days of rooms out of inventory across the portfolio
+- Patches visible at 6 months as dye lots and wear age diverge
+- 10-year carpet investment: ~$111,700
+
+Modular Carpet (premium):
+- Initial fit-out: 30 rooms × 25 m² × $66.55/m² inc GST = $49,912
+- Pressure-sensitive adhesive (5 × 180 m² tubs at ~$150 each): ~$750
+- 10-year spare-tile inventory and spot replacements: ~$3,500
+- Room revenue lost to repairs: $0 - repairs handled in-room, in-day
+- Commercial-grade solution-dyed nylon, 15-year wear warranty
+- 10-year carpet investment: ~$54,000
+
+Over a decade the modular approach is roughly half the total spend of mid-range broadloom - and it delivers a commercial-grade, solution-dyed nylon product backed by a 15-year warranty. The lower lifecycle cost is the consequence of buying the better product, not the cheaper one.
+
+## Same Playbook, Three Properties
+
+- Hospitality: hotels, motels, serviced apartments where one damaged room can drag down RevPAR
+- Investment property: multi-property landlords where every vacancy week is rent foregone
+- Considered home: homeowners who don't accept that one red-wine spill means re-carpeting the master bedroom
+
+The common thread isn't price sensitivity - it's investment thinking. None of these owners are looking for the cheapest carpet. They are looking for the carpet that protects the asset.
+
+---
+
+# Article: Why Hotel Carpet Lasts Longer Than Home Carpet
+
+URL: https://www.modularcarpet.com.au/hotel-grade-carpet-for-home
+
+## Direct answer
+
+Hotel carpet lasts longer than most home carpet because hotels specify commercial-grade fibre, dye chemistry, and backing - not residential-grade. The carpet itself is the cause. The good news: the same commercial specification is available to a homeowner or landlord building a property to a higher standard, often at a comparable upfront cost to mid-range broadloom.
+
+Walk into a 4½-star hotel. The carpet in the corridor sees more foot traffic in a week than a family hallway sees in a year, yet it looks better at year ten than the carpet in most homes does at year three. That gap is not maintenance, not luck, and not budget. It is specification.
+
+## The Four Specifications That Separate Hotel Carpet from Home Carpet
+
+### 1. Solution-dyed nylon fibre
+In hotel-grade carpet, the colour is locked into the nylon at a molecular level during manufacturing. In residential-grade carpet, dye is typically applied to the fibre surface afterwards. The difference shows up at year three under sunlight, in spill testing, and the first time someone uses a bleach-based cleaner. Solution-dyed fibre simply doesn't fade or surrender colour the way stock-dyed fibre does.
+
+### 2. Commercial-grade pile weight and density
+Hotel specifications nominate pile density in grams per square metre, not in language like "soft" or "thick". Mid-range residential carpet typically sits around 600-800 g/m². Commercial-grade carpet specified for hotel guest rooms typically sits at 950+ g/m². Density is what you feel underfoot at year ten.
+
+### 3. Backing built for cleaning, moisture, and replacement
+Most home broadloom uses a foam or rubber secondary backing that traps moisture, breaks down under steam-cleaning, and cannot be lifted without destroying it. Commercial-grade carpet uses a bonded felt or recycled PET backing that breathes, tolerates professional cleaning, and (in tile form) can be lifted and re-laid without damage.
+
+### 4. Modular, tile-based construction
+Premium hotels stopped fitting wall-to-wall broadloom in guest rooms a decade ago. Tile construction means a damaged area is repaired in the room, in minutes, by housekeeping. There is no equivalent in residential broadloom: when something goes wrong with a stretched-in carpet, the entire room is replaced.
+
+Hotels are not paying more for the same product. They are paying for a different product. That product is also available to homeowners and landlords willing to specify it.
+
+## Why Mass-Market Home Carpet Is Built to a Different Standard
+
+- The retailer-led supply chain optimises for price-on-the-shelf. Margin is taken at every step (showroom, sample, installer subcontract). Fibre, density, backing, and warranty are the variables that get trimmed first.
+- Polyester replaced nylon as the volume fibre. Polyester is cheaper to produce and feels soft when new, but has roughly half the resilience of nylon under sustained load and fades faster. Hotels almost universally specify nylon, and almost always solution-dyed.
+- Foam-backed broadloom is built for a single installation. Once stretched across tackless strips, it's a single sheet. There is no provision for repair, partial replacement, or lifting and refitting.
+
+Specifying a different product isn't an extravagance. It's recognising that the standard on offer at most retail showrooms was optimised for a different question than the one a long-term homeowner or landlord is actually asking.
+
+## The Rooms Where Hotel-Grade Specification Pays Back Fastest
+
+- Hallways and stair landings: highest-traffic surface in any home
+- Master bedrooms with north or west aspect: UV destroys stock-dyed carpet
+- Family rooms with kids or pets: cleans without colour loss + replace one tile if a permanent mark develops
+- Home offices and study areas: office chair castors grind paths into mid-range carpet within two years
+- Holiday-house and short-stay properties: effectively domestic-scale hotels
+
+In modular tile form, you can specify this room by room rather than committing the whole house at once.
+
+## The Four-Line Specification You Can Copy Into Any Brief
+
+Hand this to your builder, architect, interior designer, or carpet retailer.
+
+1. Fibre: 100% solution-dyed nylon. Stain and bleach resistant. No stock-dyed or polyester substitutes.
+2. Construction: Modular carpet tile (typically 500 × 500 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.
+3. Pile weight: Minimum 950 g/m². Pile density and resilience rated for commercial corridor use.
+4. Warranty: Minimum 15-year commercial wear warranty. Manufacturer-backed, not retailer-backed.
+
+The Modular Carpet Haven and Horizon ranges are designed against this exact specification.
+
+---
+
+# Article: How to Refurbish Carpet Across an Owner-Operated Motel Without Closing a Single Room
+
+URL: https://www.modularcarpet.com.au/refurbish-motel-without-closing-rooms
+
+## Direct answer
+
+Refurbish one room at a time, during your low-occupancy windows, using modular carpet tiles you can install yourself. A typical 25-room motel can have every guest room refreshed over a single quarter without ever taking the property below normal saleable inventory. No contractor scheduling, no extended closures, no fortnight-long capital crunch.
+
+Most motel refurbishment advice was written for the chain-hotel model - shut a floor, bring in a contractor, take the cost on the chin. That model doesn't fit the way an owner-operated motel actually runs.
+
+## Why Broadloom Carpet Fights an Owner-Operator at Every Step
+
+- You can't book a contractor around your bookings. Carpet installers schedule four to six weeks ahead. Your guest bookings come in two weeks ahead. The two calendars don't talk to each other.
+- Re-carpeting one room empties the room. Stretched-in broadloom requires the room to be cleared. Beds, side tables, desks, lamps - out into the corridor (which is now also out of inventory).
+- One quote, one contract, one capital event. There's no smooth way to refurbish six rooms now and the rest in three months when bookings ease.
+
+## The Room-by-Room Plan: Refresh One Room Per Window, Stay Open Throughout
+
+1. Identify your low-occupancy windows. Sunday-Tuesday in regional, mid-week dips in tourist markets, the post-school-holiday lull. List the next twelve windows.
+2. Sequence rooms by condition, not by room number. Start with the rooms nearest the office (highest traffic) or that get strongest afternoon sun (most fade).
+3. Pre-stage materials in a single bulk delivery. Order tiles in one delivery, store flat, pre-cut adhesive on a single trolley.
+4. Take the room offline at 11am, back to inventory by 2pm next day. Install runs 4-6 hours including furniture relocation. The room is offline for one night - the night you'd already chosen as low-occupancy.
+5. Update your booking system the moment the room is back. No buffer night - modular tiles have no drying time.
+
+Twelve refurbishment windows over a quarter is twelve rooms refreshed. Most owner-operated motels run between fifteen and thirty rooms - the entire property can be refurbished in one to two quarters without ever falling below normal saleable inventory.
+
+## What an Owner-Operator Install Actually Looks Like
+
+- One person, four to six hours per room. No second pair of hands required for a standard 25 m² guest room.
+- No specialist trade or licence required. Pressure-sensitive adhesive systems are explicitly designed for non-professional installation.
+- Mistakes are reversible during installation. PSA remains repositionable for several minutes after laying.
+
+If you've done your own painting, your own tiling repair, or your own furniture assembly to a guest-ready standard, you've already cleared the bar.
+
+## Spreading the Spend Across the Quarter
+
+Whole-property contractor refurb:
+- Single tender, single contract, single deposit
+- $40,000-$80,000 invoice payable inside 30 days
+- Property either fully closed or partially closed for 2-4 weeks
+- Refurbishment delayed until cashflow can absorb the lump
+- All twenty rooms refurbished - but two years later than they should have been
+
+Rolling refurbishment with modular tiles:
+- One bulk tile delivery up-front
+- Refurbishment funded from operating cashflow, room by room
+- Property runs at full saleable inventory throughout
+- Worst-condition rooms upgraded first - visible quality lift in the first month
+- All rooms refurbished within one to two quarters
+
+## A 20-Room Regional Motel: The Numbers in Practice
+
+Property metrics:
+- 20 rooms × 25 m² = 500 m² of guest-room carpet
+- Annual room nights at 65% occupancy ≈ 4,745
+- Annual room revenue ≈ $688,000
+- Daily revenue impact of one room offline ≈ $94
+
+Owner-operator path - install yourself:
+- Tiles: 500 m² × $66.55 = $33,275
+- Adhesive (3 × 180 m² tubs at ~$150) ≈ $450
+- 5% spares and offcuts ≈ $1,665
+- Owner-operator labour spread over 12 weeks
+- Foregone revenue (20 × 1 low-occ. night × $94) ≈ $1,880
+- Total: ~$37,300
+
+Premrest installs - supply & install:
+- Tiles: 500 m² × $66.55 = $33,275
+- Installation @ ~$22.50/m² × 500 m² ≈ $11,250
+- 5% spares and offcuts ≈ $1,665
+- Site prep, levelling, transitions: included in quote
+- Phased install possible across low-occupancy windows
+- Available in Melbourne, Sydney, Brisbane
+- Total: from ~$48,000
+
+Traditional contractor - mid-range broadloom, whole property:
+- Broadloom supplied & installed ≈ $45,000
+- Furniture relocation and prep across 20 rooms
+- Property partially closed for 2-4 weeks
+- Foregone revenue ≈ $9,000-$26,000
+- Single capital event payable inside 30 days
+- Worn-looking patches reappear at year 5-6
+- Total: $54,000-$71,000
+
+Either modular path is materially cheaper and less disruptive than the traditional broadloom contractor route. The decision between the two modular paths comes down to how hands-on you want to be.
+
+---
+
+# Page: Haven Range
+
+URL: https://www.modularcarpet.com.au/ranges/haven
+
+## Tagline
+Fireside Retreat, Modern Sophistication.
+
+## Description
+With its rich, high-low textured loop pattern, Haven brings the warmth and comfort of a fireside retreat into your home. Eight carefully curated colourways range from deep charcoals to soft ambers, creating a sanctuary of style and serenity in every room.
+
+## Eight colourways
+Smoke, Glow, Cinder, Spark, Kettle, Hearth, Crackle, Smoulder
+
+## Specs
+- Tile: 500 × 1000 mm modular carpet tile
+- Pile: Solution-dyed nylon, high-low textured loop
+- Backing: Bonded recycled PET felt (breathable)
+- Acoustic: 0.25 NRC
+- Warranty: 15-year commercial wear warranty
+- Suitability: Residential, hospitality, and light commercial
+- Pricing: $66.55 inc GST per square metre
+
+The Haven range is the most commonly specified across motel guest rooms because the tonal, non-patterned design suits a wide range of fit-out aesthetics and shows minimal traffic patterning.
+
+---
+
+# Page: Horizon Range
+
+URL: https://www.modularcarpet.com.au/ranges/horizon
+
+## Tagline
+Australian Energy, Vibrant Living.
+
+## Description
+Named after vibrant Australian suburbs, Horizon celebrates the energy, architecture, and character of neighbourhood living. With its plush broadloom feel and eight biophilic-inspired designs, this range transforms any room into a statement of modern Australian style.
+
+## Eight colourways
+Suburb-named designs (see https://www.modularcarpet.com.au/ranges/horizon for current colour list)
+
+## Specs
+- Tile: 500 × 1000 mm modular carpet tile
+- Pile: Solution-dyed nylon, plush broadloom-feel
+- Backing: Bonded recycled PET felt (breathable)
+- Acoustic: 0.25 NRC
+- Warranty: 15-year commercial wear warranty
+- Suitability: Residential, hospitality, and light commercial
+- Pricing: $66.55 inc GST per square metre
+
+The Horizon range is well-suited to properties with a more contemporary brand or design intent.
+
+---
+
+# Page: Contact
+
+URL: https://www.modularcarpet.com.au/contact
+
+## Contact details
+
+- Phone: 1300 207 915
+- Email: modular@premrest.com.au
+- Hours: Monday-Friday, 08:30-17:00 AEST
+- Address: 1/99 Heyington Ave, Thomastown, VIC 3074, Australia
+- Brand: Modular Carpet by Premrest
+- Legal entity: Premier Restorations Group Pty Ltd
+- ABN: 70 605 583 195
+
+## Enquiry form fields
+
+- Full Name (required)
+- Email Address (required)
+- Phone Number
+- Preferred Range: Haven / Horizon / Not sure yet
+- Service Type: Supply only / Supply and install (Melbourne, Sydney, or Brisbane) / Not sure yet
+- Approximate Room Size (m²)
+- Message
+
+Free physical samples ship Australia-wide. Quotes typically return within one business day.
+
+## Direct order option
+
+Direct supply orders can also be placed via the order form on each range page (see https://www.modularcarpet.com.au/ranges/haven and https://www.modularcarpet.com.au/ranges/horizon). The order form includes an optional "Also interested in installation?" checkbox that reveals a city selector (Melbourne / Sydney / Brisbane / Other) so customers can request an installation quote alongside the supply order.
+
+---
+
+# Page: Purchase Policy
+
+URL: https://www.modularcarpet.com.au/purchase-policy
+
+## Summary
+
+Purchase policy and terms of sale for direct supply orders through Premrest. Full terms at the URL above.
+
+## Key points
+
+- Returns policy with a 20% restocking fee for change-of-mind returns
+- Customers are required to contact Premrest directly before initiating any payment dispute or chargeback
+- 15-year manufacturer wear warranty on tiles
+- 12-month workmanship warranty on Premrest installation labour (separate from the manufacturer warranty)
+- Delivery is Australia-wide at $55 inc GST flat rate shipping for direct supply orders
+- Supply-and-install quotes (Melbourne, Sydney, Brisbane) include site-specific extras itemised separately
+
+---
+
+# Useful Links
+
+- Site map (XML): https://www.modularcarpet.com.au/sitemap.xml
+- API catalog (RFC 9727 linkset): https://www.modularcarpet.com.au/.well-known/api-catalog
+- Robots policy: https://www.modularcarpet.com.au/robots.txt
+- llms.txt index: https://www.modularcarpet.com.au/llms.txt
+- Markdown homepage: https://www.modularcarpet.com.au/ (Accept: text/markdown)
+
