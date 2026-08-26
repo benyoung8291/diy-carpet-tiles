@@ -176,27 +176,3 @@ export const INSTALLATION_STEPS = [
     icon: "Scissors",
   },
 ];
-
-export const TESTIMONIALS = [
-  {
-    quote:
-      "We refurbished all twenty-four guest rooms over a quarter without ever closing the property. Premrest's team matched our low-occupancy windows and the rooms came back to inventory the next day. Looks identical to broadloom and the spare-tile inventory means a wine spill is a five-minute fix, not a re-carpet.",
-    name: "Alex T.",
-    location: "Regional VIC - Motel Operator",
-    range: "Haven - Hearth",
-  },
-  {
-    quote:
-      "We have a golden retriever and two kids under five. Last month I replaced a stained tile in 30 seconds. With traditional carpet we'd be looking at re-carpeting the whole room. Game changer.",
-    name: "Sarah M.",
-    location: "Melbourne, VIC",
-    range: "Haven - Hearth",
-  },
-  {
-    quote:
-      "As a landlord with six rentals, this is the only flooring that makes sense. Tenants damage one area? I swap tiles between tenancies instead of replacing the whole room. Pays for itself.",
-    name: "Linda & Peter D.",
-    location: "Brisbane, QLD",
-    range: "Haven - Hearth",
-  },
-];
