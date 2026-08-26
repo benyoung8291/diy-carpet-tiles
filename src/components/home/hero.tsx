@@ -49,6 +49,16 @@ export function Hero() {
               <Link href="/contact">Request a Quote</Link>
             </Button>
           </div>
+          <p className="mt-6 text-body-md text-white/85">
+            Or call{" "}
+            <a
+              href="tel:1300207915"
+              className="underline underline-offset-4 hover:text-white transition-colors"
+            >
+              1300 207 915
+            </a>
+            .
+          </p>
         </motion.div>
       </div>
     </section>

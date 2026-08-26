@@ -121,7 +121,7 @@ export function HowToInstallClient() {
           >
             <p className="overline text-accent mb-4">DIY Carpet Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Skip the Installer - Lay Premium Carpet Tiles Yourself
+              How to Install Modular Carpet Tiles
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Traditional carpet needs a professional with power stretchers and

@@ -4,16 +4,14 @@ import { faqs } from "./faqs";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title:
-    "Modular Carpet Installation - Melbourne, Sydney, Brisbane | Premrest",
+  title: "Modular Carpet Installation - Melbourne, Sydney, Brisbane",
   description:
     "Premrest's full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. Indicative ~$20-25/m² install rate, site-specific costs itemised, 12-month workmanship warranty alongside the 15-year manufacturer warranty.",
   alternates: {
     canonical: "https://www.modularcarpet.com.au/installation",
   },
   openGraph: {
-    title:
-      "Modular Carpet Installation - Melbourne, Sydney, Brisbane | Premrest",
+    title: "Modular Carpet Installation - Melbourne, Sydney, Brisbane",
     description:
       "Full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. One contract, one invoice, one project lead.",
     url: "https://www.modularcarpet.com.au/installation",
@@ -25,6 +23,9 @@ export const metadata: Metadata = {
         alt: "Premrest modular carpet installation team",
       },
     ],
+  },
+  twitter: {
+    title: "Modular Carpet Installation - Melbourne, Sydney, Brisbane",
   },
 };
 

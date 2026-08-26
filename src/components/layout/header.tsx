@@ -111,6 +111,12 @@ export function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-4">
+          <a
+            href="tel:1300207915"
+            className="text-[15px] font-medium text-brand-600 hover:text-brand-800 transition-colors whitespace-nowrap"
+          >
+            1300 207 915
+          </a>
           <Button size="sm" asChild>
             <Link href="/contact">Get a Quote</Link>
           </Button>
@@ -165,7 +171,13 @@ export function Header() {
                   </Link>
                 )
               )}
-              <div className="pt-4">
+              <div className="pt-4 space-y-3">
+                <a
+                  href="tel:1300207915"
+                  className="block px-3 py-3 text-body-md font-medium text-brand-700 hover:bg-brand-100 rounded-md transition-colors"
+                >
+                  1300 207 915
+                </a>
                 <Button className="w-full" asChild>
                   <Link href="/contact" onClick={() => setMobileOpen(false)}>
                     Get a Quote

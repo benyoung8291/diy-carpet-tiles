@@ -8,7 +8,7 @@ export function HowItWorks() {
   return (
     <Section background="white">
       <SectionHeader
-        overline="How It Goes Down"
+        overline="How Installation Works"
         title="Four Steps From Subfloor to Finished Room"
         description="Whether you install yourself or have Premrest install for you, the process is the same. Pressure-sensitive adhesive, ashlar layout, walk on it immediately - no drying time, no off-gassing, no power stretchers."
       />

@@ -3,18 +3,19 @@ import { HowToInstallClient } from "./how-to-install-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title:
-    "How to Install Modular Carpet Tiles | Step-by-Step Guide | Premrest",
+  title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
   description:
     "Step-by-step guide for installing modular carpet tiles yourself - subfloor prep, pressure-sensitive adhesive, ashlar layout, edge cuts. Most rooms take a single afternoon. (Prefer to hand it off? Premrest also installs in Melbourne, Sydney, and Brisbane.)",
   alternates: { canonical: "https://www.modularcarpet.com.au/how-to-install" },
   openGraph: {
-    title:
-      "How to Install Modular Carpet Tiles | Step-by-Step Guide | Premrest",
+    title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
     description:
       "Step-by-step guide for installing modular carpet tiles yourself. Most rooms take a single afternoon. Premrest installation service also available in Melbourne, Sydney, Brisbane.",
     url: "https://www.modularcarpet.com.au/how-to-install",
     images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Step-by-step modular carpet tile installation guide" }],
+  },
+  twitter: {
+    title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
   },
 };
 

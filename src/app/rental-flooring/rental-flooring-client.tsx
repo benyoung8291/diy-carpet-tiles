@@ -111,7 +111,7 @@ export function RentalFlooringClient() {
           >
             <p className="overline text-accent mb-4">Rental Property Flooring</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              The Smartest Flooring for Rental Properties - DIY Carpet Tiles
+              Modular Carpet for Rental Properties
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Stop re-carpeting entire rooms between tenants. Stop paying installers

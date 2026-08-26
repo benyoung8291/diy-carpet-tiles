@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.modularcarpet.com.au/purchase-policy",
   },
+  openGraph: {
+    title: "Purchase Policy, Returns and Terms of Sale",
+    url: "https://www.modularcarpet.com.au/purchase-policy",
+  },
+  twitter: {
+    title: "Purchase Policy, Returns and Terms of Sale",
+  },
 };
 
 export default function PurchasePolicyPage() {

@@ -27,6 +27,10 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    title:
+      "Why Hotel Carpet Lasts Longer Than Home Carpet (And How to Specify It at Home)",
+  },
 };
 
 const faqJsonLd = {
