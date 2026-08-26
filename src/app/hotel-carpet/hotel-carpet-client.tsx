@@ -127,12 +127,11 @@ export function HotelCarpetClient() {
           >
             <p className="overline text-accent mb-4">Hotel Carpet Solution</p>
             <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-6 text-balance">
-              Stop Disruptions and Costly Carpet Repairs
+              Hotel and Motel Carpet You Repair Without Closing Rooms
             </h1>
             <p className="text-body-md md:text-body-lg text-brand-300 max-w-2xl">
-              Modular Carpet tiles combine the luxurious, plush feel of broadloom
-              with the convenience of modular replacement. Replace damaged tiles
-              in minutes - not days. Keep rooms earning, not closed for repairs.
+              Swap damaged tiles in minutes so rooms stay in inventory. Supply-only
+              or supply-and-install in Melbourne, Sydney, and Brisbane.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <Button size="lg" asChild>

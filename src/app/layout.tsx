@@ -14,8 +14,8 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   title: {
     default:
-      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
-    template: "%s | Modular Carpet by Premrest",
+      "Modular Carpet Tiles for Hotels, Homes and Rentals | Premrest",
+    template: "%s | Premrest",
   },
   description:
     "Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties. 15-year warranty, solution-dyed nylon, replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
@@ -125,7 +125,7 @@ export default function RootLayout({
               name: "Modular Carpet",
               url: "https://www.modularcarpet.com.au",
               description:
-                "Premium DIY carpet tiles for Australian homes. No installer needed. 15-year commercial warranty.",
+                "Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
               publisher: {
                 "@type": "Organization",
                 name: "Premier Restorations Group Pty Ltd",
@@ -170,7 +170,7 @@ export default function RootLayout({
                 name: "Australia",
               },
               description:
-                "Premium DIY carpet tiles for Australian homes, rental properties, investment properties, and hotels. No installer needed. 15-year commercial warranty.",
+                "Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "Carpet Tile Ranges",

@@ -27,6 +27,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    title: "How to Replace Damaged Hotel Carpet Without Closing the Room",
+  },
 };
 
 const faqJsonLd = {

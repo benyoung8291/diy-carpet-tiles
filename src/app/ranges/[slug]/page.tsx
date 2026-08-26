@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ranges, getRangeBySlug, PRICING } from "@/lib/data";
+import { ranges, getRangeBySlug, PRICING, SHARED_SPECS } from "@/lib/data";
 import { RangePageClient } from "./range-page-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
@@ -16,11 +16,31 @@ export function generateMetadata({ params }: Props): Metadata {
   const range = getRangeBySlug(params.slug);
   if (!range) return {};
 
+  const title = `${range.name} Modular Carpet Tiles | ${range.colorways.length} Colourways`;
+  const description = `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. ${SHARED_SPECS.warranty}. Order online, delivered Australia-wide.`;
+
   return {
-    title: `${range.name} DIY Carpet Tiles | ${range.colorways.length} Colours | No Installer Needed`,
-    description: `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. DIY installation, no tradesperson needed. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. 15-year warranty. Order online, delivered Australia-wide.`,
+    title,
+    description,
     alternates: {
       canonical: `https://www.modularcarpet.com.au/ranges/${range.slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.modularcarpet.com.au/ranges/${range.slug}`,
+      images: [
+        {
+          url: range.heroImage,
+          width: 1200,
+          height: 630,
+          alt: `${range.name} modular carpet tiles`,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
     },
   };
 }

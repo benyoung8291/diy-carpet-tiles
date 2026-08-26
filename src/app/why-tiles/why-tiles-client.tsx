@@ -142,7 +142,7 @@ export function WhyTilesClient() {
           >
             <p className="overline text-accent mb-4">The Problem with Traditional Carpet</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Why Are You Still Paying Flooring Retailers and Carpet Installers?
+              Why Modular Carpet Outperforms Broadloom
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Traditional carpet means a trip to the flooring store, expensive quotes,

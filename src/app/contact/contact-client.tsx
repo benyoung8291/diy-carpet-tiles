@@ -46,12 +46,10 @@ export function ContactClient() {
           >
             <p className="overline text-accent mb-4">Get in Touch</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Let&apos;s Find Your Perfect Carpet
+              Request a Quote or Free Samples
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              Whether you&apos;re ready for a quote, want to order free samples, or
-              just have questions - we&apos;re here to help. Our friendly team
-              typically responds within 24 hours.
+              Call 1300 207 915 or send the form. We reply within one business day. Samples ship Australia-wide.
             </p>
           </motion.div>
         </div>

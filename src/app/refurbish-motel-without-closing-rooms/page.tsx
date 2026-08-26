@@ -27,6 +27,10 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    title:
+      "How to Refurbish Carpet Across an Owner-Operated Motel Without Closing a Single Room",
+  },
 };
 
 const faqJsonLd = {
