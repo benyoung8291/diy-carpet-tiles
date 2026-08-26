@@ -58,26 +58,6 @@ export default function RangePage({ params }: Props) {
       "@type": "Brand",
       name: "Modular Carpet",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "24",
-      bestRating: "5",
-      worstRating: "1",
-    },
-    review: {
-      "@type": "Review",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      author: {
-        "@type": "Person",
-        name: "Sarah M.",
-      },
-      reviewBody: "Installed these in our lounge room over a weekend. They look just like regular carpet and the whole process was straightforward. Really happy with the quality.",
-    },
     offers: {
       "@type": "Offer",
       price: PRICING.pricePerSqm.toFixed(2),

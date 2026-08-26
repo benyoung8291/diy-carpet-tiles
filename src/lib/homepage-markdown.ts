@@ -144,25 +144,6 @@ is the same.
   carpet, with site-specific costs (preparation, levelling, transitions,
   removal of existing flooring) itemised separately in the quote
 
-## What Owners and Operators Say
-
-> "We refurbished all twenty-four guest rooms over a quarter without ever
-> closing the property. Premrest's team matched our low-occupancy windows
-> and the rooms came back to inventory the next day. Looks identical to
-> broadloom and the spare-tile inventory means a wine spill is a five-minute
-> fix, not a re-carpet."
-> -- Alex T., Regional VIC - Motel Operator (Haven - Hearth)
-
-> "We have a golden retriever and two kids under five. Last month I replaced
-> a stained tile in 30 seconds. With traditional carpet we'd be looking at
-> re-carpeting the whole room. Game changer."
-> -- Sarah M., Melbourne, VIC (Haven - Hearth)
-
-> "As a landlord with six rentals, this is the only flooring that makes
-> sense. Tenants damage one area? I swap tiles between tenancies instead of
-> replacing the whole room. Pays for itself."
-> -- Linda & Peter D., Brisbane, QLD (Haven - Hearth)
-
 ## Frequently Asked Questions
 
 ### What is modular carpet, and how is it different from broadloom?
