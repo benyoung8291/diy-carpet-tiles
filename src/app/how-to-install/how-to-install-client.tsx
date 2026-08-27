@@ -121,12 +121,15 @@ export function HowToInstallClient() {
           >
             <p className="overline text-accent mb-4">DIY Carpet Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              How to Install Modular Carpet Tiles
+              How to Install Modular Carpet Tiles Yourself
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              Traditional carpet needs a professional with power stretchers and
-              tack strips. Modular Carpet tiles need you, a utility knife, and
-              a free afternoon. Here&apos;s exactly how to do it.
+              Yes, you can install Modular Carpet tiles yourself. No power
+              stretcher, no tack strips, no professional installer.
+              Pressure-sensitive adhesive holds each tile in an ashlar
+              (brick-bond) layout; a utility knife handles the edge cuts. Most
+              rooms take a single afternoon. Prefer to hand it off? Premrest
+              also installs in Melbourne, Sydney, and Brisbane.
             </p>
           </motion.div>
         </div>
@@ -197,6 +200,7 @@ export function HowToInstallClient() {
       {steps.map((step, index) => (
         <Section
           key={step.step}
+          id={`step-${step.step}`}
           background={index % 2 === 0 ? "linen" : "white"}
         >
           <motion.div
