@@ -3,40 +3,36 @@ import { HowToInstallClient } from "./how-to-install-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
+  title: "How to Install Carpet Tiles Yourself",
   description:
-    "Step-by-step guide for installing modular carpet tiles yourself - subfloor prep, pressure-sensitive adhesive, ashlar layout, edge cuts. Most rooms take a single afternoon. (Prefer to hand it off? Premrest also installs in Melbourne, Sydney, and Brisbane.)",
+    "Install Modular Carpet tiles yourself with pressure-sensitive glue and an ashlar layout. Subfloor prep, laying, and edge cuts - most rooms take an afternoon. Premrest also installs in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/how-to-install" },
   openGraph: {
-    title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
+    title: "How to Install Carpet Tiles Yourself",
     description:
-      "Step-by-step guide for installing modular carpet tiles yourself. Most rooms take a single afternoon. Premrest installation service also available in Melbourne, Sydney, Brisbane.",
+      "DIY carpet tile install: pressure-sensitive glue, ashlar layout, subfloor prep, and edge cuts. Most rooms take an afternoon. Premrest also installs in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au/how-to-install",
     images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Step-by-step modular carpet tile installation guide" }],
   },
   twitter: {
-    title: "How to Install Modular Carpet Tiles | Step-by-Step Guide",
+    title: "How to Install Carpet Tiles Yourself",
   },
 };
 
 const howToJsonLd = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "How to Install DIY Carpet Tiles",
+  name: "How to Install Modular Carpet Tiles Yourself",
   description:
-    "Step-by-step guide to installing modular carpet tiles yourself. No professional installer, no special tools, no experience needed. Most rooms take a single afternoon.",
+    "Yes, you can install Modular Carpet tiles yourself. Pressure-sensitive adhesive, an ashlar (brick-bond) layout, and a utility knife are enough for most rooms. Most rooms take a single afternoon.",
   totalTime: "PT4H",
-  estimatedCost: {
-    "@type": "MonetaryAmount",
-    currency: "AUD",
-    value: "0",
-  },
+  image: "https://www.modularcarpet.com.au/images/installation/step-3-lay.jpg",
   tool: [
     { "@type": "HowToTool", name: "Utility knife with spare blades" },
     { "@type": "HowToTool", name: "Straight edge or T-square" },
     { "@type": "HowToTool", name: "Chalk line" },
     { "@type": "HowToTool", name: "Tape measure" },
-    { "@type": "HowToTool", name: "Carpet roller (optional)" },
+    { "@type": "HowToTool", name: "Carpet roller (optional but recommended)" },
     { "@type": "HowToTool", name: "Short-nap paint roller or notched trowel" },
     { "@type": "HowToTool", name: "Knee pads" },
   ],
@@ -48,27 +44,35 @@ const howToJsonLd = {
   step: [
     {
       "@type": "HowToStep",
+      position: 1,
       name: "Prepare Your Subfloor",
-      text: "Sweep or vacuum the entire subfloor. Fill any cracks, holes, or divots with levelling compound. Ensure the surface is dry. Remove any existing carpet, underlay, or loose flooring material. Concrete, plywood, existing vinyl, and existing tile are all suitable subfloors.",
-      url: "https://www.modularcarpet.com.au/how-to-install",
+      text: "Sweep or vacuum the entire subfloor thoroughly. Fill any cracks, holes, or divots with levelling compound. Ensure the surface is dry. Remove any existing carpet, underlay, or loose flooring material. Concrete, plywood, existing vinyl, and existing tile are all suitable subfloors.",
+      url: "https://www.modularcarpet.com.au/how-to-install#step-1",
+      image: "https://www.modularcarpet.com.au/images/installation/step-1-prep.jpg",
     },
     {
       "@type": "HowToStep",
+      position: 2,
       name: "Apply Pressure-Sensitive Adhesive",
-      text: "Pour adhesive and spread evenly with a short-nap roller or notched trowel. Work in manageable sections of about 3 to 4 metres at a time. Allow adhesive to tack up until it feels sticky but dry to the touch, typically 30 to 60 minutes depending on conditions.",
-      url: "https://www.modularcarpet.com.au/how-to-install",
+      text: "Pour pressure-sensitive carpet tile adhesive and spread evenly with a short-nap roller or notched trowel. Work in manageable sections of about 3 to 4 metres at a time. Allow adhesive to tack up until it feels sticky but dry to the touch, typically 30 to 60 minutes depending on conditions. Coverage is approximately 5 to 7 m² per litre.",
+      url: "https://www.modularcarpet.com.au/how-to-install#step-2",
+      image: "https://www.modularcarpet.com.au/images/installation/step-2-adhesive.jpg",
     },
     {
       "@type": "HowToStep",
+      position: 3,
       name: "Lay Your Carpet Tiles",
-      text: "Find the centre of the room by snapping chalk lines between opposite walls. Start laying tiles from the centre outward in an ashlar (brick-bond) layout, offsetting each row by half a tile length. Check the arrows on the back of each tile and press each tile firmly into the adhesive.",
-      url: "https://www.modularcarpet.com.au/how-to-install",
+      text: "Find the centre of the room by snapping chalk lines between opposite walls. Start laying tiles from the centre outward in an ashlar (brick-bond) layout, offsetting each row by half a tile length (500 mm). Check the arrows on the back of each tile so all arrows point the same direction. Press each tile firmly into the adhesive and butt tiles tightly together.",
+      url: "https://www.modularcarpet.com.au/how-to-install#step-3",
+      image: "https://www.modularcarpet.com.au/images/installation/step-3-lay.jpg",
     },
     {
       "@type": "HowToStep",
+      position: 4,
       name: "Trim, Finish and Enjoy",
       text: "Measure edge tiles by flipping the tile upside-down against the wall. Score the backing with a sharp utility knife using a straight edge. Snap the tile along the score line for a clean cut. Press edge tiles firmly into adhesive. Walk on your new floor immediately - no drying time required.",
-      url: "https://www.modularcarpet.com.au/how-to-install",
+      url: "https://www.modularcarpet.com.au/how-to-install#step-4",
+      image: "https://www.modularcarpet.com.au/images/installation/step-4-trim.jpg",
     },
   ],
 };
