@@ -15,7 +15,8 @@ import {
   Package,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Section } from "@/components/ui/section";
+import { Section, SectionHeader } from "@/components/ui/section";
+import { faqs } from "./faqs";
 
 const steps = [
   {
@@ -119,9 +120,9 @@ export function HowToInstallClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="overline text-accent mb-4">DIY Carpet Installation Guide</p>
+            <p className="overline text-accent mb-4">DIY Carpet Tiles Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              How to Install Modular Carpet Tiles Yourself
+              How to Install Carpet Tiles Yourself
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
               Yes, you can install Modular Carpet tiles yourself. No power
@@ -294,8 +295,31 @@ export function HowToInstallClient() {
         </div>
       </Section>
 
-      {/* Related Pages */}
+      {/* FAQ */}
       <Section background="linen">
+        <SectionHeader
+          overline="Frequently Asked Questions"
+          title="DIY Carpet Tiles and Carpet Tile Installation"
+        />
+        <div className="max-w-3xl mx-auto space-y-5">
+          {faqs.map((faq) => (
+            <div
+              key={faq.q}
+              className="bg-white rounded-lg p-6 border border-brand-200"
+            >
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-3">
+                {faq.q}
+              </h3>
+              <p className="text-body-md text-brand-500 leading-relaxed">
+                {faq.a}
+              </p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      {/* Related Pages */}
+      <Section background="white">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
             Learn More
