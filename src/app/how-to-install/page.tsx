@@ -1,21 +1,22 @@
 import { Metadata } from "next";
 import { HowToInstallClient } from "./how-to-install-client";
+import { faqs } from "./faqs";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "How to Install Carpet Tiles Yourself",
+  title: "DIY Carpet Tiles Installation: How to Install",
   description:
-    "Install Modular Carpet tiles yourself with pressure-sensitive glue and an ashlar layout. Subfloor prep, laying, and edge cuts - most rooms take an afternoon. Premrest also installs in Melbourne, Sydney, and Brisbane.",
+    "DIY carpet tiles are a one-afternoon carpet tile installation: pressure-sensitive glue, an ashlar layout, and a utility knife. Premrest also installs in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/how-to-install" },
   openGraph: {
-    title: "How to Install Carpet Tiles Yourself",
+    title: "DIY Carpet Tiles Installation: How to Install",
     description:
-      "DIY carpet tile install: pressure-sensitive glue, ashlar layout, subfloor prep, and edge cuts. Most rooms take an afternoon. Premrest also installs in Melbourne, Sydney, and Brisbane.",
+      "DIY carpet tiles are a one-afternoon carpet tile installation: pressure-sensitive glue, an ashlar layout, and a utility knife. Premrest also installs in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au/how-to-install",
     images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Step-by-step modular carpet tile installation guide" }],
   },
   twitter: {
-    title: "How to Install Carpet Tiles Yourself",
+    title: "DIY Carpet Tiles Installation: How to Install",
   },
 };
 
@@ -77,6 +78,19 @@ const howToJsonLd = {
   ],
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.a,
+    },
+  })),
+};
+
 export default function HowToInstallPage() {
   return (
     <>
@@ -87,6 +101,10 @@ export default function HowToInstallPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <HowToInstallClient />
     </>
