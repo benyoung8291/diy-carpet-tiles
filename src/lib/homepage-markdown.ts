@@ -100,6 +100,10 @@ warranty - the difference is who lays it.
 
 ## Our Ranges
 
+Specify the range and colourway for your hotel, motel, apartment, Airbnb,
+retreat, or conference centre. Premrest supplies and installs in Melbourne,
+Sydney, and Brisbane. Supply-only is available for in-house trades.
+
 ### [Haven](https://www.modularcarpet.com.au/ranges/haven)
 *Fireside Retreat, Modern Sophistication.* Rich high-low textured loop
 pattern, eight colourways from deep charcoals to soft ambers.
