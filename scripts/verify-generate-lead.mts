@@ -28,8 +28,6 @@ Object.defineProperty(globalThis, "window", {
   writable: true,
 });
 
-(globalThis as { gtag?: typeof mockGtag }).gtag = mockGtag;
-
 function reset() {
   calls.length = 0;
 }
@@ -54,7 +52,7 @@ reset();
 trackGenerateLead();
 assert.equal(calls.length, 1, "direct helper still emits the event");
 
-(globalThis as { gtag?: typeof mockGtag }).gtag = undefined;
+delete (globalThis as { window: { gtag?: typeof mockGtag } }).window.gtag;
 reset();
 trackGenerateLead();
 trackGenerateLeadOnSuccess({ ok: true });

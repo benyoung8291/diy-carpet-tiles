@@ -14,8 +14,6 @@ declare global {
   interface Window {
     gtag?: Gtag;
   }
-
-  var gtag: Gtag | undefined;
 }
 
 /**
@@ -23,6 +21,8 @@ declare global {
  * Safe no-op when gtag is missing (dev, blocked scripts, or SSR).
  */
 export function trackGenerateLead(): void {
+  if (typeof window === "undefined") return;
+  const { gtag } = window;
   if (typeof gtag === "function") {
     gtag("event", "generate_lead", {
       form_id: "xdappbep",
