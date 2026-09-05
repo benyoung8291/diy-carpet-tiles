@@ -3,7 +3,7 @@ import { ContactClient } from "./contact-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Contact | Hospitality Install Quotes",
+  title: "Hospitality Install Quotes",
   description:
     "Request a Premrest supply-and-install quote for hotels, motels, serviced apartments, and hospitality venues in Melbourne, Sydney, and Brisbane. Call 1300 207 915 or email modular@premrest.com.au.",
   alternates: { canonical: "https://www.modularcarpet.com.au/contact" },
