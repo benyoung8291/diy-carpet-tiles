@@ -135,6 +135,28 @@ export function EnquiryForm({
             <option value="undecided">Not sure yet</option>
           </select>
         </div>
+        <div>
+          <label
+            htmlFor="property-type"
+            className="block text-sm font-medium text-brand-600 mb-1.5"
+          >
+            Property Type
+          </label>
+          <select
+            id="property-type"
+            name="property_type"
+            defaultValue=""
+            className="w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors"
+          >
+            <option value="">Select a property type (optional)</option>
+            <option value="hotel">Hotel</option>
+            <option value="motel">Motel</option>
+            <option value="airbnb">Airbnb</option>
+            <option value="apartment">Apartment</option>
+            <option value="retreat_or_conference">Retreat or conference</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
         <div className={compact ? undefined : "md:col-span-2"}>
           <label
             htmlFor="service-type"
@@ -145,12 +167,11 @@ export function EnquiryForm({
           <select
             id="service-type"
             name="service_type"
-            defaultValue=""
+            defaultValue="supply_and_install"
             className="w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors"
           >
-            <option value="">How would you like to work with us?</option>
-            <option value="supply_only">Supply only - I&apos;ll install it myself or arrange my own trade</option>
             <option value="supply_and_install">Supply and install (Melbourne, Sydney, or Brisbane)</option>
+            <option value="supply_only">Supply only - I&apos;ll install it myself or arrange my own trade</option>
             <option value="not_sure">Not sure yet - happy to discuss both options</option>
           </select>
         </div>
@@ -186,7 +207,7 @@ export function EnquiryForm({
           name="message"
           rows={compact ? 3 : 4}
           className="w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 placeholder:text-brand-300 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors resize-none"
-          placeholder="Tell us about your project..."
+          placeholder="Tell us about the property and rooms you need quoted..."
         />
       </div>
 
@@ -195,7 +216,7 @@ export function EnquiryForm({
       )}
 
       <Button type="submit" size="lg" className="w-full" disabled={loading}>
-        {loading ? "Sending..." : "Send Enquiry"}
+        {loading ? "Sending..." : "Request install quote"}
         {!loading && <Send className="w-4 h-4 ml-2" />}
       </Button>
     </form>

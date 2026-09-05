@@ -1,18 +1,19 @@
 # Modular Carpet by Premrest
 
-> Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties across Australia. Solution-dyed nylon, 15-year wear warranty, ashlar-laid in any room you specify. Available as supply-only direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+> Premrest supplies and installs commercial-grade modular carpet for hotels, motels, apartments, Airbnbs, and hospitality venues in Melbourne, Sydney, and Brisbane. Solution-dyed nylon, 15-year wear warranty, ashlar-laid. Supply-only is available for in-house trades and owner-installers.
 
 The product is solution-dyed nylon carpet tile (500 x 1000 mm) with bonded recycled PET felt backing, installed in an ashlar (brick-bond) pattern using pressure-sensitive adhesive. The 15-year manufacturer wear warranty is rated for commercial corridor traffic. Individual tiles can be lifted and replaced, so a damaged section is repaired in minutes rather than re-carpeting the whole room. The same product specified for hotel guest rooms is the product that ships into Australian homes, rentals, and motels.
 
-Distributed in Australia by Premrest (Premier Restorations Group Pty Ltd, Thomastown VIC). Two purchase paths: supply-only ships nationwide direct from the warehouse, or supply-and-install operates as a service in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote.
+Distributed in Australia by Premrest (Premier Restorations Group Pty Ltd, Thomastown VIC). Primary purchase path: supply-and-install in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote. Secondary path: supply-only ships nationwide for in-house trades and maintenance teams.
 
 ## Core pages
 
-- [Home](https://www.modularcarpet.com.au/): Multi-persona overview and routing into hotel, home, investment, and owner-installer paths
-- [Why Modular Carpet](https://www.modularcarpet.com.au/why-tiles): Eight reasons modular outperforms broadloom for any property type
+- [Home](https://www.modularcarpet.com.au/): Hospitality supply-and-install lead generation for hotels, motels, and venues in Melbourne, Sydney, and Brisbane
+- [Hotel & Motel Carpet](https://www.modularcarpet.com.au/hotel-carpet): Commercial-grade carpet for hospitality fit-outs and refurbishments
 - [Installation Service](https://www.modularcarpet.com.au/installation): Full supply-and-install service in Melbourne, Sydney, and Brisbane - scope, pricing, process
-- [How to Install](https://www.modularcarpet.com.au/how-to-install): DIY carpet tiles and carpet tile installation - pressure-sensitive glue, ashlar layout, subfloor prep, and edge cuts
-- [Contact](https://www.modularcarpet.com.au/contact): Enquiry form with service-type field (supply only / supply + install / not sure)
+- [Why Modular Carpet](https://www.modularcarpet.com.au/why-tiles): Eight reasons modular outperforms broadloom for hospitality and other property types
+- [Carpet Tile Installation Guide](https://www.modularcarpet.com.au/how-to-install): Installation guide for maintenance teams, owner-operators, and trades - pressure-sensitive glue, ashlar layout, subfloor prep, and edge cuts
+- [Contact](https://www.modularcarpet.com.au/contact): Hospitality install-quote form with property type and service-type fields (supply and install / supply only / not sure)
 
 ## Solutions by property type
 

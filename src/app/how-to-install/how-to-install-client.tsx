@@ -120,18 +120,29 @@ export function HowToInstallClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="overline text-accent mb-4">DIY Carpet Tiles Installation Guide</p>
+            <p className="overline text-accent mb-4">Carpet Tile Installation Guide</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              How to Install Carpet Tiles Yourself
+              Carpet Tile Installation for Maintenance Teams, Owner-Operators, and Trades
             </h1>
-            <p className="text-body-lg text-brand-300 max-w-2xl">
-              Yes, you can install Modular Carpet tiles yourself. No power
-              stretcher, no tack strips, no professional installer.
-              Pressure-sensitive adhesive holds each tile in an ashlar
-              (brick-bond) layout; a utility knife handles the edge cuts. Most
-              rooms take a single afternoon. Prefer to hand it off? Premrest
-              also installs in Melbourne, Sydney, and Brisbane.
+            <p className="text-body-lg text-brand-300 max-w-2xl mb-8">
+              This guide is for in-house maintenance teams, owner-operators,
+              and trades who lay tiles themselves. Pressure-sensitive adhesive
+              holds each tile in an ashlar (brick-bond) layout; a utility knife
+              handles the edge cuts. Most rooms take a single afternoon. For
+              hospitality venues that want the labour handled, Premrest
+              supplies and installs in Melbourne, Sydney, and Brisbane.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button size="lg" asChild>
+                <Link href="/contact">
+                  Request install quote
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Link>
+              </Button>
+              <Button variant="outline_white" size="lg" asChild>
+                <Link href="/installation">Installation Service</Link>
+              </Button>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -299,7 +310,7 @@ export function HowToInstallClient() {
       <Section background="linen">
         <SectionHeader
           overline="Frequently Asked Questions"
-          title="DIY Carpet Tiles and Carpet Tile Installation"
+          title="Carpet Tile Installation: Process, Glue, Time, and Layout"
         />
         <div className="max-w-3xl mx-auto space-y-5">
           {faqs.map((faq) => (
@@ -351,23 +362,24 @@ export function HowToInstallClient() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <p className="overline text-accent mb-4">Ready to Install?</p>
+            <p className="overline text-accent mb-4">Prefer Premrest to Lay It?</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              Get Started with a Free Quote
+              Request a Supply-and-Install Quote
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              Tell us about your project and we&apos;ll help you choose the right range,
-              calculate quantities, and get you started.
+              Premrest supplies and installs modular carpet for hotels, motels,
+              apartments, and hospitality venues in Melbourne, Sydney, and
+              Brisbane.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
                 <Link href="/contact">
-                  Get a Free Quote
+                  Request install quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
               <Button variant="outline_white" size="lg" asChild>
-                <Link href="/ranges/haven">Explore Ranges</Link>
+                <Link href="/installation">Installation Service</Link>
               </Button>
             </div>
           </motion.div>

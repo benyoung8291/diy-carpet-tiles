@@ -29,24 +29,24 @@ export function Hero() {
             Modular Carpet by Premrest
           </p>
           <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-4 md:mb-6 text-balance leading-[1.1]">
-            Commercial-Grade Modular Carpet for Hotels, Considered Homes, and Investment Properties
+            Supply-and-Install Modular Carpet for Hotels and Hospitality Venues
           </h1>
           <p className="text-body-md md:text-body-lg text-white/85 mb-8 md:mb-10 max-w-xl leading-relaxed">
-            Solution-dyed nylon, 15-year wear warranty, laid in an ashlar
-            pattern that&rsquo;s indistinguishable from broadloom. Order direct
-            for in-house install, or take the full supply-and-install service
-            in Melbourne, Sydney, or Brisbane. Replace one tile when life
-            happens &mdash; never the whole room.
+            Premrest replaces modular carpet in hotels, motels, apartments,
+            Airbnbs, retreats, and conference centres — without a full
+            property shutdown. Supply-and-install in Melbourne, Sydney, and
+            Brisbane. Replace one tile when life happens &mdash; never the
+            whole room.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
-              <Link href="/ranges/haven">
-                Browse Ranges
+              <Link href="/contact">
+                Request install quote
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/contact">Request a Quote</Link>
+              <Link href="/installation">Installation Service</Link>
             </Button>
           </div>
           <p className="mt-6 text-body-md text-white/85">

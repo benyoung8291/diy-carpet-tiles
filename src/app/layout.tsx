@@ -16,11 +16,11 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   title: {
     default:
-      "Modular Carpet Tiles for Hotels, Homes and Rentals | Premrest",
+      "Supply-and-Install Modular Carpet for Hotels | Premrest",
     template: "%s | Premrest",
   },
   description:
-    "Commercial-grade modular carpet tiles for hotels, motels, considered homes, and investment properties. 15-year warranty, solution-dyed nylon, replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
+    "Premrest supplies and installs modular carpet for hotels, motels, apartments, Airbnbs, and hospitality venues in Melbourne, Sydney, and Brisbane. Commercial-grade tiles, 15-year warranty, replace damaged tiles instead of whole rooms.",
   keywords: [
     "carpet tiles",
     "modular carpet",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     locale: "en_AU",
     siteName: "Modular Carpet by Premrest",
     title:
-      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
+      "Supply-and-Install Modular Carpet for Hotels | Premrest Australia",
     description:
-      "Commercial-grade modular carpet for hotels, considered homes, and investment properties. Replace damaged tiles instead of whole rooms. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
+      "Modular carpet replacement for hotels, motels, and hospitality venues. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au",
     images: [
       {
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Modular Carpet Tiles - Hotels, Homes, and Rentals | Premrest Australia",
+      "Supply-and-Install Modular Carpet for Hotels | Premrest Australia",
     description:
-      "Commercial-grade modular carpet for hotels, considered homes, and investment properties. Supply-only or supply-and-install in Melbourne, Sydney, and Brisbane.",
+      "Modular carpet replacement for hotels, motels, and hospitality venues. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
     images: ["/images/lifestyle/hero-home.jpg"],
   },
   alternates: {

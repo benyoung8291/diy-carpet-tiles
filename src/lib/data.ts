@@ -104,9 +104,9 @@ export const BENEFITS = [
   },
   {
     icon: "Wrench",
-    title: "Install Yourself, or Have Premrest Install",
+    title: "Premrest Install, or Supply Only",
     description:
-      "Two paths to a finished floor. Order direct from the warehouse for in-house or owner-installer projects, or take the supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same warranty.",
+      "Supply-and-install in Melbourne, Sydney, and Brisbane is the primary path for hospitality venues. Supply-only is available if you have an in-house trade or maintenance team. Same product, same warranty.",
   },
   {
     icon: "RefreshCw",

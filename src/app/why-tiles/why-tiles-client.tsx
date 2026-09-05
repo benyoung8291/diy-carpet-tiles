@@ -44,14 +44,14 @@ const deepBenefits = [
   },
   {
     icon: "Wrench",
-    title: "DIY Installation - No Tradesperson Needed",
+    title: "Premrest Install or In-House Trade — Spot-Replace, No Full Rip-Out",
     description:
-      "Traditional carpet requires a flooring retailer, an installer quote, and weeks of waiting. Modular Carpet tiles arrive at your door and press onto adhesive. No power stretchers, no tack strips, no installer. If you're handy enough to paint a wall, you can carpet a room in an afternoon.",
+      "Hospitality venues do not need a full rip-out to refresh a floor. Premrest supplies and installs in Melbourne, Sydney, and Brisbane — or your maintenance team or trade can lay the same tiles in-house. Either path, damaged tiles lift and replace without closing the property or recarpeting the whole room.",
     points: [
-      "No special tools - just a utility knife and straight edge",
-      "No flooring retailer or installer - order direct, install yourself",
-      "Pressure-sensitive adhesive allows repositioning for minutes",
-      "Walk on it immediately - no drying time, no waiting",
+      "Premrest supply-and-install in Melbourne, Sydney, and Brisbane",
+      "Or your in-house trade or maintenance team lays the same product",
+      "Spot-replace damaged tiles — no full room rip-out",
+      "Walk on the floor immediately — rooms back in service the same day",
     ],
   },
   {
@@ -188,8 +188,8 @@ export function WhyTilesClient() {
               <ul className="space-y-3 text-body-sm text-brand-700">
                 {[
                   "Order online - no retailer needed",
-                  "DIY install in an afternoon - no tradesperson",
-                  "Save thousands on installation labour",
+                  "Premrest install or in-house trade — no full rip-out",
+                  "Phased room-by-room install, not a property shutdown",
                   "Replace individual tiles in 60 seconds",
                   "Breathable felt - safe over concrete slabs",
                   "Replace tiles, not the whole floor",
@@ -250,7 +250,7 @@ export function WhyTilesClient() {
 
       <SupplyOrInstall
         background="white"
-        description="Premrest sells modular carpet either as a supply-only product you install yourself, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Same product, same 15-year warranty - choose whichever path suits the project."
+        description="Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same 15-year warranty."
       />
 
       {/* Articles & Guides */}
@@ -286,7 +286,7 @@ export function WhyTilesClient() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="/how-to-install" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">How to Install</h3>
-              <p className="text-body-sm text-brand-500">Step-by-step DIY guide. No tools, no experience needed.</p>
+              <p className="text-body-sm text-brand-500">Installation guide for maintenance teams, owner-operators, and trades.</p>
             </Link>
             <Link href="/rental-flooring" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rental Properties</h3>
@@ -310,25 +310,31 @@ export function WhyTilesClient() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <p className="overline text-accent mb-4">Skip the Carpet Store</p>
+            <p className="overline text-accent mb-4">Melbourne, Sydney, Brisbane</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
-              Order Premium Carpet Tiles Direct - Install Them Yourself
+              Request a supply-and-install quote (Melbourne, Sydney, Brisbane)
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              No flooring retailer. No installer. No waiting. Choose your range,
-              order online, and install beautiful carpet in your home this weekend.
+              Premrest supplies and installs modular carpet for hotels, motels,
+              apartments, and hospitality venues. Prefer supply-only? Order
+              tiles for your in-house trade, or follow the installation guide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
                 <Link href="/contact">
-                  Request Free Samples
+                  Request install quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
               <Button variant="outline_white" size="lg" asChild>
-                <Link href="/ranges/haven">Explore Ranges</Link>
+                <Link href="/how-to-install">Installation guide</Link>
               </Button>
             </div>
+            <p className="mt-6 text-body-sm text-brand-400">
+              <Link href="/ranges/haven" className="underline underline-offset-4 hover:text-white transition-colors">
+                Prefer supply-only? Browse ranges
+              </Link>
+            </p>
           </motion.div>
         </div>
       </section>

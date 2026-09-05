@@ -7,6 +7,8 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navigation = [
+  { label: "Hotels & Motels", href: "/hotel-carpet" },
+  { label: "Installation", href: "/installation" },
   {
     label: "Our Ranges",
     children: [
@@ -15,14 +17,12 @@ const navigation = [
     ],
   },
   { label: "Why Tiles?", href: "/why-tiles" },
-  { label: "How to Install", href: "/how-to-install" },
-  { label: "Installation", href: "/installation" },
   {
     label: "Solutions",
     children: [
+      { label: "Hotels & Motels", href: "/hotel-carpet" },
       { label: "Rental Properties", href: "/rental-flooring" },
       { label: "Investment Properties", href: "/investment-property-flooring" },
-      { label: "Hotels", href: "/hotel-carpet" },
     ],
   },
   { label: "Contact", href: "/contact" },
@@ -118,7 +118,7 @@ export function Header() {
             1300 207 915
           </a>
           <Button size="sm" asChild>
-            <Link href="/contact">Get a Quote</Link>
+            <Link href="/contact">Request Install Quote</Link>
           </Button>
         </div>
 
@@ -180,7 +180,7 @@ export function Header() {
                 </a>
                 <Button className="w-full" asChild>
                   <Link href="/contact" onClick={() => setMobileOpen(false)}>
-                    Get a Quote
+                    Request Install Quote
                   </Link>
                 </Button>
               </div>

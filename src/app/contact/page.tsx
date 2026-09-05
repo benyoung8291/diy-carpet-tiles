@@ -3,17 +3,20 @@ import { ContactClient } from "./contact-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Contact | Quote and Samples",
+  title: "Hospitality Install Quotes",
   description:
-    "Get a free quote for DIY carpet tiles, request free samples, or ask about rental and investment property flooring. Call 1300 207 915 or email modular@premrest.com.au. Delivering Australia-wide.",
+    "Request a Premrest supply-and-install quote for hotels, motels, serviced apartments, and hospitality venues in Melbourne, Sydney, and Brisbane. Call 1300 207 915 or email modular@premrest.com.au.",
   alternates: { canonical: "https://www.modularcarpet.com.au/contact" },
   openGraph: {
     title: "Contact Modular Carpet by Premrest",
-    description: "Get a free quote for DIY carpet tiles, request free samples, or ask about flooring for rental properties, investment properties, and hotels.",
+    description:
+      "Request a hospitality install quote for hotels, motels, and serviced apartments in Melbourne, Sydney, and Brisbane. Call 1300 207 915.",
     url: "https://www.modularcarpet.com.au/contact",
   },
   twitter: {
     title: "Contact Modular Carpet by Premrest",
+    description:
+      "Request a hospitality install quote for hotels, motels, and serviced apartments in Melbourne, Sydney, and Brisbane.",
   },
 };
 

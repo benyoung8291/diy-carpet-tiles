@@ -1,21 +1,21 @@
-export const HOMEPAGE_MARKDOWN = `# Commercial-Grade Modular Carpet for Hotels, Considered Homes, and Investment Properties
+export const HOMEPAGE_MARKDOWN = `# Supply-and-Install Modular Carpet for Hotels and Hospitality Venues
 
 **Modular Carpet by Premrest.**
 
-Solution-dyed nylon, 15-year wear warranty, laid in an ashlar pattern that's
-indistinguishable from broadloom. Order direct for in-house install, or take
-the full supply-and-install service in Melbourne, Sydney, or Brisbane.
-Replace one tile when life happens - never the whole room.
+Premrest replaces modular carpet in hotels, motels, apartments, Airbnbs,
+retreats, and conference centres - without a full property shutdown.
+Supply-and-install in Melbourne, Sydney, and Brisbane. Replace one tile when
+life happens - never the whole room.
 
-- [Browse ranges](https://www.modularcarpet.com.au/ranges/haven)
-- [Request a quote](https://www.modularcarpet.com.au/contact)
+- [Request an install quote](https://www.modularcarpet.com.au/contact)
 - [Installation service](https://www.modularcarpet.com.au/installation)
+- Call 1300 207 915
 
-## Find the Approach That Fits Your Project
+## Start with the Hospitality Brief
 
-The same modular carpet works the same way across hotels, motels, considered
-homes, and investment properties. The difference is which lens you read it
-through.
+Premrest's primary work is supply-and-install modular carpet for hotels,
+motels, apartments, and hospitality venues. The same product also suits
+considered homes and long-hold rentals.
 
 ### [Hotel, motel, or serviced apartment](https://www.modularcarpet.com.au/hotel-carpet)
 Spec a floor that handles commercial traffic and lets housekeeping
@@ -25,16 +25,15 @@ low-occupancy windows, no property closure required.
 ### [A home built to a higher standard](https://www.modularcarpet.com.au/why-tiles)
 The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels
 specify - in your master bedroom, hallway, family room, or home office.
-Install yourself or have us install for you.
+Premrest can install, or your trade can lay the same product.
 
 ### [Long-hold rental or portfolio](https://www.modularcarpet.com.au/investment-property-flooring)
 Replace damaged tiles between tenancies in under an hour - never re-carpet a
 whole room again. One floor that survives multiple tenancy cycles without
 burning capital.
 
-### [Doing the work yourself](https://www.modularcarpet.com.au/how-to-install)
-Trade-savvy homeowner, owner-operator, or hands-on landlord? Order direct,
-follow the install guide, and lay it yourself.
+Laying tiles with an in-house trade or maintenance team? See the
+[installation guide](https://www.modularcarpet.com.au/how-to-install).
 
 ## What Makes the Product Different
 
@@ -47,10 +46,10 @@ Forget everything you know about carpet tiles. These aren't office squares -
 they're precision-engineered to look and feel identical to traditional
 broadloom carpet.
 
-### Install Yourself, or Have Premrest Install
-Two paths to a finished floor. Order direct from the warehouse for in-house
-or owner-installer projects, or take the supply-and-install service in
-Melbourne, Sydney, and Brisbane. Same product, same warranty.
+### Premrest Install, or Supply Only
+Supply-and-install in Melbourne, Sydney, and Brisbane is the primary path
+for hospitality venues. Supply-only is available if you have an in-house
+trade or maintenance team. Same product, same warranty.
 
 ### Replace, Don't Re-Carpet
 With traditional carpet, one stain means re-carpeting the entire room. With
@@ -82,21 +81,22 @@ waste. Smarter living.
 
 ## Two Paths to a Finished Floor
 
-Modular Carpet by Premrest is available either as a supply-only product or
-as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The
-same product, the same 15-year warranty - the difference is who lays it.
+Premrest's primary path is supply-and-install for hospitality venues in
+Melbourne, Sydney, and Brisbane. Supply-only is available if you have an
+in-house trade or maintenance team. The same product, the same 15-year
+warranty - the difference is who lays it.
 
-### Path 1: Supply only
-- Direct from the warehouse to your property
-- Install with your existing trade, maintenance team, or as an owner-installer project
-- Pressure-sensitive adhesive ~180 m² coverage per tub at around $150 each
-- Written installation guide and pile-direction documentation supplied
-
-### Path 2: Supply and install (Melbourne, Sydney, Brisbane)
+### Primary path: Supply and install (Melbourne, Sydney, Brisbane)
 - Premrest manages measurement, supply, and installation
 - Indicative installation rate ~$20-25/m² of laid carpet
 - Site preparation, levelling, transitions, and old-carpet removal quoted alongside
 - One contract, one invoice, one project lead
+
+### Secondary path: Supply only
+- Direct from the warehouse to your property
+- Install with your existing trade, maintenance team, or as an owner-installer project
+- Pressure-sensitive adhesive ~180 m² coverage per tub at around $150 each
+- Written installation guide and pile-direction documentation supplied
 
 ## Our Ranges
 
@@ -108,19 +108,12 @@ pattern, eight colourways from deep charcoals to soft ambers.
 *Australian Energy, Vibrant Living.* Plush broadloom feel, eight
 biophilic-inspired designs named after vibrant Australian suburbs.
 
-## How It Goes Down
+## In-House Installation
 
-Whether you install yourself or have Premrest install for you, the process
-is the same.
-
-1. **Prepare the subfloor** - Ensure it is clean, dry, and level. Install
-   over most existing hard floors, including moisture-affected concrete.
-2. **Apply pressure-sensitive adhesive** - Roll the PSA evenly across the
-   subfloor and let it tack up for 30 to 60 minutes.
-3. **Lay the tiles** - Starting from the centre of the room, press tiles
-   into the adhesive in an ashlar (brick-bond) pattern.
-4. **Trim and finish** - Trim edge tiles with a sharp utility knife. Walk
-   on the new floor immediately.
+Laying tiles with your own team? Maintenance teams and trades can follow the
+four-step [carpet tile installation guide](https://www.modularcarpet.com.au/how-to-install).
+For hospitality venues in Melbourne, Sydney, and Brisbane, Premrest can
+supply and install instead.
 
 ## Specifications
 
@@ -162,11 +155,11 @@ every tenant; and homeowners building or renovating to a higher standard
 who want flooring that ages gracefully under real life.
 
 ### Do I install it myself, or do you install for me?
-Both options are available. The supply-only path delivers product direct
-from the warehouse for an in-house install. The supply-and-install service
-operates in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m²
-installation rate, with site-specific costs (preparation, levelling,
-transitions, removal of existing flooring) itemised separately in the quote.
+Premrest's primary path is supply-and-install in Melbourne, Sydney, and
+Brisbane at an indicative ~$20-25/m² installation rate, with site-specific
+costs (preparation, levelling, transitions, removal of existing flooring)
+itemised separately in the quote. Supply-only is available if you have an
+in-house trade or maintenance team.
 
 ### Do the tiles look like real carpet, or do you see grid lines?
 Modern modular tiles are precision-engineered to be visually

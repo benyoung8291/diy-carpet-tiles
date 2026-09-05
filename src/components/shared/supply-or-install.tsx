@@ -12,16 +12,16 @@ interface SupplyOrInstallProps {
 }
 
 const DEFAULT_DESCRIPTION =
-  "Modular Carpet by Premrest is available either as a supply-only product or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The same product, the same 15-year warranty - the difference is who lays it.";
+  "Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same 15-year warranty.";
 
 const DEFAULT_PATH_1_SUITS =
-  "Suits owner-operators, builders, handy homeowners, and any project on a hands-on schedule";
+  "Suits in-house maintenance teams, builders, and any project with an established trade";
 
 const DEFAULT_PATH_2_SUITS =
-  "Suits hospitality fit-outs, considered home renovations, and multi-property landlords who would rather hand the project off";
+  "Suits hospitality fit-outs, hotel and motel refurbishments, and operators who would rather hand the project off";
 
 const DEFAULT_CLOSING_NOTE =
-  "The choice between paths doesn't change the product. It just changes who lays it.";
+  "Supply-and-install is the usual path for hospitality venues. Supply-only does not change the product — only who lays it.";
 
 export function SupplyOrInstall({
   background = "linen",
@@ -55,17 +55,17 @@ export function SupplyOrInstall({
     <Section background={background}>
       <SectionHeader
         overline="Two Paths to a Finished Floor"
-        title="Supply Only, or Supply and Install - Your Choice"
+        title="Supply and Install, or Supply Only"
         description={description}
       />
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className={path1Card}>
-          <p className="overline mb-3">Path 1</p>
+        <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
+          <p className="overline mb-3">Primary path</p>
           <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-            Supply only - install yourself or via your trade
+            Supply and install - Melbourne, Sydney, Brisbane
           </h3>
-          <ul className="space-y-2 text-body-sm text-brand-500">
-            {path1Bullets.map((item) => (
+          <ul className="space-y-2 text-body-sm text-brand-700">
+            {path2Bullets.map((item) => (
               <li key={item} className="flex items-start gap-2">
                 <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                 {item}
@@ -73,13 +73,13 @@ export function SupplyOrInstall({
             ))}
           </ul>
         </div>
-        <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-          <p className="overline mb-3">Path 2</p>
+        <div className={path1Card}>
+          <p className="overline mb-3">Secondary path</p>
           <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-            Supply and install - Melbourne, Sydney, Brisbane
+            Supply only - your trade or maintenance team
           </h3>
-          <ul className="space-y-2 text-body-sm text-brand-700">
-            {path2Bullets.map((item) => (
+          <ul className="space-y-2 text-body-sm text-brand-500">
+            {path1Bullets.map((item) => (
               <li key={item} className="flex items-start gap-2">
                 <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                 {item}
