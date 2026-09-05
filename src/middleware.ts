@@ -4,7 +4,7 @@ import { HOMEPAGE_MARKDOWN } from "@/lib/homepage-markdown";
 const LINK_HEADER = [
   '</.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json"',
   '</sitemap.xml>; rel="sitemap"; type="application/xml"',
-  '</how-to-install>; rel="service-doc"; type="text/html"; title="DIY install guide"',
+  '</how-to-install>; rel="service-doc"; type="text/html"; title="Carpet tile installation guide"',
   '</installation>; rel="service-doc"; type="text/html"; title="Premrest supply-and-install service (Melbourne, Sydney, Brisbane)"',
   '</>; rel="describedby"; type="text/markdown"',
 ].join(", ");

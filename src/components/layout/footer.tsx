@@ -7,12 +7,12 @@ const footerLinks = {
     { label: "Horizon", href: "/ranges/horizon" },
   ],
   resources: [
-    { label: "Why Modular Carpet?", href: "/why-tiles" },
-    { label: "How to Install", href: "/how-to-install" },
+    { label: "Hotels & Motels", href: "/hotel-carpet" },
     { label: "Installation Service", href: "/installation" },
+    { label: "Why Modular Carpet?", href: "/why-tiles" },
     { label: "Rental Properties", href: "/rental-flooring" },
     { label: "Investment Properties", href: "/investment-property-flooring" },
-    { label: "Hotels & Motels", href: "/hotel-carpet" },
+    { label: "How to Install", href: "/how-to-install" },
     { label: "Contact Us", href: "/contact" },
   ],
 };
@@ -34,9 +34,9 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-body-sm text-brand-400 mt-4 leading-relaxed max-w-xs">
-              Commercial-grade modular carpet for hotels, motels, considered
-              homes, and investment properties. Supply-only or
-              supply-and-install in Melbourne, Sydney, and Brisbane.
+              Supply-and-install modular carpet for hotels, motels, apartments,
+              Airbnbs, and hospitality venues in Melbourne, Sydney, and
+              Brisbane. Supply-only available for in-house trades.
             </p>
             <p className="text-[11px] text-brand-500 mt-3 italic">
               Premrest: Australia&apos;s go-to for commercial floor care

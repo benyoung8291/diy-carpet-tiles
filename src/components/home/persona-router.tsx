@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Hotel, Home, Building2, Wrench, ArrowRight } from "lucide-react";
+import { Hotel, Home, Building2, ArrowRight } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 
 const personas = [
@@ -18,7 +18,7 @@ const personas = [
     icon: Home,
     tag: "Considered Home",
     title: "A Home Built to a Higher Standard",
-    body: "The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels specify - in your master bedroom, hallway, family room, or home office. Install yourself or have us install for you.",
+    body: "The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels specify - in your master bedroom, hallway, family room, or home office. Premrest can install, or your trade can lay the same product.",
     cta: "Why Tiles for the Home",
     href: "/why-tiles",
   },
@@ -29,14 +29,6 @@ const personas = [
     body: "Replace damaged tiles between tenancies in under an hour - never re-carpet a whole room again. One floor that survives multiple tenancy cycles without burning capital.",
     cta: "Read the Investor Case",
     href: "/investment-property-flooring",
-  },
-  {
-    icon: Wrench,
-    tag: "Owner-Installer",
-    title: "Doing the Work Yourself",
-    body: "Trade-savvy homeowner, owner-operator, or hands-on landlord? Order direct, follow the install guide, and lay it yourself. Or pick up a property-sized brief if you're unsure where to start.",
-    cta: "Read the Install Guide",
-    href: "/how-to-install",
   },
 ];
 
@@ -61,15 +53,15 @@ export function PersonaRouter() {
     <Section background="white">
       <SectionHeader
         overline="For Every Type of Property"
-        title="Find the Approach That Fits Your Project"
-        description="The same modular carpet works the same way across hotels, motels, considered homes, and investment properties. The difference is which lens you read it through. Pick yours."
+        title="Start with the Hospitality Brief"
+        description="Premrest's primary work is supply-and-install modular carpet for hotels, motels, apartments, and hospitality venues. The same product also suits considered homes and long-hold rentals."
       />
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-80px" }}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        className="grid grid-cols-1 md:grid-cols-3 gap-6"
       >
         {personas.map((persona) => {
           const Icon = persona.icon;
@@ -98,6 +90,16 @@ export function PersonaRouter() {
           );
         })}
       </motion.div>
+      <p className="mt-8 text-center text-body-sm text-brand-500">
+        Laying tiles with an in-house trade or maintenance team?{" "}
+        <Link
+          href="/how-to-install"
+          className="font-medium text-accent hover:text-accent-hover underline underline-offset-4"
+        >
+          Read the installation guide
+        </Link>
+        .
+      </p>
     </Section>
   );
 }

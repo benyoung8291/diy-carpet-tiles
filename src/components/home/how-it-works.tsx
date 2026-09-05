@@ -1,50 +1,28 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Section, SectionHeader } from "@/components/ui/section";
-import { INSTALLATION_STEPS } from "@/lib/data";
+import Link from "next/link";
+import { Section } from "@/components/ui/section";
 
 export function HowItWorks() {
   return (
     <Section background="white">
-      <SectionHeader
-        overline="How Installation Works"
-        title="Four Steps From Subfloor to Finished Room"
-        description="Whether you install yourself or have Premrest install for you, the process is the same. Pressure-sensitive adhesive, ashlar layout, walk on it immediately - no drying time, no off-gassing, no power stretchers."
-      />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {INSTALLATION_STEPS.map((step, index) => {
-          return (
-            <motion.div
-              key={step.step}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{
-                duration: 0.5,
-                delay: index * 0.1,
-                ease: "easeOut",
-              }}
-              className="relative"
-            >
-              {/* Step number */}
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-serif text-xl">
-                  {step.step}
-                </div>
-                {index < INSTALLATION_STEPS.length - 1 && (
-                  <div className="hidden lg:block flex-1 h-px bg-brand-200" />
-                )}
-              </div>
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-3">
-                {step.title}
-              </h3>
-              <p className="text-body-sm text-brand-500 leading-relaxed">
-                {step.description}
-              </p>
-            </motion.div>
-          );
-        })}
+      <div className="max-w-3xl mx-auto text-center">
+        <p className="overline mb-3">In-House Installation</p>
+        <h2 className="font-serif text-heading-lg text-brand-800 mb-4">
+          Laying Tiles with Your Own Team?
+        </h2>
+        <p className="text-body-md text-brand-500 leading-relaxed">
+          Maintenance teams and trades can follow the four-step carpet tile
+          installation guide. For hospitality venues in Melbourne, Sydney, and
+          Brisbane, Premrest can supply and install instead.{" "}
+          <Link
+            href="/how-to-install"
+            className="font-medium text-accent hover:text-accent-hover underline underline-offset-4"
+          >
+            Read the installation guide
+          </Link>
+          .
+        </p>
       </div>
     </Section>
   );

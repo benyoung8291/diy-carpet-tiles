@@ -17,8 +17,8 @@ const signals = [
   },
   {
     icon: Wrench,
-    title: "Supply or Supply + Install",
-    description: "Direct, or installed in MEL / SYD / BNE",
+    title: "Supply and Install",
+    description: "MEL / SYD / BNE, or supply-only for in-house trades",
   },
   {
     icon: MapPin,

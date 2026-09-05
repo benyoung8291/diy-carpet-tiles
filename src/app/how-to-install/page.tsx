@@ -4,28 +4,30 @@ import { faqs } from "./faqs";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "DIY Carpet Tiles Installation: How to Install",
+  title: "Carpet Tile Installation Guide",
   description:
-    "DIY carpet tiles are a one-afternoon carpet tile installation: pressure-sensitive glue, an ashlar layout, and a utility knife. Premrest also installs in Melbourne, Sydney, and Brisbane.",
+    "Carpet tile installation guide for maintenance teams, owner-operators, and trades: pressure-sensitive glue, ashlar layout, and a utility knife. Premrest also supplies and installs in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/how-to-install" },
   openGraph: {
-    title: "DIY Carpet Tiles Installation: How to Install",
+    title: "Carpet Tile Installation Guide | Premrest",
     description:
-      "DIY carpet tiles are a one-afternoon carpet tile installation: pressure-sensitive glue, an ashlar layout, and a utility knife. Premrest also installs in Melbourne, Sydney, and Brisbane.",
+      "How maintenance teams, owner-operators, and trades install carpet tiles: pressure-sensitive glue, ashlar layout, and a utility knife. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
     url: "https://www.modularcarpet.com.au/how-to-install",
     images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Step-by-step modular carpet tile installation guide" }],
   },
   twitter: {
-    title: "DIY Carpet Tiles Installation: How to Install",
+    title: "Carpet Tile Installation Guide | Premrest",
+    description:
+      "How maintenance teams, owner-operators, and trades install carpet tiles. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
   },
 };
 
 const howToJsonLd = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "How to Install Modular Carpet Tiles Yourself",
+  name: "How to Install Modular Carpet Tiles",
   description:
-    "Yes, you can install Modular Carpet tiles yourself. Pressure-sensitive adhesive, an ashlar (brick-bond) layout, and a utility knife are enough for most rooms. Most rooms take a single afternoon.",
+    "Carpet tile installation for maintenance teams, owner-operators, and trades. Pressure-sensitive adhesive, an ashlar (brick-bond) layout, and a utility knife are enough for most rooms. Most rooms take a single afternoon. Premrest also supplies and installs in Melbourne, Sydney, and Brisbane.",
   totalTime: "PT4H",
   image: "https://www.modularcarpet.com.au/images/installation/step-3-lay.jpg",
   tool: [

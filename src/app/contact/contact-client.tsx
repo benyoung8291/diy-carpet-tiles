@@ -44,12 +44,15 @@ export function ContactClient() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="overline text-accent mb-4">Get in Touch</p>
+            <p className="overline text-accent mb-4">Melbourne, Sydney, Brisbane</p>
             <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Request a Quote or Free Samples
+              Request a Hospitality Install Quote
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              Call 1300 207 915 or send the form. We reply within one business day. Samples ship Australia-wide.
+              Premrest supplies and installs modular carpet for hotels, motels,
+              serviced apartments, and hospitality venues in Melbourne, Sydney,
+              and Brisbane. Call 1300 207 915 or send the form. We reply within
+              one business day.
             </p>
           </motion.div>
         </div>
@@ -67,11 +70,12 @@ export function ContactClient() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="font-serif text-heading-lg text-brand-800 mb-2">
-                Send Us an Enquiry
+                Request a Supply-and-Install Quote
               </h2>
               <p className="text-body-md text-brand-500 mb-8">
-                Fill in the form below and we&apos;ll get back to you with a
-                personalised quote, sample pack, or expert advice.
+                Tell us about the hotel, motel, apartment, or hospitality
+                venue. We&apos;ll quote supply-and-install in Melbourne, Sydney,
+                or Brisbane — or supply-only if you have an in-house trade.
               </p>
               <EnquiryForm />
             </motion.div>
