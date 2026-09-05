@@ -19,9 +19,9 @@ export function RangesPreview() {
   return (
     <Section background="white">
       <SectionHeader
-        overline="Choose Your Style"
-        title="Two Premium Ranges. No Retailer Required."
-        description="Browse, choose your colour, and order online - delivered direct to your door. No showroom appointments, no sales pressure, no installer quotes."
+        overline="Haven and Horizon"
+        title="Two Premium Ranges for Hospitality Install Quotes"
+        description="Specify the range and colourway for your hotel, motel, apartment, Airbnb, retreat, or conference centre. Premrest supplies and installs in Melbourne, Sydney, and Brisbane. Supply-only is available for in-house trades."
       />
       <motion.div
         initial="hidden"
