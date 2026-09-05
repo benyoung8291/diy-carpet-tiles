@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
+import { trackGenerateLeadOnSuccess } from "@/lib/analytics";
 
 interface EnquiryFormProps {
   preselectedRange?: string;
@@ -32,6 +33,7 @@ export function EnquiryForm({
       });
 
       if (res.ok) {
+        trackGenerateLeadOnSuccess(res);
         setSubmitted(true);
       } else {
         const data = await res.json().catch(() => null);

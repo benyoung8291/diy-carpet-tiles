@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useCallback } from "react";
 import { Button } from "@/components/ui/button";
+import { trackGenerateLeadOnSuccess } from "@/lib/analytics";
 import { PRICING, ranges, type ProductRange, type ColorWay } from "@/lib/data";
 import {
   Calculator,
@@ -231,6 +232,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
       });
 
       if (res.ok) {
+        trackGenerateLeadOnSuccess(res);
         setSubmitted(true);
       } else {
         const data = await res.json().catch(() => null);
