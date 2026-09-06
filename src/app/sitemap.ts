@@ -32,13 +32,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/how-to-install`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.6,
     },
     {
       url: `${BASE_URL}/installation`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 0.95,
     },
     {
       url: `${BASE_URL}/rental-flooring`,
@@ -56,13 +56,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/hotel-carpet`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.95,
     },
     {
       url: `${BASE_URL}/replace-hotel-carpet-without-downtime`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.85,
     },
     {
       url: `${BASE_URL}/hotel-grade-carpet-for-home`,
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/refurbish-motel-without-closing-rooms`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.85,
     },
     {
       url: `${BASE_URL}/contact`,
