@@ -47,6 +47,9 @@ export function CtaBanner() {
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
+              <Link href="/hotel-carpet">Hotel &amp; motel carpet</Link>
+            </Button>
+            <Button variant="outline_white" size="lg" asChild>
               <Link href="/installation">Installation Service</Link>
             </Button>
           </div>
