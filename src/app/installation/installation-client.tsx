@@ -137,6 +137,17 @@ export function InstallationClient() {
               ranges, the same 15-year wear warranty - the difference is who
               lays it.
             </p>
+            <p className="text-body-md text-brand-300 mt-6">
+              Hospitality operators:{" "}
+              <Link
+                href="/hotel-carpet"
+                className="text-accent underline underline-offset-4 hover:no-underline"
+              >
+                hotel and motel carpet supply-and-install in Melbourne, Sydney,
+                and Brisbane
+              </Link>{" "}
+              covers the guest-room and corridor specification in full.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -302,8 +313,75 @@ export function InstallationClient() {
         </div>
       </Section>
 
-      {/* Process */}
+      {/* Hospitality */}
       <Section background="white">
+        <SectionHeader
+          overline="Hospitality Fit-Outs and Refurbishments"
+          title="Hotels, Motels, Serviced Apartments, and Conference Venues"
+          description="Hospitality is the bulk of the work Premrest installs. Guest rooms, corridors, lobbies, and function spaces, phased around your occupancy calendar so the property stays in inventory."
+        />
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
+            <p className="overline mb-3">Hotel and Motel Brief</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              <Link
+                href="/hotel-carpet"
+                className="hover:text-accent transition-colors"
+              >
+                Hotel and motel carpet supply-and-install in Melbourne, Sydney,
+                and Brisbane
+              </Link>
+            </h3>
+            <p className="text-body-sm text-brand-700 leading-relaxed mb-5">
+              The hospitality specification in full: commercial-grade
+              solution-dyed nylon, acoustic underlay, spare-tile allocation so
+              housekeeping can repair damage in-room, and volume pricing for
+              full-property rollouts.
+            </p>
+            <Button asChild>
+              <Link href="/hotel-carpet">
+                Hotel and Motel Carpet
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+          </div>
+          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200">
+            <p className="overline mb-3">Owner-Operated Motels</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              <Link
+                href="/refurbish-motel-without-closing-rooms"
+                className="hover:text-accent transition-colors"
+              >
+                Refurbish a motel room by room without closing rooms
+              </Link>
+            </h3>
+            <p className="text-body-sm text-brand-500 leading-relaxed mb-5">
+              A phased install sequenced across your low-occupancy windows: one
+              room offline at a time, the rest of the property selling as
+              normal. The same schedule works whether Premrest lays the floor or
+              your maintenance team does.
+            </p>
+            <Button variant="secondary" asChild>
+              <Link href="/refurbish-motel-without-closing-rooms">
+                Room-by-Room Refurbishment Plan
+              </Link>
+            </Button>
+          </div>
+        </div>
+        <p className="max-w-3xl mx-auto text-center text-body-md text-brand-600 mt-10">
+          Operators replacing carpet in occupied properties should also read{" "}
+          <Link
+            href="/replace-hotel-carpet-without-downtime"
+            className="text-accent underline underline-offset-4 hover:no-underline"
+          >
+            how to replace damaged hotel carpet without closing the room
+          </Link>
+          .
+        </p>
+      </Section>
+
+      {/* Process */}
+      <Section background="linen">
         <SectionHeader
           overline="From Enquiry to Handover"
           title="What Happens Between First Contact and Walked Floor"
@@ -328,7 +406,7 @@ export function InstallationClient() {
       </Section>
 
       {/* FAQ */}
-      <Section background="linen">
+      <Section background="white">
         <SectionHeader
           overline="Frequently Asked Questions"
           title="Installation Service - The Specifics"
@@ -337,7 +415,7 @@ export function InstallationClient() {
           {faqs.map((faq) => (
             <div
               key={faq.q}
-              className="bg-white rounded-lg p-6 border border-brand-200"
+              className="bg-brand-50 rounded-lg p-6 border border-brand-200"
             >
               <h3 className="font-serif text-heading-sm text-brand-800 mb-3">
                 {faq.q}
