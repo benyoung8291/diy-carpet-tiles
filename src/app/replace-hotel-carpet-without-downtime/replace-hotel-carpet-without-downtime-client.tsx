@@ -141,6 +141,18 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
               management, no room out of inventory.
             </p>
           </div>
+          <p className="text-body-md text-brand-600 leading-relaxed">
+            Spot repairs keep an existing floor at standard. If the carpet is
+            past repair across the property, the same tile system supports a
+            rolling replacement:{" "}
+            <Link
+              href="/refurbish-motel-without-closing-rooms"
+              className="text-accent underline underline-offset-4 hover:no-underline"
+            >
+              refurbish a motel room by room without closing rooms
+            </Link>{" "}
+            sets out the room-by-room schedule.
+          </p>
         </div>
       </Section>
 
@@ -301,6 +313,63 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
         </p>
       </Section>
 
+      {/* Hospitality next steps */}
+      <Section background="linen">
+        <SectionHeader
+          overline="Next Steps for Operators"
+          title="Specify the Floor, or Plan the Refurbishment"
+          description="Premrest supplies and installs modular carpet for hotels, motels, serviced apartments, and conference venues in Melbourne, Sydney, and Brisbane."
+        />
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
+            <p className="overline mb-3">Specification</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              <Link
+                href="/hotel-carpet"
+                className="hover:text-accent transition-colors"
+              >
+                Hotel and motel carpet supply-and-install in Melbourne, Sydney,
+                and Brisbane
+              </Link>
+            </h3>
+            <p className="text-body-sm text-brand-700 leading-relaxed mb-5">
+              Guest rooms, corridors, lobbies, and function spaces. Acoustic
+              underlay, spare-tile allocation for in-house repairs, volume
+              pricing for full-property rollouts, and phased installs around
+              your occupancy calendar.
+            </p>
+            <Button asChild>
+              <Link href="/hotel-carpet">
+                Hotel and Motel Carpet
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+          </div>
+          <div className="bg-white rounded-lg p-8 border border-brand-200">
+            <p className="overline mb-3">Refurbishment Plan</p>
+            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
+              <Link
+                href="/refurbish-motel-without-closing-rooms"
+                className="hover:text-accent transition-colors"
+              >
+                Refurbish a motel room by room without closing rooms
+              </Link>
+            </h3>
+            <p className="text-body-sm text-brand-500 leading-relaxed mb-5">
+              When the whole floor is due rather than a single tile: a rolling
+              schedule that takes one room offline at a time across your
+              low-occupancy windows, with worked numbers for a 20-room
+              property.
+            </p>
+            <Button variant="secondary" asChild>
+              <Link href="/refurbish-motel-without-closing-rooms">
+                Room-by-Room Refurbishment Plan
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </Section>
+
       <SupplyOrInstall
         background="white"
         description="Modular Carpet by Premrest is available either as a supply-only product, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. Both paths converge on the same in-house spot-replacement procedure for ongoing maintenance once the floor is laid."
@@ -338,7 +407,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
           <h2 className="font-serif text-heading-lg text-brand-800 mb-8 text-center">
             Continue by Property Type
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link
               href="/hotel-carpet"
               className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
@@ -350,6 +419,19 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
               <p className="text-body-sm text-brand-500">
                 Commercial-grade ranges and the operational case for modular in
                 guest rooms and corridors.
+              </p>
+            </Link>
+            <Link
+              href="/refurbish-motel-without-closing-rooms"
+              className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all"
+            >
+              <p className="overline mb-2">Motels</p>
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">
+                Refurbish a Motel Without Closing Rooms
+              </h3>
+              <p className="text-body-sm text-brand-500">
+                The rolling, room-by-room refurbishment schedule for
+                owner-operated motels.
               </p>
             </Link>
             <Link
