@@ -150,6 +150,25 @@ export function HowToInstallClient() {
       {/* What you'll need */}
       <Section background="white">
         <div className="max-w-3xl mx-auto">
+          {/* Hospitality aside */}
+          <div className="bg-accent-light rounded-lg p-6 border border-accent/20 mb-12">
+            <p className="overline mb-2">Hotels, Motels, and Venues</p>
+            <p className="text-body-md text-brand-700 leading-relaxed">
+              Running a hotel, motel, serviced apartment, or conference venue?
+              Most operators hand the labour to Premrest rather than laying it
+              themselves.{" "}
+              <Link
+                href="/hotel-carpet"
+                className="text-accent underline underline-offset-4 hover:no-underline"
+              >
+                Hotel and motel carpet supply-and-install in Melbourne, Sydney,
+                and Brisbane
+              </Link>{" "}
+              covers the specification, phased rollouts around occupancy, and
+              spare-tile allocation so housekeeping can repair damage in-room
+              afterwards.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
