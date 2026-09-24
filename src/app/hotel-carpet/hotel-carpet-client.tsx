@@ -146,6 +146,24 @@ export function HotelCarpetClient() {
               </p>
             </div>
           </div>
+          <p className="text-body-md text-brand-600 leading-relaxed mt-8">
+            Two operational guides sit behind this page:{" "}
+            <Link
+              href="/replace-hotel-carpet-without-downtime"
+              className="text-accent underline underline-offset-4 hover:no-underline"
+            >
+              how to replace damaged hotel carpet without closing the room
+            </Link>{" "}
+            covers the tile-swap repair procedure and the 10-year lifecycle
+            numbers, and{" "}
+            <Link
+              href="/refurbish-motel-without-closing-rooms"
+              className="text-accent underline underline-offset-4 hover:no-underline"
+            >
+              how to refurbish a motel room by room without closing rooms
+            </Link>{" "}
+            sets out the phased schedule for a whole-property refresh.
+          </p>
         </div>
       </Section>
 
