@@ -22,6 +22,11 @@ Spec a floor that handles commercial traffic and lets housekeeping
 spot-replace damaged tiles between guests. Phased installs across
 low-occupancy windows, no property closure required.
 
+### [Refurbish a motel room by room without closing rooms](https://www.modularcarpet.com.au/refurbish-motel-without-closing-rooms)
+Owner-operators can refresh guest rooms one at a time during
+low-occupancy windows. Premrest supplies and installs in Melbourne,
+Sydney, and Brisbane so the rest of the motel keeps selling.
+
 ### [A home built to a higher standard](https://www.modularcarpet.com.au/why-tiles)
 The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels
 specify - in your master bedroom, hallway, family room, or home office.

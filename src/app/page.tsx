@@ -7,6 +7,7 @@ import { TrustSignals } from "@/components/home/trust-signals";
 import { FaqSection } from "@/components/home/faq-section";
 import { CtaBanner } from "@/components/home/cta-banner";
 import { PersonaRouter } from "@/components/home/persona-router";
+import { MotelRefurbCta } from "@/components/home/motel-refurb-cta";
 import { SupplyOrInstall } from "@/components/shared/supply-or-install";
 
 export const metadata: Metadata = {
@@ -33,6 +34,7 @@ export default function HomePage() {
       <Hero />
       <TrustSignals />
       <PersonaRouter />
+      <MotelRefurbCta />
       <BenefitsGrid />
       <RangesPreview />
       <SupplyOrInstall background="linen" />
