@@ -155,7 +155,9 @@ export function HowToInstallClient() {
             <p className="overline mb-2">Hotels, Motels, and Venues</p>
             <p className="text-body-md text-brand-700 leading-relaxed">
               Running a hotel, motel, serviced apartment, or conference venue?
-              Most operators hand the labour to Premrest rather than laying it
+              This guide is useful for maintenance teams and owner-operators
+              who need to replace a room themselves. Most operators still hand
+              the labour to Premrest rather than laying a whole property
               themselves.{" "}
               <Link
                 href="/hotel-carpet"
@@ -166,7 +168,16 @@ export function HowToInstallClient() {
               </Link>{" "}
               covers the specification, phased rollouts around occupancy, and
               spare-tile allocation so housekeeping can repair damage in-room
-              afterwards.
+              afterwards. Owner-operators refreshing rooms one at a time can
+              have Premrest install a rolling room-by-room refurb so the motel
+              stays open:{" "}
+              <Link
+                href="/refurbish-motel-without-closing-rooms"
+                className="text-accent underline underline-offset-4 hover:no-underline"
+              >
+                refurbish a motel without closing rooms
+              </Link>
+              .
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -354,7 +365,7 @@ export function HowToInstallClient() {
           <h2 className="font-serif text-heading-lg text-brand-800 mb-6 text-center">
             Learn More
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link href="/why-tiles" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Why Carpet Tiles?</h3>
               <p className="text-body-sm text-brand-500">8 reasons carpet tiles beat traditional broadloom.</p>
@@ -366,6 +377,10 @@ export function HowToInstallClient() {
             <Link href="/hotel-carpet" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Hotels</h3>
               <p className="text-body-sm text-brand-500">Minimise room closures with modular carpet tiles.</p>
+            </Link>
+            <Link href="/refurbish-motel-without-closing-rooms" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
+              <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Owner-Operated Motels</h3>
+              <p className="text-body-sm text-brand-500">Room-by-room refurb without closing the property. Premrest supply-and-install.</p>
             </Link>
           </div>
         </div>

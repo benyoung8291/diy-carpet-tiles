@@ -2,11 +2,15 @@ import { MetadataRoute } from "next";
 
 const BASE_URL = "https://www.modularcarpet.com.au";
 
+// Explicit lastmod so a deploy refreshes crawl dates for the motel
+// refurb URL and the homepage that now links to it.
+const INDEXING_REFRESH = new Date("2026-10-09T00:00:00+10:00");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: BASE_URL,
-      lastModified: new Date(),
+      lastModified: INDEXING_REFRESH,
       changeFrequency: "weekly",
       priority: 1,
     },
@@ -72,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/refurbish-motel-without-closing-rooms`,
-      lastModified: new Date(),
+      lastModified: INDEXING_REFRESH,
       changeFrequency: "monthly",
       priority: 0.85,
     },

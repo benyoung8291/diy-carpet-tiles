@@ -8,6 +8,7 @@ const footerLinks = {
   ],
   resources: [
     { label: "Hotels & Motels", href: "/hotel-carpet" },
+    { label: "Motel Room-by-Room Refurb", href: "/refurbish-motel-without-closing-rooms" },
     { label: "Installation Service", href: "/installation" },
     { label: "Why Modular Carpet?", href: "/why-tiles" },
     { label: "Rental Properties", href: "/rental-flooring" },
