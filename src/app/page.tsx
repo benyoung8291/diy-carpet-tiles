@@ -8,6 +8,7 @@ import { FaqSection } from "@/components/home/faq-section";
 import { CtaBanner } from "@/components/home/cta-banner";
 import { PersonaRouter } from "@/components/home/persona-router";
 import { SupplyOrInstall } from "@/components/shared/supply-or-install";
+import { SectorLinks } from "@/components/solutions/sector-links";
 import { ProjectStart } from "@/components/home/project-start";
 
 export const metadata: Metadata = {
@@ -42,6 +43,7 @@ export default function HomePage() {
       <SupplyOrInstall background="linen" description="Choose supply-only for your own flooring trade, or ask Premrest to measure, supply and install in Melbourne, Sydney or Brisbane." path1Suits="Suits landlords and property managers with an existing flooring trade" path2Suits="Suits rental refurbishments and owners who want one project contact" closingNote="Keep matching spare tiles so local damage can be repaired between tenancies." />
       <BenefitsGrid />
       <PersonaRouter />
+      <SectorLinks />
       <HowItWorks />
       <FaqSection />
       <CtaBanner />

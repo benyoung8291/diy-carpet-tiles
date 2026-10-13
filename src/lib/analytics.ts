@@ -38,7 +38,7 @@ export function trackGenerateLead(): void {
 }
 
 /** Never count failed submissions as leads. */
-export function trackGenerateLeadOnSuccess(response: { ok: boolean }, requestType?: string): void {
+export function trackGenerateLeadOnSuccess(response: { ok: boolean }, requestType?: string, sector?: string): void {
   if (!response.ok) return;
-  trackEnquiryEvent("generate_lead", requestType ? { request_type: requestType } : {});
+  trackEnquiryEvent("generate_lead", { ...(requestType ? { request_type: requestType } : {}), ...(sector ? { sector } : {}) });
 }

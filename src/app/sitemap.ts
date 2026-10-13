@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { sectorNavigation } from "@/lib/sector-navigation";
 
 const BASE_URL = "https://www.modularcarpet.com.au";
 
@@ -7,6 +8,12 @@ const INDEXING_REFRESH = new Date("2026-10-13T20:30:00Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
+    ...sectorNavigation.map((sector) => ({
+      url: `${BASE_URL}/${sector.slug}`,
+      lastModified: new Date("2026-10-13T21:00:00Z"),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     {
       url: BASE_URL,
       lastModified: INDEXING_REFRESH,

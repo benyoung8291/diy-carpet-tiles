@@ -1,3 +1,5 @@
+import { sectorNavigation } from "@/lib/sector-navigation";
+
 export const HOMEPAGE_MARKDOWN = `# Carpet Tiles for Rental Properties. Replace a Tile, Not the Whole Room.
 
 **Modular Carpet by Premrest.**
@@ -43,6 +45,10 @@ so local damage can be repaired between tenancies.
 - [Rental properties](https://www.modularcarpet.com.au/rental-flooring)
 - [Investment property flooring](https://www.modularcarpet.com.au/investment-property-flooring)
 - [Hotels and motels](https://www.modularcarpet.com.au/hotel-carpet)
+
+## Flooring by Property Type
+
+${sectorNavigation.map((sector) => `- [${sector.label}](https://www.modularcarpet.com.au/${sector.slug})`).join("\n")}
 
 ## Product Details
 

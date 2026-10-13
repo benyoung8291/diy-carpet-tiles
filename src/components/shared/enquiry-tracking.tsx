@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { isSectorSlug } from "@/lib/sector-navigation";
 import { trackEnquiryEvent } from "@/lib/analytics";
 
 export function EnquiryTracking() {
@@ -14,8 +15,9 @@ export function EnquiryTracking() {
       else if (href.startsWith("mailto:")) trackEnquiryEvent("email_click");
       else {
         const url = new URL(href, window.location.origin);
-        if (url.origin === window.location.origin && url.pathname === "/contact") {
-          trackEnquiryEvent("enquiry_cta_click", { request_type: url.searchParams.get("request") === "samples" ? "samples" : "quote" });
+        if (url.origin === window.location.origin && (url.pathname === "/contact" || url.hash === "#project-enquiry")) {
+          const context = url.searchParams.get("sector") || window.location.pathname.slice(1);
+          trackEnquiryEvent("enquiry_cta_click", { request_type: url.searchParams.get("request") === "samples" ? "samples" : "quote", ...(isSectorSlug(context) ? { sector: context } : {}) });
         }
       }
     };

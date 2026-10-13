@@ -54,3 +54,16 @@ Distributed in Australia by Premrest (Premier Restorations Group Pty Ltd, Thomas
 - Hours: Monday-Friday, 08:30-17:00 AEST
 - Installation coverage: Melbourne, Sydney, Brisbane (other locations on a project basis)
 - Quotes: Contact Premrest for project-specific supply, delivery and installation pricing.
+
+<!-- sector-pages:start -->
+## Flooring by Property Type
+
+- [Government Housing](https://www.modularcarpet.com.au/government-housing-flooring): Plan carpet for public and social housing. Modular carpet tiles, replacement spares and project quotes for housing providers. Request samples from Premrest.
+- [Assisted Living](https://www.modularcarpet.com.au/assisted-living-flooring): Explore carpet for assisted living bedrooms and shared lounges. Discuss mobility needs, maintenance and installation with Premrest. Request samples or a quote.
+- [Retirement Living](https://www.modularcarpet.com.au/retirement-living-flooring): Plan carpet for retirement village units, bedrooms and resident lounges. Compare samples and discuss staged refurbishment, maintenance and project quotes.
+- [Airbnb & Holiday Rentals](https://www.modularcarpet.com.au/airbnb-flooring): Explore carpet tiles for Airbnb bedrooms and holiday rentals. Plan local repairs, matching spares and guest changeovers. Request samples or a tailored quote.
+- [Student Accommodation](https://www.modularcarpet.com.au/student-accommodation-flooring): Plan carpet for student accommodation bedrooms and study spaces. Discuss semester refurbishments, spare tiles and portfolio maintenance. Request a project quote.
+- [Build-to-Rent](https://www.modularcarpet.com.au/build-to-rent-flooring): Explore carpet for build-to-rent apartments and managed rental portfolios. Plan range selection, handovers and replacement spares. Request samples or a quote.
+- [Serviced Apartments](https://www.modularcarpet.com.au/serviced-apartment-flooring): Plan carpet for serviced apartments and aparthotels. Compare ranges, housekeeping repair plans and phased refurbishment options. Request samples or a quote.
+- [Pet-Friendly Rentals](https://www.modularcarpet.com.au/pet-friendly-rental-flooring): Explore carpet for pet-friendly rental homes. Plan cleaning, matching spares and local repairs between tenancies. Request carpet samples or a project quote.
+<!-- sector-pages:end -->

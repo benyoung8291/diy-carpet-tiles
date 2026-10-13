@@ -3,29 +3,35 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
+import { isSectorSlug, sectorNavigation } from "@/lib/sector-navigation";
 import { trackEnquiryEvent, trackGenerateLeadOnSuccess } from "@/lib/analytics";
 
 interface EnquiryFormProps {
   preselectedRange?: string;
   compact?: boolean;
+  sector?: string;
 }
 
 const fieldClass = "w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3.5 text-brand-800 placeholder:text-brand-400 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors";
 const labelClass = "block text-sm font-medium text-brand-600 mb-1.5";
 
-export function EnquiryForm({ preselectedRange, compact = false }: EnquiryFormProps) {
+export function EnquiryForm({ preselectedRange, compact = false, sector }: EnquiryFormProps) {
   const id = useId();
   const started = useRef(false);
   const [requestType, setRequestType] = useState("quote");
+  const [enquirySector, setEnquirySector] = useState(sector && isSectorSlug(sector) ? sector : "");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(() => {
-    if (new URLSearchParams(window.location.search).get("request") === "samples") {
-      setRequestType("samples");
-    }
-  }, []);
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("request") === "samples") setRequestType("samples");
+    const context = sector || params.get("sector") || "";
+    setEnquirySector(isSectorSlug(context) ? context : "");
+  }, [sector]);
+
+  const eventContext = { request_type: requestType, ...(enquirySector ? { sector: enquirySector } : {}) };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -33,20 +39,20 @@ export function EnquiryForm({ preselectedRange, compact = false }: EnquiryFormPr
     const formData = new FormData(e.currentTarget);
     setLoading(true);
     setError("");
-    trackEnquiryEvent("enquiry_submit", { request_type: requestType });
+    trackEnquiryEvent("enquiry_submit", eventContext);
     try {
       const res = await fetch("https://formspree.io/f/xdappbep", {
         method: "POST", body: formData, headers: { Accept: "application/json" },
       });
       if (res.ok) {
-        trackGenerateLeadOnSuccess(res, requestType);
+        trackGenerateLeadOnSuccess(res, requestType, enquirySector);
         setSubmitted(true);
       } else {
-        trackEnquiryEvent("enquiry_error", { request_type: requestType, error_type: "response", status_code: res.status });
+        trackEnquiryEvent("enquiry_error", { ...eventContext, error_type: "response", status_code: res.status });
         setError("Your enquiry could not be sent. Please try again, call 1300 207 915 or email modular@premrest.com.au.");
       }
     } catch {
-      trackEnquiryEvent("enquiry_error", { request_type: requestType, error_type: "network" });
+      trackEnquiryEvent("enquiry_error", { ...eventContext, error_type: "network" });
       setError("Your enquiry could not be sent. Please try again, call 1300 207 915 or email modular@premrest.com.au.");
     } finally { setLoading(false); }
   };
@@ -64,8 +70,9 @@ export function EnquiryForm({ preselectedRange, compact = false }: EnquiryFormPr
 
   return (
     <form onSubmit={handleSubmit} onChange={() => {
-      if (!started.current) { started.current = true; trackEnquiryEvent("enquiry_start"); }
+      if (!started.current) { started.current = true; trackEnquiryEvent("enquiry_start", enquirySector ? { sector: enquirySector } : {}); }
     }} className="space-y-5" aria-busy={loading}>
+      {enquirySector && <input type="hidden" name="sector" value={enquirySector} />}
       <div>
         <label htmlFor={`${id}-request`} className={labelClass}>How can we help?</label>
         <select id={`${id}-request`} name="request_type" value={requestType} onChange={(e) => setRequestType(e.target.value)} className={fieldClass}>
@@ -94,7 +101,7 @@ export function EnquiryForm({ preselectedRange, compact = false }: EnquiryFormPr
           <div><label htmlFor={`${id}-phone`} className={labelClass}>Phone</label><input type="tel" id={`${id}-phone`} name="phone" autoComplete="tel" className={fieldClass} /></div>
           <div><label htmlFor={`${id}-location`} className={labelClass}>Property suburb / postcode</label><input id={`${id}-location`} name="property_location" className={fieldClass} /></div>
           <div><label htmlFor={`${id}-range`} className={labelClass}>Preferred range</label><select id={`${id}-range`} name="range" defaultValue={preselectedRange || ""} className={fieldClass}><option value="">Not sure yet</option><option value="haven">Haven</option><option value="horizon">Horizon</option></select></div>
-          <div><label htmlFor={`${id}-property`} className={labelClass}>Property type</label><select id={`${id}-property`} name="property_type" defaultValue="" className={fieldClass}><option value="">Select if known</option><option value="hotel">Hotel</option><option value="motel">Motel</option><option value="apartment">Serviced apartment</option><option value="airbnb">Airbnb</option><option value="retreat_or_conference">Retreat / conference venue</option><option value="home">Home</option><option value="rental">Rental property</option><option value="other">Other</option></select></div>
+          <div><label htmlFor={`${id}-property`} className={labelClass}>Property type</label><select id={`${id}-property`} name="property_type" defaultValue="" className={fieldClass}><option value="">Select if known</option><option value="hotel">Hotel</option><option value="motel">Motel</option><option value="apartment">Serviced apartment</option><option value="airbnb">Airbnb</option><option value="retreat_or_conference">Retreat / conference venue</option><option value="home">Home</option><option value="rental">Rental property</option>{sectorNavigation.map((item) => <option key={item.slug} value={item.slug}>{item.label}</option>)}<option value="other">Other</option></select></div>
           <div><label htmlFor={`${id}-service`} className={labelClass}>Installation</label><select id={`${id}-service`} name="service_type" defaultValue="not_sure" className={fieldClass}><option value="not_sure">Help me decide</option><option value="supply_and_install">Supply and install — Melbourne, Sydney or Brisbane</option><option value="supply_only">Supply only — Australia-wide</option></select></div>
           {!compact && <div><label htmlFor={`${id}-size`} className={labelClass}>Approximate total carpet area (m²)</label><input id={`${id}-size`} name="project_size" className={fieldClass} placeholder="e.g. 250 m² across 10 rooms — or leave blank" /></div>}
         </div>

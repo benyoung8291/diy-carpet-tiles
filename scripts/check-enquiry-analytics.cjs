@@ -13,12 +13,13 @@ const context = {
 };
 vm.runInNewContext(source, context);
 const analytics = context.exports;
-analytics.trackGenerateLeadOnSuccess({ ok: false }, 'quote');
+analytics.trackGenerateLeadOnSuccess({ ok: false }, 'quote', 'airbnb-flooring');
 assert.equal(events.length, 0);
-analytics.trackGenerateLeadOnSuccess({ ok: true }, 'samples');
+analytics.trackGenerateLeadOnSuccess({ ok: true }, 'samples', 'airbnb-flooring');
 assert.equal(events.length, 1);
 assert.equal(events[0][1], 'generate_lead');
 assert.equal(events[0][2].request_type, 'samples');
+assert.equal(events[0][2].sector, 'airbnb-flooring');
 assert.equal(events[0][2].page_path, '/contact');
 analytics.trackEnquiryEvent('enquiry_error', { error_type: 'network' });
 assert.equal(events[1][1], 'enquiry_error');

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { sectorNavigation } from "@/lib/sector-navigation";
 
 const navigation = [
   { label: "Rental Properties", href: "/rental-flooring" },
@@ -23,6 +24,7 @@ const navigation = [
       { label: "Hotels & Motels", href: "/hotel-carpet" },
       { label: "Rental Properties", href: "/rental-flooring" },
       { label: "Investment Properties", href: "/investment-property-flooring" },
+      ...sectorNavigation.map((sector) => ({ label: sector.label, href: `/${sector.slug}` })),
     ],
   },
   { label: "Contact", href: "/contact" },
@@ -74,7 +76,7 @@ export function Header() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-brand-200 py-2 min-w-[200px]"
+                      className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-brand-200 py-2 min-w-[240px] max-h-[70vh] overflow-y-auto"
                     >
                       {item.children.map((child) => (
                         <Link
@@ -144,7 +146,7 @@ export function Header() {
             transition={{ duration: 0.2 }}
             className="lg:hidden border-t border-brand-200 bg-white overflow-hidden"
           >
-            <nav className="container-main py-6 space-y-1" aria-label="Mobile navigation">
+            <nav className="container-main py-6 space-y-1 max-h-[calc(100dvh-5rem)] overflow-y-auto" aria-label="Mobile navigation">
               {navigation.map((item) =>
                 item.children ? (
                   <div key={item.label} className="space-y-1">
