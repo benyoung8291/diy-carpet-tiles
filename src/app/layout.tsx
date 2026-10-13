@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { GA_MEASUREMENT_ID } from "@/lib/analytics";
+import { EnquiryTracking } from "@/components/shared/enquiry-tracking";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,11 +17,11 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   title: {
     default:
-      "Supply-and-Install Modular Carpet for Hotels | Premrest",
+      "Carpet Tiles for Rental Properties & Landlords | Premrest",
     template: "%s | Premrest",
   },
   description:
-    "Premrest supplies and installs modular carpet for hotels, motels, apartments, Airbnbs, and hospitality venues in Melbourne, Sydney, and Brisbane. Commercial-grade tiles, 15-year warranty, replace damaged tiles instead of whole rooms.",
+    "Modular carpet tiles for landlords and property managers. Replace damaged tiles between tenancies. Supply Australia-wide; installation in Melbourne, Sydney and Brisbane.",
   keywords: [
     "carpet tiles",
     "modular carpet",
@@ -46,9 +47,9 @@ export const metadata: Metadata = {
     locale: "en_AU",
     siteName: "Modular Carpet by Premrest",
     title:
-      "Supply-and-Install Modular Carpet for Hotels | Premrest Australia",
+      "Carpet Tiles for Rental Properties & Landlords | Premrest Australia",
     description:
-      "Modular carpet replacement for hotels, motels, and hospitality venues. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
+      "Modular carpet for rental properties and investment portfolios. Supply Australia-wide; installation in Melbourne, Sydney and Brisbane.",
     url: "https://www.modularcarpet.com.au",
     images: [
       {
@@ -62,9 +63,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Supply-and-Install Modular Carpet for Hotels | Premrest Australia",
+      "Carpet Tiles for Rental Properties & Landlords | Premrest Australia",
     description:
-      "Modular carpet replacement for hotels, motels, and hospitality venues. Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
+      "Modular carpet for rental properties and investment portfolios. Supply Australia-wide; installation in Melbourne, Sydney and Brisbane.",
     images: ["/images/lifestyle/hero-home.jpg"],
   },
   alternates: {
@@ -199,6 +200,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <Header />
+        <EnquiryTracking />
         <main id="main-content">{children}</main>
         <Footer />
       </body>

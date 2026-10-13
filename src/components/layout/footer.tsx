@@ -35,9 +35,9 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-body-sm text-brand-400 mt-4 leading-relaxed max-w-xs">
-              Supply-and-install modular carpet for hotels, motels, apartments,
-              Airbnbs, and hospitality venues in Melbourne, Sydney, and
-              Brisbane. Supply-only available for in-house trades.
+              Modular carpet tiles for landlords, property managers and hospitality
+              operators. Supply Australia-wide; installation in Melbourne,
+              Sydney and Brisbane.
             </p>
             <p className="text-[11px] text-brand-500 mt-3 italic">
               Premrest: Australia&apos;s go-to for commercial floor care

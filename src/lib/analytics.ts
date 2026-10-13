@@ -17,24 +17,28 @@ declare global {
 }
 
 /**
- * Fire GA4 generate_lead after a successful Formspree submit only.
+ * Track enquiry activity without sending form values or contact details.
  * Safe no-op when gtag is missing (dev, blocked scripts, or SSR).
  */
-export function trackGenerateLead(): void {
+export function trackEnquiryEvent(event: string, params: Record<string, unknown> = {}): void {
   if (typeof window === "undefined") return;
   const { gtag } = window;
   if (typeof gtag === "function") {
-    gtag("event", "generate_lead", {
+    gtag("event", event, {
       form_id: "xdappbep",
       form_destination: "formspree",
       page_path: window.location.pathname,
-      page_location: window.location.href,
+      ...params,
     });
   }
 }
 
-/** Shared Formspree hook: never fires on failed, validation, or network errors. */
-export function trackGenerateLeadOnSuccess(response: { ok: boolean }): void {
+export function trackGenerateLead(): void {
+  trackEnquiryEvent("generate_lead");
+}
+
+/** Never count failed submissions as leads. */
+export function trackGenerateLeadOnSuccess(response: { ok: boolean }, requestType?: string): void {
   if (!response.ok) return;
-  trackGenerateLead();
+  trackEnquiryEvent("generate_lead", requestType ? { request_type: requestType } : {});
 }

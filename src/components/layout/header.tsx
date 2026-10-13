@@ -7,7 +7,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navigation = [
-  { label: "Hotels & Motels", href: "/hotel-carpet" },
+  { label: "Rental Properties", href: "/rental-flooring" },
   { label: "Installation", href: "/installation" },
   {
     label: "Our Ranges",
@@ -56,11 +56,13 @@ export function Header() {
                 className="relative"
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
+                onKeyDown={(event) => { if (event.key === "Escape") setOpenDropdown(null); }}
               >
                 <button
                   className="flex items-center gap-1 text-[15px] font-medium text-brand-600 hover:text-brand-800 transition-colors"
                   aria-expanded={openDropdown === item.label}
                   aria-haspopup="true"
+                  onClick={() => setOpenDropdown(openDropdown === item.label ? null : item.label)}
                 >
                   {item.label}
                   <ChevronDown className="w-4 h-4" />
@@ -118,7 +120,7 @@ export function Header() {
             1300 207 915
           </a>
           <Button size="sm" asChild>
-            <Link href="/contact">Request Install Quote</Link>
+            <Link href="/contact">Get a Quote</Link>
           </Button>
         </div>
 
@@ -180,7 +182,7 @@ export function Header() {
                 </a>
                 <Button className="w-full" asChild>
                   <Link href="/contact" onClick={() => setMobileOpen(false)}>
-                    Request Install Quote
+                    Get a Quote
                   </Link>
                 </Button>
               </div>

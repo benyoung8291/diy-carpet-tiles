@@ -10,11 +10,11 @@ const faqs = [
   },
   {
     q: "Who is this product for?",
-    a: "Three audiences typically: hospitality operators (hotels, motels, serviced apartments) who need a floor that handles commercial traffic and can be repaired without closing rooms; landlords and asset managers who want a floor that survives multiple tenancy cycles without re-carpeting between every tenant; and homeowners building or renovating to a higher standard who want flooring that ages gracefully under real life with kids, pets, and afternoon sun.",
+    a: "Landlords and property managers can use modular carpet in rental bedrooms, living rooms and hallways, keeping matching spare tiles for repairs between tenancies. The ranges also suit hospitality venues and homes. Ask Premrest about suitability for your property.",
   },
   {
     q: "Do I install it myself, or do you install for me?",
-    a: "Premrest's primary path is supply-and-install in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote. Supply-only is available if you have an in-house trade or maintenance team — the same product ships direct from the warehouse.",
+    a: "Premrest offers supply-and-install in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote. Supply-only is available if you have an in-house trade or maintenance team — the same product ships direct from the warehouse.",
   },
   {
     q: "Do the tiles look like real carpet, or do you see grid lines?",
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Can it be installed over concrete slabs, including moisture-affected slabs?",
-    a: "Yes. The breathable recycled PET felt backing is engineered for Australian slab conditions. Unlike rubber-backed broadloom (which traps moisture and breeds mould over time), the felt backing lets the slab breathe naturally. It also works over plywood, timber, vinyl, and most existing hard floors.",
+    a: "Concrete can be suitable when the subfloor is clean, dry, level and meets the flooring and adhesive requirements. The recycled PET felt backing does not fix a damp slab. Ask Premrest to assess moisture and preparation before installation.",
   },
   {
     q: "How do I order, request samples, or get a quote?",

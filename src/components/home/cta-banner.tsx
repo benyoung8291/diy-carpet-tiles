@@ -29,25 +29,25 @@ export function CtaBanner() {
             Melbourne, Sydney, Brisbane
           </p>
           <h2 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
-            Request a Supply-and-Install Quote
+            Planning Carpet for Your Next Tenancy?
           </h2>
           <p className="text-body-lg text-brand-300 mb-4">
-            Premrest supplies and installs modular carpet for hotels, motels,
-            apartments, Airbnbs, and hospitality venues. The same
-            commercial-grade tile also ships supply-only for in-house trades.
+            Request samples for your rental property or ask for a quote.
+            Supply-only Australia-wide, or supply and install in Melbourne,
+            Sydney and Brisbane. Tell us your suburb and approximate area if known.
           </p>
           <p className="text-body-md text-brand-400 mb-10">
-            Call 1300 207 915. Quotes return within one business day.
+            Call 1300 207 915. We reply within one business day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
               <Link href="/contact">
-                Request install quote
+                Get a carpet quote
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/hotel-carpet">Hotel &amp; motel carpet</Link>
+              <Link href="/contact?request=samples#enquiry">Request free samples</Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
               <Link href="/installation">Installation Service</Link>

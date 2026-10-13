@@ -3,9 +3,9 @@ import { ContactClient } from "./contact-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
 export const metadata: Metadata = {
-  title: "Hospitality Install Quotes",
+  title: "Carpet Quotes & Free Samples",
   description:
-    "Request a Premrest supply-and-install quote for hotels, motels, serviced apartments, and hospitality venues in Melbourne, Sydney, and Brisbane. Call 1300 207 915 or email modular@premrest.com.au.",
+    "Get free carpet tile samples or a project quote. Supply Australia-wide; installation in Melbourne, Sydney and Brisbane. Call Premrest on 1300 207 915.",
   alternates: { canonical: "https://www.modularcarpet.com.au/contact" },
   openGraph: {
     title: "Contact Modular Carpet by Premrest",

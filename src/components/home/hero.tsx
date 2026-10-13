@@ -20,7 +20,7 @@ export function Hero() {
 
       <div className="container-main relative z-10 py-20 md:py-32">
         <motion.div
-          initial={{ opacity: 0, y: 32 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-2xl"
@@ -29,24 +29,23 @@ export function Hero() {
             Modular Carpet by Premrest
           </p>
           <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-4 md:mb-6 text-balance leading-[1.1]">
-            Supply-and-Install Modular Carpet for Hotels and Hospitality Venues
+            Carpet Tiles for Rental Properties. Replace a Tile, Not the Whole Room.
           </h1>
           <p className="text-body-md md:text-body-lg text-white/85 mb-8 md:mb-10 max-w-xl leading-relaxed">
-            Premrest replaces modular carpet in hotels, motels, apartments,
-            Airbnbs, retreats, and conference centres — without a full
-            property shutdown. Supply-and-install in Melbourne, Sydney, and
-            Brisbane. Replace one tile when life happens &mdash; never the
-            whole room.
+            Stains or damage between tenancies? Replace the affected carpet tiles
+            instead of re-carpeting the whole room. For landlords and property
+            managers: supply Australia-wide, with installation in Melbourne,
+            Sydney and Brisbane. Keep matching spares for future repairs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
               <Link href="/contact">
-                Request install quote
+                Get a carpet quote
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
             <Button variant="outline_white" size="lg" asChild>
-              <Link href="/installation">Installation Service</Link>
+              <Link href="/contact?request=samples#enquiry">Request free samples</Link>
             </Button>
           </div>
           <p className="mt-6 text-body-md text-white/85">

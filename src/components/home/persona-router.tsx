@@ -6,30 +6,9 @@ import { Hotel, Home, Building2, ArrowRight } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 
 const personas = [
-  {
-    icon: Hotel,
-    tag: "Hospitality",
-    title: "Hotel, Motel, or Serviced Apartment",
-    body: "Spec a floor that handles commercial traffic and lets housekeeping spot-replace damaged tiles between guests. Phased installs across low-occupancy windows, no property closure required.",
-    cta: "See the Hospitality Brief",
-    href: "/hotel-carpet",
-  },
-  {
-    icon: Home,
-    tag: "Considered Home",
-    title: "A Home Built to a Higher Standard",
-    body: "The 15-year warranty, solution-dyed nylon, and ashlar-laid finish that hotels specify - in your master bedroom, hallway, family room, or home office. Premrest can install, or your trade can lay the same product.",
-    cta: "Why Tiles for the Home",
-    href: "/why-tiles",
-  },
-  {
-    icon: Building2,
-    tag: "Investment Property",
-    title: "Long-Hold Rental or Portfolio",
-    body: "Replace damaged tiles between tenancies in under an hour - never re-carpet a whole room again. One floor that survives multiple tenancy cycles without burning capital.",
-    cta: "Read the Investor Case",
-    href: "/investment-property-flooring",
-  },
+  { icon: Building2, tag: "Landlords & Property Managers", title: "Carpet for Rental Properties", body: "Replace individual damaged tiles between tenancies. Explore carpet for rental bedrooms, living rooms and hallways, with supply-only or installation options.", cta: "Explore rental property carpet", href: "/rental-flooring" },
+  { icon: Home, tag: "Investment Property", title: "Plan for Future Repairs", body: "Choose a range for your investment property and keep matching spare tiles. Ask us about supply and installation for one property or a portfolio.", cta: "See investment property flooring", href: "/investment-property-flooring" },
+  { icon: Hotel, tag: "Hospitality", title: "Hotels, Motels & Serviced Apartments", body: "The same modular carpet also suits hospitality refurbishments. Discuss staged installation and your maintenance requirements with Premrest.", cta: "Explore hotel and motel carpet", href: "/hotel-carpet" },
 ];
 
 const containerVariants = {
@@ -53,8 +32,8 @@ export function PersonaRouter() {
     <Section background="white">
       <SectionHeader
         overline="For Every Type of Property"
-        title="Start with the Hospitality Brief"
-        description="Premrest's primary work is supply-and-install modular carpet for hotels, motels, apartments, and hospitality venues. The same product also suits considered homes and long-hold rentals."
+        title="Find Carpet for Your Property"
+        description="Start with your rental property or investment portfolio. Hospitality options remain available for hotels, motels and serviced apartments."
       />
       <motion.div
         variants={containerVariants}
