@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title:
       "How to Refurbish Carpet Across an Owner-Operated Motel Without Closing a Single Room",
     description:
-      "A rolling, room-by-room refurbishment playbook for owner-operators - including a worked 20-room motel example with the full numbers.",
+      "A rolling, room-by-room refurbishment playbook for owner-operators - with supply-only and phased installation options quoted for your property.",
     url: "https://www.modularcarpet.com.au/refurbish-motel-without-closing-rooms",
     images: [
       {

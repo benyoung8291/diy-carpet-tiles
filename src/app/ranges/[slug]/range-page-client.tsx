@@ -16,8 +16,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { ColorSwatch } from "@/components/ui/color-swatch";
 import { Section, SectionHeader } from "@/components/ui/section";
-import { OrderForm } from "@/components/shared/order-form";
-import { SHARED_SPECS, PRICING, ranges, type ProductRange, type ColorWay } from "@/lib/data";
+import { QuoteRequestForm } from "@/components/shared/order-form";
+import { SHARED_SPECS, ranges, type ProductRange, type ColorWay } from "@/lib/data";
 
 interface RangePageClientProps {
   range: ProductRange;
@@ -146,30 +146,21 @@ export function RangePageClient({ range }: RangePageClientProps) {
               </div>
             </div>
 
-            {/* Pricing */}
             <div className="bg-accent-light rounded-md p-5 mb-6 border border-accent/20">
-              <p className="text-heading-md font-serif text-brand-800">
-                ${PRICING.pricePerSqm.toFixed(2)}{" "}
-                <span className="text-body-sm font-sans text-brand-500 font-normal">
-                  per m² inc GST
-                </span>
-              </p>
-              <p className="text-body-sm text-brand-500 mt-1">
-                Sold in boxes of {PRICING.boxArea} m² - ${PRICING.shippingFlat}{" "}
-                flat rate shipping Australia-wide
-              </p>
+              <p className="text-heading-sm font-serif text-brand-800">Get a quote for your project</p>
+              <p className="text-body-sm text-brand-500 mt-2">Choose your colour and tell us the area you need. Premrest will quote supply-only or supply and installation for your property.</p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild>
                 <a href="#order">
-                  Order Now
+                  Request a Quote
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </a>
               </Button>
               <Button variant="secondary" asChild>
-                <Link href="/contact">Request a Sample</Link>
+                <Link href="/contact?request=samples#enquiry">Request a Sample</Link>
               </Button>
             </div>
           </div>
@@ -263,16 +254,16 @@ export function RangePageClient({ range }: RangePageClientProps) {
         </div>
       </Section>
 
-      {/* Order Form */}
+      {/* Quote Request Form */}
       <Section background="linen" id="order">
         <div className="max-w-2xl mx-auto">
           <SectionHeader
-            overline="Place Your Order"
-            title={`Order ${range.name} Carpet Tiles`}
-            description="Enter your room dimensions to calculate how much you need. We'll confirm your order within 1 business day."
+            overline="Plan Your Project"
+            title={`Request a Quote for ${range.name}`}
+            description="Enter your room dimensions to estimate quantities. We’ll prepare a tailored quote and reply within one business day."
           />
           <div className="bg-white rounded-lg p-6 md:p-8 border border-brand-200">
-            <OrderForm range={range} selectedColor={selectedColor} />
+            <QuoteRequestForm range={range} selectedColor={selectedColor} />
           </div>
         </div>
       </Section>

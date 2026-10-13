@@ -5,7 +5,7 @@ export const faqs = [
   },
   {
     q: "What if I'd rather have Premrest install it for me?",
-    a: "We offer a full supply-and-install service in Melbourne, Sydney, and Brisbane. Indicative installation cost is around $20-25 per square metre of laid carpet, with site-specific costs (preparation, levelling, transitions, removal of existing carpet) included in the quote. The phased rolling-refurbishment schedule described in this article still applies - our installers can match your low-occupancy windows so the property doesn't need to close.",
+    a: "We offer a full supply-and-install service in Melbourne, Sydney, and Brisbane. Request a tailored quote covering carpet, installation, preparation, transitions and removal of existing flooring. The phased rolling-refurbishment schedule described in this article still applies - our installers can match your low-occupancy windows so the property doesn't need to close.",
   },
   {
     q: "What if a room is occupied longer than expected and I need to push the schedule?",

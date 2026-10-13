@@ -55,7 +55,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
           {[
             {
               title: "Revenue lost while the room is offline",
-              body: "A broadloom patch rarely matches the surrounding carpet after a few months of foot traffic, so most operators end up re-carpeting the entire room. That's 5-14 nights offline waiting on flooring quotes, installer availability, and adhesive cure time. At an ADR of $220 with 80% occupancy, that's $880-$2,460 in lost revenue per room before the repair invoice arrives.",
+              body: "A broadloom patch rarely matches the surrounding carpet after a few months of foot traffic, so most operators end up re-carpeting the entire room. That's 5-14 nights offline waiting on flooring quotes, installer availability, and adhesive cure time. This can mean lost room revenue before the repair work starts.",
             },
             {
               title: "Operational drag on the team",
@@ -247,70 +247,9 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
         </p>
       </Section>
 
-      {/* 10-year lifecycle economics */}
       <Section background="white">
-        <SectionHeader
-          overline="The 10-Year View"
-          title="Lifecycle Economics: What a 30-Room Property Actually Spends Over 10 Years"
-          description="The discipline of lifecycle costing reframes flooring from a one-off line item into a 10-year operating decision. The numbers below assume mid-range Australian rates and an indicative 30-room boutique property; the principle scales in either direction."
-        />
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200">
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-              Mid-Range Broadloom
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-500 mb-5">
-              {[
-                "Initial fit-out: 30 rooms × 25 m² × $80 supplied &amp; installed = $60,000",
-                "Re-carpet of damaged rooms (8 rooms × 2 cycles over 10 years): $32,000",
-                "Room revenue lost to re-carpet downtime (8 × 2 × 7 nights × $176 RevPAR): $19,712",
-                "Disruption: 20+ days of rooms out of inventory across the portfolio",
-                "Patches visible at 6 months as dye lots and wear age diverge",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <span className="text-brand-300 mt-0.5">—</span>
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
-                </li>
-              ))}
-            </ul>
-            <div className="border-t border-brand-200 pt-4">
-              <p className="text-body-md text-brand-800">
-                <strong>10-year carpet investment: ~$111,700</strong>
-              </p>
-            </div>
-          </div>
-          <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-              Modular Carpet (Premium)
-            </h3>
-            <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
-              {[
-                "Initial fit-out: 30 rooms × 25 m² × $66.55/m² inc GST = $49,912",
-                "Pressure-sensitive adhesive (5 × 180 m² tubs at ~$150 each): ~$750",
-                "10-year spare-tile inventory and spot replacements: ~$3,500",
-                "Room revenue lost to repairs: $0 - repairs handled in-room, in-day",
-                "Commercial-grade solution-dyed nylon, 15-year wear warranty",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <div className="border-t border-accent/20 pt-4">
-              <p className="text-body-md text-brand-800">
-                <strong>10-year carpet investment: ~$54,000</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
-          Over a decade the modular approach is roughly half the total spend of
-          mid-range broadloom - and it delivers a commercial-grade,
-          solution-dyed nylon product backed by a 15-year warranty. The lower
-          lifecycle cost is the consequence of buying the better product, not
-          the cheaper one.
-        </p>
+        <SectionHeader overline="Plan for Maintenance" title="Get a Quote for Your Property" description="Compare supply-only and supply-and-install options for your rooms, corridors and spare-tile stock. Your quote will reflect the carpet area and site requirements." />
+        <div className="text-center"><Button asChild><Link href="/contact">Request a project quote</Link></Button></div>
       </Section>
 
       {/* Hospitality next steps */}

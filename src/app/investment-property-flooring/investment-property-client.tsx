@@ -143,7 +143,7 @@ export function InvestmentPropertyClient() {
                 Standard broadloom carpet in a rental property typically lasts 5–7 years
                 before it looks tired, matted, and stained. Each replacement cycle means
                 engaging a flooring retailer, scheduling an installer, and paying
-                <strong> $3,000–$5,000+ per room</strong> for materials and labour - plus
+                for materials and labour - plus
                 lost rent while the property sits empty waiting for the work.
               </p>
               <p>

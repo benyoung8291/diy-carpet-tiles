@@ -123,11 +123,9 @@ export function InstallationClient() {
               Premrest&apos;s installation team takes your project from site
               measurement through to a finished, walked, and signed-off floor.
               One contract, one invoice, one project lead - no managing a
-              separate installer. Indicatively around{" "}
-              <strong className="text-accent">$20-25 per square metre</strong>{" "}
-              of laid carpet, with site-specific costs (preparation, levelling,
-              transitions, removal of existing flooring) included in the same
-              quote.
+              separate installer. Request a quote for your property, including
+              carpet, installation, preparation, transitions and removal of
+              existing flooring as needed.
             </p>
             <p className="text-body-lg text-brand-300">
               If you&apos;ve decided modular carpet is the right product but
@@ -234,13 +232,13 @@ export function InstallationClient() {
       {/* Pricing transparency */}
       <Section background="white">
         <SectionHeader
-          overline="Pricing Transparency"
-          title="What the Indicative Rate Includes - And What Sits Alongside"
+          overline="Your Project Quote"
+          title="What Your Installation Quote Covers"
           description="Every quote we issue itemises both the per-square-metre install rate and the site-specific extras. There are no bundled lump sums and no surprises after the work starts."
         />
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-accent-light rounded-lg p-8 border-2 border-accent/20">
-            <p className="overline mb-3">~$20-25/m² Install Rate</p>
+            <p className="overline mb-3">Installation Scope</p>
             <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
               Included in the install rate
             </h3>

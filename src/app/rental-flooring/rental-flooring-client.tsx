@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { EnquiryForm } from "@/components/shared/enquiry-form";
-import { PRICING, SHARED_SPECS } from "@/lib/data";
+import { SHARED_SPECS } from "@/lib/data";
 
 const benefits = [
   { title: "Repair local damage between tenancies", text: "Lift and replace affected tiles instead of replacing all the carpet in a room. Keep matching spare tiles from the original purchase; new batches can vary in colour." },
@@ -13,7 +13,7 @@ const benefits = [
 const faqs = [
   { q: "Where can carpet tiles be used in a rental property?", a: "Bedrooms, living rooms, hallways and home offices are common uses. Carpet is not recommended for wet areas such as bathrooms and laundries. Ask Premrest to confirm suitability for your property and subfloor." },
   { q: "Can I replace damaged tiles between tenants?", a: "Individual tiles can be lifted and replaced when installed with a suitable pressure-sensitive adhesive. Keep matching spares from the original batch. Replacement tiles may look different if the surrounding carpet has worn or faded." },
-  { q: "How much does the carpet cost?", a: `Supply is $${PRICING.pricePerSqm.toFixed(2)}/m² including GST, sold in ${PRICING.boxArea} m² boxes. Delivery is $${PRICING.shippingFlat} including GST Australia-wide. Allow for cutting waste and adhesive. Installation, old-floor removal and preparation are additional and quoted for your site.` },
+  { q: "How do I get a carpet quote?", a: "Send your suburb, approximate area and preferred range if known. Premrest will prepare a quote for supply-only or supply and installation, including delivery and any site preparation you need. No measurements are needed for a first enquiry." },
   { q: "Do you install, or can my flooring trade do it?", a: "Premrest offers supply and installation in Melbourne, Sydney and Brisbane. Supply-only is available Australia-wide if you arrange a suitable trade. Ask us about preparation, adhesive and layout before installation." },
   { q: "Is it suitable for a damp concrete slab?", a: "The slab must meet the flooring and adhesive moisture requirements. Breathable felt backing does not remedy a damp slab. Ask for an assessment and resolve moisture issues before installation." },
   { q: "Do I need measurements before asking for a quote?", a: "No. Send your suburb and any approximate area or room details you know. Premrest can discuss the next steps. For samples, we will confirm colour selection and delivery details after your request." },
@@ -43,7 +43,7 @@ export function RentalFlooringClient() {
       </section>
       <section className="section-padding bg-brand-100">
         <div className="container-main grid md:grid-cols-2 gap-10">
-          <div><p className="overline mb-4">Clear supply pricing</p><h2 className="font-serif text-heading-lg mb-4">${PRICING.pricePerSqm.toFixed(2)}/m² including GST</h2><p className="text-body-md text-brand-600 mb-4">Sold in {PRICING.boxArea} m² boxes (${(PRICING.pricePerSqm * PRICING.boxArea).toFixed(2)} incl. GST). Delivery: ${PRICING.shippingFlat} incl. GST Australia-wide. Allow for cutting waste and adhesive.</p><p className="text-body-md text-brand-600">Need installation? Ask for a total quote that includes carpet, laying, removal and any site preparation. The laying rate alone is not the finished-floor price.</p></div>
+          <div><p className="overline mb-4">Plan your rental carpet project</p><h2 className="font-serif text-heading-lg mb-4">Get a quote that fits your property</h2><p className="text-body-md text-brand-600 mb-4">Tell us your suburb and approximate carpet area if known. We can quote supply-only Australia-wide, or supply and installation in Melbourne, Sydney and Brisbane.</p><p className="text-body-md text-brand-600 mb-6">We’ll confirm the carpet, delivery, installation and any site preparation you need. No need to choose a range before you enquire.</p><Button asChild><Link href="#rental-enquiry">Request my property quote</Link></Button></div>
           <div className="bg-white rounded-lg p-6 border border-brand-200"><h3 className="font-serif text-heading-md mb-4">Compare Haven and Horizon</h3><ul className="text-body-md text-brand-600 space-y-2"><li>{SHARED_SPECS.pileFibre} fibre</li><li>{SHARED_SPECS.tileDimensions} tiles</li><li>{SHARED_SPECS.backing} backing</li><li>15-year manufacturer wear warranty — ask for the terms and exclusions</li></ul><div className="flex gap-6 mt-6"><Link className="text-accent font-semibold underline" href="/ranges/haven">View Haven</Link><Link className="text-accent font-semibold underline" href="/ranges/horizon">View Horizon</Link></div></div>
         </div>
       </section>
