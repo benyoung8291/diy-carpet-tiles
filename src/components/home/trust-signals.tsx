@@ -13,12 +13,12 @@ const signals = [
   {
     icon: Recycle,
     title: "Replace Tiles, Not Rooms",
-    description: "Damaged tile swapped in under a minute",
+    description: "Keep matching spare tiles for local repairs",
   },
   {
     icon: Wrench,
     title: "Supply and Install",
-    description: "MEL / SYD / BNE, or supply-only for in-house trades",
+    description: "Melbourne, Sydney and Brisbane",
   },
   {
     icon: MapPin,

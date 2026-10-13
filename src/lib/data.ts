@@ -106,7 +106,7 @@ export const BENEFITS = [
     icon: "Wrench",
     title: "Premrest Install, or Supply Only",
     description:
-      "Supply-and-install in Melbourne, Sydney, and Brisbane is the primary path for hospitality venues. Supply-only is available if you have an in-house trade or maintenance team. Same product, same warranty.",
+      "Premrest can supply and install in Melbourne, Sydney and Brisbane, or supply Australia-wide for your flooring trade. Choose the service that suits your rental property.",
   },
   {
     icon: "RefreshCw",
@@ -122,9 +122,9 @@ export const BENEFITS = [
   },
   {
     icon: "Droplets",
-    title: "Safe Over Concrete Slabs",
+    title: "Subfloor Advice Before Installation",
     description:
-      "Traditional carpet traps moisture and breeds mould. Our breathable recycled PET felt backing lets your concrete slab breathe - solving the #1 carpet problem in Australian homes.",
+      "Get advice on preparation before laying over concrete or an existing floor. The subfloor must be clean, dry, level and suitable for the carpet and adhesive; felt backing does not resolve moisture problems.",
   },
   {
     icon: "Volume2",
@@ -151,7 +151,7 @@ export const INSTALLATION_STEPS = [
     step: 1,
     title: "Prepare Your Subfloor",
     description:
-      "Ensure your subfloor is clean, dry, and level. Our breathable felt backing means you can install over most existing hard floors - even moisture-affected concrete.",
+      "Ensure your subfloor is clean, dry, and level. Check the flooring and adhesive requirements before installing over an existing floor. Moisture issues must be assessed and resolved first.",
     icon: "ClipboardCheck",
   },
   {

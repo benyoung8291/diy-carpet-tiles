@@ -13,7 +13,7 @@ export function HowItWorks() {
         </h2>
         <p className="text-body-md text-brand-500 leading-relaxed">
           Maintenance teams and trades can follow the four-step carpet tile
-          installation guide. For hospitality venues in Melbourne, Sydney, and
+          installation guide. For properties in Melbourne, Sydney, and
           Brisbane, Premrest can supply and install instead.{" "}
           <Link
             href="/how-to-install"

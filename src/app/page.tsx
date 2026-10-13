@@ -7,24 +7,28 @@ import { TrustSignals } from "@/components/home/trust-signals";
 import { FaqSection } from "@/components/home/faq-section";
 import { CtaBanner } from "@/components/home/cta-banner";
 import { PersonaRouter } from "@/components/home/persona-router";
-import { MotelRefurbCta } from "@/components/home/motel-refurb-cta";
 import { SupplyOrInstall } from "@/components/shared/supply-or-install";
+import { ProjectStart } from "@/components/home/project-start";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Supply-and-Install Modular Carpet for Hotels | Premrest",
+    absolute: "Carpet Tiles for Rental Properties & Landlords | Premrest",
   },
   description:
-    "Premrest supplies and installs modular carpet for hotels, motels, apartments, Airbnbs, and hospitality venues in Melbourne, Sydney, and Brisbane. Request an install quote or call 1300 207 915.",
+    "Carpet tiles for landlords and property managers. Replace damaged tiles between tenancies. Supply Australia-wide; install in Melbourne, Sydney and Brisbane.",
+  alternates: { canonical: "https://www.modularcarpet.com.au" },
   openGraph: {
-    title: "Supply-and-Install Modular Carpet for Hotels | Premrest",
+    title: "Rental Property Carpet Tiles | Premrest",
+    images: [{ url: "/images/lifestyle/hero-home.jpg", width: 1200, height: 630, alt: "Modular carpet interior" }],
     description:
-      "Modular carpet replacement for hospitality venues in Melbourne, Sydney, and Brisbane. Premrest supply-and-install, or supply-only for in-house trades.",
+      "Carpet tiles for rental properties: replace damaged tiles between tenancies. Get free samples or a quote. Supply Australia-wide; installation in Melbourne, Sydney and Brisbane.",
   },
   twitter: {
-    title: "Supply-and-Install Modular Carpet for Hotels | Premrest",
+    title: "Rental Property Carpet Tiles | Premrest",
+    card: "summary_large_image",
+    images: ["/images/lifestyle/hero-home.jpg"],
     description:
-      "Modular carpet replacement for hospitality venues in Melbourne, Sydney, and Brisbane. Request an install quote on 1300 207 915.",
+      "Replace damaged carpet tiles between tenancies. Samples and quotes for landlords and property managers. Call Premrest on 1300 207 915.",
   },
 };
 
@@ -33,11 +37,11 @@ export default function HomePage() {
     <>
       <Hero />
       <TrustSignals />
-      <PersonaRouter />
-      <MotelRefurbCta />
-      <BenefitsGrid />
+      <ProjectStart />
       <RangesPreview />
-      <SupplyOrInstall background="linen" />
+      <SupplyOrInstall background="linen" description="Choose supply-only for your own flooring trade, or ask Premrest to measure, supply and install in Melbourne, Sydney or Brisbane." path1Suits="Suits landlords and property managers with an existing flooring trade" path2Suits="Suits rental refurbishments and owners who want one project contact" closingNote="Keep matching spare tiles so local damage can be repaired between tenancies." />
+      <BenefitsGrid />
+      <PersonaRouter />
       <HowItWorks />
       <FaqSection />
       <CtaBanner />

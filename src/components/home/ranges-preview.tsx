@@ -20,8 +20,8 @@ export function RangesPreview() {
     <Section background="white">
       <SectionHeader
         overline="Haven and Horizon"
-        title="Two Premium Ranges for Hospitality Install Quotes"
-        description="Specify the range and colourway for your hotel, motel, apartment, Airbnb, retreat, or conference centre. Premrest supplies and installs in Melbourne, Sydney, and Brisbane. Supply-only is available for in-house trades."
+        title="Choose Your Carpet Colours — Then Try a Sample"
+        description="Explore Haven and Horizon for rental bedrooms, living rooms and hallways. Request free samples to compare colour and texture before you choose."
       />
       <motion.div
         initial="hidden"

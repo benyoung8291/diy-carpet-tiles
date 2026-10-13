@@ -36,46 +36,45 @@ export function ContactClient() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-24 md:py-32 bg-brand-900">
+      <section className="relative py-12 md:py-16 bg-brand-900">
         <div className="container-main relative z-10">
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
             <p className="overline text-accent mb-4">Melbourne, Sydney, Brisbane</p>
-            <h1 className="font-serif text-display-lg md:text-display-xl text-white mb-6 text-balance">
-              Request a Hospitality Install Quote
+            <h1 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
+              Get a Carpet Quote or Free Samples
             </h1>
             <p className="text-body-lg text-brand-300 max-w-2xl">
-              Premrest supplies and installs modular carpet for hotels, motels,
-              serviced apartments, and hospitality venues in Melbourne, Sydney,
-              and Brisbane. Call 1300 207 915 or send the form. We reply within
-              one business day.
+              Carpet for a rental property, investment portfolio or hospitality
+              venue? Get supply pricing Australia-wide or an installation quote
+              in Melbourne, Sydney or Brisbane. We reply within one business day.
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* Form + Contact Info */}
-      <Section background="white">
+      <Section background="white" id="enquiry" className="scroll-mt-24">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
           {/* Form */}
           <div className="lg:col-span-2">
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
               <h2 className="font-serif text-heading-lg text-brand-800 mb-2">
-                Request a Supply-and-Install Quote
+                How can we help with your carpet?
               </h2>
               <p className="text-body-md text-brand-500 mb-8">
-                Tell us about the hotel, motel, apartment, or hospitality
-                venue. We&apos;ll quote supply-and-install in Melbourne, Sydney,
-                or Brisbane — or supply-only if you have an in-house trade.
+                Ask for pricing, request free samples, or get help choosing.
+                Supply and install in Melbourne, Sydney and Brisbane;
+                supply-only Australia-wide. No measurements needed to get started.
               </p>
               <EnquiryForm />
             </motion.div>
@@ -84,7 +83,7 @@ export function ContactClient() {
           {/* Contact Details */}
           <div>
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
@@ -151,11 +150,11 @@ export function ContactClient() {
                 <ul className="space-y-2 text-body-sm text-brand-600">
                   <li>
                     <span className="font-medium text-teal">Free Samples</span>{" "}
-                    - Mention your preferred range and colours in the form above
+                    - Choose “Request free carpet samples” in the form
                   </li>
                   <li>
                     <span className="font-medium text-teal">Quotes</span> - Include
-                    your approximate room size for faster pricing
+                    your suburb and approximate total area if known
                   </li>
                   <li>
                     <span className="font-medium text-teal">Technical</span> - Ask

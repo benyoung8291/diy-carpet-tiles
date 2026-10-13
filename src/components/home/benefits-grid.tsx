@@ -47,7 +47,7 @@ export function BenefitsGrid() {
       <SectionHeader
         overline="What Makes the Product Different"
         title="The Eight Things That Set Modular Carpet Apart"
-        description="The same commercial-grade specification used in hotels, serviced apartments, and considered residential interiors across Australia. Built to be repaired, not replaced - whichever path you take to install it."
+        description="Commercial-grade carpet tiles for rental bedrooms, living rooms and hallways. Keep matching spares to repair individual damaged tiles between tenancies."
       />
       <motion.div
         variants={containerVariants}
