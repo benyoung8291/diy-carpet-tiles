@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { sectorNavigation } from "@/lib/sector-navigation";
 import { Phone, Mail, Truck } from "lucide-react";
 
 const footerLinks = {
@@ -125,6 +126,15 @@ export function Footer() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="border-t border-brand-800">
+        <nav aria-label="Flooring by property type" className="container-main py-8">
+          <h2 className="text-label uppercase text-brand-300 mb-5">Flooring by Property Type</h2>
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {sectorNavigation.map((sector) => <li key={sector.slug}><Link className="text-body-sm text-brand-400 hover:text-white transition-colors" href={`/${sector.slug}`}>{sector.label}</Link></li>)}
+          </ul>
+        </nav>
       </div>
 
       {/* Comcork */}
