@@ -210,7 +210,7 @@ export function HotelGradeCarpetForHomeClient() {
             <ul className="space-y-2 text-body-sm text-brand-500">
               {[
                 "Replaced every 5-7 years per typical tenancy cycle",
-                "Full-room re-carpet on every replacement event ($2,000-$5,000+ per room)",
+                "Full-room replacement for damage that cannot be locally repaired",
                 "1-3 weeks of vacancy per replacement, attributable to flooring",
                 "Visible patches between tenants - flagged at the next inspection",
                 "Each replacement is a fresh capital expense, repeating",

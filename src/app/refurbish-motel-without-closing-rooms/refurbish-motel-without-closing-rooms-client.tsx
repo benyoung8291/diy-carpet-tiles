@@ -204,7 +204,7 @@ export function RefurbishMotelClient() {
         <SectionHeader
           overline="Cashflow-Friendly Refurbishment"
           title="Spreading the Spend Across the Quarter, Not Financing the Whole Property"
-          description="A traditional whole-property re-carpet is a single capital event of $40,000-$80,000 paid to a contractor inside thirty days. For most owner-operated motels running on operating cashflow, that is the actual constraint that delays refurbishment for years. The rolling-refurbishment model removes the constraint."
+          description="A traditional whole-property re-carpet is a single large capital event. For most owner-operated motels running on operating cashflow, that is the actual constraint that delays refurbishment for years. The rolling-refurbishment model removes the constraint."
         />
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-8 border border-brand-200">
@@ -214,7 +214,7 @@ export function RefurbishMotelClient() {
             <ul className="space-y-2 text-body-sm text-brand-500">
               {[
                 "Single tender, single contract, single deposit",
-                "$40,000-$80,000 invoice payable inside 30 days",
+                "A single invoice for the whole-property refurbishment",
                 "Property either fully closed or partially closed for 2-4 weeks",
                 "Refurbishment delayed until cashflow can absorb the lump",
                 "All twenty rooms refurbished - but two years later than they should have been",
@@ -254,115 +254,9 @@ export function RefurbishMotelClient() {
         </p>
       </Section>
 
-      {/* Worked example */}
       <Section background="white">
-        <SectionHeader
-          overline="A Worked Example"
-          title="A 20-Room Regional Motel: The Numbers in Practice"
-          description="A 20-room regional motel running 65% average occupancy at $145 ADR, with 25 m² of carpeted floor per guest room. Carpet was last replaced 9 years ago and is visibly worn in seven of the rooms. Numbers are illustrative but typical."
-        />
-        <div className="max-w-6xl mx-auto space-y-8">
-          {/* Property metrics */}
-          <div className="bg-brand-50 rounded-lg p-8 border border-brand-200 max-w-4xl mx-auto">
-            <h3 className="font-serif text-heading-sm text-brand-800 mb-4">
-              Property metrics
-            </h3>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-body-sm text-brand-500">
-              <li>20 rooms × 25 m² = 500 m² of guest-room carpet</li>
-              <li>Annual room nights at 65% occupancy ≈ 4,745</li>
-              <li>Annual room revenue ≈ $688,000</li>
-              <li>Daily revenue impact of one room offline ≈ $94</li>
-            </ul>
-          </div>
-
-          {/* Three paths compared */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-accent-light rounded-lg p-7 border-2 border-accent/20">
-              <p className="overline mb-3">Owner-operator path</p>
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-                Modular tiles, install yourself
-              </h3>
-              <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
-                {[
-                  "Tiles: 500 m² × $66.55 = $33,275",
-                  "Adhesive (3 × 180 m² tubs at ~$150) ≈ $450",
-                  "5% spares and offcuts ≈ $1,665",
-                  "Owner-operator labour spread over 12 weeks",
-                  "Foregone revenue (20 × 1 low-occ. night × $94) ≈ $1,880",
-                  "Contractor management cost: $0",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <div className="border-t border-accent/20 pt-4">
-                <p className="text-body-md text-brand-800">
-                  <strong>Total: ~$37,300</strong>
-                </p>
-              </div>
-            </div>
-            <div className="bg-accent-light rounded-lg p-7 border-2 border-accent/20">
-              <p className="overline mb-3">Premrest installs</p>
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-                Modular tiles, supply &amp; install
-              </h3>
-              <ul className="space-y-2 text-body-sm text-brand-700 mb-5">
-                {[
-                  "Tiles: 500 m² × $66.55 = $33,275",
-                  "Installation @ ~$22.50/m² × 500 m² ≈ $11,250",
-                  "5% spares and offcuts ≈ $1,665",
-                  "Site prep, levelling, transitions: included in quote",
-                  "Phased install possible across low-occupancy windows",
-                  "Available in Melbourne, Sydney, Brisbane",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <div className="border-t border-accent/20 pt-4">
-                <p className="text-body-md text-brand-800">
-                  <strong>Total: from ~$48,000</strong>
-                </p>
-              </div>
-            </div>
-            <div className="bg-brand-50 rounded-lg p-7 border border-brand-200">
-              <p className="overline mb-3">Traditional contractor</p>
-              <h3 className="font-serif text-heading-sm text-brand-800 mb-5">
-                Mid-range broadloom, whole property
-              </h3>
-              <ul className="space-y-2 text-body-sm text-brand-500 mb-5">
-                {[
-                  "Broadloom supplied &amp; installed ≈ $45,000",
-                  "Furniture relocation and prep across 20 rooms",
-                  "Property partially closed for 2-4 weeks",
-                  "Foregone revenue ≈ $9,000-$26,000",
-                  "Single capital event payable inside 30 days",
-                  "Worn-looking patches reappear at year 5-6",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span className="text-brand-300 mt-0.5">—</span>
-                    <span dangerouslySetInnerHTML={{ __html: item }} />
-                  </li>
-                ))}
-              </ul>
-              <div className="border-t border-brand-200 pt-4">
-                <p className="text-body-md text-brand-800">
-                  <strong>Total: $54,000-$71,000</strong>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p className="max-w-3xl mx-auto text-center text-body-lg text-brand-600 italic mt-10">
-          Either modular path - install yourself or have Premrest install - is
-          materially cheaper and less disruptive than the traditional broadloom
-          contractor route. The decision between the two modular paths comes
-          down to how hands-on you want to be, not how the numbers work out.
-        </p>
+        <SectionHeader overline="Plan Your Refurbishment" title="Request a Quote for a Room-by-Room Refurbishment" description="Tell us your location, room count and approximate carpet area. Premrest can discuss supply-only or phased installation, with preparation and spare-tile requirements included in your project quote." />
+        <div className="text-center"><Button asChild><Link href="/contact">Request a motel refurbishment quote</Link></Button></div>
       </Section>
 
       <SupplyOrInstall

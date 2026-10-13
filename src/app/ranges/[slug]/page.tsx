@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ranges, getRangeBySlug, PRICING, SHARED_SPECS } from "@/lib/data";
+import { ranges, getRangeBySlug, SHARED_SPECS } from "@/lib/data";
 import { RangePageClient } from "./range-page-client";
 import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 
@@ -17,7 +17,7 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!range) return {};
 
   const title = `${range.name} Modular Carpet Tiles | ${range.colorways.length} Colourways`;
-  const description = `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. From $${PRICING.pricePerSqm.toFixed(2)}/m² inc GST. ${SHARED_SPECS.warranty}. Order online, delivered Australia-wide.`;
+  const description = `${range.name} carpet tiles - ${range.tagline.toLowerCase()}. ${range.colorways.length} colourways. ${SHARED_SPECS.warranty}. Request free samples or a tailored quote. Supply Australia-wide.`;
 
   return {
     title,
@@ -57,61 +57,6 @@ export default function RangePage({ params }: Props) {
     brand: {
       "@type": "Brand",
       name: "Modular Carpet",
-    },
-    offers: {
-      "@type": "Offer",
-      price: PRICING.pricePerSqm.toFixed(2),
-      priceCurrency: "AUD",
-      priceSpecification: {
-        "@type": "UnitPriceSpecification",
-        price: PRICING.pricePerSqm.toFixed(2),
-        priceCurrency: "AUD",
-        referenceQuantity: {
-          "@type": "QuantitativeValue",
-          value: 1,
-          unitCode: "MTK",
-        },
-      },
-      availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: "Premier Restorations Group Pty Ltd",
-      },
-      hasMerchantReturnPolicy: {
-        "@type": "MerchantReturnPolicy",
-        applicableCountry: "AU",
-        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-        merchantReturnDays: 30,
-        returnFees: "https://schema.org/RestockingFees",
-        returnMethod: "https://schema.org/ReturnByMail",
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: PRICING.shippingFlat.toString(),
-          currency: "AUD",
-        },
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "AU",
-        },
-        deliveryTime: {
-          "@type": "ShippingDeliveryTime",
-          handlingTime: {
-            "@type": "QuantitativeValue",
-            minValue: 1,
-            maxValue: 3,
-            unitCode: "DAY",
-          },
-          transitTime: {
-            "@type": "QuantitativeValue",
-            minValue: 3,
-            maxValue: 10,
-            unitCode: "DAY",
-          },
-        },
-      },
     },
     image: `https://www.modularcarpet.com.au${range.heroImage}`,
     url: `https://www.modularcarpet.com.au/ranges/${range.slug}`,

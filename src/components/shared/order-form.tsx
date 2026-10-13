@@ -3,13 +3,12 @@
 import { useState, useMemo, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { trackGenerateLeadOnSuccess } from "@/lib/analytics";
-import { PRICING, ranges, type ProductRange, type ColorWay } from "@/lib/data";
+import { PACKAGING, ranges, type ProductRange, type ColorWay } from "@/lib/data";
 import {
   Calculator,
   Send,
   Info,
   Package,
-  Truck,
   Minus,
   Plus,
   Trash2,
@@ -31,7 +30,7 @@ interface LineItem {
   wastage: number;
 }
 
-interface OrderFormProps {
+interface QuoteRequestFormProps {
   range: ProductRange;
   selectedColor: ColorWay;
 }
@@ -50,7 +49,7 @@ function createLineItem(range: ProductRange, colour: ColorWay): LineItem {
     rangeSlug: range.slug,
     colourCode: colour.code,
     rooms: [createRoom(0)],
-    wastage: PRICING.defaultWastage,
+    wastage: PACKAGING.defaultWastage,
   };
 }
 
@@ -68,7 +67,6 @@ interface RoomCalc {
   boxes: number;
   actualArea: number;
   tiles: number;
-  productCost: number;
 }
 
 function calcRoom(length: string, width: string, wastage: number): RoomCalc | null {
@@ -77,17 +75,15 @@ function calcRoom(length: string, width: string, wastage: number): RoomCalc | nu
   if (isNaN(l) || isNaN(w) || l <= 0 || w <= 0) return null;
   const rawArea = l * w;
   const totalArea = rawArea * (1 + wastage / 100);
-  const boxes = Math.ceil(totalArea / PRICING.boxArea);
-  const actualArea = boxes * PRICING.boxArea;
-  const tiles = boxes * PRICING.tilesPerBox;
-  const productCost = boxes * PRICING.boxArea * PRICING.pricePerSqm;
-  return { rawArea, totalArea, boxes, actualArea, tiles, productCost };
+  const boxes = Math.ceil(totalArea / PACKAGING.boxArea);
+  const actualArea = boxes * PACKAGING.boxArea;
+  const tiles = boxes * PACKAGING.tilesPerBox;
+  return { rawArea, totalArea, boxes, actualArea, tiles };
 }
 
 interface LineItemCalc {
   rooms: (RoomCalc | null)[];
   totalBoxes: number;
-  totalProductCost: number;
   totalRawArea: number;
   valid: boolean;
 }
@@ -98,7 +94,6 @@ function calcLineItem(item: LineItem): LineItemCalc {
   return {
     rooms,
     totalBoxes: validRooms.reduce((s, r) => s + r.boxes, 0),
-    totalProductCost: validRooms.reduce((s, r) => s + r.productCost, 0),
     totalRawArea: validRooms.reduce((s, r) => s + r.rawArea, 0),
     valid: validRooms.length > 0,
   };
@@ -107,7 +102,7 @@ function calcLineItem(item: LineItem): LineItemCalc {
 const inputClass =
   "w-full bg-white border-[1.5px] border-brand-200 rounded-md px-4 py-3 text-brand-800 placeholder:text-brand-300 focus:border-accent focus:outline-none focus:ring-[3px] focus:ring-accent-light transition-colors";
 
-export function OrderForm({ range, selectedColor }: OrderFormProps) {
+export function QuoteRequestForm({ range, selectedColor }: QuoteRequestFormProps) {
   const [items, setItems] = useState<LineItem[]>([
     createLineItem(range, selectedColor),
   ]);
@@ -117,19 +112,15 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
   const [notes, setNotes] = useState("");
   const [installInterested, setInstallInterested] = useState(false);
   const [installCity, setInstallCity] = useState("");
-  const [termsAccepted, setTermsAccepted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   const itemCalcs = useMemo(() => items.map(calcLineItem), [items]);
   const orderTotal = useMemo(() => {
-    const productTotal = itemCalcs.reduce((s, c) => s + c.totalProductCost, 0);
     const totalBoxes = itemCalcs.reduce((s, c) => s + c.totalBoxes, 0);
     return {
-      productTotal,
       totalBoxes,
-      grandTotal: totalBoxes > 0 ? productTotal + PRICING.shippingFlat : 0,
       hasValidItems: itemCalcs.some((c) => c.valid),
     };
   }, [itemCalcs]);
@@ -179,7 +170,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!orderTotal.hasValidItems || !termsAccepted) return;
+    if (!orderTotal.hasValidItems || loading) return;
 
     setLoading(true);
     setError("");
@@ -196,8 +187,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
     if (installInterested) {
       formData.append("install_city", installCity || "Not specified");
     }
-    formData.append("terms_accepted", "Yes");
-    formData.append("terms_accepted_at", new Date().toISOString());
+    formData.append("request_type", "quote");
 
     items.forEach((item, idx) => {
       const r = getRange(item.rangeSlug);
@@ -208,7 +198,6 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
       formData.append(`${prefix}_colour`, `${c.name} (${c.code})`);
       formData.append(`${prefix}_wastage_percent`, String(item.wastage));
       formData.append(`${prefix}_boxes`, String(calc.totalBoxes));
-      formData.append(`${prefix}_product_cost`, `$${calc.totalProductCost.toFixed(2)}`);
 
       item.rooms.forEach((room, rIdx) => {
         const roomCalc = calc.rooms[rIdx];
@@ -220,9 +209,6 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
 
     formData.append("total_items", String(items.length));
     formData.append("total_boxes", String(orderTotal.totalBoxes));
-    formData.append("product_total", `$${orderTotal.productTotal.toFixed(2)}`);
-    formData.append("shipping", `$${PRICING.shippingFlat.toFixed(2)}`);
-    formData.append("grand_total_inc_gst", `$${orderTotal.grandTotal.toFixed(2)}`);
 
     try {
       const res = await fetch("https://formspree.io/f/xdappbep", {
@@ -256,15 +242,15 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
           <Send className="w-7 h-7 text-green-600" />
         </div>
         <h3 className="font-serif text-heading-md text-brand-800 mb-2">
-          Order Received!
+          Quote Request Received!
         </h3>
         <p className="text-body-md text-brand-500 mb-2">
-          We&apos;ve sent your order to our team at{" "}
+          Your quote request has been sent to our team at{" "}
           <strong>modular@premrest.com.au</strong>.
         </p>
         <p className="text-body-sm text-brand-400">
-          We&apos;ll be in touch within 1 business day to confirm availability and
-          arrange payment.
+          We&apos;ll be in touch within one business day to discuss your project
+          and prepare a quote.
         </p>
       </div>
     );
@@ -272,28 +258,7 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      {/* Pricing header */}
-      <div className="bg-accent-light rounded-lg p-5 border border-accent/20">
-        <div className="flex items-center justify-between flex-wrap gap-2">
-          <div>
-            <p className="text-heading-md font-serif text-brand-800">
-              ${PRICING.pricePerSqm.toFixed(2)}{" "}
-              <span className="text-body-sm font-sans text-brand-500 font-normal">
-                per m² inc GST
-              </span>
-            </p>
-            <p className="text-body-sm text-brand-500 mt-0.5">
-              Sold in boxes of {PRICING.boxArea} m² ({PRICING.tilesPerBox}{" "}
-              tiles) - ${(PRICING.boxArea * PRICING.pricePerSqm).toFixed(2)} per
-              box
-            </p>
-          </div>
-          <div className="flex items-center gap-1.5 text-body-sm text-brand-500">
-            <Truck className="w-4 h-4" />
-            <span>${PRICING.shippingFlat} flat rate shipping inc GST</span>
-          </div>
-        </div>
-      </div>
+      <p className="text-body-sm text-brand-500">Estimate quantities, then request a quote. This form sends a project enquiry; it does not place an order or take payment.</p>
 
       {/* Line items */}
       {items.map((item, itemIdx) => {
@@ -510,24 +475,18 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
                 </div>
               </div>
 
-              {/* Item subtotal */}
+              {/* Estimated quantities */}
               {calc.valid && (
                 <div className="bg-white border border-brand-200 rounded-md p-4">
                   <div className="flex items-center gap-2 mb-2">
                     <Package className="w-4 h-4 text-brand-400" />
                     <p className="text-body-sm text-brand-600">
                       {calc.totalBoxes} box{calc.totalBoxes !== 1 ? "es" : ""} ={" "}
-                      <strong>{(calc.totalBoxes * PRICING.boxArea)} m²</strong>{" "}
-                      ({calc.totalBoxes * PRICING.tilesPerBox} tiles)
+                      <strong>{(calc.totalBoxes * PACKAGING.boxArea)} m²</strong>{" "}
+                      ({calc.totalBoxes * PACKAGING.tilesPerBox} tiles)
                     </p>
                   </div>
-                  <div className="flex justify-between text-body-sm text-brand-600">
-                    <span>
-                      {calc.totalBoxes} box{calc.totalBoxes !== 1 ? "es" : ""} @
-                      ${(PRICING.boxArea * PRICING.pricePerSqm).toFixed(2)}
-                    </span>
-                    <span className="font-semibold">${calc.totalProductCost.toFixed(2)}</span>
-                  </div>
+
                 </div>
               )}
             </div>
@@ -545,40 +504,21 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
         Add a different colour or range
       </button>
 
-      {/* Order summary */}
       {orderTotal.hasValidItems && (
-        <div className="bg-white border-[1.5px] border-brand-200 rounded-lg overflow-hidden">
-          <div className="bg-brand-100 px-5 py-3">
-            <h4 className="font-semibold text-brand-800 text-body-md">Order Summary</h4>
-          </div>
-          <div className="p-5 space-y-2 text-body-sm">
+        <div className="bg-white border border-brand-200 rounded-lg p-5">
+          <h4 className="font-semibold text-brand-800 mb-3">Estimated Quantities</h4>
+          <ul className="space-y-2 text-body-sm text-brand-600">
             {items.map((item, idx) => {
               const calc = itemCalcs[idx];
               if (!calc.valid) return null;
-              const r = getRange(item.rangeSlug);
-              const c = getColour(r, item.colourCode);
-              return (
-                <div key={item.id} className="flex justify-between text-brand-600">
-                  <span>
-                    {r.name} - {c.name} ({calc.totalBoxes} box{calc.totalBoxes !== 1 ? "es" : ""})
-                  </span>
-                  <span>${calc.totalProductCost.toFixed(2)}</span>
-                </div>
-              );
+              return <li key={item.id}>{getRange(item.rangeSlug).name} — {getColour(getRange(item.rangeSlug), item.colourCode).name}: {calc.totalBoxes} boxes</li>;
             })}
-            <div className="flex justify-between text-brand-600">
-              <span>Flat rate shipping inc GST</span>
-              <span>${PRICING.shippingFlat.toFixed(2)}</span>
-            </div>
-            <div className="flex justify-between font-semibold text-brand-800 text-body-md pt-2 border-t border-brand-200">
-              <span>Total inc GST</span>
-              <span>${orderTotal.grandTotal.toFixed(2)}</span>
-            </div>
-          </div>
+          </ul>
+          <p className="text-body-sm text-brand-500 mt-3">Final quantities, delivery and installation requirements will be confirmed in your quote.</p>
         </div>
       )}
 
-      {/* Contact details for order */}
+      {/* Contact details for the quote */}
       {orderTotal.hasValidItems && (
         <>
           <div className="border-t border-brand-200 pt-6">
@@ -670,9 +610,8 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
                   Also interested in installation?
                 </strong>{" "}
                 Premrest offers supply-and-install in Melbourne, Sydney, and
-                Brisbane (indicatively ~$20-25/m², site-specific costs included
-                in the quote). Tick the box to receive an installation quote
-                alongside this supply order.
+                Brisbane. Tick the box to include installation
+                in your project quote.
               </span>
             </label>
             {installInterested && (
@@ -699,33 +638,6 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
             )}
           </div>
 
-          {/* Terms acceptance */}
-          <div className="bg-brand-50 border border-brand-200 rounded-lg p-4">
-            <label className="flex items-start gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                required
-                checked={termsAccepted}
-                onChange={(e) => setTermsAccepted(e.target.checked)}
-                className="mt-1 w-4 h-4 rounded border-brand-300 text-accent focus:ring-accent flex-shrink-0"
-              />
-              <span className="text-body-sm text-brand-600 leading-relaxed">
-                I have read and agree to the{" "}
-                <a
-                  href="/purchase-policy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent hover:text-accent-hover font-medium underline"
-                >
-                  Purchase Policy and Terms of Sale
-                </a>
-                , including the returns policy, 20% restocking fee for
-                change-of-mind returns, and the requirement to contact Premrest
-                directly before initiating any payment dispute. *
-              </span>
-            </label>
-          </div>
-
           {error && (
             <p className="text-red-600 text-body-sm text-center">{error}</p>
           )}
@@ -734,21 +646,21 @@ export function OrderForm({ range, selectedColor }: OrderFormProps) {
             type="submit"
             size="lg"
             className="w-full"
-            disabled={loading || !termsAccepted}
+            disabled={loading}
           >
             {loading ? (
-              "Submitting Order..."
+              "Sending request..."
             ) : (
               <>
-                Submit Order - ${orderTotal.grandTotal.toFixed(2)} inc GST
+                Request my carpet quote
                 <Send className="w-4 h-4 ml-2" />
               </>
             )}
           </Button>
 
           <p className="text-[12px] text-brand-400 text-center">
-            Your order will be sent to our team for processing. We&apos;ll
-            confirm availability and arrange payment within 1 business day.
+            Your request will be sent to our team. We&apos;ll reply within one
+            business day with the next steps for your quote.
           </p>
         </>
       )}

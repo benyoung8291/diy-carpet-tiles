@@ -6,7 +6,7 @@ import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 export const metadata: Metadata = {
   title: "Modular Carpet Installation - Melbourne, Sydney, Brisbane",
   description:
-    "Premrest's full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. Indicative ~$20-25/m² install rate, site-specific costs itemised, 12-month workmanship warranty alongside the 15-year manufacturer warranty.",
+    "Premrest's full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. Request a tailored quote with site-specific scope, 12-month workmanship warranty alongside the 15-year manufacturer warranty.",
   alternates: {
     canonical: "https://www.modularcarpet.com.au/installation",
   },
@@ -58,7 +58,7 @@ const serviceJsonLd = {
   ],
   serviceType: "Carpet supply and installation",
   description:
-    "Full supply-and-install service for commercial-grade modular carpet tiles in Melbourne, Sydney, and Brisbane. Includes site measurement, removal of existing flooring, subfloor preparation, installation, transitions, and walk-through handover. Indicative installation rate ~$20-25/m² with site-specific costs itemised separately.",
+    "Full supply-and-install service for commercial-grade modular carpet tiles in Melbourne, Sydney, and Brisbane. Includes site measurement, removal of existing flooring, subfloor preparation, installation, transitions, and walk-through handover. Request a project-specific quote including installation and site preparation.",
 };
 
 export default function InstallationPage() {

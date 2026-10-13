@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { PRICING } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 
 export function ProjectStart() {
@@ -9,7 +8,7 @@ export function ProjectStart() {
         <div>
           <p className="overline mb-4">For landlords and property managers</p>
           <h2 className="font-serif text-heading-lg text-brand-800 mb-4">
-            See the carpet. Know the price. Choose how it gets installed.
+            See the carpet. Choose your colours. Get a quote.
           </h2>
           <p className="text-body-md text-brand-600 mb-6">
             Start with free physical samples of Haven or Horizon. Compare colours
@@ -20,12 +19,12 @@ export function ProjectStart() {
         </div>
         <div className="bg-white border border-brand-200 rounded-lg p-6 md:p-8 space-y-5">
           <div>
-            <h3 className="font-semibold text-brand-800">Carpet supply: ${PRICING.pricePerSqm.toFixed(2)}/m² incl. GST</h3>
-            <p className="text-body-sm text-brand-500">Sold in {PRICING.boxArea} m² boxes. Allow for cutting waste; delivery is ${PRICING.shippingFlat} incl. GST Australia-wide.</p>
+            <h3 className="font-semibold text-brand-800">A quote tailored to your property</h3>
+            <p className="text-body-sm text-brand-500">Tell us your suburb, approximate carpet area and whether you need supply-only or installation. We’ll confirm the right scope for your project.</p>
           </div>
           <div>
             <h3 className="font-semibold text-brand-800">Need installation as well?</h3>
-            <p className="text-body-sm text-brand-500">Available in Melbourne, Sydney and Brisbane. The indicative laying rate is $20–25/m²; carpet, adhesive, removal, preparation and transitions are quoted separately. We confirm the total for your site.</p>
+            <p className="text-body-sm text-brand-500">Available in Melbourne, Sydney and Brisbane. Your quote covers the carpet and installation you need, including any removal, preparation and transitions.</p>
           </div>
           <Link className="text-accent font-semibold underline underline-offset-4" href="/contact">Get a quote for your property →</Link>
           <p className="text-body-sm text-brand-500"><Link className="underline" href="/rental-flooring">Carpet for rental properties</Link> · <Link className="underline" href="/installation">Installation options</Link></p>

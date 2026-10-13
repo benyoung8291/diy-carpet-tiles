@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 const BASE_URL = "https://www.modularcarpet.com.au";
 
 // Record substantive homepage and contact updates, rather than promising indexing.
-const INDEXING_REFRESH = new Date("2026-10-13T00:00:00Z");
+const INDEXING_REFRESH = new Date("2026-10-13T20:30:00Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

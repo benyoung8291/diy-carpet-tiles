@@ -169,7 +169,7 @@ export function WhyTilesClient() {
                 {[
                   "Visit a flooring retailer and get quotes",
                   "Wait weeks for a carpet installer",
-                  "Pay $40–$60/m² just for installation labour",
+                  "Arrange and pay for separate installation labour",
                   "One stain = re-carpet the entire room",
                   "Traps moisture under rubber backing",
                   "Entire room goes to landfill when worn",
@@ -187,7 +187,7 @@ export function WhyTilesClient() {
               </h3>
               <ul className="space-y-3 text-body-sm text-brand-700">
                 {[
-                  "Order online - no retailer needed",
+                  "Request a quote direct from Premrest",
                   "Premrest install or in-house trade — no full rip-out",
                   "Phased room-by-room install, not a property shutdown",
                   "Replace individual tiles in 60 seconds",

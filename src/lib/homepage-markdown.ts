@@ -1,5 +1,3 @@
-import { PRICING } from "@/lib/data";
-
 export const HOMEPAGE_MARKDOWN = `# Carpet Tiles for Rental Properties. Replace a Tile, Not the Whole Room.
 
 **Modular Carpet by Premrest.**
@@ -13,18 +11,15 @@ matching spares for future repairs.
 - [Request free carpet samples](https://www.modularcarpet.com.au/contact?request=samples#enquiry)
 - Call 1300 207 915
 
-## See the carpet. Know the price. Choose how it gets installed.
+## See the carpet. Choose your colours. Get a quote.
 
 Start with free physical samples of Haven or Horizon. Compare colours in your
 rental property, then ask us to quote the area and installation you need.
 You do not need measurements to make a first enquiry.
 
-- Carpet supply: $${PRICING.pricePerSqm.toFixed(2)}/m² incl. GST
-- Sold in ${PRICING.boxArea} m² boxes
-- Delivery: $${PRICING.shippingFlat} incl. GST Australia-wide
-- Allow for cutting waste and adhesive
-- Indicative laying rate: $20–25/m²; carpet, adhesive, removal, preparation
-  and transitions quoted separately. Premrest confirms the total for your site.
+Tell us your suburb, approximate carpet area and whether you need supply-only
+or installation. Premrest will quote the carpet, delivery, installation and
+any preparation or transitions your property needs.
 
 ## Choose Your Carpet Colours — Then Try a Sample
 

@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Do I install it myself, or do you install for me?",
-    a: "Premrest offers supply-and-install in Melbourne, Sydney, and Brisbane at an indicative ~$20-25/m² installation rate, with site-specific costs (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote. Supply-only is available if you have an in-house trade or maintenance team — the same product ships direct from the warehouse.",
+    a: "Premrest offers supply-and-install in Melbourne, Sydney, and Brisbane with project-specific pricing and site preparation (preparation, levelling, transitions, removal of existing flooring) itemised separately in the quote. Supply-only is available if you have an in-house trade or maintenance team — the same product ships direct from the warehouse.",
   },
   {
     q: "Do the tiles look like real carpet, or do you see grid lines?",

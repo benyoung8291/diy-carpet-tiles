@@ -38,14 +38,14 @@ export function SupplyOrInstall({
   const path1Bullets = [
     "Direct from the warehouse to your property",
     "Install with your existing trade, maintenance team, or as an owner-installer project",
-    "Adhesive coverage ~180 m² per tub at around $150 each",
+    "Advice on adhesive and quantities for your project",
     "Written installation guide and pile-direction documentation supplied",
     path1Suits,
   ];
 
   const path2Bullets = [
     "Premrest manages measurement, supply, and installation",
-    "Indicative installation rate ~$20-25/m² of laid carpet",
+    "Installation quoted for your property and scope",
     "Site preparation, levelling, transitions, and old-carpet removal quoted alongside",
     "One contract, one invoice, one project lead",
     path2Suits,

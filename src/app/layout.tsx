@@ -167,7 +167,6 @@ export default function RootLayout({
                 opens: "08:30",
                 closes: "17:00",
               },
-              priceRange: "$$",
               areaServed: {
                 "@type": "Country",
                 name: "Australia",

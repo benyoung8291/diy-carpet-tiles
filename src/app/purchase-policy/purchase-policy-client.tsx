@@ -51,33 +51,30 @@ export function PurchasePolicyClient() {
           {/* 2. Order Process & Acceptance */}
           <h2>2. Order Process and Acceptance</h2>
           <p>
-            Submitting an order through our website constitutes an{" "}
-            <strong>offer to purchase</strong>, not a binding contract. A
+            Submitting a quote request through our website is an enquiry, not
+            an order or a binding contract. A
             binding contract is formed only when we confirm your order via email
             and process payment. We reserve the right to decline or cancel any
             order for any reason, including but not limited to product
             availability, pricing errors, or suspected fraudulent activity.
           </p>
           <p>
-            By submitting an order, the customer acknowledges and agrees to all
-            terms set out in this Purchase Policy. The order confirmation email
-            will reference these terms. Customers are required to tick a
-            checkbox confirming acceptance of this policy before their order can
-            be submitted.
+            These terms apply to confirmed purchases. We provide a quote before
+            you decide to order, and the order confirmation email references
+            this Purchase Policy.
           </p>
 
           {/* 3. Pricing & Payment */}
           <h2>3. Pricing and Payment</h2>
           <ul>
             <li>
-              All prices displayed on this website are in{" "}
+              Quoted prices are in{" "}
               <strong>Australian Dollars (AUD)</strong> and are{" "}
               <strong>inclusive of GST</strong>.
             </li>
             <li>
               Prices are subject to change without notice. The price applicable
-              to your order is the price displayed at the time of order
-              confirmation.
+              to your order is the price agreed in your confirmed quote.
             </li>
             <li>
               Payment is processed after order confirmation. We accept payment
@@ -119,8 +116,8 @@ export function PurchasePolicyClient() {
           <h2>5. Shipping and Delivery</h2>
           <ul>
             <li>
-              A flat-rate shipping fee applies to all orders, as displayed at
-              checkout. Shipping is Australia-wide.
+              Shipping charges are confirmed in your project quote. Shipping is
+              Australia-wide.
             </li>
             <li>
               Estimated delivery timeframes are indicative only and are not
@@ -217,7 +214,7 @@ export function PurchasePolicyClient() {
               must be returned via a trackable shipping method.
             </li>
             <li>
-              The original flat-rate shipping fee is <strong>non-refundable</strong>.
+              The original shipping fee is <strong>non-refundable</strong>.
             </li>
           </ul>
           <p>
