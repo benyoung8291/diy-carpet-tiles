@@ -1,7 +1,4 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import {
   ArrowRight,
   Check,
@@ -107,12 +104,7 @@ export function InstallationClient() {
       {/* Hero */}
       <section className="relative py-24 md:py-32 overflow-hidden bg-brand-900">
         <div className="container-main relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl"
-          >
+          <div className="max-w-3xl">
             <p className="overline text-accent mb-4">
               Supply and Install Service
             </p>
@@ -146,7 +138,7 @@ export function InstallationClient() {
               </Link>{" "}
               covers the guest-room and corridor specification in full.
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -429,13 +421,7 @@ export function InstallationClient() {
       {/* CTA */}
       <section className="bg-brand-900 py-20 md:py-28">
         <div className="container-main text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="max-w-2xl mx-auto"
-          >
+          <div className="max-w-2xl mx-auto">
             <p className="overline text-accent mb-4">
               Hand the Project to a Team That Does This Every Day
             </p>
@@ -459,7 +445,7 @@ export function InstallationClient() {
                 <Link href="/ranges/haven">Browse Haven Range</Link>
               </Button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
     </>

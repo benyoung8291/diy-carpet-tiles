@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Section, SectionHeader } from "@/components/ui/section";
 
 const faqs = [
@@ -47,12 +44,8 @@ export function FaqSection() {
       />
       <div className="max-w-3xl mx-auto space-y-4">
         {faqs.map((faq) => (
-          <motion.div
+          <div
             key={faq.q}
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
-            transition={{ duration: 0.4 }}
             className="bg-white rounded-lg p-6 border border-brand-200"
           >
             <h3 className="font-semibold text-brand-800 text-body-lg mb-2">
@@ -61,11 +54,10 @@ export function FaqSection() {
             <p className="text-body-md text-brand-500 leading-relaxed">
               {faq.a}
             </p>
-          </motion.div>
+          </div>
         ))}
       </div>
 
-      {/* FAQ Schema - JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

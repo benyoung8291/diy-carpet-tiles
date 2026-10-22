@@ -6,12 +6,16 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 import { EnquiryTracking } from "@/components/shared/enquiry-tracking";
+import { SpeculationRules } from "@/components/perf/speculation-rules";
+import { IntentPrefetchFallback } from "@/components/perf/intent-prefetch-fallback";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-sans",
   weight: "100 900",
   display: "swap",
+  preload: true,
+  adjustFontFallback: "Arial",
 });
 
 export const metadata: Metadata = {
@@ -200,6 +204,8 @@ export default function RootLayout({
         </a>
         <Header />
         <EnquiryTracking />
+        <SpeculationRules />
+        <IntentPrefetchFallback />
         <main id="main-content">{children}</main>
         <Footer />
       </body>

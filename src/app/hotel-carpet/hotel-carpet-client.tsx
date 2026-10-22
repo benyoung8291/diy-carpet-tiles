@@ -1,7 +1,4 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import {
   ArrowRight,
   Check,
@@ -82,19 +79,8 @@ export function HotelCarpetClient() {
     <>
       {/* Hero */}
       <section className="relative py-24 md:py-32 overflow-hidden bg-brand-900">
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/lifestyle/hero-home.jpg')" }}
-          />
-        </div>
         <div className="container-main relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl"
-          >
+          <div className="max-w-3xl">
             <p className="overline text-accent mb-4">Hotel Carpet Solution</p>
             <h1 className="font-serif text-display-md md:text-display-lg lg:text-display-xl text-white mb-6 text-balance">
               Hotel and Motel Carpet You Repair Without Closing Rooms
@@ -114,7 +100,7 @@ export function HotelCarpetClient() {
                 <Link href="/ranges/haven">Browse Ranges</Link>
               </Button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -213,15 +199,8 @@ export function HotelCarpetClient() {
           description="Every benefit addresses a real operational pain point - from guest room maintenance to corridor refurbishment to acoustic comfort."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {hotelBenefits.map((benefit, index) => (
-            <motion.div
-              key={benefit.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.08, ease: "easeOut" }}
-              className="bg-brand-50 rounded-lg p-8 border border-brand-200"
-            >
+          {hotelBenefits.map((benefit) => (
+            <div key={benefit.title} className="bg-brand-50 rounded-lg p-8 border border-brand-200">
               <div className="w-14 h-14 rounded-lg bg-accent-light flex items-center justify-center mb-5">
                 <benefit.icon className="w-6 h-6 text-accent" />
               </div>
@@ -231,7 +210,7 @@ export function HotelCarpetClient() {
               <p className="text-body-sm text-brand-500 leading-relaxed">
                 {benefit.description}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </Section>
@@ -273,15 +252,8 @@ export function HotelCarpetClient() {
                 description:
                   "When your spare tile stock runs low, Premrest replenishes from the same production batch for consistent colour matching. Your carpet stays looking fresh year after year with minimal operational impact.",
               },
-            ].map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white rounded-lg p-6 border border-brand-200 flex gap-5"
-              >
+            ].map((item) => (
+              <div key={item.title} className="bg-white rounded-lg p-6 border border-brand-200 flex gap-5">
                 <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-serif text-xl flex-shrink-0">
                   {item.step}
                 </div>
@@ -293,7 +265,7 @@ export function HotelCarpetClient() {
                     {item.description}
                   </p>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -307,21 +279,14 @@ export function HotelCarpetClient() {
         />
         <div className="max-w-3xl mx-auto space-y-6">
           {faqs.map((faq) => (
-            <motion.div
-              key={faq.q}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.4 }}
-              className="bg-brand-50 rounded-lg p-6 border border-brand-200"
-            >
+            <div key={faq.q} className="bg-brand-50 rounded-lg p-6 border border-brand-200">
               <h3 className="font-semibold text-brand-800 text-body-lg mb-2">
                 {faq.q}
               </h3>
               <p className="text-body-md text-brand-500 leading-relaxed">
                 {faq.a}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </Section>
@@ -384,13 +349,7 @@ export function HotelCarpetClient() {
       {/* CTA */}
       <section className="bg-brand-900 py-20 md:py-28">
         <div className="container-main text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="max-w-2xl mx-auto"
-          >
+          <div className="max-w-2xl mx-auto">
             <p className="overline text-accent mb-4">Let&apos;s Talk</p>
             <h2 className="font-serif text-display-md text-white mb-6 text-balance">
               Ready to Solve Your Hotel Carpet Problem?
@@ -411,7 +370,7 @@ export function HotelCarpetClient() {
                 <Link href="/ranges/haven">Browse Ranges</Link>
               </Button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
     </>

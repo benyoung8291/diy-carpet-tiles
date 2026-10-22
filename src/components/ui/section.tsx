@@ -1,7 +1,4 @@
-"use client";
-
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
 
 interface SectionProps {
   children: React.ReactNode;
@@ -46,11 +43,7 @@ export function SectionHeader({
   className?: string;
 }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+    <div
       className={cn(
         "mb-12 md:mb-16",
         centered && "text-center max-w-3xl mx-auto",
@@ -64,6 +57,6 @@ export function SectionHeader({
       {description && (
         <p className="text-body-lg text-brand-500 text-balance">{description}</p>
       )}
-    </motion.div>
+    </div>
   );
 }

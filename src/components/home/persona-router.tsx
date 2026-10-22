@@ -1,7 +1,4 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { Hotel, Home, Building2, ArrowRight } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 
@@ -11,22 +8,6 @@ const personas = [
   { icon: Hotel, tag: "Hospitality", title: "Hotels, Motels & Serviced Apartments", body: "The same modular carpet also suits hospitality refurbishments. Discuss staged installation and your maintenance requirements with Premrest.", cta: "Explore hotel and motel carpet", href: "/hotel-carpet" },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.08 },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const },
-  },
-};
-
 export function PersonaRouter() {
   return (
     <Section background="white">
@@ -35,17 +16,11 @@ export function PersonaRouter() {
         title="Find Carpet for Your Property"
         description="Start with your rental property or investment portfolio. Hospitality options remain available for hotels, motels and serviced apartments."
       />
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-80px" }}
-        className="grid grid-cols-1 md:grid-cols-3 gap-6"
-      >
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {personas.map((persona) => {
           const Icon = persona.icon;
           return (
-            <motion.div key={persona.title} variants={cardVariants}>
+            <div key={persona.title}>
               <Link
                 href={persona.href}
                 className="group block h-full bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/40 hover:shadow-md transition-all"
@@ -65,10 +40,10 @@ export function PersonaRouter() {
                   <ArrowRight className="w-4 h-4" />
                 </span>
               </Link>
-            </motion.div>
+            </div>
           );
         })}
-      </motion.div>
+      </div>
       <p className="mt-8 text-center text-body-sm text-brand-500">
         Laying tiles with an in-house trade or maintenance team?{" "}
         <Link
