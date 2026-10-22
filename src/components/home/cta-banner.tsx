@@ -1,30 +1,12 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function CtaBanner() {
   return (
     <section className="relative overflow-hidden bg-brand-900">
-      <div className="absolute inset-0 opacity-10">
-        {/* Subtle texture pattern */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/images/lifestyle/hero-home.jpg')",
-          }}
-        />
-      </div>
       <div className="container-main relative z-10 py-20 md:py-28">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center max-w-2xl mx-auto"
-        >
+        <div className="text-center max-w-2xl mx-auto">
           <p className="text-label uppercase tracking-[0.15em] text-accent mb-4 font-semibold">
             Melbourne, Sydney, Brisbane
           </p>
@@ -53,7 +35,7 @@ export function CtaBanner() {
               <Link href="/installation">Installation Service</Link>
             </Button>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

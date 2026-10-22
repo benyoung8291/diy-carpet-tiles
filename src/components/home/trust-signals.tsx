@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Shield, Wrench, Recycle, MapPin } from "lucide-react";
 import { Section } from "@/components/ui/section";
 
@@ -30,13 +27,7 @@ const signals = [
 export function TrustSignals() {
   return (
     <Section background="white" className="!py-12 md:!py-16">
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-        className="grid grid-cols-2 lg:grid-cols-4 gap-8"
-      >
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
         {signals.map((signal) => (
           <div
             key={signal.title}
@@ -49,7 +40,7 @@ export function TrustSignals() {
             <p className="text-brand-400 text-body-sm">{signal.description}</p>
           </div>
         ))}
-      </motion.div>
+      </div>
     </Section>
   );
 }

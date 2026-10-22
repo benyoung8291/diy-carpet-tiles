@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Phone, Mail, Truck, Clock, ExternalLink } from "lucide-react";
 import { Section } from "@/components/ui/section";
 import { EnquiryForm } from "@/components/shared/enquiry-form";
@@ -35,15 +32,9 @@ const contactDetails = [
 export function ContactClient() {
   return (
     <>
-      {/* Hero */}
       <section className="relative py-12 md:py-16 bg-brand-900">
         <div className="container-main relative z-10">
-          <motion.div
-            initial={false}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl"
-          >
+          <div className="max-w-3xl">
             <p className="overline text-accent mb-4">Melbourne, Sydney, Brisbane</p>
             <h1 className="font-serif text-display-md md:text-display-lg text-white mb-6 text-balance">
               Get a Carpet Quote or Free Samples
@@ -53,116 +44,96 @@ export function ContactClient() {
               venue? Get supply pricing Australia-wide or an installation quote
               in Melbourne, Sydney or Brisbane. We reply within one business day.
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
-      {/* Form + Contact Info */}
       <Section background="white" id="enquiry" className="scroll-mt-24">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
-          {/* Form */}
           <div className="lg:col-span-2">
-            <motion.div
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <h2 className="font-serif text-heading-lg text-brand-800 mb-2">
-                How can we help with your carpet?
-              </h2>
-              <p className="text-body-md text-brand-500 mb-8">
-                Ask for pricing, request free samples, or get help choosing.
-                Supply and install in Melbourne, Sydney and Brisbane;
-                supply-only Australia-wide. No measurements needed to get started.
-              </p>
-              <EnquiryForm />
-            </motion.div>
+            <h2 className="font-serif text-heading-lg text-brand-800 mb-2">
+              How can we help with your carpet?
+            </h2>
+            <p className="text-body-md text-brand-500 mb-8">
+              Ask for pricing, request free samples, or get help choosing.
+              Supply and install in Melbourne, Sydney and Brisbane;
+              supply-only Australia-wide. No measurements needed to get started.
+            </p>
+            <EnquiryForm />
           </div>
 
-          {/* Contact Details */}
-          <div>
-            <motion.div
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="space-y-8"
-            >
-              <div>
-                <h3 className="font-serif text-heading-md text-brand-800 mb-6">
-                  Contact Details
-                </h3>
-                <div className="space-y-5">
-                  {contactDetails.map((detail) => (
-                    <div key={detail.label} className="flex items-start gap-3">
-                      <div className="w-10 h-10 rounded-lg bg-accent-light flex items-center justify-center flex-shrink-0">
-                        <detail.icon className="w-5 h-5 text-accent" />
-                      </div>
-                      <div>
-                        <p className="text-label text-brand-400 uppercase mb-0.5">
-                          {detail.label}
-                        </p>
-                        {detail.href ? (
-                          <a
-                            href={detail.href}
-                            className="text-body-md text-brand-700 hover:text-accent transition-colors"
-                          >
-                            {detail.value}
-                          </a>
-                        ) : (
-                          <p className="text-body-md text-brand-700">
-                            {detail.value}
-                          </p>
-                        )}
-                      </div>
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-serif text-heading-md text-brand-800 mb-6">
+                Contact Details
+              </h3>
+              <div className="space-y-5">
+                {contactDetails.map((detail) => (
+                  <div key={detail.label} className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-accent-light flex items-center justify-center flex-shrink-0">
+                      <detail.icon className="w-5 h-5 text-accent" />
                     </div>
-                  ))}
-                </div>
+                    <div>
+                      <p className="text-label text-brand-400 uppercase mb-0.5">
+                        {detail.label}
+                      </p>
+                      {detail.href ? (
+                        <a
+                          href={detail.href}
+                          className="text-body-md text-brand-700 hover:text-accent transition-colors"
+                        >
+                          {detail.value}
+                        </a>
+                      ) : (
+                        <p className="text-body-md text-brand-700">
+                          {detail.value}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                ))}
               </div>
+            </div>
 
-              {/* Premrest link */}
-              <div className="bg-brand-100 rounded-lg p-6">
-                <p className="text-label text-brand-400 uppercase mb-2">
-                  A Premrest Brand
-                </p>
-                <p className="text-body-sm text-brand-500 mb-4">
-                  Modular Carpet is proudly distributed by Premrest - one of
-                  Australia&apos;s trusted commercial and residential flooring
-                  specialists.
-                </p>
-                <a
-                  href="https://premrest.com.au"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-body-sm text-accent hover:text-accent-hover font-semibold transition-colors"
-                >
-                  Visit premrest.com.au
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
+            <div className="bg-brand-100 rounded-lg p-6">
+              <p className="text-label text-brand-400 uppercase mb-2">
+                A Premrest Brand
+              </p>
+              <p className="text-body-sm text-brand-500 mb-4">
+                Modular Carpet is proudly distributed by Premrest - one of
+                Australia&apos;s trusted commercial and residential flooring
+                specialists.
+              </p>
+              <a
+                href="https://premrest.com.au"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-body-sm text-accent hover:text-accent-hover font-semibold transition-colors"
+              >
+                Visit premrest.com.au
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
 
-              {/* Quick actions */}
-              <div className="bg-teal-light rounded-lg p-6">
-                <h4 className="font-semibold text-brand-800 mb-3">
-                  Quick Actions
-                </h4>
-                <ul className="space-y-2 text-body-sm text-brand-600">
-                  <li>
-                    <span className="font-medium text-teal">Free Samples</span>{" "}
-                    - Choose “Request free carpet samples” in the form
-                  </li>
-                  <li>
-                    <span className="font-medium text-teal">Quotes</span> - Include
-                    your suburb and approximate total area if known
-                  </li>
-                  <li>
-                    <span className="font-medium text-teal">Technical</span> - Ask
-                    about subfloor suitability, moisture, or acoustic performance
-                  </li>
-                </ul>
-              </div>
-            </motion.div>
+            <div className="bg-teal-light rounded-lg p-6">
+              <h4 className="font-semibold text-brand-800 mb-3">
+                Quick Actions
+              </h4>
+              <ul className="space-y-2 text-body-sm text-brand-600">
+                <li>
+                  <span className="font-medium text-teal">Free Samples</span>{" "}
+                  - Choose “Request free carpet samples” in the form
+                </li>
+                <li>
+                  <span className="font-medium text-teal">Quotes</span> - Include
+                  your suburb and approximate total area if known
+                </li>
+                <li>
+                  <span className="font-medium text-teal">Technical</span> - Ask
+                  about subfloor suitability, moisture, or acoustic performance
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </Section>

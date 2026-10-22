@@ -1,5 +1,3 @@
-"use client";
-
 import { Check } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 

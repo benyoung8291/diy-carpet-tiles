@@ -17,6 +17,7 @@
     background: var(--background);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size-adjust: from-font;
   }
 
   @media (prefers-reduced-motion: reduce) {

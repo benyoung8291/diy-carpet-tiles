@@ -1,7 +1,5 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -9,22 +7,20 @@ export function Hero() {
   return (
     <section className="relative min-h-[60vh] md:min-h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-brand-200">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/images/lifestyle/hero-home.jpg')",
-          }}
+        <Image
+          src="/images/lifestyle/hero-home.jpg"
+          alt=""
+          fill
+          priority
+          fetchPriority="high"
+          sizes="100vw"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 gradient-overlay-dark" />
       </div>
 
       <div className="container-main relative z-10 py-20 md:py-32">
-        <motion.div
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-2xl"
-        >
+        <div className="max-w-2xl">
           <p className="text-label uppercase tracking-[0.15em] text-accent-light mb-4 md:mb-6 font-semibold">
             Modular Carpet by Premrest
           </p>
@@ -58,7 +54,7 @@ export function Hero() {
             </a>
             .
           </p>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
