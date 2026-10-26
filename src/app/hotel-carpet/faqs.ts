@@ -1,7 +1,7 @@
 export const faqs = [
   {
     q: "How quickly can damaged hotel carpet tiles be replaced?",
-    a: "Individual tiles can be lifted and replaced in under 5 minutes. Your housekeeping or maintenance team can handle tile swaps as part of normal room servicing - no external carpet installer needed. The room doesn't need to be taken out of service.",
+    a: "A damaged tile can be swapped quickly. Your housekeeping or maintenance team can handle tile swaps as part of normal room servicing - no external carpet installer needed. The room doesn't need to be taken out of service.",
   },
   {
     q: "Are carpet tiles suitable for hotel corridors and high-traffic areas?",
@@ -13,7 +13,7 @@ export const faqs = [
   },
   {
     q: "How do carpet tiles look compared to traditional broadloom?",
-    a: "Installed in an ashlar (brick-bond) pattern, our tiles are visually indistinguishable from broadloom carpet. The join lines disappear completely. Guests experience the same luxurious, plush feel of broadloom with none of the operational downsides.",
+    a: "Installed in an ashlar (brick-bond) pattern, the tiles are designed to look like broadloom once laid. Join lines recede when tiles are batch-matched. Guests get a continuous, plush floor without the operational downsides of rolled carpet.",
   },
   {
     q: "Do you offer volume pricing for hotel installations?",
@@ -21,10 +21,10 @@ export const faqs = [
   },
   {
     q: "What about fire ratings and compliance?",
-    a: "Our carpet tiles meet Australian commercial flooring fire safety standards. Full compliance documentation and test certificates are available on request. Contact Premrest for specification sheets relevant to your compliance requirements.",
+    a: "Ask us for the fire test documentation for your project. Contact Premrest for the specification sheets relevant to your compliance requirements.",
   },
   {
     q: "How does the breathable backing help in hotels?",
-    a: "Hotels in tropical and coastal regions often face moisture challenges. Traditional carpet with rubber backing traps moisture against the subfloor, causing mould and odour. Our recycled PET felt backing is fully breathable, allowing the subfloor to dry naturally - eliminating a common and expensive maintenance issue.",
+    a: "Hotels in tropical and coastal regions often face moisture challenges. Traditional carpet with rubber backing can trap moisture against the subfloor, which may lead to mould and odour. Our recycled PET felt backing is breathable, so the subfloor can dry naturally - moisture still needs to be assessed and resolved before installation.",
   },
 ];

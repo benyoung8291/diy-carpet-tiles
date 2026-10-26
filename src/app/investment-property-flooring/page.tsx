@@ -5,7 +5,7 @@ import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 export const metadata: Metadata = {
   title: "Carpet for Investment Properties | Built for Long-Hold Portfolios",
   description:
-    "Commercial-grade modular carpet for investment properties and long-hold portfolios. Manufacturer wear warranty applies, replace damaged tiles between tenancies in under an hour, no full re-carpet. Supply-only or full supply-and-install in Melbourne, Sydney, and Brisbane.",
+    "Commercial-grade modular carpet for investment properties and long-hold portfolios. Manufacturer wear warranty applies, replace damaged tiles between tenancies quickly, no full re-carpet. Supply-only or full supply-and-install in Melbourne, Sydney, and Brisbane.",
   alternates: { canonical: "https://www.modularcarpet.com.au/investment-property-flooring" },
   openGraph: {
     title: "Carpet for Investment Properties | Built for Long-Hold Portfolios",

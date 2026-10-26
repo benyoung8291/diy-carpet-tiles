@@ -39,7 +39,7 @@ export function RangePageClient({ range }: RangePageClientProps) {
     { label: "Thickness", value: SHARED_SPECS.thickness, icon: Layers },
     { label: "Pile Fibre", value: SHARED_SPECS.pileFibre, icon: Sun },
     { label: "Backing", value: "Breathable recycled PET felt", icon: Droplets },
-    { label: "Acoustic Rating", value: SHARED_SPECS.acousticRating, icon: Volume2 },
+    { label: "Acoustics", value: SHARED_SPECS.acousticRating, icon: Volume2 },
     { label: "Warranty", value: SHARED_SPECS.warranty, icon: Shield },
   ];
 

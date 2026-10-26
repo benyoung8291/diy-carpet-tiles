@@ -9,7 +9,7 @@ export const faqs = [
   },
   {
     q: "Do carpet tiles need glue?",
-    a: "Yes. Use pressure-sensitive adhesive (PSA), not wet-set glue. PSA stays tacky so tiles can be lifted and repositioned even years later. Spread it with a short-nap roller or notched trowel, wait 30–60 minutes until it is sticky but dry to the touch, then press tiles in. Coverage is about 5–7 m² per litre. If you would rather not manage adhesive on site, Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
+    a: "Yes. Use pressure-sensitive adhesive (PSA), not wet-set glue. PSA stays tacky so tiles can be lifted and repositioned even years later. Spread it with a short-nap roller or notched trowel, wait 30–60 minutes until it is sticky but dry to the touch, then press tiles in. Follow the adhesive manufacturer's coverage rate. If you would rather not manage adhesive on site, Premrest supplies and installs in Melbourne, Sydney, and Brisbane.",
   },
   {
     q: "How long does carpet tile installation take?",

@@ -57,7 +57,7 @@ const howToJsonLd = {
       "@type": "HowToStep",
       position: 2,
       name: "Apply Pressure-Sensitive Adhesive",
-      text: "Pour pressure-sensitive carpet tile adhesive and spread evenly with a short-nap roller or notched trowel. Work in manageable sections of about 3 to 4 metres at a time. Allow adhesive to tack up until it feels sticky but dry to the touch, typically 30 to 60 minutes depending on conditions. Coverage is approximately 5 to 7 m² per litre.",
+      text: "Pour pressure-sensitive carpet tile adhesive and spread evenly with a short-nap roller or notched trowel. Work in manageable sections of about 3 to 4 metres at a time. Allow adhesive to tack up until it feels sticky but dry to the touch, typically 30 to 60 minutes depending on conditions. Follow the adhesive manufacturer's coverage rate.",
       url: "https://www.modularcarpet.com.au/how-to-install#step-2",
       image: "https://www.modularcarpet.com.au/images/installation/step-2-adhesive.jpg",
     },

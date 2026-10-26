@@ -27,7 +27,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
             <p className="text-body-lg text-white mb-6 leading-relaxed">
               <strong className="text-accent">The short answer: one tile at a time.</strong>{" "}
               Modular carpet tiles allow housekeeping to lift a single damaged
-              tile and press in a fresh one in under 60 seconds - no installer,
+              tile and press in a fresh one quickly - no installer,
               no adhesive cure time, no skip bin in the loading dock. The room
               is back online before the next check-in, and the repair is
               invisible to the next guest.
@@ -196,7 +196,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
           <p className="text-body-lg text-brand-600 italic text-center pt-4">
             A property is only ever as good as its worst-looking room. Modular
             Carpet lets you keep every room at the standard you originally
-            specified - for the full 15-year life of the floor.
+            specified - for the life of the floor.
           </p>
         </div>
       </Section>

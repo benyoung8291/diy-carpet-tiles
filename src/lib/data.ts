@@ -29,7 +29,7 @@ export const SHARED_SPECS = {
   thickness: "11 mm (±10%)",
   pileFibre: "Solution-dyed nylon",
   backing: "Breathable recycled PET felt",
-  acousticRating: "0.25 NRC",
+  acousticRating: "Bonded felt backing for quieter rooms",
   warranty: "Manufacturer wear warranty applies",
   layout: "Ashlar (brick-bond) recommended",
   installation: "Pressure-sensitive adhesive (PSA)",
@@ -98,7 +98,7 @@ export const BENEFITS = [
     icon: "Eye",
     title: "Looks Like Broadloom",
     description:
-      "Forget everything you know about carpet tiles. These aren't office squares - they're precision-engineered to look and feel identical to traditional broadloom carpet.",
+      "Forget everything you know about carpet tiles. These aren't office squares - they're designed to look and feel like traditional broadloom carpet.",
   },
   {
     icon: "Wrench",
@@ -110,7 +110,7 @@ export const BENEFITS = [
     icon: "RefreshCw",
     title: "Replace, Don't Re-Carpet",
     description:
-      "With traditional carpet, one stain means re-carpeting the entire room. With Modular Carpet, lift the damaged tile and swap in a fresh one in 60 seconds.",
+      "With traditional carpet, one stain means re-carpeting the entire room. With Modular Carpet, lift the damaged tile and swap in a fresh one quickly.",
   },
   {
     icon: "Sun",
@@ -128,7 +128,7 @@ export const BENEFITS = [
     icon: "Volume2",
     title: "Built-In Acoustic Underlay",
     description:
-      "No separate underlay to buy or install. The bonded felt backing delivers 0.25 NRC sound absorption - quieter rooms, warmer underfoot, less echo.",
+      "No separate underlay to buy or install. The bonded felt backing helps quiet rooms and reduce echo.",
   },
   {
     icon: "Shield",

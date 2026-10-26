@@ -9,11 +9,11 @@ export const faqs = [
   },
   {
     q: "Will it look \"commercial\" - like office carpet from the 1990s?",
-    a: "No. Modern modular tile is engineered specifically to be visually indistinguishable from premium broadloom once installed in an ashlar (brick-bond) layout. The Haven and Horizon ranges are designed for hospitality and considered residential interiors, not for cubicle offices. Once installed, guests genuinely cannot tell it's tiles.",
+    a: "No. Modern modular tile is designed to look like premium broadloom once installed in an ashlar (brick-bond) layout. The Haven and Horizon ranges are designed for hospitality and considered residential interiors, not for cubicle offices.",
   },
   {
     q: "Can I install hotel-grade carpet over my existing concrete or timber subfloor?",
-    a: "Yes. The pressure-sensitive adhesive system works on concrete slabs (including moisture-affected slabs, thanks to the breathable PET backing), structural timber, plywood, and most existing hard floors. No separate underlay is required - the bonded felt underlay is integrated into each tile.",
+    a: "Yes. The pressure-sensitive adhesive system works on concrete slabs, structural timber, plywood, and most existing hard floors when the subfloor is clean, dry, level and suitable. Moisture still needs to be assessed before installation. No separate underlay is required - the bonded felt underlay is integrated into each tile.",
   },
   {
     q: "Is it Australian-made or Australian-distributed?",

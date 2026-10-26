@@ -39,11 +39,11 @@ export function HotelGradeCarpetForHomeClient() {
             <p className="text-body-lg text-brand-300">
               Walk into a 4½-star hotel. The carpet in the corridor sees more
               foot traffic in a week than a family hallway sees in a year, yet
-              it looks better at year ten than the carpet in most homes does at
-              year three. That gap is not maintenance, not luck, and not
-              budget. It is specification. This article unpacks the four spec
-              lines that explain the difference - and shows how to write them
-              into your own home, rental, or investment property.
+              it is specified for that traffic. That gap is not maintenance,
+              not luck, and not budget. It is specification. This article
+              unpacks the four spec lines that explain the difference - and
+              shows how to write them into your own home, rental, or
+              investment property.
             </p>
           </motion.div>
         </div>
@@ -66,7 +66,7 @@ export function HotelGradeCarpetForHomeClient() {
             {
               n: "02",
               title: "Commercial-grade pile weight and density",
-              body: "Hotel specifications nominate pile density in grams per square metre, not in language like \"soft\" or \"thick\". Mid-range residential carpet typically sits around 600-800 g/m². Commercial-grade carpet specified for hotel guest rooms typically sits at 950+ g/m². Density is what you feel underfoot at year ten - the resistance to crushing, the springiness, the consistent appearance.",
+              body: "Hotel specifications nominate pile density, not language like \"soft\" or \"thick\". Commercial-grade carpet specified for hotel guest rooms is built denser than typical mid-range residential carpet. Density is what you feel underfoot over time - the resistance to crushing, the springiness, the consistent appearance.",
             },
             {
               n: "03",
@@ -105,7 +105,7 @@ export function HotelGradeCarpetForHomeClient() {
         <SectionHeader
           overline="The Residential Default"
           title="Why Mass-Market Home Carpet Is Built to a Different Standard"
-          description="Mass-market home carpet is engineered for a price point on a showroom floor, not a 15-year service life. Three structural reasons explain why what arrives in most Australian homes is so different from what arrives in a hotel room two suburbs away."
+          description="Mass-market home carpet is engineered for a price point on a showroom floor, not a long service life. Three structural reasons explain why what arrives in most Australian homes is so different from what arrives in a hotel room two suburbs away."
         />
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
@@ -115,11 +115,11 @@ export function HotelGradeCarpetForHomeClient() {
             },
             {
               title: "Polyester replaced nylon as the volume fibre",
-              body: "Polyester is significantly cheaper to produce than nylon and feels soft when new. It has roughly half the resilience of nylon under sustained load, fades faster, and is harder to clean stain-for-stain. Most volume-priced home carpet sold in Australia today is PET polyester. Hotels almost universally specify nylon, and almost always solution-dyed.",
+              body: "Polyester is significantly cheaper to produce than nylon and feels soft when new. Nylon is commonly specified for commercial interiors because it holds up better under sustained load and is easier to clean stain-for-stain. Most volume-priced home carpet sold in Australia today is PET polyester. Hotels almost universally specify nylon, and almost always solution-dyed.",
             },
             {
               title: "Foam-backed broadloom is built for a single installation",
-              body: "Once stretched across tackless strips and trimmed, residential broadloom is structurally a single sheet. There is no provision for repair, no provision for partial replacement, and no provision for lifting and refitting elsewhere in the house. The product was never engineered for what real life - kids, pets, spills, sun, fifteen years - actually does to a floor.",
+              body: "Once stretched across tackless strips and trimmed, residential broadloom is structurally a single sheet. There is no provision for repair, no provision for partial replacement, and no provision for lifting and refitting elsewhere in the house. The product was never engineered for what real life - kids, pets, spills, sun - actually does to a floor over the years.",
             },
           ].map((item) => (
             <div
@@ -154,7 +154,7 @@ export function HotelGradeCarpetForHomeClient() {
           {[
             {
               title: "Hallways and stair landings",
-              body: "The single highest-traffic surface in any home. Builder-grade carpet visibly tracks here within 18 months. Commercial-grade nylon at 950+ g/m² sits here for a decade looking unchanged - and modular tiles in the highest-wear pinch points can be rotated forward over time as wear develops.",
+              body: "The single highest-traffic surface in any home. Builder-grade carpet can show tracking here relatively quickly. Commercial-grade nylon is specified for this kind of wear - and modular tiles in the highest-wear pinch points can be rotated forward over time as wear develops.",
             },
             {
               title: "Master bedrooms with north or west aspect",
@@ -166,7 +166,7 @@ export function HotelGradeCarpetForHomeClient() {
             },
             {
               title: "Home offices and study areas",
-              body: "Office chairs on castors visibly grind a path into mid-range residential carpet within two years. Commercial-grade pile density is rated for exactly this loading. If you work from home, this is also a tax-deductible spec line worth discussing with your accountant.",
+              body: "Office chairs on castors can grind a path into mid-range residential carpet. Commercial-grade pile is specified for this kind of loading. If you work from home, this is also a tax-deductible spec line worth discussing with your accountant.",
             },
             {
               title: "Holiday-house and short-stay properties",
@@ -200,7 +200,7 @@ export function HotelGradeCarpetForHomeClient() {
         <SectionHeader
           overline="The Investor View"
           title="Why Long-Hold Landlords Are Specifying Hotel-Grade Floors"
-          description={`The landlord question isn't "what is the cheapest carpet I can buy this turnover?" It is "what is the lowest 10-year cost of carpet across the portfolio?" The two questions have different answers.`}
+          description={`The landlord question isn't "what is the cheapest carpet I can buy this turnover?" It is "what is the lowest long-term cost of carpet across the portfolio?" The two questions have different answers.`}
         />
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-8 border border-brand-200">
@@ -209,7 +209,7 @@ export function HotelGradeCarpetForHomeClient() {
             </h3>
             <ul className="space-y-2 text-body-sm text-brand-500">
               {[
-                "Replaced every 5-7 years per typical tenancy cycle",
+                "Often replaced on a typical tenancy cycle",
                 "Full-room replacement for damage that cannot be locally repaired",
                 "1-3 weeks of vacancy per replacement, attributable to flooring",
                 "Visible patches between tenants - flagged at the next inspection",
@@ -229,10 +229,10 @@ export function HotelGradeCarpetForHomeClient() {
             <ul className="space-y-2 text-body-sm text-brand-700">
               {[
                 "Manufacturer wear warranty applies across the range",
-                "Spot-replace damaged tiles between tenants in under an hour",
+                "A damaged tile can be swapped quickly between tenants",
                 "No vacancy time attributable to flooring",
                 "Repairs invisible to the next tenant - original specification preserved",
-                "One capital event over a 10-15 year hold, not five",
+                "One capital event over a long hold, not a series of re-carpets",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
@@ -271,12 +271,12 @@ export function HotelGradeCarpetForHomeClient() {
               {
                 label: "Construction",
                 value:
-                  "Modular carpet tile (typically 500 × 500 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.",
+                  "Modular carpet tile (500 × 1000 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.",
               },
               {
                 label: "Pile weight",
                 value:
-                  "Minimum 950 g/m². Pile density and resilience rated for commercial corridor use.",
+                  "Pile density and resilience specified for commercial corridor use.",
               },
               {
                 label: "Warranty",
@@ -366,7 +366,7 @@ export function HotelGradeCarpetForHomeClient() {
                 Repairing Damage Without Closing the Room
               </h3>
               <p className="text-body-sm text-brand-500">
-                The 60-second tile swap and the 10-year lifecycle case for
+                Tile-swap repairs and the lifecycle case for
                 hotels and serviced apartments.
               </p>
             </Link>
