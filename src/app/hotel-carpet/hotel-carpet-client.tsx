@@ -46,7 +46,7 @@ const hotelBenefits = [
     icon: Volume2,
     title: "Acoustic Performance for Guest Comfort",
     description:
-      "The bonded felt underlay delivers a 0.25 NRC acoustic rating, reducing noise transfer between floors and corridors. Quieter rooms, fewer noise complaints, better guest reviews. No separate underlay to buy or install.",
+      "The bonded felt underlay is built into every tile, helping reduce noise transfer between floors and corridors. Quieter rooms, fewer noise complaints. No separate underlay to buy or install.",
   },
   {
     icon: DollarSign,
@@ -71,7 +71,7 @@ const modularSolutions = [
   "Your maintenance team handles it - no external installer",
   "Tiles slide under furniture or replace around it",
   "Consistent colour from the same production batch",
-  "Breathable PET backing prevents moisture and mould",
+  "Breathable PET backing; assess moisture before installation",
 ];
 
 export function HotelCarpetClient() {
@@ -140,8 +140,8 @@ export function HotelCarpetClient() {
             >
               how to replace damaged hotel carpet without closing the room
             </Link>{" "}
-            covers the tile-swap repair procedure and the 10-year lifecycle
-            numbers, and{" "}
+            covers the tile-swap repair procedure and the lifecycle
+            case, and{" "}
             <Link
               href="/refurbish-motel-without-closing-rooms"
               className="text-accent underline underline-offset-4 hover:no-underline"
@@ -309,7 +309,7 @@ export function HotelCarpetClient() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="/replace-hotel-carpet-without-downtime" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Closing the Room</h3>
-              <p className="text-body-sm text-brand-500">The 60-second tile swap and the 10-year lifecycle case for hotels.</p>
+              <p className="text-body-sm text-brand-500">Tile-swap repairs and the lifecycle case for hotels.</p>
             </Link>
             <Link href="/refurbish-motel-without-closing-rooms" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Refurbish a Motel Without Closing Rooms</h3>

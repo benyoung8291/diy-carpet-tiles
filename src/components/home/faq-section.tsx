@@ -3,7 +3,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 const faqs = [
   {
     q: "What is modular carpet, and how is it different from broadloom?",
-    a: "Modular carpet is precision-cut tile (typically 500 × 1000 mm) installed with pressure-sensitive adhesive in an ashlar (brick-bond) layout. Unlike rolled broadloom, individual tiles can be lifted and replaced if they're damaged, and the floor can be repaired without a full re-carpet. Once installed it looks and feels like premium broadloom - guests genuinely cannot tell it's tiles.",
+    a: "Modular carpet is precision-cut tile (typically 500 × 1000 mm) installed with pressure-sensitive adhesive in an ashlar (brick-bond) layout. Unlike rolled broadloom, individual tiles can be lifted and replaced if they're damaged, and the floor can be repaired without a full re-carpet. Once installed it is designed to look and feel like premium broadloom.",
   },
   {
     q: "Who is this product for?",
@@ -15,11 +15,11 @@ const faqs = [
   },
   {
     q: "Do the tiles look like real carpet, or do you see grid lines?",
-    a: "Modern modular tiles are precision-engineered to be visually indistinguishable from premium broadloom once installed. The ashlar (brick-bond) layout has no continuous grid line for the eye to track, and consistent pile direction across every tile means the floor reflects light as a single surface. The Haven and Horizon ranges are specified for hospitality and considered residential interiors - not 1990s offices.",
+    a: "Modern modular tiles are designed to look like premium broadloom once installed. The ashlar (brick-bond) layout has no continuous grid line for the eye to track, and consistent pile direction across every tile means the floor reflects light as a single surface. The Haven and Horizon ranges are specified for hospitality and considered residential interiors - not 1990s offices.",
   },
   {
     q: "What happens when a tile gets damaged or stained?",
-    a: "Lift the damaged tile and press in a fresh one from your spare-tile inventory. The repair takes about 60 seconds, leaves the surrounding tiles undisturbed, and is invisible to the next guest, tenant, or visitor because the tiles are batch-matched. There's no equivalent in broadloom - which is why hotels, motels, and savvy landlords specify modular.",
+    a: "Lift the damaged tile and press in a fresh one from your spare-tile inventory. A damaged tile can be swapped quickly, leaving the surrounding tiles undisturbed. Batch-matched tiles keep the repair consistent with the rest of the floor. There's no equivalent in broadloom - which is why hotels, motels, and savvy landlords specify modular.",
   },
   {
     q: "Is the carpet rated for hotel and commercial use?",

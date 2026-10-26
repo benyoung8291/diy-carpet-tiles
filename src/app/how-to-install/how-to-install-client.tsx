@@ -49,7 +49,7 @@ const steps = [
       "Work in manageable sections (about 3–4 metres at a time)",
       "Allow adhesive to 'tack up' - it should feel sticky but dry to the touch (30–60 minutes depending on conditions)",
       "The adhesive remains tacky indefinitely once dry - don't rush this step",
-      "Coverage: approximately 5–7 m² per litre",
+      "Coverage: follow the adhesive manufacturer's coverage rate",
     ],
     tips: [
       "On hot days the adhesive tacks up faster; on cold or humid days it takes longer",

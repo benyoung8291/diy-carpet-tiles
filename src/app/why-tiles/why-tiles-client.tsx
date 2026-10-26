@@ -32,14 +32,14 @@ const iconMap: Record<string, React.ElementType> = {
 const deepBenefits = [
   {
     icon: "Eye",
-    title: "Truly Seamless - Indistinguishable from Broadloom",
+    title: "Truly Seamless - Designed to Look Like Broadloom",
     description:
-      "Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that looks and feels identical to traditional rolled broadloom carpet. The join lines disappear completely once installed.",
+      "Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that reads like traditional rolled broadloom carpet. Join lines recede once the floor is down.",
     points: [
-      "Precision-engineered edges for invisible joins",
-      "Ashlar (brick-bond) layout eliminates grid patterns",
-      "Identical texture and pile direction across every tile",
-      "Guests genuinely cannot tell it's tiles",
+      "Precision-engineered edges for tight joins",
+      "Ashlar (brick-bond) layout avoids a continuous grid",
+      "Consistent texture and pile direction across every tile",
+      "Laid so the floor reads as one surface",
     ],
   },
   {
@@ -60,7 +60,7 @@ const deepBenefits = [
     description:
       "This is the game-changer. Red wine on the carpet? Pet accident? A burn mark from a dropped candle? With broadloom, you'd need to re-carpet the entire room. With Modular Carpet, you simply lift the damaged tile and replace it with a fresh one in minutes. Keep a few spares and your carpet stays perfect forever.",
     points: [
-      "Individual tiles lift out in seconds",
+      "A damaged tile can be swapped quickly",
       "Fresh tile presses into the same adhesive",
       "No colour-matching issues - order the same batch",
       "Perfect for homes with kids and pets",
@@ -84,21 +84,21 @@ const deepBenefits = [
     description:
       "Many Australian homes sit on concrete slabs with residual moisture. Traditional carpet with rubber backing traps that moisture, creating mould and odour problems. Our recycled PET felt backing is completely breathable, allowing your subfloor to breathe naturally while still providing comfort and insulation.",
     points: [
-      "Install over moisture-affected concrete slabs",
-      "No trapped moisture = no mould, no odour",
+      "Ask us to assess moisture and preparation before installation",
+      "Breathable backing; moisture still needs assessment",
       "Recycled PET felt is lightweight and sustainable",
-      "Passed rigorous moisture vapour testing",
+      "Felt backing does not fix a damp slab",
     ],
   },
   {
     icon: "Volume2",
     title: "Acoustic Performance That You'll Feel",
     description:
-      "The bonded felt underlay in every tile delivers impressive sound absorption with a 0.25 NRC (Noise Reduction Coefficient) rating. This means quieter rooms, reduced echo, and a warmer, more comfortable living environment - especially in open-plan homes and multi-storey dwellings.",
+      "The bonded felt underlay in every tile is there to help absorb sound. That means quieter rooms, less echo, and a warmer feel underfoot - especially in open-plan homes and multi-storey dwellings.",
     points: [
-      "0.25 NRC acoustic rating",
-      "Reduces footfall noise between floors",
-      "Minimises echo in large, open-plan spaces",
+      "Built-in felt underlay for quieter rooms",
+      "Helps reduce footfall noise between floors",
+      "Helps reduce echo in large, open-plan spaces",
       "Bonded underlay - no separate underlay needed",
     ],
   },
@@ -110,7 +110,7 @@ const deepBenefits = [
     points: [
       "Manufacturer wear warranty applies",
       "Rated for heavy foot traffic",
-      "Exceeds residential durability requirements",
+      "Specified for commercial traffic environments",
       "Backed by Premrest - trusted Australian distributor",
     ],
   },
@@ -190,7 +190,7 @@ export function WhyTilesClient() {
                   "Request a quote direct from Premrest",
                   "Premrest install or in-house trade — no full rip-out",
                   "Phased room-by-room install, not a property shutdown",
-                  "Replace individual tiles in 60 seconds",
+                  "A damaged tile can be swapped quickly",
                   "Breathable felt - safe over concrete slabs",
                   "Replace tiles, not the whole floor",
                 ].map((item) => (
@@ -267,7 +267,7 @@ export function WhyTilesClient() {
             </Link>
             <Link href="/replace-hotel-carpet-without-downtime" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Closing the Room</h3>
-              <p className="text-body-sm text-brand-500">The 60-second tile swap and the lifecycle case for hotels and homes.</p>
+              <p className="text-body-sm text-brand-500">Tile-swap repairs and the lifecycle case for hotels and homes.</p>
             </Link>
             <Link href="/refurbish-motel-without-closing-rooms" className="block bg-white rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rolling Refurbishment Across a Property</h3>

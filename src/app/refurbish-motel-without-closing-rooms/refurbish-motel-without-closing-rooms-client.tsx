@@ -306,7 +306,7 @@ export function RefurbishMotelClient() {
                 Repairing Damage Without Closing the Room
               </h3>
               <p className="text-body-sm text-brand-500">
-                The 60-second tile swap and the 10-year lifecycle case for
+                Tile-swap repairs and the lifecycle case for
                 hospitality.
               </p>
             </Link>

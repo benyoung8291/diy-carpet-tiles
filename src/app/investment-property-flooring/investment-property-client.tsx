@@ -34,7 +34,7 @@ const investorBenefits = [
     icon: DollarSign,
     title: "Lower Lifetime Flooring Costs",
     description:
-      "Traditional carpet in rentals typically needs full replacement every 5–7 years. Modular Carpet tiles last 15+ years in residential settings. One installation that outlasts multiple tenancy cycles means fewer capital expenses across your portfolio.",
+      "Traditional carpet in rentals often needs a full replacement between tenancies. Modular Carpet tiles are specified to outlast multiple tenancy cycles. One installation instead of a series of re-carpets means fewer capital expenses across your portfolio.",
   },
   {
     icon: Clock,
@@ -46,7 +46,7 @@ const investorBenefits = [
     icon: Droplets,
     title: "Breathable Backing - No Mould Surprises",
     description:
-      "Many investment properties sit on concrete slabs. Traditional carpet traps moisture underneath, causing mould and odour issues that are expensive to remediate. Our breathable recycled PET felt backing eliminates this risk entirely.",
+      "Many investment properties sit on concrete slabs. Traditional carpet can trap moisture underneath, causing mould and odour issues that are expensive to remediate. Our breathable recycled PET felt backing is designed to let the subfloor dry; moisture still needs to be assessed and resolved before installation.",
   },
   {
     icon: Building2,
@@ -59,7 +59,7 @@ const investorBenefits = [
 const faqs = [
   {
     q: "How long do carpet tiles last in a rental property?",
-    a: "Our carpet tiles are backed by the manufacturer's wear warranty - they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
+    a: "Our carpet tiles are backed by the manufacturer's wear warranty - they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, the aim is one installation across multiple tenancy cycles rather than a full re-carpet each turnover.",
   },
   {
     q: "Does Premrest handle installation for investment properties?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     q: "Are carpet tiles suitable for all rooms in an investment property?",
-    a: "Modular Carpet tiles are ideal for bedrooms, living rooms, hallways, and home offices - anywhere you'd normally install broadloom carpet. They look identical to traditional carpet once installed. We recommend hard flooring for wet areas like bathrooms and laundries.",
+    a: "Modular Carpet tiles are ideal for bedrooms, living rooms, hallways, and home offices - anywhere you'd normally install broadloom carpet. They are designed to look like traditional carpet once installed. We recommend hard flooring for wet areas like bathrooms and laundries.",
   },
   {
     q: "Do property managers and tenants notice it's tiles?",
-    a: "No. Modern carpet tiles installed in an ashlar (brick-bond) pattern are visually indistinguishable from broadloom carpet. Property managers and tenants consistently cannot tell the difference. The join lines disappear completely once installed.",
+    a: "Modern carpet tiles installed in an ashlar (brick-bond) pattern are designed to look like broadloom. Join lines recede once the floor is down.",
   },
 ];
 
@@ -140,8 +140,8 @@ export function InvestmentPropertyClient() {
           <div className="bg-brand-100 rounded-lg p-8 md:p-10">
             <div className="space-y-6 text-body-lg text-brand-600 leading-relaxed">
               <p>
-                Standard broadloom carpet in a rental property typically lasts 5–7 years
-                before it looks tired, matted, and stained. Each replacement cycle means
+                Standard broadloom carpet in a rental property often looks tired,
+                matted, and stained well before the next long hold is over. Each replacement cycle means
                 engaging a flooring retailer, scheduling an installer, and paying
                 for materials and labour - plus
                 lost rent while the property sits empty waiting for the work.
@@ -206,7 +206,7 @@ export function InvestmentPropertyClient() {
               <ul className="space-y-4 text-body-sm text-brand-500">
                 <li className="flex justify-between border-b border-brand-200 pb-2">
                   <span>Typical lifespan in rental</span>
-                  <span className="font-semibold text-brand-800">5–7 years</span>
+                  <span className="font-semibold text-brand-800">Often replaced between tenancies</span>
                 </li>
                 <li className="flex justify-between border-b border-brand-200 pb-2">
                   <span>Stain resistance</span>
@@ -226,7 +226,7 @@ export function InvestmentPropertyClient() {
                 </li>
                 <li className="flex justify-between pt-2">
                   <span>Wear warranty</span>
-                  <span className="font-semibold text-brand-800">5–10 years</span>
+                  <span className="font-semibold text-brand-800">Terms vary by product</span>
                 </li>
               </ul>
             </div>
@@ -237,7 +237,7 @@ export function InvestmentPropertyClient() {
               <ul className="space-y-4 text-body-sm text-brand-700">
                 <li className="flex justify-between border-b border-accent/10 pb-2">
                   <span>Typical lifespan in rental</span>
-                  <span className="font-semibold text-accent">15+ years</span>
+                  <span className="font-semibold text-accent">Built for multiple tenancy cycles</span>
                 </li>
                 <li className="flex justify-between border-b border-accent/10 pb-2">
                   <span>Stain resistance</span>
@@ -253,7 +253,7 @@ export function InvestmentPropertyClient() {
                 </li>
                 <li className="flex justify-between border-b border-accent/10 pb-2">
                   <span>Moisture/mould risk on slabs</span>
-                  <span className="font-semibold text-accent">None (breathable backing)</span>
+                  <span className="font-semibold text-accent">Breathable felt backing — assess moisture first</span>
                 </li>
                 <li className="flex justify-between pt-2">
                   <span>Wear warranty</span>
@@ -284,7 +284,7 @@ export function InvestmentPropertyClient() {
                 icon: TrendingUp,
                 title: "One Installation, Multiple Tenancy Cycles",
                 description:
-                  "With the manufacturer's wear warranty and solution-dyed nylon, your carpet tile investment pays for itself by lasting through 5–8 tenancies without needing full replacement. That's a fraction of the lifecycle cost of broadloom.",
+                  "With the manufacturer's wear warranty and solution-dyed nylon, your carpet tile investment is intended to last through multiple tenancies without a full replacement. That's a different lifecycle cost profile to broadloom.",
               },
               {
                 icon: Clock,
@@ -386,7 +386,7 @@ export function InvestmentPropertyClient() {
             </Link>
             <Link href="/replace-hotel-carpet-without-downtime" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Repairing Damage Without Vacancy</h3>
-              <p className="text-body-sm text-brand-500">Spot-replacement, lifecycle economics, and the 10-year cost case.</p>
+              <p className="text-body-sm text-brand-500">Spot-replacement, lifecycle economics, and the long-term cost case.</p>
             </Link>
             <Link href="/refurbish-motel-without-closing-rooms" className="block bg-brand-50 rounded-lg p-6 border border-brand-200 hover:border-accent/30 hover:shadow-md transition-all">
               <h3 className="font-serif text-heading-sm text-brand-800 mb-2">Rolling Refurbishment Across a Property</h3>

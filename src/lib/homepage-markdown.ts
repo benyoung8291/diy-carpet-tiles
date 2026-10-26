@@ -55,7 +55,7 @@ ${sectorNavigation.map((sector) => `- [${sector.label}](https://www.modularcarpe
 - Solution-dyed nylon fibre
 - Tile dimensions: 500 × 1000 mm
 - Recycled PET felt backing
-- Acoustic rating: 0.25 NRC
+- Bonded felt backing for quieter rooms
 - Manufacturer wear warranty applies; ask for terms and exclusions
 - Subfloors must be clean, dry, level and suitable for the flooring and adhesive
 - Felt backing does not resolve damp slabs; assess moisture before installation

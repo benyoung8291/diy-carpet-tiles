@@ -78,7 +78,7 @@ so local damage can be repaired between tenancies.
 - Solution-dyed nylon fibre
 - Tile dimensions: 500 × 1000 mm
 - Recycled PET felt backing
-- Acoustic rating: 0.25 NRC
+- Bonded felt backing for quieter rooms
 - Manufacturer wear warranty applies; ask for terms and exclusions
 - Subfloors must be clean, dry, level and suitable for the flooring and adhesive
 - Felt backing does not resolve damp slabs; assess moisture before installation
@@ -123,18 +123,18 @@ Modular Carpet tiles:
 - Order direct or take a supply-and-install quote
 - Premrest install or in-house trade — no full rip-out
 - Phased room-by-room install, not a property shutdown
-- Replace individual tiles in 60 seconds
+- A damaged tile can be swapped quickly
 - Breathable felt - safe over concrete slabs
 - Replace tiles, not the whole floor
 
 ## Eight Reasons Modular Carpet Outperforms Broadloom
 
-### 1. Truly Seamless - Indistinguishable from Broadloom
-Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that looks and feels identical to traditional rolled broadloom carpet. The join lines disappear completely once installed.
-- Precision-engineered edges for invisible joins
-- Ashlar (brick-bond) layout eliminates grid patterns
-- Identical texture and pile direction across every tile
-- Guests genuinely cannot tell it's tiles
+### 1. Truly Seamless - Designed to Look Like Broadloom
+Modern carpet tile technology has evolved beyond the visible grid lines of old commercial tiles. Our tiles are precision-cut and designed to create a continuous, seamless surface that reads like traditional rolled broadloom carpet. Join lines recede once the floor is down.
+- Precision-engineered edges for tight joins
+- Ashlar (brick-bond) layout avoids a continuous grid
+- Consistent texture and pile direction across every tile
+- Laid so the floor reads as one surface
 
 ### 2. Premrest Install or In-House Trade — Spot-Replace, No Full Rip-Out
 Hospitality venues do not need a full rip-out to refresh a floor. Premrest supplies and installs in Melbourne, Sydney, and Brisbane — or your maintenance team or trade can lay the same tiles in-house. Either path, damaged tiles lift and replace without closing the property or recarpeting the whole room.
@@ -145,7 +145,7 @@ Hospitality venues do not need a full rip-out to refresh a floor. Premrest suppl
 
 ### 3. Replace Any Tile, Any Time
 This is the game-changer. Red wine on the carpet? Pet accident? A burn mark from a dropped candle? With broadloom, you'd need to re-carpet the entire room. With Modular Carpet, you simply lift the damaged tile and replace it with a fresh one in minutes. Keep a few spares and your carpet stays perfect forever.
-- Individual tiles lift out in seconds
+- A damaged tile can be swapped quickly
 - Fresh tile presses into the same adhesive
 - No colour-matching issues - order the same batch
 - Perfect for homes with kids and pets, hotels with guests, or rentals with multiple tenancy cycles
@@ -159,23 +159,23 @@ Solution-dyed nylon is the gold standard for carpet fibre. Unlike stock-dyed alt
 
 ### 5. Breathable Backing - Safe Over Moisture
 Many Australian homes sit on concrete slabs with residual moisture. Traditional carpet with rubber backing traps that moisture, creating mould and odour problems. Our recycled PET felt backing is completely breathable, allowing your subfloor to breathe naturally while still providing comfort and insulation.
-- Install over moisture-affected concrete slabs
-- No trapped moisture = no mould, no odour
+- Ask us to assess moisture and preparation before installation
+- Breathable backing; moisture still needs assessment
 - Recycled PET felt is lightweight and sustainable
-- Passed rigorous moisture vapour testing
+- Felt backing does not fix a damp slab
 
 ### 6. Acoustic Performance That You'll Feel
-The bonded felt underlay in every tile delivers impressive sound absorption with a 0.25 NRC (Noise Reduction Coefficient) rating. This means quieter rooms, reduced echo, and a warmer, more comfortable living environment - especially in open-plan homes, multi-storey dwellings, and hospitality properties.
-- 0.25 NRC acoustic rating
-- Reduces footfall noise between floors
-- Minimises echo in large, open-plan spaces
+The bonded felt underlay in every tile is there to help absorb sound. That means quieter rooms, less echo, and a warmer feel underfoot - especially in open-plan homes, multi-storey dwellings, and hospitality properties.
+- Built-in felt underlay for quieter rooms
+- Helps reduce footfall noise between floors
+- Helps reduce echo in large, open-plan spaces
 - Bonded underlay - no separate underlay needed
 
 ### 7. Manufacturer Wear Warranty
 These tiles are rated for commercial environments - offices, retail, hospitality - and backed by the manufacturer's wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.
 - Manufacturer wear warranty applies
 - Rated for heavy foot traffic
-- Exceeds residential durability requirements
+- Specified for commercial traffic environments
 - Backed by Premrest - trusted Australian distributor
 
 ### 8. The Sustainable Choice
@@ -351,12 +351,12 @@ Commercial-grade modular carpet for hotels, motels, and serviced apartments. The
 
 Operators who refuse to let one damaged room drag down their RevPAR. The product is rated for the corridor and lobby traffic of a commercial environment, yet routine repairs are handled by housekeeping, not a procurement-managed contractor.
 
-- Spot-replace damaged tiles in 60 seconds, in-room, by housekeeping
+- A damaged tile can be swapped quickly, in-room, by housekeeping
 - Phased fit-outs and refurbishments across low-occupancy windows
 - Brand-standard repairs that are invisible to the next guest
 - Manufacturer wear warranty applies, rated for corridors and lobbies
-- Ashlar layout looks identical to broadloom from a guest's perspective
-- Bonded felt backing delivers 0.25 NRC for quieter guest rooms
+- Ashlar layout is designed to look like broadloom once laid
+- Bonded felt backing for quieter guest rooms
 
 ## Operational Advantages
 
@@ -393,7 +393,7 @@ How does the warranty work for a commercial property?
 The manufacturer wear warranty is rated for commercial environments including hotels, offices, retail, and serviced apartments. It covers fibre wear under normal commercial use; physical damage to individual tiles is what the spot-replacement model is for.
 
 Is the carpet acoustically suitable for hotel rooms?
-Yes. The bonded felt backing delivers an NRC of approximately 0.25, reducing footfall transmission between floors and in-room echo - which directly affects guest sleep quality and review scores.
+The bonded felt backing is there to help reduce footfall transmission between floors and in-room echo - which directly affects guest sleep quality and review scores.
 
 ---
 
@@ -403,24 +403,24 @@ URL: https://www.modularcarpet.com.au/investment-property-flooring
 
 ## Hero
 
-Commercial-grade modular carpet engineered for investment-property lifecycle costs. Manufacturer wear warranty applies, replace damaged tiles between tenancies in under an hour, no full re-carpet. Supply-only direct from Premrest, or full supply-and-install in Melbourne, Sydney, and Brisbane.
+Commercial-grade modular carpet engineered for investment-property lifecycle costs. Manufacturer wear warranty applies, replace damaged tiles between tenancies quickly, no full re-carpet. Supply-only direct from Premrest, or full supply-and-install in Melbourne, Sydney, and Brisbane.
 
 ## The Investor Case
 
-The landlord question isn't "what's the cheapest carpet I can buy this turnover?" It's "what's the lowest 10-year cost of carpet across the portfolio?" The two questions have different answers.
+The landlord question isn't "what's the cheapest carpet I can buy this turnover?" It's "what's the lowest long-term cost of carpet across the portfolio?" The two questions have different answers.
 
 Builder-grade carpet in a rental:
-- Replaced every 5-7 years per typical tenancy cycle
+- Often replaced on a typical tenancy cycle
 - 1-3 weeks of vacancy per replacement, attributable to flooring
 - Visible patches between tenants - flagged at the next inspection
 - Each replacement is a fresh capital expense, repeating
 
 Hotel-grade modular carpet in a rental:
 - Manufacturer wear warranty applies across the range
-- Spot-replace damaged tiles between tenants in under an hour
+- A damaged tile can be swapped quickly between tenants
 - No vacancy time attributable to flooring
 - Repairs invisible to the next tenant - original specification preserved
-- One capital event over a 10-15 year hold, not five
+- One capital event over a long hold, not a series of re-carpets
 
 ## Why Asset Managers Specify Modular
 
@@ -428,7 +428,7 @@ Hotel-grade modular carpet in a rental:
 - Portfolio-scale projects coordinated through a single point of contact
 - Repair individual damaged tiles rather than re-carpeting whole rooms
 - Solution-dyed nylon doesn't fade, even on north-west aspects
-- Breathable felt backing solves Australian slab moisture issues
+- Breathable felt backing; assess slab moisture before installation
 - Repair model removes the recurring re-carpet capex line
 
 ## Two Paths for Investment Properties
@@ -474,7 +474,7 @@ URL: https://www.modularcarpet.com.au/replace-hotel-carpet-without-downtime
 
 ## Direct answer
 
-You replace it one tile at a time. Modular carpet tiles allow housekeeping to lift a single damaged tile and press in a fresh one in under 60 seconds - no installer, no adhesive cure time, no skip bin in the loading dock. The room is back online before the next check-in. The repair is invisible to the next guest.
+You replace it one tile at a time. Modular carpet tiles allow housekeeping to lift a single damaged tile and press in a fresh one quickly - no installer, no adhesive cure time, no skip bin in the loading dock. The room is back online before the next check-in. The repair is invisible to the next guest.
 
 For a hotel, motel, or serviced-apartment operator, every night a room sits offline costs ADR. For a landlord, every day between tenants costs rent. For a homeowner who has invested in a beautiful home, a single stain shouldn't trigger a full re-carpet. The answer for all three is the same: a flooring system designed to be repaired, not replaced.
 
@@ -503,7 +503,7 @@ The whole procedure fits inside the time it takes to deep-clean a bathroom. No i
 - Ashlar layout hides the join. No continuous grid line for the eye to track. A single replaced tile disappears into the broader surface.
 - Identical pile direction on every tile. Directional arrows on every tile back ensure replacement tiles reflect light the same way as their neighbours. No shadow line that gives a repair away.
 
-A property is only ever as good as its worst-looking room. Modular Carpet lets you keep every room at the standard you originally specified - for the full 15-year life of the floor.
+A property is only ever as good as its worst-looking room. Modular Carpet lets you keep every room at the standard you originally specified - for the life of the floor.
 
 ## Request a Project Quote
 
@@ -528,7 +528,7 @@ URL: https://www.modularcarpet.com.au/hotel-grade-carpet-for-home
 
 Hotel carpet lasts longer than most home carpet because hotels specify commercial-grade fibre, dye chemistry, and backing - not residential-grade. The carpet itself is the cause. The good news: the same commercial specification is available to a homeowner or landlord building a property to a higher standard, often at a comparable upfront cost to mid-range broadloom.
 
-Walk into a 4½-star hotel. The carpet in the corridor sees more foot traffic in a week than a family hallway sees in a year, yet it looks better at year ten than the carpet in most homes does at year three. That gap is not maintenance, not luck, and not budget. It is specification.
+Walk into a 4½-star hotel. The carpet in the corridor sees more foot traffic in a week than a family hallway sees in a year, yet it is specified for that traffic. That gap is not maintenance, not luck, and not budget. It is specification.
 
 ## The Four Specifications That Separate Hotel Carpet from Home Carpet
 
@@ -536,7 +536,7 @@ Walk into a 4½-star hotel. The carpet in the corridor sees more foot traffic in
 In hotel-grade carpet, the colour is locked into the nylon at a molecular level during manufacturing. In residential-grade carpet, dye is typically applied to the fibre surface afterwards. The difference shows up at year three under sunlight, in spill testing, and the first time someone uses a bleach-based cleaner. Solution-dyed fibre simply doesn't fade or surrender colour the way stock-dyed fibre does.
 
 ### 2. Commercial-grade pile weight and density
-Hotel specifications nominate pile density in grams per square metre, not in language like "soft" or "thick". Mid-range residential carpet typically sits around 600-800 g/m². Commercial-grade carpet specified for hotel guest rooms typically sits at 950+ g/m². Density is what you feel underfoot at year ten.
+Hotel specifications nominate pile density, not language like "soft" or "thick". Commercial-grade carpet specified for hotel guest rooms is built denser than typical mid-range residential carpet. Density is what you feel underfoot over time.
 
 ### 3. Backing built for cleaning, moisture, and replacement
 Most home broadloom uses a foam or rubber secondary backing that traps moisture, breaks down under steam-cleaning, and cannot be lifted without destroying it. Commercial-grade carpet uses a bonded felt or recycled PET backing that breathes, tolerates professional cleaning, and (in tile form) can be lifted and re-laid without damage.
@@ -549,7 +549,7 @@ Hotels are not paying more for the same product. They are paying for a different
 ## Why Mass-Market Home Carpet Is Built to a Different Standard
 
 - The retailer-led supply chain optimises for price-on-the-shelf. Margin is taken at every step (showroom, sample, installer subcontract). Fibre, density, backing, and warranty are the variables that get trimmed first.
-- Polyester replaced nylon as the volume fibre. Polyester is cheaper to produce and feels soft when new, but has roughly half the resilience of nylon under sustained load and fades faster. Hotels almost universally specify nylon, and almost always solution-dyed.
+- Polyester replaced nylon as the volume fibre. Polyester is cheaper to produce and feels soft when new. Nylon is commonly specified for commercial interiors because it holds up better under sustained load. Hotels almost universally specify nylon, and almost always solution-dyed.
 - Foam-backed broadloom is built for a single installation. Once stretched across tackless strips, it's a single sheet. There is no provision for repair, partial replacement, or lifting and refitting.
 
 Specifying a different product isn't an extravagance. It's recognising that the standard on offer at most retail showrooms was optimised for a different question than the one a long-term homeowner or landlord is actually asking.
@@ -559,7 +559,7 @@ Specifying a different product isn't an extravagance. It's recognising that the 
 - Hallways and stair landings: highest-traffic surface in any home
 - Master bedrooms with north or west aspect: UV destroys stock-dyed carpet
 - Family rooms with kids or pets: cleans without colour loss + replace one tile if a permanent mark develops
-- Home offices and study areas: office chair castors grind paths into mid-range carpet within two years
+- Home offices and study areas: office chair castors can grind paths into mid-range carpet
 - Holiday-house and short-stay properties: effectively domestic-scale hotels
 
 In modular tile form, you can specify this room by room rather than committing the whole house at once.
@@ -569,8 +569,8 @@ In modular tile form, you can specify this room by room rather than committing t
 Hand this to your builder, architect, interior designer, or carpet retailer.
 
 1. Fibre: 100% solution-dyed nylon. Stain and bleach resistant. No stock-dyed or polyester substitutes.
-2. Construction: Modular carpet tile (typically 500 × 500 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.
-3. Pile weight: Minimum 950 g/m². Pile density and resilience rated for commercial corridor use.
+2. Construction: Modular carpet tile (500 × 1000 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.
+3. Pile weight: Pile density and resilience specified for commercial corridor use.
 4. Warranty: Manufacturer wear warranty applies. Manufacturer-backed, not retailer-backed.
 
 The Modular Carpet Haven and Horizon ranges are designed against this exact specification.
@@ -650,7 +650,7 @@ Smoke, Glow, Cinder, Spark, Kettle, Hearth, Crackle, Smoulder
 - Tile: 500 × 1000 mm modular carpet tile
 - Pile: Solution-dyed nylon, high-low textured loop
 - Backing: Bonded recycled PET felt (breathable)
-- Acoustic: 0.25 NRC
+- Acoustics: Bonded felt backing for quieter rooms
 - Warranty: Manufacturer wear warranty applies
 - Suitability: Residential, hospitality, and light commercial
 - Quotes: Request project-specific pricing from Premrest.
@@ -676,7 +676,7 @@ Suburb-named designs (see https://www.modularcarpet.com.au/ranges/horizon for cu
 - Tile: 500 × 1000 mm modular carpet tile
 - Pile: Solution-dyed nylon, plush broadloom-feel
 - Backing: Bonded recycled PET felt (breathable)
-- Acoustic: 0.25 NRC
+- Acoustics: Bonded felt backing for quieter rooms
 - Warranty: Manufacturer wear warranty applies
 - Suitability: Residential, hospitality, and light commercial
 - Quotes: Request project-specific pricing from Premrest.

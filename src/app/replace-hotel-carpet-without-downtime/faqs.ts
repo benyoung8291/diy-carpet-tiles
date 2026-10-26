@@ -17,7 +17,7 @@ export const faqs = [
   },
   {
     q: "Is the carpet acoustically suitable for hotel rooms?",
-    a: "Yes. The bonded felt backing on every tile delivers a Noise Reduction Coefficient of approximately 0.25, reducing footfall transmission between floors and in-room echo. This matters in multi-storey hotels and serviced apartments where guest sleep quality directly drives review scores and repeat-stay rates.",
+    a: "The bonded felt backing on every tile is there to help reduce footfall transmission between floors and in-room echo. This matters in multi-storey hotels and serviced apartments where guest sleep quality directly drives review scores and repeat-stay rates.",
   },
   {
     q: "What about high-traffic corridors and lobbies?",
