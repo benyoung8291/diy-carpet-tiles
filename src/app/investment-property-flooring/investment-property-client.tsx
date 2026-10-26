@@ -112,7 +112,7 @@ export function InvestmentPropertyClient() {
             <p className="text-body-md md:text-body-lg text-brand-300 max-w-2xl">
               Investment properties need flooring that handles years of tenant wear
               without constant replacement. Modular Carpet tiles are commercial-grade,
-              stain-resistant, and backed by the manufacturer's wear warranty. Professionally installed
+              stain-resistant, and backed by the manufacturer&apos;s wear warranty. Professionally installed
               by Premrest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
