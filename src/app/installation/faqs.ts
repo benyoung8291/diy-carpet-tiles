@@ -17,7 +17,7 @@ export const faqs = [
   },
   {
     q: "Is the installation labour warranted?",
-    a: "Yes. Premrest provides a 12-month workmanship warranty on installation labour, separate from the 15-year manufacturer wear warranty on the tiles themselves. If a seam lifts or a transition fails inside that period, we return and rectify at no cost.",
+    a: "Yes. Premrest provides a workmanship warranty on installation labour, separate from the manufacturer wear warranty on the tiles themselves. If a seam lifts or a transition fails under that warranty, we return and rectify at no cost.",
   },
   {
     q: "Can I buy tiles from you and arrange my own installer?",

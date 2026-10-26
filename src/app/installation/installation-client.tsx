@@ -94,7 +94,7 @@ const processSteps = [
   {
     n: "6",
     title: "Walk-through and handover",
-    body: "We walk the floor with you room-by-room, clear any defects on the spot, and hand over labelled spare tiles and the maintenance pack. The 15-year manufacturer warranty starts from handover.",
+    body: "We walk the floor with you room-by-room, clear any defects on the spot, and hand over labelled spare tiles and the maintenance pack. The manufacturer warranty starts from handover.",
   },
 ];
 
@@ -124,7 +124,7 @@ export function InstallationClient() {
               you&apos;d rather hand the install to a team that does this every
               day, this is the path for you. The same commercial-grade,
               solution-dyed nylon Premrest carries across the Haven and Horizon
-              ranges, the same 15-year wear warranty - the difference is who
+              ranges, the same manufacturer wear warranty - the difference is who
               lays it.
             </p>
             <p className="text-body-md text-brand-300 mt-6">

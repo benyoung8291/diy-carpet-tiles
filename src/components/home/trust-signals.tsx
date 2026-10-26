@@ -5,7 +5,7 @@ const signals = [
   {
     icon: Shield,
     title: "Commercial-Grade",
-    description: "Solution-dyed nylon, 15-year wear warranty",
+    description: "Solution-dyed nylon, manufacturer wear warranty applies",
   },
   {
     icon: Recycle,

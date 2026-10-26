@@ -213,7 +213,7 @@ export function ReplaceHotelCarpetWithoutDowntimeClient() {
             {
               tag: "Hospitality",
               title: "Hotels, motels, serviced apartments",
-              body: "Operators who refuse to let one damaged room drag down their RevPAR. The product is rated for the corridor and lobby traffic of a commercial environment and backed by a 15-year wear warranty - yet routine repairs are handled by housekeeping, not a procurement-managed contractor.",
+              body: "Operators who refuse to let one damaged room drag down their RevPAR. The product is rated for the corridor and lobby traffic of a commercial environment and backed by the manufacturer's wear warranty - yet routine repairs are handled by housekeeping, not a procurement-managed contractor.",
             },
             {
               tag: "Investment Property",

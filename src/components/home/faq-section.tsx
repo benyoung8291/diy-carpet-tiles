@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Is the carpet rated for hotel and commercial use?",
-    a: "Yes. The Haven and Horizon ranges are commercial-grade, solution-dyed nylon backed by a 15-year manufacturer wear warranty. The same product specified for hotel guest rooms and corridors is the product that ships into Australian homes, rentals, and motels - the warranty doesn't change between use cases.",
+    a: "Yes. The Haven and Horizon ranges are commercial-grade, solution-dyed nylon backed by the manufacturer's wear warranty. The same product specified for hotel guest rooms and corridors is the product that ships into Australian homes, rentals, and motels - the warranty doesn't change between use cases.",
   },
   {
     q: "Can it be installed over concrete slabs, including moisture-affected slabs?",

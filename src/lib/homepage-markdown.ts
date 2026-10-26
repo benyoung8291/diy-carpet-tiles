@@ -56,7 +56,7 @@ ${sectorNavigation.map((sector) => `- [${sector.label}](https://www.modularcarpe
 - Tile dimensions: 500 × 1000 mm
 - Recycled PET felt backing
 - Acoustic rating: 0.25 NRC
-- 15-year manufacturer wear warranty; ask for terms and exclusions
+- Manufacturer wear warranty applies; ask for terms and exclusions
 - Subfloors must be clean, dry, level and suitable for the flooring and adhesive
 - Felt backing does not resolve damp slabs; assess moisture before installation
 

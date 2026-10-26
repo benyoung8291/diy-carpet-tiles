@@ -79,7 +79,7 @@ so local damage can be repaired between tenancies.
 - Tile dimensions: 500 × 1000 mm
 - Recycled PET felt backing
 - Acoustic rating: 0.25 NRC
-- 15-year manufacturer wear warranty; ask for terms and exclusions
+- Manufacturer wear warranty applies; ask for terms and exclusions
 - Subfloors must be clean, dry, level and suitable for the flooring and adhesive
 - Felt backing does not resolve damp slabs; assess moisture before installation
 
@@ -171,9 +171,9 @@ The bonded felt underlay in every tile delivers impressive sound absorption with
 - Minimises echo in large, open-plan spaces
 - Bonded underlay - no separate underlay needed
 
-### 7. 15-Year Commercial-Grade Warranty
-These tiles are rated for commercial environments - offices, retail, hospitality - and backed by a 15-year wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.
-- 15-year commercial-grade wear warranty
+### 7. Manufacturer Wear Warranty
+These tiles are rated for commercial environments - offices, retail, hospitality - and backed by the manufacturer's wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.
+- Manufacturer wear warranty applies
 - Rated for heavy foot traffic
 - Exceeds residential durability requirements
 - Backed by Premrest - trusted Australian distributor
@@ -195,7 +195,7 @@ URL: https://www.modularcarpet.com.au/installation
 
 Request a tailored quote from Premrest for supply, delivery and any installation or site preparation required.
 
-If you've decided modular carpet is the right product but you'd rather hand the install to a team that does this every day, this is the path for you. The same commercial-grade, solution-dyed nylon Premrest carries across the Haven and Horizon ranges, the same 15-year wear warranty - the difference is who lays it.
+If you've decided modular carpet is the right product but you'd rather hand the install to a team that does this every day, this is the path for you. The same commercial-grade, solution-dyed nylon Premrest carries across the Haven and Horizon ranges, the same manufacturer wear warranty - the difference is who lays it.
 
 ## What's Included - Everything Between Your Brief and a Walked, Signed-Off Floor
 
@@ -255,7 +255,7 @@ The rate is what installation labour costs. Everything that varies by site is qu
 3. Itemised quote: A written quote breaking out the supplied product cost, the installation rate, and any site-specific extras (existing-floor removal, levelling, transitions, after-hours access). No bundled lump sums - everything itemised.
 4. Confirmation and scheduling: Once approved, dates are locked in. Hospitality projects can be phased across low-occupancy windows so the property stays in inventory throughout. Most installs run 2-5 days for a single property.
 5. Installation: The Premrest team arrives with all materials, tools, and adhesive on site. The product is installed to manufacturer specification, with daily progress updates if you'd prefer not to be on site every day.
-6. Walk-through and handover: We walk the floor with you room-by-room, clear any defects on the spot, and hand over labelled spare tiles and the maintenance pack. The 15-year manufacturer warranty starts from handover.
+6. Walk-through and handover: We walk the floor with you room-by-room, clear any defects on the spot, and hand over labelled spare tiles and the maintenance pack. The manufacturer warranty starts from handover.
 
 ## Installation FAQ
 
@@ -272,7 +272,7 @@ What if my project is outside Melbourne, Sydney, or Brisbane?
 We quote out-of-area projects on a project basis. Travel and accommodation are itemised separately. For other states or remote sites, the supply-only path is always available.
 
 Is the installation labour warranted?
-Yes. Premrest provides a 12-month workmanship warranty on installation labour, separate from the 15-year manufacturer wear warranty on the tiles themselves.
+Yes. Premrest provides a workmanship warranty on installation labour, separate from the manufacturer wear warranty on the tiles themselves.
 
 Can I buy tiles from you and arrange my own installer?
 Absolutely. The supply-only path is always available - the same product, the same warranty, no requirement to use Premrest installers.
@@ -345,7 +345,7 @@ URL: https://www.modularcarpet.com.au/hotel-carpet
 
 ## Hero
 
-Commercial-grade modular carpet for hotels, motels, and serviced apartments. The same product specified into hospitality across Australia: solution-dyed nylon, 15-year wear warranty, replace damaged tiles without closing rooms. Available supply-only direct from Premrest, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
+Commercial-grade modular carpet for hotels, motels, and serviced apartments. The same product specified into hospitality across Australia: solution-dyed nylon, manufacturer wear warranty applies, replace damaged tiles without closing rooms. Available supply-only direct from Premrest, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane.
 
 ## Why Hospitality Operators Specify Modular
 
@@ -354,7 +354,7 @@ Operators who refuse to let one damaged room drag down their RevPAR. The product
 - Spot-replace damaged tiles in 60 seconds, in-room, by housekeeping
 - Phased fit-outs and refurbishments across low-occupancy windows
 - Brand-standard repairs that are invisible to the next guest
-- 15-year commercial-grade wear warranty rated for corridors and lobbies
+- Manufacturer wear warranty applies, rated for corridors and lobbies
 - Ashlar layout looks identical to broadloom from a guest's perspective
 - Bonded felt backing delivers 0.25 NRC for quieter guest rooms
 
@@ -390,7 +390,7 @@ Can the same range be re-ordered years later?
 Yes. Solution-dyed nylon ranges are produced to consistent specifications. We recommend ordering spares alongside your initial purchase to lock in absolute batch consistency.
 
 How does the warranty work for a commercial property?
-The 15-year wear warranty is rated for commercial environments including hotels, offices, retail, and serviced apartments. It covers fibre wear under normal commercial use; physical damage to individual tiles is what the spot-replacement model is for.
+The manufacturer wear warranty is rated for commercial environments including hotels, offices, retail, and serviced apartments. It covers fibre wear under normal commercial use; physical damage to individual tiles is what the spot-replacement model is for.
 
 Is the carpet acoustically suitable for hotel rooms?
 Yes. The bonded felt backing delivers an NRC of approximately 0.25, reducing footfall transmission between floors and in-room echo - which directly affects guest sleep quality and review scores.
@@ -403,7 +403,7 @@ URL: https://www.modularcarpet.com.au/investment-property-flooring
 
 ## Hero
 
-Commercial-grade modular carpet engineered for investment-property lifecycle costs. 15-year wear warranty, replace damaged tiles between tenancies in under an hour, no full re-carpet. Supply-only direct from Premrest, or full supply-and-install in Melbourne, Sydney, and Brisbane.
+Commercial-grade modular carpet engineered for investment-property lifecycle costs. Manufacturer wear warranty applies, replace damaged tiles between tenancies in under an hour, no full re-carpet. Supply-only direct from Premrest, or full supply-and-install in Melbourne, Sydney, and Brisbane.
 
 ## The Investor Case
 
@@ -416,7 +416,7 @@ Builder-grade carpet in a rental:
 - Each replacement is a fresh capital expense, repeating
 
 Hotel-grade modular carpet in a rental:
-- 15-year commercial wear warranty across the range
+- Manufacturer wear warranty applies across the range
 - Spot-replace damaged tiles between tenants in under an hour
 - No vacancy time attributable to flooring
 - Repairs invisible to the next tenant - original specification preserved
@@ -571,7 +571,7 @@ Hand this to your builder, architect, interior designer, or carpet retailer.
 1. Fibre: 100% solution-dyed nylon. Stain and bleach resistant. No stock-dyed or polyester substitutes.
 2. Construction: Modular carpet tile (typically 500 × 500 mm), bonded felt or recycled PET secondary backing. No foam-backed or rubber-backed broadloom.
 3. Pile weight: Minimum 950 g/m². Pile density and resilience rated for commercial corridor use.
-4. Warranty: Minimum 15-year commercial wear warranty. Manufacturer-backed, not retailer-backed.
+4. Warranty: Manufacturer wear warranty applies. Manufacturer-backed, not retailer-backed.
 
 The Modular Carpet Haven and Horizon ranges are designed against this exact specification.
 
@@ -651,7 +651,7 @@ Smoke, Glow, Cinder, Spark, Kettle, Hearth, Crackle, Smoulder
 - Pile: Solution-dyed nylon, high-low textured loop
 - Backing: Bonded recycled PET felt (breathable)
 - Acoustic: 0.25 NRC
-- Warranty: 15-year commercial wear warranty
+- Warranty: Manufacturer wear warranty applies
 - Suitability: Residential, hospitality, and light commercial
 - Quotes: Request project-specific pricing from Premrest.
 
@@ -677,7 +677,7 @@ Suburb-named designs (see https://www.modularcarpet.com.au/ranges/horizon for cu
 - Pile: Solution-dyed nylon, plush broadloom-feel
 - Backing: Bonded recycled PET felt (breathable)
 - Acoustic: 0.25 NRC
-- Warranty: 15-year commercial wear warranty
+- Warranty: Manufacturer wear warranty applies
 - Suitability: Residential, hospitality, and light commercial
 - Quotes: Request project-specific pricing from Premrest.
 
@@ -730,8 +730,8 @@ Purchase policy and terms of sale for direct supply orders through Premrest. Ful
 
 - Returns policy with a 20% restocking fee for change-of-mind returns
 - Customers are required to contact Premrest directly before initiating any payment dispute or chargeback
-- 15-year manufacturer wear warranty on tiles
-- 12-month workmanship warranty on Premrest installation labour (separate from the manufacturer warranty)
+- Manufacturer wear warranty applies on tiles
+- Workmanship warranty on Premrest installation labour (separate from the manufacturer warranty)
 - Supply-and-install quotes (Melbourne, Sydney, Brisbane) include site-specific extras itemised separately
 
 ---

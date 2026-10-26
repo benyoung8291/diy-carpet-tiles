@@ -5,7 +5,7 @@ export const faqs = [
   },
   {
     q: "Are carpet tiles suitable for hotel corridors and high-traffic areas?",
-    a: "Absolutely. Our tiles carry a 15-year commercial-grade wear warranty and are rated for heavy foot traffic environments including hotel corridors, lobbies, conference rooms, and back-of-house areas. The solution-dyed nylon fibre maintains its appearance under continuous use.",
+    a: "Absolutely. Our tiles are backed by the manufacturer's wear warranty and are rated for heavy foot traffic environments including hotel corridors, lobbies, conference rooms, and back-of-house areas. The solution-dyed nylon fibre maintains its appearance under continuous use.",
   },
   {
     q: "Can we do a phased rollout across the hotel?",

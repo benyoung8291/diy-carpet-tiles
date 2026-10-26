@@ -309,8 +309,8 @@ export function PurchasePolicyClient() {
           {/* 13. Warranty */}
           <h2>13. Product Warranty</h2>
           <p>
-            Modular Carpet tiles come with a 15-year commercial-grade wear
-            warranty. This warranty covers manufacturing defects in materials
+            Modular Carpet tiles come with a manufacturer wear warranty.
+            This warranty covers manufacturing defects in materials
             and workmanship under normal use and maintenance conditions.
           </p>
           <p>The warranty does not cover:</p>
