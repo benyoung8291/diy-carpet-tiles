@@ -22,7 +22,7 @@ const investorBenefits = [
     icon: Shield,
     title: "Outlasts Traditional Carpet - By Years",
     description:
-      "These tiles carry a 15-year commercial-grade wear warranty. They're rated for office lobbies and retail floors - environments with far more foot traffic than any rental home. Your carpet won't need replacing between tenancies.",
+      "These tiles are backed by the manufacturer's wear warranty. They're rated for office lobbies and retail floors - environments with far more foot traffic than any rental home. Your carpet won't need replacing between tenancies.",
   },
   {
     icon: Paintbrush,
@@ -52,18 +52,18 @@ const investorBenefits = [
     icon: Building2,
     title: "Professional Installation by Premrest",
     description:
-      "Premrest handles the full installation for investment properties - measured, supplied, and professionally fitted. One point of contact, one invoice, and a product we stand behind with a 15-year warranty.",
+      "Premrest handles the full installation for investment properties - measured, supplied, and professionally fitted. One point of contact, one invoice, and a product we stand behind with the manufacturer's wear warranty.",
   },
 ];
 
 const faqs = [
   {
     q: "How long do carpet tiles last in a rental property?",
-    a: "Our carpet tiles carry a 15-year commercial-grade wear warranty - they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
+    a: "Our carpet tiles are backed by the manufacturer's wear warranty - they're rated for offices and retail, which see far more traffic than residential rentals. In a typical investment property, you can expect 15+ years of service without needing full replacement. That's typically 5–8 tenancy cycles on a single installation.",
   },
   {
     q: "Does Premrest handle installation for investment properties?",
-    a: "Yes. For investment properties, Premrest provides a full professional installation service - we measure, supply, and install. You get a single point of contact and a product backed by a 15-year manufacturer warranty. Contact us for a tailored quote.",
+    a: "Yes. For investment properties, Premrest provides a full professional installation service - we measure, supply, and install. You get a single point of contact and a product backed by the manufacturer's wear warranty. Contact us for a tailored quote.",
   },
   {
     q: "What happens if a tenant stains or damages the carpet?",
@@ -112,7 +112,7 @@ export function InvestmentPropertyClient() {
             <p className="text-body-md md:text-body-lg text-brand-300 max-w-2xl">
               Investment properties need flooring that handles years of tenant wear
               without constant replacement. Modular Carpet tiles are commercial-grade,
-              stain-resistant, and backed by a 15-year warranty. Professionally installed
+              stain-resistant, and backed by the manufacturer&apos;s wear warranty. Professionally installed
               by Premrest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
@@ -165,7 +165,7 @@ export function InvestmentPropertyClient() {
         <SectionHeader
           overline="Built for Rental Properties"
           title="Why Carpet Tiles Are the Smartest Flooring for Investment Properties"
-          description="Commercial-grade durability, stain-resistant nylon, breathable backing, and a 15-year warranty. Installed by Premrest."
+          description="Commercial-grade durability, stain-resistant nylon, breathable backing, and a manufacturer wear warranty. Installed by Premrest."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {investorBenefits.map((benefit, index) => (
@@ -257,7 +257,7 @@ export function InvestmentPropertyClient() {
                 </li>
                 <li className="flex justify-between pt-2">
                   <span>Wear warranty</span>
-                  <span className="font-semibold text-accent">15 years commercial</span>
+                  <span className="font-semibold text-accent">Manufacturer wear warranty applies</span>
                 </li>
               </ul>
             </div>
@@ -284,7 +284,7 @@ export function InvestmentPropertyClient() {
                 icon: TrendingUp,
                 title: "One Installation, Multiple Tenancy Cycles",
                 description:
-                  "With a 15-year commercial warranty and solution-dyed nylon, your carpet tile investment pays for itself by lasting through 5–8 tenancies without needing full replacement. That's a fraction of the lifecycle cost of broadloom.",
+                  "With the manufacturer's wear warranty and solution-dyed nylon, your carpet tile investment pays for itself by lasting through 5–8 tenancies without needing full replacement. That's a fraction of the lifecycle cost of broadloom.",
               },
               {
                 icon: Clock,
@@ -434,7 +434,7 @@ export function InvestmentPropertyClient() {
               Flooring That Works as Hard as Your Property
             </h2>
             <p className="text-body-lg text-brand-300 mb-10">
-              Professionally installed by Premrest. 15-year commercial warranty.
+              Professionally installed by Premrest. Manufacturer wear warranty applies.
               The smartest flooring decision for your portfolio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

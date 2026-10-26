@@ -17,7 +17,7 @@ export const faqs = [
   },
   {
     q: "Is it Australian-made or Australian-distributed?",
-    a: "Modular Carpet ranges are distributed by Premrest, an Australian-owned company supplying commercial and residential interiors across the country. Manufacturing partners are selected on commercial-grade specification, not on the lowest unit cost, and every range carries the full 15-year warranty backed locally.",
+    a: "Modular Carpet ranges are distributed by Premrest, an Australian-owned company supplying commercial and residential interiors across the country. Manufacturing partners are selected on commercial-grade specification, not on the lowest unit cost, and every range carries the manufacturer's wear warranty backed locally.",
   },
   {
     q: "Can I order samples before specifying it across the whole house or property?",

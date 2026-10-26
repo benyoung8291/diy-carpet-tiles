@@ -6,7 +6,7 @@ import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-jsonld";
 export const metadata: Metadata = {
   title: "Modular Carpet Installation - Melbourne, Sydney, Brisbane",
   description:
-    "Premrest's full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. Request a tailored quote with site-specific scope, 12-month workmanship warranty alongside the 15-year manufacturer warranty.",
+    "Premrest's full supply-and-install service for modular carpet across Melbourne, Sydney, and Brisbane. Request a tailored quote with site-specific scope, workmanship warranty alongside the manufacturer wear warranty.",
   alternates: {
     canonical: "https://www.modularcarpet.com.au/installation",
   },

@@ -25,6 +25,6 @@ export const faqs = [
   },
   {
     q: "How many spares should I keep for ongoing repairs?",
-    a: "For a 20-room motel we recommend ordering 5% extra at the time of refurbishment. Across 500 m², that's about 25 m² of spares - roughly one room's worth of tiles. Stored flat in a back-of-house room, that's enough to handle individual tile repairs across the property for the full 15-year warranty period without needing to re-order.",
+    a: "For a 20-room motel we recommend ordering 5% extra at the time of refurbishment. Across 500 m², that's about 25 m² of spares - roughly one room's worth of tiles. Stored flat in a back-of-house room, that's enough to handle individual tile repairs across the property for the full manufacturer warranty period without needing to re-order.",
   },
 ];

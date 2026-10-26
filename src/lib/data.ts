@@ -30,7 +30,7 @@ export const SHARED_SPECS = {
   pileFibre: "Solution-dyed nylon",
   backing: "Breathable recycled PET felt",
   acousticRating: "0.25 NRC",
-  warranty: "15-year commercial-grade wear warranty",
+  warranty: "Manufacturer wear warranty applies",
   layout: "Ashlar (brick-bond) recommended",
   installation: "Pressure-sensitive adhesive (PSA)",
   suitability: "Residential & light commercial",
@@ -132,9 +132,9 @@ export const BENEFITS = [
   },
   {
     icon: "Shield",
-    title: "15-Year Warranty",
+    title: "Manufacturer Wear Warranty",
     description:
-      "These tiles are rated for commercial offices and retail. In your home, they'll outlast any broadloom. 15-year wear warranty - built for kids, pets, and real life.",
+      "These tiles are rated for commercial offices and retail. In your home, they'll outlast any broadloom. Backed by the manufacturer's wear warranty - built for kids, pets, and real life.",
   },
   {
     icon: "Leaf",

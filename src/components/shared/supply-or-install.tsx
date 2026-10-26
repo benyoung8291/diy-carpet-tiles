@@ -10,7 +10,7 @@ interface SupplyOrInstallProps {
 }
 
 const DEFAULT_DESCRIPTION =
-  "Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same 15-year warranty.";
+  "Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same manufacturer wear warranty.";
 
 const DEFAULT_PATH_1_SUITS =
   "Suits in-house maintenance teams, builders, and any project with an established trade";

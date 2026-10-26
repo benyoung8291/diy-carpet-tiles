@@ -32,9 +32,9 @@ const hotelBenefits = [
   },
   {
     icon: Shield,
-    title: "15-Year Commercial-Grade Warranty",
+    title: "Manufacturer Wear Warranty",
     description:
-      "These tiles are purpose-built for high-traffic commercial environments. The 15-year wear warranty covers hotel corridors, guest rooms, conference areas, and lobbies. Built for the reality of hospitality - heavy luggage, high heels, room service trolleys, and thousands of guests.",
+      "These tiles are purpose-built for high-traffic commercial environments. The manufacturer's wear warranty applies to hotel corridors, guest rooms, conference areas, and lobbies. Built for the reality of hospitality - heavy luggage, high heels, room service trolleys, and thousands of guests.",
   },
   {
     icon: Sun,
@@ -293,7 +293,7 @@ export function HotelCarpetClient() {
 
       <SupplyOrInstall
         background="linen"
-        description="Premrest works with hospitality operators either as a supply-only partner direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The same commercial-grade product, the same 15-year wear warranty - the difference is who lays it."
+        description="Premrest works with hospitality operators either as a supply-only partner direct from the warehouse, or as a full supply-and-install service in Melbourne, Sydney, and Brisbane. The same commercial-grade product, the same manufacturer wear warranty - the difference is who lays it."
         path1Suits="Suits hotels, motels, and asset managers with established trade relationships or in-house maintenance teams"
         path2Suits="Suits properties with strict open dates, remote head offices, or no in-house trade capacity"
         closingNote="Either way, ongoing tile-by-tile repairs after fit-out stay an in-house, no-contractor task."

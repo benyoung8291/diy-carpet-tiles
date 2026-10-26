@@ -162,7 +162,7 @@ export function HotelGradeCarpetForHomeClient() {
             },
             {
               title: "Family rooms with kids or pets",
-              body: "The room where things actually happen. The combination of solution-dyed fibre (cleans without colour loss) and modular tile construction (replace one tile if a permanent mark develops) is purpose-built for this room. The 15-year wear warranty is the same warranty the carpet carries in a commercial corridor.",
+              body: "The room where things actually happen. The combination of solution-dyed fibre (cleans without colour loss) and modular tile construction (replace one tile if a permanent mark develops) is purpose-built for this room. The manufacturer's wear warranty is the same warranty the carpet carries in a commercial corridor.",
             },
             {
               title: "Home offices and study areas",
@@ -228,7 +228,7 @@ export function HotelGradeCarpetForHomeClient() {
             </h3>
             <ul className="space-y-2 text-body-sm text-brand-700">
               {[
-                "15-year commercial wear warranty across the range",
+                "Manufacturer wear warranty applies across the range",
                 "Spot-replace damaged tiles between tenants in under an hour",
                 "No vacancy time attributable to flooring",
                 "Repairs invisible to the next tenant - original specification preserved",
@@ -281,7 +281,7 @@ export function HotelGradeCarpetForHomeClient() {
               {
                 label: "Warranty",
                 value:
-                  "Minimum 15-year commercial wear warranty. Manufacturer-backed, not retailer-backed.",
+                  "Manufacturer wear warranty applies. Manufacturer-backed, not retailer-backed.",
               },
             ].map((line, i) => (
               <li key={line.label} className="flex gap-4">
@@ -311,7 +311,7 @@ export function HotelGradeCarpetForHomeClient() {
         description="Specifying the right product is half the decision. Choosing how it gets installed is the other half. Premrest works both ways, so the same hotel-grade product can be delivered to your door for an in-house install, or laid for you by a Premrest installation team."
         path1Suits="Suits handy homeowners, owner-operated motels, and trades-savvy landlords"
         path2Suits="Suits considered home renovations, multi-property landlords, and hospitality fit-outs"
-        closingNote="The choice between paths doesn't change the specification - it just changes who lays it. The same 15-year wear warranty and the same solution-dyed nylon either way."
+        closingNote="The choice between paths doesn't change the specification - it just changes who lays it. The same manufacturer wear warranty and the same solution-dyed nylon either way."
       />
 
       {/* FAQ */}

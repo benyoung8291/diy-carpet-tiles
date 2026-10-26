@@ -104,11 +104,11 @@ const deepBenefits = [
   },
   {
     icon: "Shield",
-    title: "15-Year Commercial-Grade Warranty",
+    title: "Manufacturer Wear Warranty",
     description:
-      "These tiles are rated for commercial environments - offices, retail, hospitality - and backed by a 15-year wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.",
+      "These tiles are rated for commercial environments - offices, retail, hospitality - and backed by the manufacturer's wear warranty. In your home, they'll last even longer. This is buy-once, install-once flooring that handles real life with grace.",
     points: [
-      "15-year commercial-grade wear warranty",
+      "Manufacturer wear warranty applies",
       "Rated for heavy foot traffic",
       "Exceeds residential durability requirements",
       "Backed by Premrest - trusted Australian distributor",
@@ -250,7 +250,7 @@ export function WhyTilesClient() {
 
       <SupplyOrInstall
         background="white"
-        description="Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same 15-year warranty."
+        description="Premrest's primary path is supply-and-install for hospitality venues in Melbourne, Sydney, and Brisbane. Supply-only is available if you have an in-house trade or maintenance team. Same product, same manufacturer wear warranty."
       />
 
       {/* Articles & Guides */}

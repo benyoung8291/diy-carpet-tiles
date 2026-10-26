@@ -13,7 +13,7 @@ export const faqs = [
   },
   {
     q: "How does the warranty work for a commercial property?",
-    a: "Modular Carpet ranges carry a 15-year wear warranty rated for commercial environments including hotels, offices, retail, and serviced apartments. The warranty covers fibre wear under normal commercial use. It does not cover physical damage to individual tiles - which is precisely why the spot-replacement model exists in the first place. Damage is a maintenance event, not a warranty event.",
+    a: "Modular Carpet ranges carry a manufacturer wear warranty rated for commercial environments including hotels, offices, retail, and serviced apartments. The warranty covers fibre wear under normal commercial use. It does not cover physical damage to individual tiles - which is precisely why the spot-replacement model exists in the first place. Damage is a maintenance event, not a warranty event.",
   },
   {
     q: "Is the carpet acoustically suitable for hotel rooms?",
